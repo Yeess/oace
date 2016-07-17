@@ -1,0 +1,565 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+
+    <title>Tablero Comercio Exterior</title>
+	 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />	
+    
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	<script src="http://www.d3plus.org/js/d3.js"></script>
+	<script src="http://www.d3plus.org/js/d3plus.js"></script>
+	<script src="http://www.d3plus.org/js/topojson.js"></script>
+	<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+	
+	<link href="ionicons/css/ionicons.css" rel="stylesheet" type="text/css" />
+
+	<style type="text/css">
+	
+	#mapa { position: fixed; width: 49%; height: 49.4%; top:0.4%;  right:.1%; 
+	/*border-style: dotted; border-color: #ccccb3;*/
+	}
+	#obj1 { position: fixed; width: 49%; height: 48.9%; top:51%;  right:0.1%;
+	/*border-style: solid; border-color: #0000ff;*/
+	}
+    #obj2 { position: fixed; width: 49%; height: 95.2%;  top:4.7%; left:.1%;  
+	
+	}
+	
+	.f1{font-size: 11.5px;
+	position:absolute; height:3.7%; width: 10%; top:0.4%; left:16%; border-style: solid; margin: 0px; display: inline-block; font-family: Helvetica; font-size: 12px;
+	color: rgb(68, 68, 68); border: 1px solid rgb(195, 195, 195); 
+    font-weight: 200; letter-spacing: 0px; cursor: auto; background-color: rgb(255, 255, 255);
+	}
+	 
+	
+	
+	/* css to customize Leaflet default styles  */
+	.iniMapa .leaflet-popup-tip,
+	.iniMapa .leaflet-popup-content-wrapper {
+	font-size:11.0px; 
+	/*background: #00061a;*/
+	background: #000000;
+	color: #fff;
+	opacity: 0.74; 	filter: alpha(opacity=.74);
+	}
+	.iniMapa .leaflet-popup-content-wrapper-a{background: #fff;}	
+	
+	
+    </style>
+
+	
+    <script language="Javascript" type="text/javascript">
+
+	  // par2 es para el sector.
+    function initialize() {
+
+	//var par2 = 'Total'; //Tratado
+
+
+	var paramstr = window.location.search.substr(1);
+	var paramarr = paramstr.split ("&");
+	var params ={} ;
+
+	for ( var i = 0; i < paramarr.length; i++) {
+	var tmparr = paramarr[i].split("=");
+	params[tmparr[0]] = tmparr[1];
+	}
+	var par2 = params['Parametro1'];
+
+	index=RegresaTratado(par2);
+	CargaJson(par2);
+	document.formname.par2.selectedIndex = index;
+	
+
+	var map = L.map('mapa').setView([28.129, -0.55], 1);
+
+	L.tileLayer('http://map1.vis.earthdata.nasa.gov/wmts-webmerc/VIIRS_CityLights_2012/default/{time}/{tilematrixset}{maxZoom}/{z}/{y}/{x}.{format}', {
+	attribution: 'Provided by the NASA (<a href="https://earthdata.nasa.gov">Earth Science Data and Information System</a>).',
+	bounds: [[-85.0511287776, -179.999999975], [85.0511287776, 179.999999975]],
+	minZoom: 1,
+	maxZoom: 8,
+	format: 'jpg',
+	time: '',
+	tilematrixset: 'GoogleMapsCompatible_Level'
+	}).addTo(map);
+	
+	var mex = {"type":"FeatureCollection","features":[
+	{"type":"Feature","id":"MEX","properties":{"name":"Mexico"},"geometry":{"type":"Polygon","coordinates":[[[-97.140008,25.869997],[-97.528072,24.992144],[-97.702946,24.272343],[-97.776042,22.93258],[-97.872367,22.444212],[-97.699044,21.898689],[-97.38896,21.411019],[-97.189333,20.635433],[-96.525576,19.890931],[-96.292127,19.320371],[-95.900885,18.828024],[-94.839063,18.562717],[-94.42573,18.144371],[-93.548651,18.423837],[-92.786114,18.524839],[-92.037348,18.704569],[-91.407903,18.876083],[-90.77187,19.28412],[-90.53359,19.867418],[-90.451476,20.707522],[-90.278618,20.999855],[-89.601321,21.261726],[-88.543866,21.493675],[-87.658417,21.458846],[-87.05189,21.543543],[-86.811982,21.331515],[-86.845908,20.849865],[-87.383291,20.255405],[-87.621054,19.646553],[-87.43675,19.472403],[-87.58656,19.04013],[-87.837191,18.259816],[-88.090664,18.516648],[-88.300031,18.499982],[-88.490123,18.486831],[-88.848344,17.883198],[-89.029857,18.001511],[-89.150909,17.955468],[-89.14308,17.808319],[-90.067934,17.819326],[-91.00152,17.817595],[-91.002269,17.254658],[-91.453921,17.252177],[-91.08167,16.918477],[-90.711822,16.687483],[-90.600847,16.470778],[-90.438867,16.41011],[-90.464473,16.069562],[-91.74796,16.066565],[-92.229249,15.251447],[-92.087216,15.064585],[-92.20323,14.830103],[-92.22775,14.538829],[-93.359464,15.61543],[-93.875169,15.940164],[-94.691656,16.200975],[-95.250227,16.128318],[-96.053382,15.752088],[-96.557434,15.653515],[-97.263592,15.917065],[-98.01303,16.107312],[-98.947676,16.566043],[-99.697397,16.706164],[-100.829499,17.171071],[-101.666089,17.649026],[-101.918528,17.91609],[-102.478132,17.975751],[-103.50099,18.292295],[-103.917527,18.748572],[-104.99201,19.316134],[-105.493038,19.946767],[-105.731396,20.434102],[-105.397773,20.531719],[-105.500661,20.816895],[-105.270752,21.076285],[-105.265817,21.422104],[-105.603161,21.871146],[-105.693414,22.26908],[-106.028716,22.773752],[-106.90998,23.767774],[-107.915449,24.548915],[-108.401905,25.172314],[-109.260199,25.580609],[-109.444089,25.824884],[-109.291644,26.442934],[-109.801458,26.676176],[-110.391732,27.162115],[-110.641019,27.859876],[-111.178919,27.941241],[-111.759607,28.467953],[-112.228235,28.954409],[-112.271824,29.266844],[-112.809594,30.021114],[-113.163811,30.786881],[-113.148669,31.170966],[-113.871881,31.567608],[-114.205737,31.524045],[-114.776451,31.799532],[-114.9367,31.393485],[-114.771232,30.913617],[-114.673899,30.162681],[-114.330974,29.750432],[-113.588875,29.061611],[-113.424053,28.826174],[-113.271969,28.754783],[-113.140039,28.411289],[-112.962298,28.42519],[-112.761587,27.780217],[-112.457911,27.525814],[-112.244952,27.171727],[-111.616489,26.662817],[-111.284675,25.73259],[-110.987819,25.294606],[-110.710007,24.826004],[-110.655049,24.298595],[-110.172856,24.265548],[-109.771847,23.811183],[-109.409104,23.364672],[-109.433392,23.185588],[-109.854219,22.818272],[-110.031392,22.823078],[-110.295071,23.430973],[-110.949501,24.000964],[-111.670568,24.484423],[-112.182036,24.738413],[-112.148989,25.470125],[-112.300711,26.012004],[-112.777297,26.32196],[-113.464671,26.768186],[-113.59673,26.63946],[-113.848937,26.900064],[-114.465747,27.14209],[-115.055142,27.722727],[-114.982253,27.7982],[-114.570366,27.741485],[-114.199329,28.115003],[-114.162018,28.566112],[-114.931842,29.279479],[-115.518654,29.556362],[-115.887365,30.180794],[-116.25835,30.836464],[-116.721526,31.635744],[-117.12776,32.53534],[-115.99135,32.61239],[-114.72139,32.72083],[-114.815,32.52528],[-113.30498,32.03914],[-111.02361,31.33472],[-109.035,31.34194],[-108.24194,31.34222],[-108.24,31.754854],[-106.50759,31.75452],[-106.1429,31.39995],[-105.63159,31.08383],[-105.03737,30.64402],[-104.70575,30.12173],[-104.45697,29.57196],[-103.94,29.27],[-103.11,28.97],[-102.48,29.76],[-101.6624,29.7793],[-100.9576,29.38071],[-100.45584,28.69612],[-100.11,28.11],[-99.52,27.54],[-99.3,26.84],[-99.02,26.37],[-98.24,26.06],[-97.53,25.84],[-97.140008,25.869997]]]}}
+	]};
+	L.geoJson(mex,{style: {color: "#009933", weight: 1}}).addTo(map);
+	
+	d3.json("geojson/countries/Tratados.geo.json", function(error, json) {
+	if (error) return console.warn(error);
+	Pais = json;
+	L.geoJson(Pais,{style: {color: "#ffff00", weight: 1}}).addTo(map);	
+	});	
+
+	mTratados = [
+	/*["<h4>Tratado de Libre Comercio entre México y los Estados de la Asociación Europea de Libre Comercio (AELC)</h4><p>Los países con los que se acuerda el tratado son: Islandia, Noruega, Suiza y el Principado de Liechtenstein (de este último no se posee información de comercio).<br/>Fecha de suscripción: 27 noviembre 2000.<br/>Entrada en vigor: 1 julio 2001.<br/><a href='http://www.sice.oas.org/Trade/mexefta/spanish/mxeftas1.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a><br/><a href='http://www.sice.oas.org/Trade/mexefta/MX_FTA_s.pdf' target='_blank'>Ver documento del Diario Oficial de la Federación.</a></p>",64.955886, 13.440309,'Img/Trade.png'],	//AELC
+	["<h4>Tratado de Libre Comercio entre México y Japón</h4><p>Fecha de suscripción: 17 septiembre 2004.<br/>Entrada en vigor: 1 abril 2005.<br/><a href='http://www.sice.oas.org/Trade/MEX_JPN_s/JPN_MEXind_s.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a><br/><a href='http://www.sice.oas.org/Trade/MEX_JPN_s/Agreement_s.pdf' target='_blank'>Ver documento del Diario Oficial de la Federación.</a></p>",40.021455, 140.726276,'Img/Trade.png'],	// Japon
+	["<h4>Tratado de Libre Comercio entre México y Colombia (ACE N°33)</h4><p>Anteriormente este tratado estaba integrado también por Venezuela, pero a partir de el 19 noviembre 2006 Venezuela anuncia su salida del tratado.<br/> Fecha de suscripción: 13 junio 1994.<br/>Entrada en vigor: 1 enero 1995.<br/><a href='http://www.sice.oas.org/Trade/go3/G3INDICE.ASP' target='_blank'>Ver contenido del tratado (fuente: SICE).</a></p>",4.508943, -73.390812,'Img/Trade.png'], // Colombia
+	["<h4>Tratado de Libre Comercio Centroamérica</h4><p>Los países con los que se acuerda el tratado son: Costa Rica, El Salvador, Guatemala, Honduras y Nicaragua.<br/>Fecha de suscripción: 22 noviembre 2011.<br/>Entrada en vigor: <br/> Guatemala-México: 1 septiembre 2013.<br/> Costa Rica-México: 1 julio 2013.<br/> Honduras-México: 1 enero 2013.<br/> El Salvador-México: 1 septiembre 2012. <br/>	Nicaragua-México: 1 septiembre 2012.<br/><a href='http://www.sice.oas.org/Trade/MEX_JPN_s/Agreement_s.pdf' target='_blank'>Ver contenido del tratado (fuente: SICE).</a></p>",13.772341, -86.200871,'Img/Trade.png'], //Centromerica
+	["<h4>Tratado de Libre Comercio de América del Norte (TLCAN)</h4><p>Los países con los que se acuerda el tratado son: Estados Unidos y Canadá.<br/>Fecha de suscripción: 17 diciembre 1992.<br/>Entrada en vigor: 1 enero 1994.<br/><a href='http://www.sice.oas.org/Trade/nafta_s/Indice1.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a><br/></p>", 40.815656, -90.999210,'Img/Trade.png'],	 //TLCAN
+	["<h4>Acuerdo de Asociación Económica, Concertación Política y Cooperación entre la Comunidad Europea y los Estados Unidos Mexicanos</h4><p>Los países con los que se acuerda el tratado son: Alemania, Austria,	Bélgica, Bulgaria, Chipre, Croacia,	Dinamarca, Eslovenia, España, Estonia, Finladia, Francia, Grecia, Hungría, Irlanda, Italia, Letonia, Lituania, Luxemburgo,	Malta, Países Bajos, Polonia, Portugal,	Reino Unido, República Checa, República Eslovaca, Rumania y Suecia.<br/>Fecha de suscripción: 8 diciembre 1997.<br/>Entrada en vigor: 1 octubre 2000.<br/><a href='http://www.sice.oas.org/Trade/MEX_EU/Spanish/index_s.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a></p>",46.306516, 2.089921,'Img/Trade.png'],	//TLCUEM
+	["<h4>Tratado de Libre Comercio entre México y Bolivia</h4><p>Fecha de suscripción: 17 mayo 2010.<br/>Entrada en vigor: 7 junio 2010.<br/><a href='http://www.sice.oas.org/Trade/BOL_MEX_66/BOL_MEX_Ind_s.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a><br/></p>",-17.863143, -62.817437,'Img/Trade.png'], //Bolivia
+	["<h4>Tratado de Libre Comercio entre México y Chile (ACE N°41)</h4><p>Fecha de suscripción: 17 abril 1998.<br/>Entrada en vigor: 1 agosto 1999.<br/><a href='http://www.sice.oas.org/Trade/chmefta/indice.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a><br/></p>",-39.029, -73.112,'Img/Trade.png'],	// Chile
+	["<h4>Tratado de Libre Comercio entre México y Israel</h4><p>Fecha de suscripción: 10 abril 2000.<br/>Entrada en vigor: 1 julio 2001.<br/><a href='http://www.sice.oas.org/Trade/meis_s/index.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a></p>",31.400631, 35.220957,'Img/Trade.png'], //Israel
+	["<h4>Tratado de Libre Comercio entre México y Panamá</h4><p>Fecha de suscripción: 3 abril 2004.<br/>Entrada en vigor: 1 julio 2015.<br/><a href='http://www.sice.oas.org/TPD/MEX_PAN/Draft_MEX_PAN_FTA_s/Index_PDF_09.05.2014_s.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a></p>",8.241476, -81.080312,'Img/Trade.png'],	 // Panama
+	["<h4>Acuerdo de Integración Comercial entre México y Perú</h4><p>Fecha de suscripción: 6 abril 2011.<br/>Entrada en vigor: 1 febrero 2012.<br/><a href='http://www.sice.oas.org/Trade/MEX_PER_Integ_Agrmt/MEX_PER_Ind_s.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a><br/><a href='http://www.sice.oas.org/Trade/MEX_PER_Integ_Agrmt/DOF_30.01.2012_TLC_MEX_PER_s.pdf' target='_blank'>Ver documento del Diario Oficial de la Federación.</a></p>",-9.310775, -75.938710,'Img/Trade.png'],	//Peru
+	["<h4>Tratado de Libre Comercio entre México y Uruguay (ACE N°60)</h4><p>Fecha de suscripción: 15 noviembre 2003.<br/>Entrada en vigor: 15 julio 2004.<br/><a href='http://www.sice.oas.org/Trade/mexurufta_s/mexuruind_s.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a><br/><a href='http://www.sice.oas.org/Trade/mexurufta_s/TLC_MEXURU_text.pdf' target='_blank'>Ver documento del Diario Oficial de la Federación.</a></p>",-32.502741, -55.899648,'Img/Trade.png']	//Uruguay
+	];*/
+	["<h4>Tratado de Libre Comercio entre México y Japón</h4><p>Fecha de suscripción: 17 septiembre 2004.<br/>Entrada en vigor: 1 abril 2005.<br/><a href='http://www.sice.oas.org/Trade/MEX_JPN_s/JPN_MEXind_s.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a><br/><a href='http://www.sice.oas.org/Trade/MEX_JPN_s/Agreement_s.pdf' target='_blank'>Ver documento del Diario Oficial de la Federación.</a></p><p> Tiene como objetivo promover la liberalización del comercio y la inversión entre México y Japón. El acuerdo prevé eliminar o reducir los aranceles aduaneros de los productos agropecuarios e industriales. <a href='http://revistas.bancomext.gob.mx/rce/magazines/135/2/116_GARCIA_mex_japon.pdf' target='_blank'> Fuente: BANCOMEXT.</a></p>",38.021455,138.726276,'Img/Trade.png'], //Japón
+	["<h4>Tratado de Libre Comercio entre México y los Estados de la Asociación Europea de Libre Comercio (AELC)</h4><p>Los países con los que se acuerda el tratado son: Islandia, Noruega, Suiza y el Principado de Liechtenstein (de este último no se posee información de comercio).<br/>Fecha de suscripción: 27 noviembre 2000.<br/>Entrada en vigor: 1 julio 2001.<br/><a href='http://www.sice.oas.org/Trade/mexefta/spanish/mxeftas1.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a><br/><a href='http://www.sice.oas.org/Trade/mexefta/MX_FTA_s.pdf' target='_blank'>Ver documento del Diario Oficial de la Federación.</a></p>",66.955886,13.440309,'Img/Trade.png'],//AELC
+	["<h4>Tratado de Libre Comercio entre México y Colombia (ACE N°33)</h4><p>Anteriormente este tratado estaba integrado también por Venezuela, pero a partir del 19 de noviembre de 2006 Venezuela anuncia su salida del tratado.<br/> Fecha de suscripción: 13 junio 1994.<br/>Entrada en vigor: 1 enero 1995.<br/><a href='http://www.sice.oas.org/Trade/go3/G3INDICE.ASP' target='_blank'>Ver contenido del tratado (fuente: SICE).</a></p><p>Colombia es el 13° socio comercial de México a nivel global (6° comprador y 30° proveedor) y el 2° en América Latina y el Caribe (2° comprador y 5° abastecedor). Además, es el 8° inversionista de los países de América Latina y el Caribe en México. <a href='http://embamex.sre.gob.mx/colombia/index.php/info-comercial'  target='_blank'>Fuente: SRE.</a></p>",4.508943,-73.390812, 'Img/Trade.png'],//TLC G-3
+	["<h4>Tratado de Libre Comercio Centroamérica</h4><p>Los países con los que se acuerda el tratado son: Costa Rica, El Salvador, Guatemala, Honduras y Nicaragua.<br/>Fecha de suscripción: 22 noviembre 2011.<br/>Entrada en vigor: <br/> Guatemala-México: 1 septiembre 2013.<br/> Costa Rica-México: 1 julio 2013.<br/> Honduras-México: 1 enero 2013.<br/> El Salvador-México: 1 septiembre 2012. <br/>	Nicaragua-México: 1 septiembre 2012.<br/><a href='http://www.sice.oas.org/Trade/MEX_JPN_s/Agreement_s.pdf' target='_blank'>Ver contenido del tratado (fuente: SICE).</a></p>",13.772341	,-86.200871	, 'Img/Trade.png'],//TLC Centroamerica	
+	["<h4>Tratado de Libre Comercio de América del Norte (TLCAN)</h4><p>Los países con los que se acuerda el tratado son: Estados Unidos y Canadá.<br/>Fecha de suscripción: 17 diciembre 1992.<br/>Entrada en vigor: 1 enero 1994.<br/><a href='http://www.sice.oas.org/Trade/nafta_s/Indice1.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a><br/></p>",60.815656	,-101.999210, 'Img/Trade.png'],//TLCAN
+	["<h4>Acuerdo de Asociación Económica, Concertación Política y Cooperación entre la Comunidad Europea y los Estados Unidos Mexicanos</h4><p>Los países con los que se acuerda el tratado son: Alemania, Austria, Bélgica, Bulgaria, Chipre, Croacia,	Dinamarca, Eslovenia, España, Estonia, Finladia, Francia, Grecia, Hungría, Irlanda, Italia, Letonia, Lituania, Luxemburgo,	Malta, Países Bajos, Polonia, Portugal,	Reino Unido, República Checa, República Eslovaca, Rumania y Suecia.<br/>Fecha de suscripción: 8 diciembre 1997.<br/>Entrada en vigor: 1 octubre 2000.<br/><a href='http://www.sice.oas.org/Trade/MEX_EU/Spanish/index_s.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a></p>",54.955886	,13.440309, 'Img/Trade.png'],//TLCUEM
+	["<h4>Acuerdo de complementación económica entre México y Bolivia</h4><p>Fecha de suscripción: 17 mayo 2010.<br/>Entrada en vigor: 7 junio 2010.<br/> <a href='http://www.sice.oas.org/Trade/BOL_MEX_66/BOL_MEX_Ind_s.asp' target='_blank'>Ver contenido del acuerdo (fuente: SICE).</a> <p> A partir de la entrada en vigor del acuerdo, quedó libre de arancel una parte de los productos comerciados entre México y Bolivia, salvo los bienen comprendidos en las respectivas listas de excepciones que integran sectores como: aceites, azúcares, jaleas y productos lacteos, entre otros. <a href='http://www.sice.oas.org/TPD/BOL_MEX/Studies/Review2011_s.pdf'  target='_blank'>Fuente: SICE.</a></p>",-17.863143	,-62.817437, 'Img/Trade.png'],//Bolivia
+	["<h4>Acuerdo de complementación económica entre México y Chile</h4><p>Fecha de suscripción: 17 abril 1998.<br/>  Entrada en vigor: 1 agosto 1999.<br/> <a href='http://www.sice.oas.org/Trade/chmefta/indice.asp' target='_blank'>Ver contenido del acuerdo (fuente: SICE).</a></p> <p> Chile se ubica en el sitio 18 en la lista de países inversores en México, con la empresa Molymex, del ramo de la minería. Entre las empresas mexicanas con montos más altos de inversión en Chile sobresalen: Aeroméxico, Bimbo,Televisa, Telmex y América Móvil. Del universo de mercancías ,el único producto que entro en programa dedesgravación, además de los productos originarios fueron las manzanas por parte de Chile y México, las cuales están libres de aranceles a partir del 2005.  <a href='http://revistas.bancomext.gob.mx/rce/magazines/152/3/LARELACION_MEXICO.pdf' target='_blank'>Fuente: BANCOMEXT.</a><br/></p>",-39.029, -70.112, 'Img/Trade.png'],//Chile
+	["<h4>Acuerdo de complementación economica entre México e Israel</h4><p>Fecha de suscripción: 10 abril 2000.<br/>Entrada en vigor: 1 julio 2001.<br/> <a href='http://www.sice.oas.org/Trade/meis_s/index.asp' target='_blank'>Ver contenido del acuerdo (fuente: SICE).</a></p> <p> En el sector agropecuario, la mitad de las exportaciones mexicanas a Israel tienen arancel cero desde la entrada en vigor del acuerdo, el 25% tienen acceso inmediato libre de arancel bajo cuota y el 12% acceso con reducciones entre el 25 y 50% sobre los aranceles aplicados. A partir de 2005, todos los bienes industriales gozan de arancel cero. <a href='http://www.economia.gob.mx/files/Israel_Resumen%20TLC-Israel.pdf' target='_blank'>Fuente: SE.</a></p>",31.400631, 35.220957, 'Img/Trade.png'],//Israel
+	["<h4>Acuerdo al amparo del artículo 25 del Tratado de Montevideo entre México y Panamá</h4><p>Fecha de suscripción: 3 abril 2014.<br/>Entrada en vigor: 1 julio 2015.<br/><a href='http://www.sice.oas.org/TPD/MEX_PAN/Draft_MEX_PAN_FTA_s/Index_PDF_09.05.2014_s.asp' target='_blank'>Ver contenido del acuerdo (fuente: SICE).</a></p><p>El acuerdo incluye, entre otras áreas, acceso a los mercados, reglas y procedimientos aduaneros relacionados al origen, medidas sanitarias y fitosanitarias, obstáculos técnicos al comercio, defensa comercial, inversión, comercio electrónico, comercio transfronterizo de servicios, entrada temporal, servicios financieros, telecomunicaciones, propiedad intelectual, solución de controversias y asuntos institucionales. Con la firma del TLC, Panamá se alista para ingresar a la Alianza del Pacífico, integrada por Chile, Colombia, México y Perú. <a href='http://www.elfinanciero.com.mx/politica/firman-panama-y-mexico-tlc.html' target='_blank'>Fuente: El Financiero.</a><br/></p> ",8.241476, -81.080312, 'Img/Trade.png'],//Panamá
+	["<h4>Acuerdo de complementación económica entre México y Perú</h4><p>Fecha de suscripción: 6 abril 2011.<br/>Entrada en vigor: 1 febrero 2012.<br/> <a href='http://www.sice.oas.org/Trade/MEX_PER_Integ_Agrmt/MEX_PER_Ind_s.asp' target='_blank'>Ver contenido del acuerdo (fuente: SICE).</a><br/><a href='http://www.sice.oas.org/Trade/MEX_PER_Integ_Agrmt/DOF_30.01.2012_TLC_MEX_PER_s.pdf' target='_blank'>Ver documento del Diario Oficial de la Federación.</a> </p><p> En el sector agroalimentario, se han acordado con Perú compromisos en el 74% del universo de productos. Los productos pendientes por acordar son: a) Intereses de Perú: leche evaporada, carne y pavo entero, chile seco y fresco, cebolla, ajo, espárrago, aceituna, papa, plátano, aguacate, uva, mango, naranja, toronja y limón. b) Intereses de México: carne de cerdo, preparaciones y pastas alimenticias, algunas bebidas no alcohólicas, salvados, alimentos para animales, principalmente. <a href='http://www.economia.gob.mx/files/Peru_informe_periodico2008.pdf' target='_blank'>Fuente: SE.</a><br/></p>",-9.310775	,-75.938710, 'Img/Trade.png'],//Perú
+	["<h4>Acuerdo de complementación económica entre México y Uruguay</h4><p>Fecha de suscripción: 15 noviembre 2003.<br/>Entrada en vigor: 15 julio 2004.<br/><a href='http://www.sice.oas.org/Trade/mexurufta_s/mexuruind_s.asp' target='_blank'>Ver contenido del acuerdo (fuente: SICE).</a><br/><a href='http://www.sice.oas.org/Trade/mexurufta_s/TLC_MEXURU_text.pdf' target='_blank'>Ver documento del Diario Oficial de la Federación.</a> </p><p> Las empresas con inversión uruguaya se dedican principalmente a las actividades de comercio(44 sociedades), servicios (44) e industria manufacturera (30); y se localizan en mayor medida en el Distrito Federal, Estado de México y Quintana Roo. En Uruguay se cuenta con la presencia de las siguientes empresas con capitales mexicanos: Claro, INDULACSA, Panificadora Bimbo del Uruguay S.A.,Restaurante La Lupita, Zermat Uruguay y Omnilife.  <a href='http://embamex.sre.gob.mx/uruguay/index.php/economia' target='_blank'>Fuente:SE.</a><br/></p>",-32.502741	,-55.899648, 'Img/Trade.png'],//Uruguay
+	["<h4>Acuerdo de complementación económica entre México y Argentina</h4><p>Fecha de suscripción: 24 Octubre 1986.<br/>Entrada en vigor: 1 enero 1987.<br/><a href='http://www.aladi.org/nsfaladi/textacdos.nsf/0f226c9002f6aebf03257491004226fe/1d47a894917bdc9103256d2c0067dbae?OpenDocument' target='_blank'>Ver contenido del acuerdo (fuente: ALADI ).</a><br/></p><p> Las relaciones entre México y Argentina se desarrollan mediante la aplicación de los Acuerdos de Complementación Económica 6 (bilateral) y 55 (automotor), suscritos en el marco de ALADI. En 2011, Argentina ocupa el lugar número 8 como socio comercial de México a escala mundial (12 como abastecedor y 25 como comprador). El intercambio comercial entre México y Argentina creció 9,7 % entre 2006 y 2011, al pasar de 2,751 a 3,019 millones de dólares (md). Al cierre de 2011, México registró un superávit de 897 md en su comercio con ese país. Cabe destacar que desde 2001 y hasta 2009, México sólo había registrado déficits comerciales con Argentina. Las exportaciones de México a Argentina crecieron 106% entre 2006 y 2011, pasando de 952 md a 1,958 md. <a href='http://embamex.sre.gob.mx/argentina/index.php/info-comercial' target='_blank'>Fuente: SRE.</a><br/></p>",-36.090472 ,-65.237345, 'Img/Trade.png'],//Argentina 
+	["<h4>Acuerdo de complementación económica entre México y Cuba.</h4><p>Fecha de suscripción: 17 Octubre 2000 .<br/>Entrada en vigor: 28 febrero 2001.<br/><a href='http://www.aladi.org/nsfaladi/textacdos.nsf/0f226c9002f6aebf03257491004226fe/bccaa7e28fcd80408325698100513d7e?OpenDocument' target='_blank'>Ver contenido del acuerdo (fuente: ALADI ).</a><br/> </p><p> En este acuerdo , México otorga a Cuba preferencias en 482 fracciones arancelarias, de las cuales 135 son para la franja fronteriza. Mientras que Cuba le otorga a México preferencias a 152 fracciones.Las preferencias arancelarias se establecen a productos como crustáceos,moluscos,caramelos,ron,tabaco,textiles,calzado,tractores,equipos,farmacéuticos,entre otros.El ACE No.51 , está constituido por 14 capítulos, en los cuales se tratan temas sobre preferencias arancelarias, régimen de origen, salvaguardas y la administración del acuerdo. <a href='http://economia.gob.mx/files/Cuba%20Reporte%20de%20comercio%20e%20inversion.pdf' target='_blank'>Fuente: SE.</a><br/></p>",21.940136	,-79.139913, 'Img/Trade.png'],//Cuba 
+	["<h4>Acuerdo de complementación económica entre México, Argentina, Brasil, Paraguay y Uruguay </h4><p> ACE No.54<br/> Fecha de suscripción:5 Julio 2002 .<br/> Entrada en vigor: 5 enero 2006.<br/><a href='http://www.aladi.org/nsfaladi/textacdos.nsf/0f226c9002f6aebf03257491004226fe/ed000ca9c824f6aa0325789300481ddc?OpenDocument' target='_blank'>Ver contenido del acuerdo (fuente: ALADI ).</a><br/> </p><p>Es un Acuerdo marco para la creación de un Área de Libre Comercio entre los Estados Partes del MERCOSUR y los Estados Unidos Mexicanos y tiene como finalidades establecer un marco jurídico que permita ofrecer seguridad y transparencia a los agentes económicos de las Partes, así como establecer un marco normativo para promover e impulsar las inversiones recíprocas. <a href='http://www.aladi.org/nsfaladi/textacdos.nsf/0f226c9002f6aebf03257491004226fe/ed000ca9c824f6aa0325789300481ddc?OpenDocument' target='_blank'>Fuente: ALADI.</a><br/></p>    </p><p> ACE No.55 <br/> Fecha de suscripción:27 septiembre 2002 <br/> Entrada en vigor: Entre Argentina y México: 1/01/2003. <br/>Entre Brasil y México: 1/01/2003 para México y puesto en ejecución por Brasil a partir del 15 de enero de 2003.<br/>Entre Paraguay y México: 01/02/2011<br/>Entre Uruguay y México: 1/01/2003.  <a href='http://www.aladi.org/nsfaladi/textacdos.nsf/0f226c9002f6aebf03257491004226fe/49f7cdd2e4a9e05603257893005a65ae?OpenDocument' target='_blank'>Fuente: ALADI.</a><br/></p>",-22.552608	,-53.826022	, 'Img/Trade.png'],//CENo5455
+	["<h4>Acuerdo de preferencia arancelaria regional entre México, Argentina, Bolivia, Brasil, Chile, Colombia, Cuba, Ecuador, Paraguay, Perú, Uruguay Venezuela </h4><p>Fecha de suscripción:1 julio 1984 .<br/><a href='' target='_blank'>Ver contenido del acuerdo (fuente: ).</a><br/> </p><p>mecanismo mediante el cual los países se otorgan una preferencia básica de 20% para el universo arancelario de sus respectivas tarifas, con algunas excepciones. El monto de la preferencia y las excepciones se incrementan o reducen en función inversa del grado de desarrollo de los países.  <a href='http://www.economia-montevideo.gob.mx/swb/work/models/montevideo/Template/1/1/Mexico_en_ALADI.pdf' target='_blank'>Fuente: Economia Montevideo.</a><br/></p>",-21.656885	,-67.185396	, 'Img/Trade.png'],//ARPARNo4 
+	["<h4>Iniciativa de integración regional entre Chile, Colombia, México y Perú.</h4><p>Fecha de suscripción:10 febrero 2014 .<br/>Entrada en vigor: 20 julio 2015.<br/><a href='http://www.sice.oas.org/Trade/PAC_ALL/Index_PDF_s.asp' target='_blank'>Ver contenido del acuerdo (fuente: SICE).</a><br/></p><p> A la fecha de entrada en vigencia del Protocolo, quedarán con arancel 0 común el 92% de los productos.Los restantes productos eliminarán sus aranceles en períodos de 3 y 7 años.Un porcentaje muy menor de productos, altamente sensibles, quedarán en calendarios de desgravación más largos, de hasta 17 años.El azúcar y algunos productos relacionados quedaron excluidos del trato preferencial<a href='http://www.sice.oas.org/TPD/Pacific_Alliance/Studies/Qu%C3%A9Significa_2014.pdf' target='_blank'>Fuente: SICE.</a><br/></p>",-6.008879	,-75.447113, 'Img/Trade.png'],//AP 
+	["<h4>Acuerdo asociación económica entre México, Australia, Brunei Darussalam, Canadá, Chile, Estados Unidos, Japón, Malasia, Nueva Zelanda, Perú, Singapur y Vietnam.  </h4><p>Fecha de entrada en vigor: 1 enero 2006 .<br/>Entrada en vigor para México:1 octubre 2015 .<br/><a href='http://www.sice.oas.org/TPD/TPP/Final_Texts/Spanish/TPP_Index_s.asp' target='_blank'>Ver contenido del acuerdo (fuente: SICE ).</a><br/></p><p> 12 países integran el TPP. 6 países firmantes.85% del total del comercio del TPP es el mínimo para aprobar el acuerdo entre los suscribientes.45% es el índice de contenido regional acordado para vehículos y electrodomésticos.8 años de protección a los medicamentos biológicos ofrecerán todos los países participantes en el TPP.<a href='http://eleconomista.com.mx/industrias/2015/12/24/tpp-amplio-alcances-comercio-global' target='_blank'>Fuente: El Economista.</a><br/></p>",3.146404	,112.867456,'Img/Trade.png'],//AATPP 
+	["<h4>Acuerdo de complementación económica entre México y Brasil. </h4><p>Fecha de suscripción:3 julio 2002 .<br/>Entrada en vigor:  2 mayo 2003 .<br/><a href='http://www.aladi.org/nsfaladi/textacdos.nsf/0f226c9002f6aebf03257491004226fe/500a94b3290e6e3403256c440049306a?OpenDocument' target='_blank'>Ver contenido del acuerdo (fuente: ALADI). </a><br/></p><p>El ACE 53 contempla alrededor del 15% del comercio bilateral (excluyendo el sector automotor).El acuerdo contiene disciplinas comerciales en materia de origen,normas técnicas y sanitarias,salvaguardas, prácticas desleales de comercio internacional y solución de controversias. El propio acuerdo establece en su capitulo XIV que estará vigente hasta el momento en que sea sustituido por uno nuevo entre México y MERCOSUR. <a href='http://www.economia.gob.mx/files/comunidad_negocios/tlcs/tlcs_americalatina/Brasil_Reporte_comercio_inversion.pdf' target='_blank'>Fuente: SE.</a><br/></p>",-10.875892	,-51.804538, 'Img/Trade.png'],//Brasil 
+	["<h4>Acuerdo de renegociación entre México y Ecuador. </h4><p>Entrada en vigor: 6 agosto 1987.<br/>Fecha fin de vigencia:31 diciembre 1993 .<br/><a href='http://www.aladi.org/biblioteca/publicaciones/aladi/acuerdos/apr/es/apr29/APR_029_Protocolo_Adecuacion.pdf' target='_blank'>Ver contenido del acuerdo (fuente: ALADI).</a><br/></p><p> En los últimos diez años el comercio entre México y Ecuador se ha quintuplicado, gracias al crecimiento sostenido de las exportaciones mexicanas y al buen desempeño de la economía ecuatoriana, manifestaron funcionarios de ProMéxico y ProEcuador. Ecuador es actualmente el quinto destino de las inversiones mexicanas en América Latina y el Caribe, con más de mil 400 millones de dólares acumulados a 2013. Entre las principales empresas mexicanas en Ecuador están América Móvil, que cuenta con presencia a través de su filial Claro Video; Mexichem, a través de la empresa Amanco; Mabe tiene centros de distribución de electrodomésticos; Arca Continental cuenta con tres plantas embotelladoras, y Omnilife tiene distintos centros de distribución en siete ciudades.<a href='http://www.elfinanciero.com.mx/economia/comercio-de-mexico-con-ecuador-se-quintuplica-en-diez-anos.html' target='_blank'>Fuente:El financiero.</a><br/></p>",-1.209439	,-78.481314, 'Img/Trade.png'],//Ecuador 
+	["<h4>Acuerdo de renegociación entre México y Paraguay </h4><p>Fecha de suscripción:31 mayo 1993.<br/> Entrada en vigor: 1 julio 1994<a href='http://www.sice.oas.org/Trade/MEX_PRY/Index_s.asp' target='_blank'>Ver contenido del acuerdo (fuente: SICE).</a><br/></p><p> En abril de 2013, México y Paraguay acordaron negociar un Acuerdo de Complementación Económica (ACE) que sustituirá al Acuerdo de Alcance Parcial de Renegociación Nº 38, actualmente vigente. Hay tres rondas de negociaciones planificadas en el 2013. Ambos países también explorarán la posibilidad de suscribir un tratado de libre comercio.<a href='http://www.sice.oas.org/TPD/MEX_PRY/MEX_PRY_s.ASP' target='_blank'>Fuente: SICE.</a><br/></p>",-23.511413	,-57.979140, 'Img/Trade.png'],//Paraguay
+	["<h4>Acuerdo al amparo del artículo 25 del Tratado Montevideo entre México, Guatemala y El Salvador.</h4><p>Fecha de suscripción: 7 diciembre 1999.<br/><a href='http://www.aladi.org/nsfaladi/textacdos.nsf/0f226c9002f6aebf03257491004226fe/ad4489167e02fe9c03256a2600483cdd?OpenDocument' target='_blank'>Ver contenido del acuerdo (fuente:ALADI ).</a><br/></p><p>El comercio de México con El Salvador se ha incrementado gradualmente desde mediados de la década de los 1990s, en particular a partir de 1997.Los principales socios comerciales de El Salvador son Guatemala, Honduras, Costa Rica y Estados Unidos.Con este último, El Salvador suscribió un Acuerdo de Libre Comercio, en conjunto con Costa Rica, Guatemala, Honduras, Nicaragua y República Dominicana, cuya vigencia inicia en 2006.México es el segundo inversor en El Salvador, después de Estados Unidos. <a href='http://embamex.sre.gob.mx/elsalvador/index.php?option=com_content&view=article&id=87&Itemid=47' target='_blank'>Fuente:SRE.</a><br/></p>",14.355418	,-89.664843, 'Img/Trade.png']//A25TMNo37
+	];
+	
+	/* Ejemplo:
+	["<h4>Tratado</h4><p>Los países...<br/>Fecha de suscripción: .<br/>Entrada en vigor: .<br/><a href='' target='_blank'>Ver contenido del tratado (fuente: SICE).</a><br/><a href='' target='_blank'>Ver documento del Diario Oficial de la Federación.</a></p>",lat, lon,'Img/mx.png'],	
+	*/
+	
+	var configMapaIni =  { 'maxWidth': '480', 'className' : 'iniMapa'}
+	for (var i = 0; i < mTratados.length; i++) {
+	var Icono = L.icon({
+	iconUrl: mTratados[i][3],
+	iconSize: [28,28],
+	});
+	marker = new L.marker([mTratados[i][1],mTratados[i][2]],{icon: Icono})
+	.addTo(map)
+	.bindPopup(mTratados[i][0],configMapaIni)
+	}
+
+	google.maps.event.addDomListener(document.getElementById('par2'),'change', function() {
+	par2 = this.value;
+	CargaJson(par2);
+	map = resetea(map,par2);
+	CargaJsonGeo(par2,map);	  	  
+	});
+	 
+    } // Aqui termina la funcion initialize.
+
+	
+  var htmlButton = "<a id='id1' href='PagMexico_v010.html#obj2' target='_blank'> Ver países con los que México comercia.</a><br/><br/><br/><a id='id2' href='PagMexico_v010.html#obj4' target='_blank'> Ver productos que comercia México.</a><br/><br/><br/><a id='id2' href='PagMexico_v010.html#obj7' target='_blank'> Ver acuerdos económicos firmados por México.</a>"		
+	
+	function PintaloBar(datos){	/* funcion para pintar el grafico de barras */
+	  var visualization = d3plus.viz()
+	.container("#obj1")
+	.data(datos)
+	.type("bar")
+	.id("Year")
+	.x("Operacion")
+	.y("Valor")
+	.y({"grid": false})
+	.x({"grid": false})
+	.ui([
+	/*{
+        "method": function(){
+          visualization.csv(true) // will DL all data not just what is shown
+        },
+        "value": ["Descargar datos"]
+      }*/
+	])
+	.axes({"background": {"color": "#0d0d0d", "stroke": {"width": 0}}}, {"ticks": false})
+	.font({family: 'Trebuchet MS, Helvetica, Arial', color: '#fff' , transform: 'none'})
+	.format("es_ES")
+	.format({
+	 "text": function(text, params) {
+	if (text === "Valor") {	return "Valor";}
+	else{ return d3plus.string.title(text, params);}  
+	  },
+	  "number": function(number, params) {
+	var formatted = d3plus.number.format(number, params);
+	if (params.key === "Valor") {  return "$" + formatted ;	}
+	else { return formatted;}
+	  }
+	})
+	.background("#0d0d0d" )
+	.time("Year")
+	.tooltip({"html": htmlButton, "background": "#bbb", "small": 200, "large": 250, "anchor": "bottom center" } )
+	.draw()
+	}
+	
+	function PintaloTreeM(data){ /* funcion para pintar el grafico mapa de árbol */
+	  var visualization = d3plus.viz()
+	  .container("#obj2")
+	  .data(data)
+	  .type("tree_map")
+	  .dev(true)
+	  .icon({"style": "knockout","value": "Imagen"})
+	  .id(["DesCap"])
+	  .depth(1)
+	  .size("ComercioTotal")
+	  .color({
+      "range": [ "blue" , "white" , "yellow" ],
+      "value": "ComercioTotal"
+    })
+	  .time({"value": "Year","solo": 2000})
+	  .ui([
+	{"method" : "size",	
+	"value"  : [ "Exportacion" , "Importacion" , "ComercioTotal"] },
+	/*{
+        "method": function(){
+          visualization.csv(true) // will DL all data not just what is shown
+        },
+        "value": ["Descargar datos"]
+      }*/
+	])
+	.axes({"background": {"color": "#0d0d0d", "stroke": {"width": 0}}}, {"ticks": false})
+	.background("#0d0d0d" )
+	.labels({"align": "left", "valign": "top"})
+	.format("es_ES")
+	.format({
+	 "text": function(text, params) {
+	if (text === "ComercioTotal") {	return "Comercio total";}
+	else if(text === "BalanzaComercial"){ return "Balanza comercial";}
+	else{ return d3plus.string.title(text, params);}  
+	  },
+	  "number": function(number, params) {
+	var formatted = d3plus.number.format(number, params);
+	if (params.key === "ComercioTotal") {  return "$" + formatted ;	}
+	else if (params.key === "Importacion") {return "$" + formatted ;} 
+    else if (params.key === "Exportacion") {return "$" + formatted ;} 
+	else if (params.key === "BalanzaComercial") {  return "$" + formatted ;	}
+	else { return formatted;}
+	  }
+	})
+	.font({family: 'Trebuchet MS, Helvetica, Arial', color: '#fff' , transform: 'none'})
+	.tooltip({"html": htmlButton, "background": "#bbb", "small": 200, "large": 250, "anchor": "bottom center" } )
+	.legend({"size": 20})
+	  .draw()	  
+	}
+	
+	function CargaJson(par2){  /* funcion para cargar los datos que se pintan en  el grafico de barras y en el mapa de árbol*/
+	var DatosBar;
+	var DatosTreeM;
+	var barra;
+	var mapaarbol;
+	
+	switch(par2) {
+	case 'Total':     DatosBar = 'bctotal.json'; DatosTreeM = 'tmtotal.json'; break;
+	case 'AELC':     DatosBar = 'bcapceae.json'; DatosTreeM = 'tmapceae.json';     break;
+	case 'Bolivia':     DatosBar = 'bcapce66.json'; DatosTreeM = 'tmapce66.json';     break;
+	case 'Chile':     DatosBar = 'bcapce41.json';  DatosTreeM = 'tmapce41.json';      break;
+	case 'Israel':     DatosBar = 'bctlcisra.json'; DatosTreeM = 'tmtlcisr.json'; 
+	case 'Japón':     DatosBar = 'bcaaejap.json'; DatosTreeM = 'tmaaejap.json';       break;
+	case 'Panamá':     DatosBar = 'bcaptm14.json'; DatosTreeM = 'tmaptm14.json';       break;
+	case 'Perú':     DatosBar = 'bcapce67.json'; DatosTreeM = 'tmapce67.json';       break;
+	case 'TLC G-3':     DatosBar = 'bcapce33.json'; DatosTreeM = 'tmapce33.json';       break;
+	case 'Uruguay':     DatosBar = 'bcapce60.json'; DatosTreeM = 'tmapce60.json';       break;	
+	case 'TLC Centroamerica':     DatosBar = 'bcTLCCEN.json'; DatosTreeM = 'tmTLCCEN.json';       break;
+	case 'TLCAN':     DatosBar = 'bctlcan0.json'; DatosTreeM = 'tmtlcan0.json';       break;
+	case 'TLCUEM':     DatosBar = 'bcapceue.json'; DatosTreeM = 'tmapceue.json';       break;
+	case 'Argentina':     DatosBar = 'bcapce06.json'; DatosTreeM = 'tmapce06.json';     break;
+	case 'Cuba':     DatosBar = 'bcapce51.json'; DatosTreeM = 'tmapce51.json';     break;
+	case 'CENo5455':     DatosBar = 'bcapce54.json'; DatosTreeM = 'tmapce54.json';     break;
+	case 'ARPARNo4':     DatosBar = 'bcapar04.json'; DatosTreeM = 'tmapar04.json';     break;
+	case 'AP':     DatosBar = 'bcapap00.json'; DatosTreeM = 'tmapap00.json';     break;
+	case 'AATPP':     DatosBar = 'bcaptp00.json'; DatosTreeM = 'tmaptp00.json';     break;
+	case 'Brasil':     DatosBar = 'bcapce53.json'; DatosTreeM = 'tmapce53.json';     break;
+	case 'Ecuador':     DatosBar = 'bcapre29.json'; DatosTreeM = 'tmapre29.json';     break;
+	case 'Paraguay':     DatosBar = 'bcapre38.json'; DatosTreeM = 'tmapre38.json';     break;
+	case 'A25TMNo37':     DatosBar = 'bcaptm37.json'; DatosTreeM = 'tmaptm37.json';     break;
+	default: 	DatosBar = "bcTotal.json"; DatosTreeM = 'tmTotal.json';   break;
+	}
+	document.getElementById("obj1").innerHTML = "";
+	document.getElementById("obj2").innerHTML = "";
+	d3.json("JSON_BC/"+ DatosBar, function(error, json) {
+	if (error) return console.warn(error);
+	barra = json;
+	PintaloBar(barra);
+	});
+	d3.json("JsonTreeMap/"+ DatosTreeM, function(error, json){
+	  if (error) return console.warn(error);
+	  mapaarbol = json;
+	  PintaloTreeM(mapaarbol);
+	});
+	}  // Aqui termina la carga json para el grafico de barras y el treemap.
+	
+	function CargaJsonGeo(par2,map){  /* funcion para cargar las geometrias de los paises */
+	var NombrePais;
+	var Pais;
+	switch(par2) {
+	case 'Total':     NombrePais = 'Tratados.geo.json';     break;
+	case 'AELC':     NombrePais = 'AELC.geo.json';     break;
+	case 'Bolivia':     NombrePais = 'BOL.geo.json';     break;
+	case 'Chile':     NombrePais = 'CHL.geo.json';     break;
+	case 'Israel':     NombrePais = 'ISR.geo.json';     break;
+	case 'Japón':     NombrePais = 'JPN.geo.json';     break;
+	case 'Panamá':     NombrePais = 'PAN.geo.json';     break;
+	case 'Perú':     NombrePais = 'PER.geo.json';     break;
+	case 'TLC G-3':     NombrePais = 'COL.geo.json';     break;
+	case 'Uruguay':     NombrePais = 'URY.geo.json';     break;
+	case 'TLC Centroamerica':     NombrePais = 'TLCCenAme.geo.json';     break;	
+	case 'TLCAN':     NombrePais = 'TLCAN.geo.json';     break;
+	case 'TLCUEM':     NombrePais = 'TLCUEM.geo.json';     break;
+	case 'Argentina':     NombrePais = 'ARG.geo.json';  break;
+	case 'Cuba':     NombrePais = 'CUB.geo.json';  break;
+	case 'CENo5455':     NombrePais = 'APCE54.geo.json'; break;
+	case 'ARPARNo4':     NombrePais = 'APAR04.geo.json'; break;
+	case 'AP':     NombrePais = 'APAP00.geo.json'; break;
+	case 'AATPP':     NombrePais = 'APTP00.geo.json'; break;
+	case 'Brasil':     NombrePais = 'BRA.geo.json'; break;
+	case 'Ecuador':     NombrePais = 'ECU.geo.json'; break;
+	case 'Paraguay':     NombrePais = 'PRY.geo.json'; break;
+	case 'A25TMNo37':     NombrePais = 'APTM37.geo.json'; break;
+	default: 	NombrePais = "Tratados.geo.json"; break;
+	}
+	d3.json("geojson/countries/"+ NombrePais, function(error, json) {
+	if (error) return console.warn(error);
+	Pais = json;
+	//L.geoJson(Pais,{style: {color: "#ffff4d", weight: 1}}).addTo(map);
+	L.geoJson(Pais,{style: {color: "#ffff00", weight: 1}}).addTo(map);
+	});	
+	} // Aqui termina la carga json para pintar los poligonos sobre el mapa.
+	
+	function resetea(map,par2) { /***Funcion que resetea el mapa (es para borrar poligonos)***/
+	map.remove();
+	var map = L.map('mapa');
+	L.tileLayer('http://map1.vis.earthdata.nasa.gov/wmts-webmerc/VIIRS_CityLights_2012/default/{time}/{tilematrixset}{maxZoom}/{z}/{y}/{x}.{format}', {
+	attribution: 'Provided by the NASA (<a href="https://earthdata.nasa.gov">Earth Science Data and Information System</a>).',
+	bounds: [[-85.0511287776, -179.999999975], [85.0511287776, 179.999999975]],
+	minZoom: 1,
+	maxZoom: 8,
+	format: 'jpg',
+	time: '',
+	tilematrixset: 'GoogleMapsCompatible_Level'
+	}).addTo(map);
+	centroMapaMarcador(map,par2);
+	var mex = {"type":"FeatureCollection","features":[
+	{"type":"Feature","id":"MEX","properties":{"name":"Mexico"},"geometry":{"type":"Polygon","coordinates":[[[-97.140008,25.869997],[-97.528072,24.992144],[-97.702946,24.272343],[-97.776042,22.93258],[-97.872367,22.444212],[-97.699044,21.898689],[-97.38896,21.411019],[-97.189333,20.635433],[-96.525576,19.890931],[-96.292127,19.320371],[-95.900885,18.828024],[-94.839063,18.562717],[-94.42573,18.144371],[-93.548651,18.423837],[-92.786114,18.524839],[-92.037348,18.704569],[-91.407903,18.876083],[-90.77187,19.28412],[-90.53359,19.867418],[-90.451476,20.707522],[-90.278618,20.999855],[-89.601321,21.261726],[-88.543866,21.493675],[-87.658417,21.458846],[-87.05189,21.543543],[-86.811982,21.331515],[-86.845908,20.849865],[-87.383291,20.255405],[-87.621054,19.646553],[-87.43675,19.472403],[-87.58656,19.04013],[-87.837191,18.259816],[-88.090664,18.516648],[-88.300031,18.499982],[-88.490123,18.486831],[-88.848344,17.883198],[-89.029857,18.001511],[-89.150909,17.955468],[-89.14308,17.808319],[-90.067934,17.819326],[-91.00152,17.817595],[-91.002269,17.254658],[-91.453921,17.252177],[-91.08167,16.918477],[-90.711822,16.687483],[-90.600847,16.470778],[-90.438867,16.41011],[-90.464473,16.069562],[-91.74796,16.066565],[-92.229249,15.251447],[-92.087216,15.064585],[-92.20323,14.830103],[-92.22775,14.538829],[-93.359464,15.61543],[-93.875169,15.940164],[-94.691656,16.200975],[-95.250227,16.128318],[-96.053382,15.752088],[-96.557434,15.653515],[-97.263592,15.917065],[-98.01303,16.107312],[-98.947676,16.566043],[-99.697397,16.706164],[-100.829499,17.171071],[-101.666089,17.649026],[-101.918528,17.91609],[-102.478132,17.975751],[-103.50099,18.292295],[-103.917527,18.748572],[-104.99201,19.316134],[-105.493038,19.946767],[-105.731396,20.434102],[-105.397773,20.531719],[-105.500661,20.816895],[-105.270752,21.076285],[-105.265817,21.422104],[-105.603161,21.871146],[-105.693414,22.26908],[-106.028716,22.773752],[-106.90998,23.767774],[-107.915449,24.548915],[-108.401905,25.172314],[-109.260199,25.580609],[-109.444089,25.824884],[-109.291644,26.442934],[-109.801458,26.676176],[-110.391732,27.162115],[-110.641019,27.859876],[-111.178919,27.941241],[-111.759607,28.467953],[-112.228235,28.954409],[-112.271824,29.266844],[-112.809594,30.021114],[-113.163811,30.786881],[-113.148669,31.170966],[-113.871881,31.567608],[-114.205737,31.524045],[-114.776451,31.799532],[-114.9367,31.393485],[-114.771232,30.913617],[-114.673899,30.162681],[-114.330974,29.750432],[-113.588875,29.061611],[-113.424053,28.826174],[-113.271969,28.754783],[-113.140039,28.411289],[-112.962298,28.42519],[-112.761587,27.780217],[-112.457911,27.525814],[-112.244952,27.171727],[-111.616489,26.662817],[-111.284675,25.73259],[-110.987819,25.294606],[-110.710007,24.826004],[-110.655049,24.298595],[-110.172856,24.265548],[-109.771847,23.811183],[-109.409104,23.364672],[-109.433392,23.185588],[-109.854219,22.818272],[-110.031392,22.823078],[-110.295071,23.430973],[-110.949501,24.000964],[-111.670568,24.484423],[-112.182036,24.738413],[-112.148989,25.470125],[-112.300711,26.012004],[-112.777297,26.32196],[-113.464671,26.768186],[-113.59673,26.63946],[-113.848937,26.900064],[-114.465747,27.14209],[-115.055142,27.722727],[-114.982253,27.7982],[-114.570366,27.741485],[-114.199329,28.115003],[-114.162018,28.566112],[-114.931842,29.279479],[-115.518654,29.556362],[-115.887365,30.180794],[-116.25835,30.836464],[-116.721526,31.635744],[-117.12776,32.53534],[-115.99135,32.61239],[-114.72139,32.72083],[-114.815,32.52528],[-113.30498,32.03914],[-111.02361,31.33472],[-109.035,31.34194],[-108.24194,31.34222],[-108.24,31.754854],[-106.50759,31.75452],[-106.1429,31.39995],[-105.63159,31.08383],[-105.03737,30.64402],[-104.70575,30.12173],[-104.45697,29.57196],[-103.94,29.27],[-103.11,28.97],[-102.48,29.76],[-101.6624,29.7793],[-100.9576,29.38071],[-100.45584,28.69612],[-100.11,28.11],[-99.52,27.54],[-99.3,26.84],[-99.02,26.37],[-98.24,26.06],[-97.53,25.84],[-97.140008,25.869997]]]}}
+	]};
+	L.geoJson(mex,{style: {color: "#009933", weight: 1}}).addTo(map);	
+	return map;
+	}	// Aqui termina la definicion de la función resetea().
+	
+	function centroMapaMarcador(map,par2){ /**Funcion que redefine el centro del mapa.**/
+	Centro = new Array()
+	var mensaje;
+	if (par2 == 'Total'){	
+	map.setView([28.129, -0.55], 1);
+	mTratados = [
+	/*["<h4>Tratado de Libre Comercio entre México y los Estados de la Asociación Europea de Libre Comercio (AELC)</h4><p>Los países con los que se acuerda el tratado son: Islandia, Noruega, Suiza y el Principado de Liechtenstein (de este último no se posee información de comercio).<br/>Fecha de suscripción: 27 noviembre 2000.<br/>Entrada en vigor: 1 julio 2001.<br/><a href='http://www.sice.oas.org/Trade/mexefta/spanish/mxeftas1.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a><br/><a href='http://www.sice.oas.org/Trade/mexefta/MX_FTA_s.pdf' target='_blank'>Ver documento del Diario Oficial de la Federación.</a></p>",60.955886, 13.440309,'Img/Trade.png'],	//AELC
+	["<h4>Tratado de Libre Comercio entre México y Japón</h4><p>Fecha de suscripción: 17 septiembre 2004.<br/>Entrada en vigor: 1 abril 2005.<br/><a href='http://www.sice.oas.org/Trade/MEX_JPN_s/JPN_MEXind_s.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a><br/><a href='http://www.sice.oas.org/Trade/MEX_JPN_s/Agreement_s.pdf' target='_blank'>Ver documento del Diario Oficial de la Federación.</a></p>",40.021455, 140.726276,'Img/Trade.png'],	// Japon
+	["<h4>Tratado de Libre Comercio entre México y Colombia (ACE N°33)</h4><p>Anteriormente este tratado estaba integrado también por Venezuela, pero a partir del 19 de noviembre de 2006 Venezuela anuncia su salida del tratado.<br/> Fecha de suscripción: 13 junio 1994.<br/>Entrada en vigor: 1 enero 1995.<br/><a href='http://www.sice.oas.org/Trade/go3/G3INDICE.ASP' target='_blank'>Ver contenido del tratado (fuente: SICE).</a></p>",4.508943, -73.390812,'Img/Trade.png'], // Colombia
+	["<h4>Tratado de Libre Comercio Centroamérica</h4><p>Los países con los que se acuerda el tratado son: Costa Rica, El Salvador, Guatemala, Honduras y Nicaragua.<br/>Fecha de suscripción: 22 noviembre 2011.<br/>Entrada en vigor: <br/> Guatemala-México: 1 septiembre 2013.<br/> Costa Rica-México: 1 julio 2013.<br/> Honduras-México: 1 enero 2013.<br/> El Salvador-México: 1 septiembre 2012. <br/>	Nicaragua-México: 1 septiembre 2012.<br/><a href='http://www.sice.oas.org/Trade/MEX_JPN_s/Agreement_s.pdf' target='_blank'>Ver contenido del tratado (fuente: SICE).</a></p>",13.772341, -86.200871,'Img/Trade.png'], //Centromerica
+	["<h4>Tratado de Libre Comercio de América del Norte (TLCAN)</h4><p>Los países con los que se acuerda el tratado son: Estados Unidos y Canadá.<br/>Fecha de suscripción: 17 diciembre 1992.<br/>Entrada en vigor: 1 enero 1994.<br/><a href='http://www.sice.oas.org/Trade/nafta_s/Indice1.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a><br/></p>", 40.815656, -90.999210,'Img/Trade.png'],	 //TLCAN
+	["<h4>Acuerdo de Asociación Económica, Concertación Política y Cooperación entre la Comunidad Europea y los Estados Unidos Mexicanos</h4><p>Los países con los que se acuerda el tratado son: Alemania, Austria,	Bélgica, Bulgaria, Chipre, Croacia,	Dinamarca, Eslovenia, España, Estonia, Finladia, Francia, Grecia, Hungría, Irlanda, Italia, Letonia, Lituania, Luxemburgo,	Malta, Países Bajos, Polonia, Portugal,	Reino Unido, República Checa, República Eslovaca, Rumania y Suecia.<br/>Fecha de suscripción: 8 diciembre 1997.<br/>Entrada en vigor: 1 octubre 2000.<br/><a href='http://www.sice.oas.org/Trade/MEX_EU/Spanish/index_s.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a></p>",46.306516, 2.089921,'Img/Trade.png'],	//TLCUEM
+	["<h4>Tratado de Libre Comercio entre México y Bolivia</h4><p>Fecha de suscripción: 17 mayo 2010.<br/>Entrada en vigor: 7 junio 2010.<br/><a href='http://www.sice.oas.org/Trade/BOL_MEX_66/BOL_MEX_Ind_s.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a><br/></p>",-17.863143, -62.817437,'Img/Trade.png'], //Bolivia
+	["<h4>Tratado de Libre Comercio entre México y Chile (ACE N°41)</h4><p>Fecha de suscripción: 17 abril 1998.<br/>Entrada en vigor: 1 agosto 1999.<br/><a href='http://www.sice.oas.org/Trade/chmefta/indice.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a><br/></p>",-39.029, -73.112,'Img/Trade.png'],	// Chile
+	["<h4>Tratado de Libre Comercio entre México y Israel</h4><p>Fecha de suscripción: 10 abril 2000.<br/>Entrada en vigor: 1 julio 2001.<br/><a href='http://www.sice.oas.org/Trade/meis_s/index.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a></p>",31.400631, 35.220957,'Img/Trade.png'], //Israel
+	["<h4>Tratado de Libre Comercio entre México y Panamá</h4><p>Fecha de suscripción: 3 abril 2004.<br/>Entrada en vigor: 1 julio 2015.<br/><a href='http://www.sice.oas.org/TPD/MEX_PAN/Draft_MEX_PAN_FTA_s/Index_PDF_09.05.2014_s.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a></p>",8.241476, -81.080312,'Img/Trade.png'],	 // Panama
+	["<h4>Acuerdo de Integración Comercial entre México y Perú</h4><p>Fecha de suscripción: 6 abril 2011.<br/>Entrada en vigor: 1 febrero 2012.<br/><a href='http://www.sice.oas.org/Trade/MEX_PER_Integ_Agrmt/MEX_PER_Ind_s.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a><br/><a href='http://www.sice.oas.org/Trade/MEX_PER_Integ_Agrmt/DOF_30.01.2012_TLC_MEX_PER_s.pdf' target='_blank'>Ver documento del Diario Oficial de la Federación.</a></p>",-9.310775, -75.938710,'Img/Trade.png'],	//Peru
+	["<h4>Tratado de Libre Comercio entre México y Uruguay (ACE N°60)</h4><p>Fecha de suscripción: 15 noviembre 2003.<br/>Entrada en vigor: 15 julio 2004.<br/><a href='http://www.sice.oas.org/Trade/mexurufta_s/mexuruind_s.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a><br/><a href='http://www.sice.oas.org/Trade/mexurufta_s/TLC_MEXURU_text.pdf' target='_blank'>Ver documento del Diario Oficial de la Federación.</a></p>",-32.502741, -55.899648,'Img/Trade.png']	//Uruguay
+	*/
+["<h4>Tratado de Libre Comercio entre México y Japón</h4><p>Fecha de suscripción: 17 septiembre 2004.<br/>Entrada en vigor: 1 abril 2005.<br/><a href='http://www.sice.oas.org/Trade/MEX_JPN_s/JPN_MEXind_s.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a><br/><a href='http://www.sice.oas.org/Trade/MEX_JPN_s/Agreement_s.pdf' target='_blank'>Ver documento del Diario Oficial de la Federación.</a></p><p> Tiene como objetivo promover la liberalización del comercio y la inversión entre México y Japón. El acuerdo prevé eliminar o reducir los aranceles aduaneros de los productos agropecuarios e industriales. <a href='http://revistas.bancomext.gob.mx/rce/magazines/135/2/116_GARCIA_mex_japon.pdf' target='_blank'> Fuente: BANCOMEXT.</a></p>",38.021455,138.726276,'Img/Trade.png'], //Japón
+["<h4>Tratado de Libre Comercio entre México y los Estados de la Asociación Europea de Libre Comercio (AELC)</h4><p>Los países con los que se acuerda el tratado son: Islandia, Noruega, Suiza y el Principado de Liechtenstein (de este último no se posee información de comercio).<br/>Fecha de suscripción: 27 noviembre 2000.<br/>Entrada en vigor: 1 julio 2001.<br/><a href='http://www.sice.oas.org/Trade/mexefta/spanish/mxeftas1.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a><br/><a href='http://www.sice.oas.org/Trade/mexefta/MX_FTA_s.pdf' target='_blank'>Ver documento del Diario Oficial de la Federación.</a></p>",66.955886,13.440309,'Img/Trade.png'],//AELC
+["<h4>Tratado de Libre Comercio entre México y Colombia (ACE N°33)</h4><p>Anteriormente este tratado estaba integrado también por Venezuela, pero a partir del 19 de noviembre de 2006 Venezuela anuncia su salida del tratado.<br/> Fecha de suscripción: 13 junio 1994.<br/>Entrada en vigor: 1 enero 1995.<br/><a href='http://www.sice.oas.org/Trade/go3/G3INDICE.ASP' target='_blank'>Ver contenido del tratado (fuente: SICE).</a></p><p>Colombia es el 13° socio comercial de México a nivel global (6° comprador y 30° proveedor) y el 2° en América Latina y el Caribe (2° comprador y 5° abastecedor). Además, es el 8° inversionista de los países de América Latina y el Caribe en México. <a href='http://embamex.sre.gob.mx/colombia/index.php/info-comercial'  target='_blank'>Fuente: SRE.</a></p>",4.508943,-73.390812, 'Img/Trade.png'],//TLC G-3
+["<h4>Tratado de Libre Comercio Centroamérica</h4><p>Los países con los que se acuerda el tratado son: Costa Rica, El Salvador, Guatemala, Honduras y Nicaragua.<br/>Fecha de suscripción: 22 noviembre 2011.<br/>Entrada en vigor: <br/> Guatemala-México: 1 septiembre 2013.<br/> Costa Rica-México: 1 julio 2013.<br/> Honduras-México: 1 enero 2013.<br/> El Salvador-México: 1 septiembre 2012. <br/>	Nicaragua-México: 1 septiembre 2012.<br/><a href='http://www.sice.oas.org/Trade/MEX_JPN_s/Agreement_s.pdf' target='_blank'>Ver contenido del tratado (fuente: SICE).</a></p>",13.772341	,-86.200871	, 'Img/Trade.png'],//TLC Centroamerica	
+["<h4>Tratado de Libre Comercio de América del Norte (TLCAN)</h4><p>Los países con los que se acuerda el tratado son: Estados Unidos y Canadá.<br/>Fecha de suscripción: 17 diciembre 1992.<br/>Entrada en vigor: 1 enero 1994.<br/><a href='http://www.sice.oas.org/Trade/nafta_s/Indice1.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a><br/></p>",60.815656	,-101.999210, 'Img/Trade.png'],//TLCAN
+["<h4>Acuerdo de Asociación Económica, Concertación Política y Cooperación entre la Comunidad Europea y los Estados Unidos Mexicanos</h4><p>Los países con los que se acuerda el tratado son: Alemania, Austria, Bélgica, Bulgaria, Chipre, Croacia,	Dinamarca, Eslovenia, España, Estonia, Finladia, Francia, Grecia, Hungría, Irlanda, Italia, Letonia, Lituania, Luxemburgo,	Malta, Países Bajos, Polonia, Portugal,	Reino Unido, República Checa, República Eslovaca, Rumania y Suecia.<br/>Fecha de suscripción: 8 diciembre 1997.<br/>Entrada en vigor: 1 octubre 2000.<br/><a href='http://www.sice.oas.org/Trade/MEX_EU/Spanish/index_s.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a></p>",54.955886	,13.440309, 'Img/Trade.png'],//TLCUEM
+["<h4>Acuerdo de complementación económica entre México y Bolivia</h4><p>Fecha de suscripción: 17 mayo 2010.<br/>Entrada en vigor: 7 junio 2010.<br/> <a href='http://www.sice.oas.org/Trade/BOL_MEX_66/BOL_MEX_Ind_s.asp' target='_blank'>Ver contenido del acuerdo (fuente: SICE).</a> <p> A partir de la entrada en vigor del acuerdo, quedó libre de arancel una parte de los productos comerciados entre México y Bolivia, salvo los bienen comprendidos en las respectivas listas de excepciones que integran sectores como: aceites, azúcares, jaleas y productos lacteos, entre otros. <a href='http://www.sice.oas.org/TPD/BOL_MEX/Studies/Review2011_s.pdf'  target='_blank'>Fuente: SICE.</a></p>",-17.863143	,-62.817437, 'Img/Trade.png'],//Bolivia
+["<h4>Acuerdo de complementación económica entre México y Chile</h4><p>Fecha de suscripción: 17 abril 1998.<br/>  Entrada en vigor: 1 agosto 1999.<br/> <a href='http://www.sice.oas.org/Trade/chmefta/indice.asp' target='_blank'>Ver contenido del acuerdo (fuente: SICE).</a></p> <p> Chile se ubica en el sitio 18 en la lista de países inversores en México, con la empresa Molymex, del ramo de la minería. Entre las empresas mexicanas con montos más altos de inversión en Chile sobresalen: Aeroméxico, Bimbo,Televisa, Telmex y América Móvil. Del universo de mercancías ,el único producto que entro en programa dedesgravación, además de los productos originarios fueron las manzanas por parte de Chile y México, las cuales están libres de aranceles a partir del 2005.  <a href='http://revistas.bancomext.gob.mx/rce/magazines/152/3/LARELACION_MEXICO.pdf' target='_blank'>Fuente: BANCOMEXT.</a><br/></p>",-39.029, -70.112, 'Img/Trade.png'],//Chile
+["<h4>Acuerdo de complementación economica entre México e Israel</h4><p>Fecha de suscripción: 10 abril 2000.<br/>Entrada en vigor: 1 julio 2001.<br/> <a href='http://www.sice.oas.org/Trade/meis_s/index.asp' target='_blank'>Ver contenido del acuerdo (fuente: SICE).</a></p> <p> En el sector agropecuario, la mitad de las exportaciones mexicanas a Israel tienen arancel cero desde la entrada en vigor del acuerdo, el 25% tienen acceso inmediato libre de arancel bajo cuota y el 12% acceso con reducciones entre el 25 y 50% sobre los aranceles aplicados. A partir de 2005, todos los bienes industriales gozan de arancel cero. <a href='http://www.economia.gob.mx/files/Israel_Resumen%20TLC-Israel.pdf' target='_blank'>Fuente: SE.</a></p>",31.400631, 35.220957, 'Img/Trade.png'],//Israel
+["<h4>Acuerdo al amparo del artículo 25 del Tratado de Montevideo entre México y Panamá</h4><p>Fecha de suscripción: 3 abril 2014.<br/>Entrada en vigor: 1 julio 2015.<br/><a href='http://www.sice.oas.org/TPD/MEX_PAN/Draft_MEX_PAN_FTA_s/Index_PDF_09.05.2014_s.asp' target='_blank'>Ver contenido del acuerdo (fuente: SICE).</a></p><p>El acuerdo incluye, entre otras áreas, acceso a los mercados, reglas y procedimientos aduaneros relacionados al origen, medidas sanitarias y fitosanitarias, obstáculos técnicos al comercio, defensa comercial, inversión, comercio electrónico, comercio transfronterizo de servicios, entrada temporal, servicios financieros, telecomunicaciones, propiedad intelectual, solución de controversias y asuntos institucionales. Con la firma del TLC, Panamá se alista para ingresar a la Alianza del Pacífico, integrada por Chile, Colombia, México y Perú. <a href='http://www.elfinanciero.com.mx/politica/firman-panama-y-mexico-tlc.html' target='_blank'>Fuente: El Financiero.</a><br/></p> ",8.241476, -81.080312, 'Img/Trade.png'],//Panamá
+["<h4>Acuerdo de complementación económica entre México y Perú</h4><p>Fecha de suscripción: 6 abril 2011.<br/>Entrada en vigor: 1 febrero 2012.<br/> <a href='http://www.sice.oas.org/Trade/MEX_PER_Integ_Agrmt/MEX_PER_Ind_s.asp' target='_blank'>Ver contenido del acuerdo (fuente: SICE).</a><br/><a href='http://www.sice.oas.org/Trade/MEX_PER_Integ_Agrmt/DOF_30.01.2012_TLC_MEX_PER_s.pdf' target='_blank'>Ver documento del Diario Oficial de la Federación.</a> </p><p> En el sector agroalimentario, se han acordado con Perú compromisos en el 74% del universo de productos. Los productos pendientes por acordar son: a) Intereses de Perú: leche evaporada, carne y pavo entero, chile seco y fresco, cebolla, ajo, espárrago, aceituna, papa, plátano, aguacate, uva, mango, naranja, toronja y limón. b) Intereses de México: carne de cerdo, preparaciones y pastas alimenticias, algunas bebidas no alcohólicas, salvados, alimentos para animales, principalmente. <a href='http://www.economia.gob.mx/files/Peru_informe_periodico2008.pdf' target='_blank'>Fuente: SE.</a><br/></p>",-9.310775	,-75.938710, 'Img/Trade.png'],//Perú
+["<h4>Acuerdo de complementación económica entre México y Uruguay</h4><p>Fecha de suscripción: 15 noviembre 2003.<br/>Entrada en vigor: 15 julio 2004.<br/><a href='http://www.sice.oas.org/Trade/mexurufta_s/mexuruind_s.asp' target='_blank'>Ver contenido del acuerdo (fuente: SICE).</a><br/><a href='http://www.sice.oas.org/Trade/mexurufta_s/TLC_MEXURU_text.pdf' target='_blank'>Ver documento del Diario Oficial de la Federación.</a> </p><p> Las empresas con inversión uruguaya se dedican principalmente a las actividades de comercio(44 sociedades), servicios (44) e industria manufacturera (30); y se localizan en mayor medida en el Distrito Federal, Estado de México y Quintana Roo. En Uruguay se cuenta con la presencia de las siguientes empresas con capitales mexicanos: Claro, INDULACSA, Panificadora Bimbo del Uruguay S.A.,Restaurante La Lupita, Zermat Uruguay y Omnilife.  <a href='http://embamex.sre.gob.mx/uruguay/index.php/economia' target='_blank'>Fuente:SE.</a><br/></p>",-32.502741	,-55.899648, 'Img/Trade.png'],//Uruguay
+["<h4>Acuerdo de complementación económica entre México y Argentina</h4><p>Fecha de suscripción: 24 Octubre 1986.<br/>Entrada en vigor: 1 enero 1987.<br/><a href='http://www.aladi.org/nsfaladi/textacdos.nsf/0f226c9002f6aebf03257491004226fe/1d47a894917bdc9103256d2c0067dbae?OpenDocument' target='_blank'>Ver contenido del acuerdo (fuente: ALADI ).</a><br/></p><p> Las relaciones entre México y Argentina se desarrollan mediante la aplicación de los Acuerdos de Complementación Económica 6 (bilateral) y 55 (automotor), suscritos en el marco de ALADI. En 2011, Argentina ocupa el lugar número 8 como socio comercial de México a escala mundial (12 como abastecedor y 25 como comprador). El intercambio comercial entre México y Argentina creció 9,7 % entre 2006 y 2011, al pasar de 2,751 a 3,019 millones de dólares (md). Al cierre de 2011, México registró un superávit de 897 md en su comercio con ese país. Cabe destacar que desde 2001 y hasta 2009, México sólo había registrado déficits comerciales con Argentina. Las exportaciones de México a Argentina crecieron 106% entre 2006 y 2011, pasando de 952 md a 1,958 md. <a href='http://embamex.sre.gob.mx/argentina/index.php/info-comercial' target='_blank'>Fuente: SRE.</a><br/></p>",-36.090472 ,-65.237345, 'Img/Trade.png'],//Argentina 
+["<h4>Acuerdo de complementación económica entre México y Cuba.</h4><p>Fecha de suscripción: 17 Octubre 2000 .<br/>Entrada en vigor: 28 febrero 2001.<br/><a href='http://www.aladi.org/nsfaladi/textacdos.nsf/0f226c9002f6aebf03257491004226fe/bccaa7e28fcd80408325698100513d7e?OpenDocument' target='_blank'>Ver contenido del acuerdo (fuente: ALADI ).</a><br/> </p><p> En este acuerdo , México otorga a Cuba preferencias en 482 fracciones arancelarias, de las cuales 135 son para la franja fronteriza. Mientras que Cuba le otorga a México preferencias a 152 fracciones.Las preferencias arancelarias se establecen a productos como crustáceos,moluscos,caramelos,ron,tabaco,textiles,calzado,tractores,equipos,farmacéuticos,entre otros.El ACE No.51 , está constituido por 14 capítulos, en los cuales se tratan temas sobre preferencias arancelarias, régimen de origen, salvaguardas y la administración del acuerdo. <a href='http://economia.gob.mx/files/Cuba%20Reporte%20de%20comercio%20e%20inversion.pdf' target='_blank'>Fuente: SE.</a><br/></p>",21.940136	,-79.139913, 'Img/Trade.png'],//Cuba 
+["<h4>Acuerdo de complementación económica entre México, Argentina, Brasil, Paraguay y Uruguay </h4><p> ACE No.54<br/> Fecha de suscripción:5 Julio 2002 .<br/> Entrada en vigor: 5 enero 2006.<br/><a href='http://www.aladi.org/nsfaladi/textacdos.nsf/0f226c9002f6aebf03257491004226fe/ed000ca9c824f6aa0325789300481ddc?OpenDocument' target='_blank'>Ver contenido del acuerdo (fuente: ALADI ).</a><br/> </p><p>Es un Acuerdo marco para la creación de un Área de Libre Comercio entre los Estados Partes del MERCOSUR y los Estados Unidos Mexicanos y tiene como finalidades establecer un marco jurídico que permita ofrecer seguridad y transparencia a los agentes económicos de las Partes, así como establecer un marco normativo para promover e impulsar las inversiones recíprocas. <a href='http://www.aladi.org/nsfaladi/textacdos.nsf/0f226c9002f6aebf03257491004226fe/ed000ca9c824f6aa0325789300481ddc?OpenDocument' target='_blank'>Fuente: ALADI.</a><br/></p>    </p><p> ACE No.55 <br/> Fecha de suscripción:27 septiembre 2002 <br/> Entrada en vigor: Entre Argentina y México: 1/01/2003. <br/>Entre Brasil y México: 1/01/2003 para México y puesto en ejecución por Brasil a partir del 15 de enero de 2003.<br/>Entre Paraguay y México: 01/02/2011<br/>Entre Uruguay y México: 1/01/2003.  <a href='http://www.aladi.org/nsfaladi/textacdos.nsf/0f226c9002f6aebf03257491004226fe/49f7cdd2e4a9e05603257893005a65ae?OpenDocument' target='_blank'>Fuente: ALADI.</a><br/></p>",-22.552608	,-53.826022	, 'Img/Trade.png'],//CENo5455
+["<h4>Acuerdo de preferencia arancelaria regional entre México, Argentina, Bolivia, Brasil, Chile, Colombia, Cuba, Ecuador, Paraguay, Perú, Uruguay Venezuela </h4><p>Fecha de suscripción:1 julio 1984 .<br/><a href='' target='_blank'>Ver contenido del acuerdo (fuente: ).</a><br/> </p><p>mecanismo mediante el cual los países se otorgan una preferencia básica de 20% para el universo arancelario de sus respectivas tarifas, con algunas excepciones. El monto de la preferencia y las excepciones se incrementan o reducen en función inversa del grado de desarrollo de los países.  <a href='http://www.economia-montevideo.gob.mx/swb/work/models/montevideo/Template/1/1/Mexico_en_ALADI.pdf' target='_blank'>Fuente: Economia Montevideo.</a><br/></p>",-21.656885	,-67.185396	, 'Img/Trade.png'],//ARPARNo4 
+["<h4>Iniciativa de integración regional entre Chile, Colombia, México y Perú.</h4><p>Fecha de suscripción:10 febrero 2014 .<br/>Entrada en vigor: 20 julio 2015.<br/><a href='http://www.sice.oas.org/Trade/PAC_ALL/Index_PDF_s.asp' target='_blank'>Ver contenido del acuerdo (fuente: SICE).</a><br/></p><p> A la fecha de entrada en vigencia del Protocolo, quedarán con arancel 0 común el 92% de los productos.Los restantes productos eliminarán sus aranceles en períodos de 3 y 7 años.Un porcentaje muy menor de productos, altamente sensibles, quedarán en calendarios de desgravación más largos, de hasta 17 años.El azúcar y algunos productos relacionados quedaron excluidos del trato preferencial<a href='http://www.sice.oas.org/TPD/Pacific_Alliance/Studies/Qu%C3%A9Significa_2014.pdf' target='_blank'>Fuente: SICE.</a><br/></p>",-6.008879	,-75.447113, 'Img/Trade.png'],//AP 
+["<h4>Acuerdo asociación económica entre México, Australia, Brunei Darussalam, Canadá, Chile, Estados Unidos, Japón, Malasia, Nueva Zelanda, Perú, Singapur y Vietnam.  </h4><p>Fecha de entrada en vigor: 1 enero 2006 .<br/>Entrada en vigor para México:1 octubre 2015 .<br/><a href='http://www.sice.oas.org/TPD/TPP/Final_Texts/Spanish/TPP_Index_s.asp' target='_blank'>Ver contenido del acuerdo (fuente: SICE ).</a><br/></p><p> 12 países integran el TPP. 6 países firmantes.85% del total del comercio del TPP es el mínimo para aprobar el acuerdo entre los suscribientes.45% es el índice de contenido regional acordado para vehículos y electrodomésticos.8 años de protección a los medicamentos biológicos ofrecerán todos los países participantes en el TPP.<a href='http://eleconomista.com.mx/industrias/2015/12/24/tpp-amplio-alcances-comercio-global' target='_blank'>Fuente: El Economista.</a><br/></p>",3.146404	,112.867456, 'Img/Trade.png'],//AATPP 
+["<h4>Acuerdo de complementación económica entre México y Brasil. </h4><p>Fecha de suscripción:3 julio 2002 .<br/>Entrada en vigor:  2 mayo 2003 .<br/><a href='http://www.aladi.org/nsfaladi/textacdos.nsf/0f226c9002f6aebf03257491004226fe/500a94b3290e6e3403256c440049306a?OpenDocument' target='_blank'>Ver contenido del acuerdo (fuente: ALADI). </a><br/></p><p>El ACE 53 contempla alrededor del 15% del comercio bilateral (excluyendo el sector automotor).El acuerdo contiene disciplinas comerciales en materia de origen,normas técnicas y sanitarias,salvaguardas, prácticas desleales de comercio internacional y solución de controversias. El propio acuerdo establece en su capitulo XIV que estará vigente hasta el momento en que sea sustituido por uno nuevo entre México y MERCOSUR. <a href='http://www.economia.gob.mx/files/comunidad_negocios/tlcs/tlcs_americalatina/Brasil_Reporte_comercio_inversion.pdf' target='_blank'>Fuente: SE.</a><br/></p>",-10.875892	,-51.804538, 'Img/Trade.png'],//Brasil 
+["<h4>Acuerdo de renegociación entre México y Ecuador. </h4><p>Entrada en vigor: 6 agosto 1987.<br/>Fecha fin de vigencia:31 diciembre 1993 .<br/><a href='http://www.aladi.org/biblioteca/publicaciones/aladi/acuerdos/apr/es/apr29/APR_029_Protocolo_Adecuacion.pdf' target='_blank'>Ver contenido del acuerdo (fuente: ALADI).</a><br/></p><p> En los últimos diez años el comercio entre México y Ecuador se ha quintuplicado, gracias al crecimiento sostenido de las exportaciones mexicanas y al buen desempeño de la economía ecuatoriana, manifestaron funcionarios de ProMéxico y ProEcuador. Ecuador es actualmente el quinto destino de las inversiones mexicanas en América Latina y el Caribe, con más de mil 400 millones de dólares acumulados a 2013. Entre las principales empresas mexicanas en Ecuador están América Móvil, que cuenta con presencia a través de su filial Claro Video; Mexichem, a través de la empresa Amanco; Mabe tiene centros de distribución de electrodomésticos; Arca Continental cuenta con tres plantas embotelladoras, y Omnilife tiene distintos centros de distribución en siete ciudades.<a href='http://www.elfinanciero.com.mx/economia/comercio-de-mexico-con-ecuador-se-quintuplica-en-diez-anos.html' target='_blank'>Fuente:El financiero.</a><br/></p>",-1.209439	,-78.481314, 'Img/Trade.png'],//Ecuador 
+["<h4>Acuerdo de renegociación entre México y Paraguay </h4><p>Fecha de suscripción:31 mayo 1993.<br/> Entrada en vigor: 1 julio 1994<a href='http://www.sice.oas.org/Trade/MEX_PRY/Index_s.asp' target='_blank'>Ver contenido del acuerdo (fuente: SICE).</a><br/></p><p> En abril de 2013, México y Paraguay acordaron negociar un Acuerdo de Complementación Económica (ACE) que sustituirá al Acuerdo de Alcance Parcial de Renegociación Nº 38, actualmente vigente. Hay tres rondas de negociaciones planificadas en el 2013. Ambos países también explorarán la posibilidad de suscribir un tratado de libre comercio.<a href='http://www.sice.oas.org/TPD/MEX_PRY/MEX_PRY_s.ASP' target='_blank'>Fuente: SICE.</a><br/></p>",-23.511413	,-57.979140, 'Img/Trade.png'],//Paraguay
+["<h4>Acuerdo al amparo del artículo 25 del Tratado Montevideo entre México, Guatemala y El Salvador.</h4><p>Fecha de suscripción: 7 diciembre 1999.<br/><a href='http://www.aladi.org/nsfaladi/textacdos.nsf/0f226c9002f6aebf03257491004226fe/ad4489167e02fe9c03256a2600483cdd?OpenDocument' target='_blank'>Ver contenido del acuerdo (fuente:ALADI ).</a><br/></p><p>El comercio de México con El Salvador se ha incrementado gradualmente desde mediados de la década de los 1990s, en particular a partir de 1997.Los principales socios comerciales de El Salvador son Guatemala, Honduras, Costa Rica y Estados Unidos.Con este último, El Salvador suscribió un Acuerdo de Libre Comercio, en conjunto con Costa Rica, Guatemala, Honduras, Nicaragua y República Dominicana, cuya vigencia inicia en 2006.México es el segundo inversor en El Salvador, después de Estados Unidos. <a href='http://embamex.sre.gob.mx/elsalvador/index.php?option=com_content&view=article&id=87&Itemid=47' target='_blank'>Fuente:SRE.</a><br/></p>",14.355418	,-89.664843, 'Img/Trade.png']//A25TMNo37
+];
+	var configMapaIni =  { 'maxWidth': '480', 'className' : 'iniMapa'}
+	
+	for (var i = 0; i < mTratados.length; i++) {
+	var Icono = L.icon({
+	iconUrl: mTratados[i][3],
+	iconSize: [28,28],
+	});
+	marker = new L.marker([mTratados[i][1],mTratados[i][2]],{icon: Icono})
+	.addTo(map)
+	.bindPopup(mTratados[i][0],configMapaIni)
+	};
+	}else if (par2 != 'Total') {
+	if(par2 == 'Japón'){
+	Centro[0] = 38.021455; 	Centro[1] = 138.726276;	Centro[2] = 2; Centro[3] = 'Img/Trade.png';
+	mensaje = "<h4>Tratado de Libre Comercio entre México y Japón</h4><p>Fecha de suscripción: 17 septiembre 2004.<br/>Entrada en vigor: 1 abril 2005.<br/><a href='http://www.sice.oas.org/Trade/MEX_JPN_s/JPN_MEXind_s.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a><br/><a href='http://www.sice.oas.org/Trade/MEX_JPN_s/Agreement_s.pdf' target='_blank'>Ver documento del Diario Oficial de la Federación.</a></p><p> Tiene como objetivo promover la liberalización del comercio y la inversión entre México y Japón. El acuerdo prevé eliminar o reducir los aranceles aduaneros de los productos agropecuarios e industriales. <a href='http://revistas.bancomext.gob.mx/rce/magazines/135/2/116_GARCIA_mex_japon.pdf' target='_blank'> Fuente: BANCOMEXT.</a></p>";
+	}else if (par2 == 'AELC'){
+	Centro[0] = 66.955886;	Centro[1] = 13.440309;	Centro[2] = 2;Centro[3] = 'Img/Trade.png';
+	mensaje = "<h4>Tratado de Libre Comercio entre México y los Estados de la Asociación Europea de Libre Comercio (AELC)</h4><p>Los países con los que se acuerda el tratado son: Islandia, Noruega, Suiza y el Principado de Liechtenstein (de este último no se posee información de comercio).<br/>Fecha de suscripción: 27 noviembre 2000.<br/>Entrada en vigor: 1 julio 2001.<br/><a href='http://www.sice.oas.org/Trade/mexefta/spanish/mxeftas1.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a><br/><a href='http://www.sice.oas.org/Trade/mexefta/MX_FTA_s.pdf' target='_blank'>Ver documento del Diario Oficial de la Federación.</a></p>";	
+	}else if (par2 == 'TLC G-3'){
+	Centro[0] = 4.508943; 	Centro[1] = -73.390812;	Centro[2] = 3;Centro[3] = 'Img/Trade.png';
+	mensaje = "<h4>Tratado de Libre Comercio entre México y Colombia (ACE N°33)</h4><p>Anteriormente este tratado estaba integrado también por Venezuela, pero a partir del 19 de noviembre de 2006 Venezuela anuncia su salida del tratado.<br/> Fecha de suscripción: 13 junio 1994.<br/>Entrada en vigor: 1 enero 1995.<br/><a href='http://www.sice.oas.org/Trade/go3/G3INDICE.ASP' target='_blank'>Ver contenido del tratado (fuente: SICE).</a></p><p>Colombia es el 13° socio comercial de México a nivel global (6° comprador y 30° proveedor) y el 2° en América Latina y el Caribe (2° comprador y 5° abastecedor). Además, es el 8° inversionista de los países de América Latina y el Caribe en México. <a href='http://embamex.sre.gob.mx/colombia/index.php/info-comercial'  target='_blank'>Fuente: SRE.</a></p>";
+	}else if (par2 == 'TLC Centroamerica'){	
+	Centro[0] = 13.772341;	Centro[1] = -86.200871;	Centro[2] = 4;Centro[3] = 'Img/Trade.png';
+	mensaje = "<h4>Tratado de Libre Comercio Centroamérica</h4><p>Los países con los que se acuerda el tratado son: Costa Rica, El Salvador, Guatemala, Honduras y Nicaragua.<br/>Fecha de suscripción: 22 noviembre 2011.<br/>Entrada en vigor: <br/> Guatemala-México: 1 septiembre 2013.<br/> Costa Rica-México: 1 julio 2013.<br/> Honduras-México: 1 enero 2013.<br/> El Salvador-México: 1 septiembre 2012. <br/>	Nicaragua-México: 1 septiembre 2012.<br/><a href='http://www.sice.oas.org/Trade/MEX_JPN_s/Agreement_s.pdf' target='_blank'>Ver contenido del tratado (fuente: SICE).</a></p>";
+	}else if (par2 == 'TLCAN'){
+	Centro[0] = 60.815656;	Centro[1] = -101.999210;	Centro[2] = 1;Centro[3] = 'Img/Trade.png';
+	mensaje = "<h4>Tratado de Libre Comercio de América del Norte (TLCAN)</h4><p>Los países con los que se acuerda el tratado son: Estados Unidos y Canadá.<br/>Fecha de suscripción: 17 diciembre 1992.<br/>Entrada en vigor: 1 enero 1994.<br/><a href='http://www.sice.oas.org/Trade/nafta_s/Indice1.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a><br/></p>";
+
+	}else if (par2 == 'TLCUEM'){
+	Centro[0] = 54.955886;	Centro[1] = 13.440309;	Centro[2] = 2;Centro[3] = 'Img/Trade.png';
+	mensaje = "<h4>Acuerdo de Asociación Económica, Concertación Política y Cooperación entre la Comunidad Europea y los Estados Unidos Mexicanos</h4><p>Los países con los que se acuerda el tratado son: Alemania, Austria, Bélgica, Bulgaria, Chipre, Croacia,	Dinamarca, Eslovenia, España, Estonia, Finladia, Francia, Grecia, Hungría, Irlanda, Italia, Letonia, Lituania, Luxemburgo,	Malta, Países Bajos, Polonia, Portugal,	Reino Unido, República Checa, República Eslovaca, Rumania y Suecia.<br/>Fecha de suscripción: 8 diciembre 1997.<br/>Entrada en vigor: 1 octubre 2000.<br/><a href='http://www.sice.oas.org/Trade/MEX_EU/Spanish/index_s.asp' target='_blank'>Ver contenido del tratado (fuente: SICE).</a></p>";
+	
+	}else if (par2 == 'Bolivia'){
+	Centro[0] = -17.863143;	Centro[1] = -62.817437;	Centro[2] = 3;Centro[3] = 'Img/Trade.png';
+	mensaje = "<h4>Acuerdo de complementación económica entre México y Bolivia</h4><p>Fecha de suscripción: 17 mayo 2010.<br/>Entrada en vigor: 7 junio 2010.<br/> <a href='http://www.sice.oas.org/Trade/BOL_MEX_66/BOL_MEX_Ind_s.asp' target='_blank'>Ver contenido del acuerdo (fuente: SICE).</a> <p> A partir de la entrada en vigor del acuerdo, quedó libre de arancel una parte de los productos comerciados entre México y Bolivia, salvo los bienen comprendidos en las respectivas listas de excepciones que integran sectores como: aceites, azúcares, jaleas y productos lacteos, entre otros. <a href='http://www.sice.oas.org/TPD/BOL_MEX/Studies/Review2011_s.pdf'  target='_blank'>Fuente: SICE.</a></p>";
+	}else if (par2 == 'Chile'){
+	Centro[0] = -39.029;	Centro[1] = -70.112;	Centro[2] = 2;Centro[3] = 'Img/Trade.png';
+	mensaje = "<h4>Acuerdo de complementación económica entre México y Chile</h4><p>Fecha de suscripción: 17 abril 1998.<br/>  Entrada en vigor: 1 agosto 1999.<br/> <a href='http://www.sice.oas.org/Trade/chmefta/indice.asp' target='_blank'>Ver contenido del acuerdo (fuente: SICE).</a></p> <p> Chile se ubica en el sitio 18 en la lista de países inversores en México, con la empresa Molymex, del ramo de la minería. Entre las empresas mexicanas con montos más altos de inversión en Chile sobresalen: Aeroméxico, Bimbo,Televisa, Telmex y América Móvil. Del universo de mercancías ,el único producto que entro en programa dedesgravación, además de los productos originarios fueron las manzanas por parte de Chile y México, las cuales están libres de aranceles a partir del 2005.  <a href='http://revistas.bancomext.gob.mx/rce/magazines/152/3/LARELACION_MEXICO.pdf' target='_blank'>Fuente: BANCOMEXT.</a><br/></p>";
+	}else if (par2 == 'Israel'){
+	Centro[0] = 31.400631;	Centro[1] = 35.220957;	Centro[2] = 4;Centro[3] = 'Img/Trade.png';
+	mensaje = "<h4>Acuerdo de complementación economica entre México e Israel</h4><p>Fecha de suscripción: 10 abril 2000.<br/>Entrada en vigor: 1 julio 2001.<br/> <a href='http://www.sice.oas.org/Trade/meis_s/index.asp' target='_blank'>Ver contenido del acuerdo (fuente: SICE).</a></p> <p> En el sector agropecuario, la mitad de las exportaciones mexicanas a Israel tienen arancel cero desde la entrada en vigor del acuerdo, el 25% tienen acceso inmediato libre de arancel bajo cuota y el 12% acceso con reducciones entre el 25 y 50% sobre los aranceles aplicados. A partir de 2005, todos los bienes industriales gozan de arancel cero. <a href='http://www.economia.gob.mx/files/Israel_Resumen%20TLC-Israel.pdf' target='_blank'>Fuente: SE.</a></p>";
+	}else if (par2 == 'Panamá'){
+	Centro[0] = 8.241476;	Centro[1] = -81.080312;	Centro[2] = 5;Centro[3] = 'Img/Trade.png';
+	mensaje = "<h4>Acuerdo al amparo del artículo 25 del Tratado de Montevideo entre México y Panamá</h4><p>Fecha de suscripción: 3 abril 2014.<br/>Entrada en vigor: 1 julio 2015.<br/><a href='http://www.sice.oas.org/TPD/MEX_PAN/Draft_MEX_PAN_FTA_s/Index_PDF_09.05.2014_s.asp' target='_blank'>Ver contenido del acuerdo (fuente: SICE).</a></p><p>El acuerdo incluye, entre otras áreas, acceso a los mercados, reglas y procedimientos aduaneros relacionados al origen, medidas sanitarias y fitosanitarias, obstáculos técnicos al comercio, defensa comercial, inversión, comercio electrónico, comercio transfronterizo de servicios, entrada temporal, servicios financieros, telecomunicaciones, propiedad intelectual, solución de controversias y asuntos institucionales. Con la firma del TLC, Panamá se alista para ingresar a la Alianza del Pacífico, integrada por Chile, Colombia, México y Perú. <a href='http://www.elfinanciero.com.mx/politica/firman-panama-y-mexico-tlc.html' target='_blank'>Fuente: El Financiero.</a><br/></p> ";
+	}else if (par2 == 'Perú'){
+	Centro[0] = -9.310775;	Centro[1] = -75.938710;	Centro[2] = 3;Centro[3] = 'Img/Trade.png';
+	mensaje = "<h4>Acuerdo de complementación económica entre México y Perú</h4><p>Fecha de suscripción: 6 abril 2011.<br/>Entrada en vigor: 1 febrero 2012.<br/> <a href='http://www.sice.oas.org/Trade/MEX_PER_Integ_Agrmt/MEX_PER_Ind_s.asp' target='_blank'>Ver contenido del acuerdo (fuente: SICE).</a><br/><a href='http://www.sice.oas.org/Trade/MEX_PER_Integ_Agrmt/DOF_30.01.2012_TLC_MEX_PER_s.pdf' target='_blank'>Ver documento del Diario Oficial de la Federación.</a> </p><p> En el sector agroalimentario, se han acordado con Perú compromisos en el 74% del universo de productos. Los productos pendientes por acordar son: a) Intereses de Perú: leche evaporada, carne y pavo entero, chile seco y fresco, cebolla, ajo, espárrago, aceituna, papa, plátano, aguacate, uva, mango, naranja, toronja y limón. b) Intereses de México: carne de cerdo, preparaciones y pastas alimenticias, algunas bebidas no alcohólicas, salvados, alimentos para animales, principalmente. <a href='http://www.economia.gob.mx/files/Peru_informe_periodico2008.pdf' target='_blank'>Fuente: SE.</a><br/></p>";
+	}else if (par2 == 'Uruguay'){
+	Centro[0] = -32.502741;	Centro[1] = -55.899648;	Centro[2] = 4;Centro[3] = 'Img/Trade.png';
+	mensaje = "<h4>Acuerdo de complementación económica entre México y Uruguay</h4><p>Fecha de suscripción: 15 noviembre 2003.<br/>Entrada en vigor: 15 julio 2004.<br/><a href='http://www.sice.oas.org/Trade/mexurufta_s/mexuruind_s.asp' target='_blank'>Ver contenido del acuerdo (fuente: SICE).</a><br/><a href='http://www.sice.oas.org/Trade/mexurufta_s/TLC_MEXURU_text.pdf' target='_blank'>Ver documento del Diario Oficial de la Federación.</a> </p><p> Las empresas con inversión uruguaya se dedican principalmente a las actividades de comercio(44 sociedades), servicios (44) e industria manufacturera (30); y se localizan en mayor medida en el Distrito Federal, Estado de México y Quintana Roo. En Uruguay se cuenta con la presencia de las siguientes empresas con capitales mexicanos: Claro, INDULACSA, Panificadora Bimbo del Uruguay S.A.,Restaurante La Lupita, Zermat Uruguay y Omnilife.  <a href='http://embamex.sre.gob.mx/uruguay/index.php/economia' target='_blank'>Fuente:SE.</a><br/></p>";
+	}else if (par2 == 'Argentina'){ 
+	Centro[0] = -36.090472;	Centro[1] = -65.237345;	Centro[2] = 3;Centro[3] = 'Img/Trade.png';
+	mensaje = "<h4>Acuerdo de complementación económica entre México y Argentina</h4><p>Fecha de suscripción: 24 Octubre 1986.<br/>Entrada en vigor: 1 enero 1987.<br/><a href='http://www.aladi.org/nsfaladi/textacdos.nsf/0f226c9002f6aebf03257491004226fe/1d47a894917bdc9103256d2c0067dbae?OpenDocument' target='_blank'>Ver contenido del acuerdo (fuente: ALADI ).</a><br/></p><p> Las relaciones entre México y Argentina se desarrollan mediante la aplicación de los Acuerdos de Complementación Económica 6 (bilateral) y 55 (automotor), suscritos en el marco de ALADI. En 2011, Argentina ocupa el lugar número 8 como socio comercial de México a escala mundial (12 como abastecedor y 25 como comprador). El intercambio comercial entre México y Argentina creció 9,7 % entre 2006 y 2011, al pasar de 2,751 a 3,019 millones de dólares (md). Al cierre de 2011, México registró un superávit de 897 md en su comercio con ese país. Cabe destacar que desde 2001 y hasta 2009, México sólo había registrado déficits comerciales con Argentina. Las exportaciones de México a Argentina crecieron 106% entre 2006 y 2011, pasando de 952 md a 1,958 md. <a href='http://embamex.sre.gob.mx/argentina/index.php/info-comercial' target='_blank'>Fuente: SRE.</a><br/></p>";
+	}else if (par2 == 'Cuba'){ 
+	Centro[0] = 21.940136;	Centro[1] = -79.139913;	Centro[2] = 4;Centro[3] = 'Img/Trade.png';
+	mensaje = "<h4>Acuerdo de complementación económica entre México y Cuba.</h4><p>Fecha de suscripción: 17 Octubre 2000 .<br/>Entrada en vigor: 28 febrero 2001.<br/><a href='http://www.aladi.org/nsfaladi/textacdos.nsf/0f226c9002f6aebf03257491004226fe/bccaa7e28fcd80408325698100513d7e?OpenDocument' target='_blank'>Ver contenido del acuerdo (fuente: ALADI ).</a><br/> </p><p> En este acuerdo , México otorga a Cuba preferencias en 482 fracciones arancelarias, de las cuales 135 son para la franja fronteriza. Mientras que Cuba le otorga a México preferencias a 152 fracciones.Las preferencias arancelarias se establecen a productos como crustáceos,moluscos,caramelos,ron,tabaco,textiles,calzado,tractores,equipos,farmacéuticos,entre otros.El ACE No.51 , está constituido por 14 capítulos, en los cuales se tratan temas sobre preferencias arancelarias, régimen de origen, salvaguardas y la administración del acuerdo. <a href='http://economia.gob.mx/files/Cuba%20Reporte%20de%20comercio%20e%20inversion.pdf' target='_blank'>Fuente: SE.</a><br/></p>";
+	}else if (par2 == 'CENo5455'){
+	Centro[0] = -22.552608;	Centro[1] = -53.826022;	Centro[2] = 2;Centro[3] = 'Img/Trade.png';
+	mensaje = "<h4>Acuerdo de complementación económica entre México, Argentina, Brasil, Paraguay y Uruguay </h4><p> ACE No.54<br/> Fecha de suscripción:5 Julio 2002 .<br/> Entrada en vigor: 5 enero 2006.<br/><a href='http://www.aladi.org/nsfaladi/textacdos.nsf/0f226c9002f6aebf03257491004226fe/ed000ca9c824f6aa0325789300481ddc?OpenDocument' target='_blank'>Ver contenido del acuerdo (fuente: ALADI ).</a><br/> </p><p>Es un Acuerdo marco para la creación de un Área de Libre Comercio entre los Estados Partes del MERCOSUR y los Estados Unidos Mexicanos y tiene como finalidades establecer un marco jurídico que permita ofrecer seguridad y transparencia a los agentes económicos de las Partes, así como establecer un marco normativo para promover e impulsar las inversiones recíprocas. <a href='http://www.aladi.org/nsfaladi/textacdos.nsf/0f226c9002f6aebf03257491004226fe/ed000ca9c824f6aa0325789300481ddc?OpenDocument' target='_blank'>Fuente: ALADI.</a><br/></p>    </p><p> ACE No.55 <br/> Fecha de suscripción:27 septiembre 2002 <br/> Entrada en vigor: Entre Argentina y México: 1/01/2003. <br/>Entre Brasil y México: 1/01/2003 para México y puesto en ejecución por Brasil a partir del 15 de enero de 2003.<br/>Entre Paraguay y México: 01/02/2011<br/>Entre Uruguay y México: 1/01/2003.  <a href='http://www.aladi.org/nsfaladi/textacdos.nsf/0f226c9002f6aebf03257491004226fe/49f7cdd2e4a9e05603257893005a65ae?OpenDocument' target='_blank'>Fuente: ALADI.</a><br/></p>";
+	}else if (par2 == 'ARPARNo4'){ 
+	Centro[0] = -21.656885;	Centro[1] = -67.185396;	Centro[2] = 3;Centro[3] = 'Img/Trade.png';
+	mensaje = "<h4>Acuerdo de preferencia arancelaria regional entre México, Argentina, Bolivia, Brasil, Chile, Colombia, Cuba, Ecuador, Paraguay, Perú, Uruguay Venezuela </h4><p>Fecha de suscripción:1 julio 1984 .<br/><a href='' target='_blank'>Ver contenido del acuerdo (fuente: ).</a><br/> </p><p>mecanismo mediante el cual los países se otorgan una preferencia básica de 20% para el universo arancelario de sus respectivas tarifas, con algunas excepciones. El monto de la preferencia y las excepciones se incrementan o reducen en función inversa del grado de desarrollo de los países.  <a href='http://www.economia-montevideo.gob.mx/swb/work/models/montevideo/Template/1/1/Mexico_en_ALADI.pdf' target='_blank'>Fuente: Economia Montevideo.</a><br/></p>";
+	}else if (par2 == 'AP'){ 
+	Centro[0] = -6.008879;	Centro[1] = -75.447113;	Centro[2] = 3;Centro[3] = 'Img/Trade.png';
+	mensaje = "<h4>Iniciativa de integración regional entre Chile, Colombia, México y Perú.</h4><p>Fecha de suscripción:10 febrero 2014 .<br/>Entrada en vigor: 20 julio 2015.<br/><a href='http://www.sice.oas.org/Trade/PAC_ALL/Index_PDF_s.asp' target='_blank'>Ver contenido del acuerdo (fuente: SICE).</a><br/></p><p> A la fecha de entrada en vigencia del Protocolo, quedarán con arancel 0 común el 92% de los productos.Los restantes productos eliminarán sus aranceles en períodos de 3 y 7 años.Un porcentaje muy menor de productos, altamente sensibles, quedarán en calendarios de desgravación más largos, de hasta 17 años.El azúcar y algunos productos relacionados quedaron excluidos del trato preferencial<a href='http://www.sice.oas.org/TPD/Pacific_Alliance/Studies/Qu%C3%A9Significa_2014.pdf' target='_blank'>Fuente: SICE.</a><br/></p>";	
+	}else if (par2 == 'AATPP'){ 
+	Centro[0] = 3.146404;	Centro[1] = 112.867456;	Centro[2] = 1;Centro[3] = 'Img/Trade.png';
+	mensaje = "<h4>Acuerdo asociación económica entre México, Australia, Brunei Darussalam, Canadá, Chile, Estados Unidos, Japón, Malasia, Nueva Zelanda, Perú, Singapur y Vietnam.  </h4><p>Fecha de entrada en vigor: 1 enero 2006 .<br/>Entrada en vigor para México:1 octubre 2015 .<br/><a href='http://www.sice.oas.org/TPD/TPP/Final_Texts/Spanish/TPP_Index_s.asp' target='_blank'>Ver contenido del acuerdo (fuente: SICE ).</a><br/></p><p> 12 países integran el TPP. 6 países firmantes.85% del total del comercio del TPP es el mínimo para aprobar el acuerdo entre los suscribientes.45% es el índice de contenido regional acordado para vehículos y electrodomésticos.8 años de protección a los medicamentos biológicos ofrecerán todos los países participantes en el TPP.<a href='http://eleconomista.com.mx/industrias/2015/12/24/tpp-amplio-alcances-comercio-global' target='_blank'>Fuente: El Economista.</a><br/></p>";
+	}else if (par2 == 'Brasil'){ 
+	Centro[0] = -10.875892;	Centro[1] = -51.804538;	Centro[2] = 3;Centro[3] = 'Img/Trade.png';
+	mensaje = "<h4>Acuerdo de complementación económica entre México y Brasil. </h4><p>Fecha de suscripción:3 julio 2002 .<br/>Entrada en vigor:  2 mayo 2003 .<br/><a href='http://www.aladi.org/nsfaladi/textacdos.nsf/0f226c9002f6aebf03257491004226fe/500a94b3290e6e3403256c440049306a?OpenDocument' target='_blank'>Ver contenido del acuerdo (fuente: ALADI). </a><br/></p><p>El ACE 53 contempla alrededor del 15% del comercio bilateral (excluyendo el sector automotor).El acuerdo contiene disciplinas comerciales en materia de origen,normas técnicas y sanitarias,salvaguardas, prácticas desleales de comercio internacional y solución de controversias. El propio acuerdo establece en su capitulo XIV que estará vigente hasta el momento en que sea sustituido por uno nuevo entre México y MERCOSUR. <a href='http://www.economia.gob.mx/files/comunidad_negocios/tlcs/tlcs_americalatina/Brasil_Reporte_comercio_inversion.pdf' target='_blank'>Fuente: SE.</a><br/></p>";
+	}else if (par2 == 'Ecuador'){ 
+	Centro[0] = -1.209439;	Centro[1] = -78.481314;	Centro[2] = 4;Centro[3] = 'Img/Trade.png';
+	mensaje = "<h4>Acuerdo de renegociación entre México y Ecuador. </h4><p>Entrada en vigor: 6 agosto 1987.<br/>Fecha fin de vigencia:31 diciembre 1993 .<br/><a href='http://www.aladi.org/biblioteca/publicaciones/aladi/acuerdos/apr/es/apr29/APR_029_Protocolo_Adecuacion.pdf' target='_blank'>Ver contenido del acuerdo (fuente: ALADI).</a><br/></p><p> En los últimos diez años el comercio entre México y Ecuador se ha quintuplicado, gracias al crecimiento sostenido de las exportaciones mexicanas y al buen desempeño de la economía ecuatoriana, manifestaron funcionarios de ProMéxico y ProEcuador. Ecuador es actualmente el quinto destino de las inversiones mexicanas en América Latina y el Caribe, con más de mil 400 millones de dólares acumulados a 2013. Entre las principales empresas mexicanas en Ecuador están América Móvil, que cuenta con presencia a través de su filial Claro Video; Mexichem, a través de la empresa Amanco; Mabe tiene centros de distribución de electrodomésticos; Arca Continental cuenta con tres plantas embotelladoras, y Omnilife tiene distintos centros de distribución en siete ciudades.<a href='http://www.elfinanciero.com.mx/economia/comercio-de-mexico-con-ecuador-se-quintuplica-en-diez-anos.html' target='_blank'>Fuente:El financiero.</a><br/></p>";
+	}else if (par2 == 'Paraguay'){
+	Centro[0] = -23.511413;	Centro[1] = -57.979140;	Centro[2] = 4;Centro[3] = 'Img/Trade.png';
+	mensaje = "<h4>Acuerdo de renegociación entre México y Paraguay </h4><p>Fecha de suscripción:31 mayo 1993.<br/> Entrada en vigor: 1 julio 1994<a href='http://www.sice.oas.org/Trade/MEX_PRY/Index_s.asp' target='_blank'>Ver contenido del acuerdo (fuente: SICE).</a><br/></p><p> En abril de 2013, México y Paraguay acordaron negociar un Acuerdo de Complementación Económica (ACE) que sustituirá al Acuerdo de Alcance Parcial de Renegociación Nº 38, actualmente vigente. Hay tres rondas de negociaciones planificadas en el 2013. Ambos países también explorarán la posibilidad de suscribir un tratado de libre comercio.<a href='http://www.sice.oas.org/TPD/MEX_PRY/MEX_PRY_s.ASP' target='_blank'>Fuente: SICE.</a><br/></p>";
+	}else if (par2 == 'A25TMNo37'){
+	Centro[0] = 14.355418;	Centro[1] = -89.664843;	Centro[2] = 4;Centro[3] = 'Img/Trade.png';
+	mensaje = "<h4>Acuerdo al amparo del artículo 25 del Tratado Montevideo entre México, Guatemala y El Salvador.</h4><p>Fecha de suscripción: 7 diciembre 1999.<br/><a href='http://www.aladi.org/nsfaladi/textacdos.nsf/0f226c9002f6aebf03257491004226fe/ad4489167e02fe9c03256a2600483cdd?OpenDocument' target='_blank'>Ver contenido del acuerdo (fuente:ALADI ).</a><br/></p><p>El comercio de México con El Salvador se ha incrementado gradualmente desde mediados de la década de los 1990s, en particular a partir de 1997.Los principales socios comerciales de El Salvador son Guatemala, Honduras, Costa Rica y Estados Unidos.Con este último, El Salvador suscribió un Acuerdo de Libre Comercio, en conjunto con Costa Rica, Guatemala, Honduras, Nicaragua y República Dominicana, cuya vigencia inicia en 2006.México es el segundo inversor en El Salvador, después de Estados Unidos. <a href='http://embamex.sre.gob.mx/elsalvador/index.php?option=com_content&view=article&id=87&Itemid=47' target='_blank'>Fuente:SRE.</a><br/></p>";
+	};  
+	var mauIcono = L.icon({
+	//iconUrl: 'Img/mx.png',
+	iconUrl: Centro[3],
+	iconSize: [28,28],
+	});
+	// specify popup options 
+	var customOptions = {'maxWidth': '480',	'className' : 'iniMapa'	}	
+	map.setView([Centro[0], Centro[1]], Centro[2]);
+	L.marker([Centro[0], Centro[1]],{icon: mauIcono}).addTo(map)
+	.bindPopup(mensaje,customOptions)
+	.openPopup();
+	}
+	
+	}	//Aquí termina la definicion de la funcion centroMapaMarcador();
+	
+	
+	function RegresaTratado(par2){
+	 var indice ; //Indice de tratado
+	switch(par2) {
+	case 'Total':      indice=1; break;
+	case 'Panama':     indice=2; break;
+	case 'A25TMNo37':  indice=3;break;
+	case 'TLCG_3': indice=4;       break;
+	case 'Chile':   indice=5;      break;
+	case 'Uruguay': indice=6;       break;	
+	case 'Bolivia': indice=7;     break;
+	case 'Peru':    indice=8;       break;
+	case 'Argentina':indice=9;     break;
+	case 'Cuba':     indice=10;     break;
+	case 'Brasil':   indice=11;     break;
+	case 'CENo5455':  indice=12;     break;
+	case 'Ecuador':   indice=13;     break;
+	case 'Paraguay':  indice=14;     break;
+	case 'ARPARNo4':  indice=15;     break;
+	case 'AP':    indice=16;     break;
+	case 'AATPP': indice=17;     break;
+	case 'AELC':   indice=18;     break;
+	case 'TLCUEM':  indice=19;       break;
+	case 'Japon':   indice=20;       break;
+	case 'TLCAN':   indice=21;       break;
+	case 'Israel':  indice=22; break
+	case 'TLCCentroamerica': indice=23;       break;
+	default: 	indice=1;   break;
+	}
+	return  indice;
+	}
+	
+	
+	
+	google.maps.event.addDomListener(window, 'load', initialize);	  
+    </script>
+  </head>
+  <!-- <body background="mexico.jpg";> -->
+  <body >	
+	<div id="mapa"></div> 	
+	<form id="formname" name="formname"  >
+	<select name="par2" id="par2" class="f1">
+	<option value=""disabled selected> Acuerdos </option>
+	<option value='Total'>Todos los acuerdos </option>
+	<option value='Panamá'>A25TM No 14</option>
+	<option value='A25TMNo37'>A25TM  No 37</option>
+	<option value='TLC G-3'>CE No 33 (TLC)</option>
+	<option value='Chile' >CE No 41 (TLC)</option>
+	<option value='Uruguay'>CE No 60 (TLC)</option>
+	<option value='Bolivia'>CE No 66</option>
+	<option value='Perú'>CE No 67</option>
+	<option value='Argentina'>CE No 6</option>
+	<option value='Cuba'>CE No 51</option>
+	<option value='Brasil'>CE No 53</option>
+	<option value='CENo5455'>CE No 54 y 55</option>
+	<option value='Ecuador'>R No 29</option>
+	<option value='Paraguay'>R No 38</option>
+	<option value='ARPARNo4'>AR.PAR Nº 4</option>
+	<option value='AP'>Alianza Pacífico</option>
+	<option value='AATPP'>Acuerdo Asociación Trans-Pacífico</option>
+	<option value='AELC'>CE AELC</option>
+	<option value='TLCUEM'>CE TLCUEM</option>
+	<option value='Japón'>AAE Mexico-Japón</option>
+	<option value='TLCAN'>CE TLCAN</option>
+	<option value='Israel'>CE México-Israel</option>
+	<option value='TLC Centroamerica'>TLC Centroamérica-México</option>
+	</select>	 
+	</form>	
+	
+	<div id= "obj1"></div>	
+	<div id= "obj2"> </div>
+	
+</body>
+</html>

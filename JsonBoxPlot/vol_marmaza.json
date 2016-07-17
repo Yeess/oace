@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 8300,
+    "Year": 2005,
+    "Exportacion": 1599,
+    "ComercioTotal": 9899,
+    "BalanzaComercial": -6701
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 27046,
+    "Year": 2006,
+    "Exportacion": 2488,
+    "ComercioTotal": 29534,
+    "BalanzaComercial": -24558
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 7293,
+    "Year": 2007,
+    "Exportacion": 1922,
+    "ComercioTotal": 9215,
+    "BalanzaComercial": -5371
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 7399,
+    "Year": 2008,
+    "Exportacion": 2183,
+    "ComercioTotal": 9582,
+    "BalanzaComercial": -5216
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 5309,
+    "Year": 2009,
+    "Exportacion": 2507,
+    "ComercioTotal": 7816,
+    "BalanzaComercial": -2802
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 6094,
+    "Year": 2010,
+    "Exportacion": 2452,
+    "ComercioTotal": 8546,
+    "BalanzaComercial": -3642
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 4947,
+    "Year": 2011,
+    "Exportacion": 1782,
+    "ComercioTotal": 6729,
+    "BalanzaComercial": -3165
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 4521,
+    "Year": 2012,
+    "Exportacion": 3289,
+    "ComercioTotal": 7810,
+    "BalanzaComercial": -1232
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 4070,
+    "Year": 2013,
+    "Exportacion": 2252,
+    "ComercioTotal": 6322,
+    "BalanzaComercial": -1818
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 7544,
+    "Year": 2014,
+    "Exportacion": 2847,
+    "ComercioTotal": 10391,
+    "BalanzaComercial": -4697
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 2160,
+    "Year": 2015,
+    "Exportacion": 1084,
+    "ComercioTotal": 3244,
+    "BalanzaComercial": -1076
+  }
+]

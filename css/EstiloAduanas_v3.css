@@ -1,0 +1,207 @@
+/**************************************************************************************************
+*************************************************************************************************
+Esta parte tiene lo que se define en el archivo demo.css
+*************************************************************************************************
+**************************************************************************************************/
+
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+
+
+.codrops-header {
+	/*margin: 0 auto;
+	padding: 2em;*/
+	/*text-align: center;*/
+	position: absolute; top:1%; left: 3%;
+	/*border: 2px; border-style: solid; border-color: #0000ff;*/
+}
+
+.codrops-header h1 {
+	margin: 0;
+	font-weight: 300;
+	font-size: 3.5em;
+	line-height: 1.3;
+}
+
+.codrops-header h1 span {
+	display: block;
+	padding: 0 0 0.6em 0.1em;
+	font-size: 60%;
+	/*opacity: 0.7;*/
+}
+
+
+
+/* Demo Buttons Style */
+.codrops-demos {
+	padding-top: 1em;
+	/*font-size: 0.8em;*/
+}
+
+.codrops-demos a {   /* Este estilo es para los botones*/
+	display: inline-block;
+	border-radius: 15%;
+	/*margin: 0.5em;*/
+	padding:  0em .5em;
+	outline: none;
+	border: 1.5px solid #fff; /* Color del borde de los botones cuanto NO pones el puntero*/
+	color: #fff; /* Color del texto dentro de  los botones cuanto NO pones el puntero*/
+	text-decoration: none;
+	/*text-transform: uppercase;*/  /*Esta instruccion es para vovler las letras de los botones m ayusculas*/
+	letter-spacing: 1px;
+	font-weight: 500; /* Esta instruccion es para el grosor de la letras */
+}
+
+.codrops-demos a:hover{
+	border-color: #cccccc;    /* Color del borde de los botones cuanto pones el puntero*/
+	color: #cccccc; /* Color del texto dentro de  los botones cuanto pones el puntero*/
+}
+
+.codrops-demos a i{   /* Este estilo es para el tamaño de los iconos botones*/
+	font-size: 2.7em; 
+	/*border: 2px; border-style: solid; border-color: #0000ff;*/
+}
+
+
+
+body {
+	/*background: #e74c3c;*/
+	background-image: url("Img/Aduana.jpg");
+	/*background-image: url("http://www.etta.edu.mx/wp-content/uploads/2013/07/bgiojritebj4h-DkGs_o57Ufc-ifill_1024x768.jpg");*/
+	/*background-image: url("https://www.flickr.com/photos/riveramax/14765831880/");*/
+	color: #fff;   /* Color del titulo OACE y del span: Perspectiva NAcional*/
+	font-weight: 400;
+	font-size: .7em;
+	font-family: 'Lato', Arial, sans-serif;
+	overflow-y: hidden; overflow-x: hidden;
+}
+
+#BotIncNac {
+		position: absolute;  width: 4%; height: 8%;  top:1%;  left:94.5%; 
+		/*border-style: dotted; border-color: #FFF;*/
+		}
+
+		
+		
+.log { position: fixed;  width: 6.5%; height: 11%;  top:1%;   left:94.5%;  
+			/*background-image: url("Img/sat_t11.png"); background-repeat: no-repeat; */
+			 line-height: 0px;
+			border: 2px; border-style: solid; border-color: #0000ff;
+			}
+/**************************************************************************************************
+*************************************************************************************************
+.ui-widget-content es para los estilos del tooltip
+*************************************************************************************************
+**************************************************************************************************/
+
+.ui-widget-content {
+	width: 40%; height: 40%;
+	border: 1px; border-style: solid; border-color: #FFF; 
+	/*border-radius: 2%;*/
+		background: #000; color: #fff;
+		opacity: 0.74; 	filter: alpha(opacity=.74);
+		font-family: 'Lato', Arial, sans-serif; font-size: 1.15em; font-weight: 300;
+		padding: .3%; 
+		/*text-align:center;*/
+		z-index:1; /*Para super poner el objeto*/
+}
+			
+.ui-widget-content a{
+		color: #fff;
+		}		
+.ui-widget-content a:hover{
+		color: #0000ff;
+		}
+
+			
+
+/**************************************************************************************************
+*************************************************************************************************
+Esta parte tiene los estilos de los graficos de d3plus
+*************************************************************************************************
+**************************************************************************************************/
+
+			
+.cuerpo { position: fixed;  width: 100%; height: 86.5%;  top:10%;   left:0; 
+	overflow: scroll; overflow-x: hidden;	
+	/*border-style: solid; border-color: #FFF;*/
+	}
+
+.obj1  { position: absolute;  width: 98%; height: 100%; top:0%;    left:1%; 
+	/*border: 2px; border-style: solid; border-color: #0000ff; */
+	/*background: #000; */font-family: 'Lato', Arial, sans-serif;
+	margin: 0; 	font-weight: 300; 	font-size: 1.7em; 	line-height: 1.3; 
+	opacity: 0.9; 	filter: alpha(opacity=90);
+	border-top:1px; border-top-style: solid; border-top-color: #595959;
+}
+	
+	.desObj1 {  position:absolute; width: 100%; height: 7%;  top:0%;   left:0%;  
+	/*border: 2px; border-style: solid; border-color: #0000ff;*/
+	/* padding-bottom: .5%; padding-right: 5%; padding-left: .5%;*/   padding-top: .3%; text-align:center;		
+		}
+	.foreverAlone a{   position:absolute; width: 3%; height: 5%;  top:0%;   left:97.8%;  
+	/*border: 1.5px; border-style: solid; border-color: #fff; color: #fff;*/
+	color: #fff;	font-family: 'Lato', Arial, sans-serif; font-size: 1.5em; font-weight: 300;
+	padding: 0%; text-align:center; border-radius: 15%;
+	z-index:1;
+	}
+	.foreverAlone a:hover{
+		border-color: #cccccc;    /* Color del borde de los botones cuanto pones el puntero*/
+		color: #cccccc; /* Color del texto dentro de  los botones cuanto pones el puntero*/
+	}	
+	.magnify {
+    float: right;
+    margin-left: 3px;
+    margin-right: 0;
+}
+		
+	.obj11  { position: absolute;  width: 100%; height: 93%; top:7%;    left:0%; 
+	/*border: 2px; border-style: solid; border-color: #0000ff;*/
+	 	opacity: 0.9; 	filter: alpha(opacity=90);
+	}
+
+.obj2 { position: absolute;  width: 98%; height: 100%; top:105%;    left:1%; 
+	/*border: 2px; border-style: solid; border-color: #0000ff;*/
+	 font-family: 'Lato', Arial, sans-serif;
+	margin: 0; 	font-weight: 300; 	font-size: 1.7em; 	line-height: 1.3; 
+}
+	
+		.desObj2 {  position:absolute; width: 100%; height: 7%;  top:0%;   left:0%;  
+		/*border: 2px; border-style: solid; border-color: #0000ff;*/
+		/* padding-bottom: .5%; padding-right: 5%; padding-left: .5%;*/   padding-top: .3%; text-align:center;
+		border-top:1px; border-top-style: solid; border-top-color: #595959;
+		}
+	.obj21  { position: absolute;  width: 100%; height: 93%; top:7%;    left:0%; 
+	/*border: 2px; border-style: solid; border-color: #0000ff;*/
+	background: #0d0d0d;	opacity: 0.9; 	filter: alpha(opacity=90);*/
+	}
+
+.obj3 { position: absolute;  width: 98%; height: 100%; top:210%;    left:1%; 
+	/*border: 2px; border-style: solid; border-color: #0000ff;*/
+	 font-family: 'Lato', Arial, sans-serif;
+	margin: 0; 	font-weight: 300; 	font-size: 1.7em; 	line-height: 1.3; 
+}
+	
+		.desObj3 {  position:absolute; width: 100%; height: 7%;  top:0%;   left:0%;  
+		/*border: 2px; border-style: solid; border-color: #0000ff;*/
+		/* padding-bottom: .5%; padding-right: 5%; padding-left: .5%;*/   padding-top: .3%; text-align:center;
+		border-top:1px; border-top-style: solid; border-top-color: #595959;
+		}
+	.obj31  { position: absolute;  width: 100%; height: 93%; top:7%;    left:0%; 
+	/*border: 2px; border-style: solid; border-color: #0000ff;*/
+	background: #0d0d0d;	opacity: 0.9; 	filter: alpha(opacity=90);*/
+	}
+	

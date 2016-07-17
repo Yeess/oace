@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 2374991987,
+    "Year": 2005,
+    "Exportacion": 528671248,
+    "ComercioTotal": 2903663235,
+    "BalanzaComercial": -1846320739
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 3052966317,
+    "Year": 2006,
+    "Exportacion": 612207881,
+    "ComercioTotal": 3665174198,
+    "BalanzaComercial": -2440758436
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 2601896363,
+    "Year": 2007,
+    "Exportacion": 890991833,
+    "ComercioTotal": 3492888196,
+    "BalanzaComercial": -1710904530
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 3020437477,
+    "Year": 2008,
+    "Exportacion": 134876889,
+    "ComercioTotal": 3155314366,
+    "BalanzaComercial": -2885560588
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 1680128203,
+    "Year": 2009,
+    "Exportacion": 134235121,
+    "ComercioTotal": 1814363324,
+    "BalanzaComercial": -1545893082
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 2199025943,
+    "Year": 2010,
+    "Exportacion": 236490423,
+    "ComercioTotal": 2435516366,
+    "BalanzaComercial": -1962535520
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 3055641264,
+    "Year": 2011,
+    "Exportacion": 326774718,
+    "ComercioTotal": 3382415982,
+    "BalanzaComercial": -2728866546
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 2911065801,
+    "Year": 2012,
+    "Exportacion": 420172315,
+    "ComercioTotal": 3331238116,
+    "BalanzaComercial": -2490893486
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 3293693291,
+    "Year": 2013,
+    "Exportacion": 394111511,
+    "ComercioTotal": 3687804802,
+    "BalanzaComercial": -2899581780
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 3545512132,
+    "Year": 2014,
+    "Exportacion": 298223542,
+    "ComercioTotal": 3843735674,
+    "BalanzaComercial": -3247288590
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 1534791526,
+    "Year": 2015,
+    "Exportacion": 104585461,
+    "ComercioTotal": 1639376987,
+    "BalanzaComercial": -1430206065
+  }
+]

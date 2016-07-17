@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 96094698101,
+    "Year": 2005,
+    "Exportacion": 103000000000,
+    "ComercioTotal": 199094698101,
+    "BalanzaComercial": 6905301899
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 113000000000,
+    "Year": 2006,
+    "Exportacion": 114000000000,
+    "ComercioTotal": 227000000000,
+    "BalanzaComercial": 1000000000
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 126000000000,
+    "Year": 2007,
+    "Exportacion": 119000000000,
+    "ComercioTotal": 245000000000,
+    "BalanzaComercial": -7000000000
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 136000000000,
+    "Year": 2008,
+    "Exportacion": 117000000000,
+    "ComercioTotal": 253000000000,
+    "BalanzaComercial": -19000000000
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 98238947288,
+    "Year": 2009,
+    "Exportacion": 96058780262,
+    "ComercioTotal": 194297727550,
+    "BalanzaComercial": -2180167026
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 124000000000,
+    "Year": 2010,
+    "Exportacion": 92439830307,
+    "ComercioTotal": 216439830307,
+    "BalanzaComercial": -31560169693
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 119000000000,
+    "Year": 2011,
+    "Exportacion": 96839987279,
+    "ComercioTotal": 215839987279,
+    "BalanzaComercial": -22160012721
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 149000000000,
+    "Year": 2012,
+    "Exportacion": 125000000000,
+    "ComercioTotal": 274000000000,
+    "BalanzaComercial": -24000000000
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 174000000000,
+    "Year": 2013,
+    "Exportacion": 131000000000,
+    "ComercioTotal": 305000000000,
+    "BalanzaComercial": -43000000000
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 196000000000,
+    "Year": 2014,
+    "Exportacion": 162000000000,
+    "ComercioTotal": 358000000000,
+    "BalanzaComercial": -34000000000
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 93584736578,
+    "Year": 2015,
+    "Exportacion": 90989715574,
+    "ComercioTotal": 184574452152,
+    "BalanzaComercial": -2595021004
+  }
+]

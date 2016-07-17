@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 2632705621,
+    "Year": 2005,
+    "Exportacion": 66828109047,
+    "ComercioTotal": 69460814668,
+    "BalanzaComercial": 64195403426
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 3382930930,
+    "Year": 2006,
+    "Exportacion": 74336026193,
+    "ComercioTotal": 77718957123,
+    "BalanzaComercial": 70953095263
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 10141060088,
+    "Year": 2007,
+    "Exportacion": 54133671992,
+    "ComercioTotal": 64274732080,
+    "BalanzaComercial": 43992611904
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 15337744366,
+    "Year": 2008,
+    "Exportacion": 51596108780,
+    "ComercioTotal": 66933853146,
+    "BalanzaComercial": 36258364414
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 14552877356,
+    "Year": 2009,
+    "Exportacion": 34258436145,
+    "ComercioTotal": 48811313501,
+    "BalanzaComercial": 19705558789
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 12547812936,
+    "Year": 2010,
+    "Exportacion": 68779266614,
+    "ComercioTotal": 81327079550,
+    "BalanzaComercial": 56231453678
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 14320119177,
+    "Year": 2011,
+    "Exportacion": 81966907771,
+    "ComercioTotal": 96287026948,
+    "BalanzaComercial": 67646788594
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 22228317762,
+    "Year": 2012,
+    "Exportacion": 66045966032,
+    "ComercioTotal": 88274283794,
+    "BalanzaComercial": 43817648270
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 31252474171,
+    "Year": 2013,
+    "Exportacion": 80230646332,
+    "ComercioTotal": 111483120503,
+    "BalanzaComercial": 48978172161
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 17387045319,
+    "Year": 2014,
+    "Exportacion": 57954826950,
+    "ComercioTotal": 75341872269,
+    "BalanzaComercial": 40567781631
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 17285495181,
+    "Year": 2015,
+    "Exportacion": 43251462223,
+    "ComercioTotal": 60536957404,
+    "BalanzaComercial": 25965967042
+  }
+]

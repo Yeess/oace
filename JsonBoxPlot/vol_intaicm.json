@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "AICM",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 678339,
+    "Year": 2005,
+    "Exportacion": 209399,
+    "ComercioTotal": 887738,
+    "BalanzaComercial": -468940
+  },
+  {
+    "Aduana": "AICM",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 695488,
+    "Year": 2006,
+    "Exportacion": 204968,
+    "ComercioTotal": 900456,
+    "BalanzaComercial": -490520
+  },
+  {
+    "Aduana": "AICM",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 696813,
+    "Year": 2007,
+    "Exportacion": 204876,
+    "ComercioTotal": 901689,
+    "BalanzaComercial": -491937
+  },
+  {
+    "Aduana": "AICM",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 678379,
+    "Year": 2008,
+    "Exportacion": 190021,
+    "ComercioTotal": 868400,
+    "BalanzaComercial": -488358
+  },
+  {
+    "Aduana": "AICM",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 597244,
+    "Year": 2009,
+    "Exportacion": 168553,
+    "ComercioTotal": 765797,
+    "BalanzaComercial": -428691
+  },
+  {
+    "Aduana": "AICM",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 677984,
+    "Year": 2010,
+    "Exportacion": 191300,
+    "ComercioTotal": 869284,
+    "BalanzaComercial": -486684
+  },
+  {
+    "Aduana": "AICM",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 716652,
+    "Year": 2011,
+    "Exportacion": 188124,
+    "ComercioTotal": 904776,
+    "BalanzaComercial": -528528
+  },
+  {
+    "Aduana": "AICM",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 725740,
+    "Year": 2012,
+    "Exportacion": 189756,
+    "ComercioTotal": 915496,
+    "BalanzaComercial": -535984
+  },
+  {
+    "Aduana": "AICM",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 713404,
+    "Year": 2013,
+    "Exportacion": 187634,
+    "ComercioTotal": 901038,
+    "BalanzaComercial": -525770
+  },
+  {
+    "Aduana": "AICM",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 719235,
+    "Year": 2014,
+    "Exportacion": 192757,
+    "ComercioTotal": 911992,
+    "BalanzaComercial": -526478
+  },
+  {
+    "Aduana": "AICM",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 353503,
+    "Year": 2015,
+    "Exportacion": 96778,
+    "ComercioTotal": 450281,
+    "BalanzaComercial": -256725
+  }
+]

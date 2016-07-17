@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 1022,
+    "Year": 2005,
+    "Exportacion": 2289,
+    "ComercioTotal": 3311,
+    "BalanzaComercial": 1267
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 838,
+    "Year": 2006,
+    "Exportacion": 2881,
+    "ComercioTotal": 3719,
+    "BalanzaComercial": 2043
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 456,
+    "Year": 2007,
+    "Exportacion": 1968,
+    "ComercioTotal": 2424,
+    "BalanzaComercial": 1512
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 440,
+    "Year": 2008,
+    "Exportacion": 1730,
+    "ComercioTotal": 2170,
+    "BalanzaComercial": 1290
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 724,
+    "Year": 2009,
+    "Exportacion": 1842,
+    "ComercioTotal": 2566,
+    "BalanzaComercial": 1118
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 191,
+    "Year": 2010,
+    "Exportacion": 1874,
+    "ComercioTotal": 2065,
+    "BalanzaComercial": 1683
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 382,
+    "Year": 2011,
+    "Exportacion": 1609,
+    "ComercioTotal": 1991,
+    "BalanzaComercial": 1227
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 294,
+    "Year": 2012,
+    "Exportacion": 1426,
+    "ComercioTotal": 1720,
+    "BalanzaComercial": 1132
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 310,
+    "Year": 2013,
+    "Exportacion": 1445,
+    "ComercioTotal": 1755,
+    "BalanzaComercial": 1135
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 375,
+    "Year": 2014,
+    "Exportacion": 1280,
+    "ComercioTotal": 1655,
+    "BalanzaComercial": 905
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 119,
+    "Year": 2015,
+    "Exportacion": 1303,
+    "ComercioTotal": 1422,
+    "BalanzaComercial": 1184
+  }
+]

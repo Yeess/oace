@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 165198,
+    "Year": 2005,
+    "Exportacion": 43228,
+    "ComercioTotal": 208426,
+    "BalanzaComercial": -121970
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 208251,
+    "Year": 2006,
+    "Exportacion": 50003,
+    "ComercioTotal": 258254,
+    "BalanzaComercial": -158248
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 215089,
+    "Year": 2007,
+    "Exportacion": 56149,
+    "ComercioTotal": 271238,
+    "BalanzaComercial": -158940
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 215411,
+    "Year": 2008,
+    "Exportacion": 60372,
+    "ComercioTotal": 275783,
+    "BalanzaComercial": -155039
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 202462,
+    "Year": 2009,
+    "Exportacion": 55977,
+    "ComercioTotal": 258439,
+    "BalanzaComercial": -146485
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 267674,
+    "Year": 2010,
+    "Exportacion": 68362,
+    "ComercioTotal": 336036,
+    "BalanzaComercial": -199312
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 281709,
+    "Year": 2011,
+    "Exportacion": 76104,
+    "ComercioTotal": 357813,
+    "BalanzaComercial": -205605
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 292049,
+    "Year": 2012,
+    "Exportacion": 82437,
+    "ComercioTotal": 374486,
+    "BalanzaComercial": -209612
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 300884,
+    "Year": 2013,
+    "Exportacion": 88491,
+    "ComercioTotal": 389375,
+    "BalanzaComercial": -212393
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 343580,
+    "Year": 2014,
+    "Exportacion": 90836,
+    "ComercioTotal": 434416,
+    "BalanzaComercial": -252744
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 184112,
+    "Year": 2015,
+    "Exportacion": 44545,
+    "ComercioTotal": 228657,
+    "BalanzaComercial": -139567
+  }
+]

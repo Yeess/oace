@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "CD. HIDALGO",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 11453,
+    "Year": 2005,
+    "Exportacion": 67817,
+    "ComercioTotal": 79270,
+    "BalanzaComercial": 56364
+  },
+  {
+    "Aduana": "CD. HIDALGO",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 15049,
+    "Year": 2006,
+    "Exportacion": 78606,
+    "ComercioTotal": 93655,
+    "BalanzaComercial": 63557
+  },
+  {
+    "Aduana": "CD. HIDALGO",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 16243,
+    "Year": 2007,
+    "Exportacion": 89077,
+    "ComercioTotal": 105320,
+    "BalanzaComercial": 72834
+  },
+  {
+    "Aduana": "CD. HIDALGO",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 15172,
+    "Year": 2008,
+    "Exportacion": 90732,
+    "ComercioTotal": 105904,
+    "BalanzaComercial": 75560
+  },
+  {
+    "Aduana": "CD. HIDALGO",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 17133,
+    "Year": 2009,
+    "Exportacion": 87353,
+    "ComercioTotal": 104486,
+    "BalanzaComercial": 70220
+  },
+  {
+    "Aduana": "CD. HIDALGO",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 20278,
+    "Year": 2010,
+    "Exportacion": 99645,
+    "ComercioTotal": 119923,
+    "BalanzaComercial": 79367
+  },
+  {
+    "Aduana": "CD. HIDALGO",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 20506,
+    "Year": 2011,
+    "Exportacion": 97059,
+    "ComercioTotal": 117565,
+    "BalanzaComercial": 76553
+  },
+  {
+    "Aduana": "CD. HIDALGO",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 22298,
+    "Year": 2012,
+    "Exportacion": 103961,
+    "ComercioTotal": 126259,
+    "BalanzaComercial": 81663
+  },
+  {
+    "Aduana": "CD. HIDALGO",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 22735,
+    "Year": 2013,
+    "Exportacion": 104092,
+    "ComercioTotal": 126827,
+    "BalanzaComercial": 81357
+  },
+  {
+    "Aduana": "CD. HIDALGO",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 22194,
+    "Year": 2014,
+    "Exportacion": 101899,
+    "ComercioTotal": 124093,
+    "BalanzaComercial": 79705
+  },
+  {
+    "Aduana": "CD. HIDALGO",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 10750,
+    "Year": 2015,
+    "Exportacion": 50815,
+    "ComercioTotal": 61565,
+    "BalanzaComercial": 40065
+  }
+]

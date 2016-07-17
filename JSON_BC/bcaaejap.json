@@ -1,0 +1,362 @@
+[
+  {
+    "Year": 2000,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Importacion",
+    "Valor": 6463404162
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Exportacion",
+    "Valor": 1114591633
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "BalanzaComercial",
+    "Valor": -5348812529
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "ComercioTotal",
+    "Valor": 7577995795
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Importacion",
+    "Valor": 8085237098
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Exportacion",
+    "Valor": 1266153821
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "BalanzaComercial",
+    "Valor": -6819083277
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "ComercioTotal",
+    "Valor": 9351390919
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Importacion",
+    "Valor": 9347719898
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Exportacion",
+    "Valor": 1192400913
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "BalanzaComercial",
+    "Valor": -8155318985
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "ComercioTotal",
+    "Valor": 10540120811
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Importacion",
+    "Valor": 7594571876
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Exportacion",
+    "Valor": 1172403835
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "BalanzaComercial",
+    "Valor": -6422168041
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "ComercioTotal",
+    "Valor": 8766975711
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Importacion",
+    "Valor": 10582958432
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Exportacion",
+    "Valor": 544332032
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "BalanzaComercial",
+    "Valor": -10038626400
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "ComercioTotal",
+    "Valor": 11127290464
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Importacion",
+    "Valor": 13077784875
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Exportacion",
+    "Valor": 1469999494
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "BalanzaComercial",
+    "Valor": -11607785381
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "ComercioTotal",
+    "Valor": 14547784369
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Importacion",
+    "Valor": 15295163624
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Exportacion",
+    "Valor": 1594041917
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "BalanzaComercial",
+    "Valor": -13701121707
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "ComercioTotal",
+    "Valor": 16889205541
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Importacion",
+    "Valor": 16342983645
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Exportacion",
+    "Valor": 1912616705
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "BalanzaComercial",
+    "Valor": -14430366940
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "ComercioTotal",
+    "Valor": 18255600350
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Importacion",
+    "Valor": 16282453585
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Exportacion",
+    "Valor": 2045908439
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "BalanzaComercial",
+    "Valor": -14236545146
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "ComercioTotal",
+    "Valor": 18328362024
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Importacion",
+    "Valor": 11397111010
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Exportacion",
+    "Valor": 1600571460
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "BalanzaComercial",
+    "Valor": -9796539550
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "ComercioTotal",
+    "Valor": 12997682470
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Importacion",
+    "Valor": 15014690580
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Exportacion",
+    "Valor": 1923189954
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "BalanzaComercial",
+    "Valor": -13091500626
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "ComercioTotal",
+    "Valor": 16937880534
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Importacion",
+    "Valor": 16493498614
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Exportacion",
+    "Valor": 2252212107
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "BalanzaComercial",
+    "Valor": -14241286507
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "ComercioTotal",
+    "Valor": 18745710721
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Importacion",
+    "Valor": 17655205742
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Exportacion",
+    "Valor": 2610660594
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "BalanzaComercial",
+    "Valor": -15044545148
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "ComercioTotal",
+    "Valor": 20265866336
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Importacion",
+    "Valor": 17076115400
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Exportacion",
+    "Valor": 2244038571
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "BalanzaComercial",
+    "Valor": -14832076829
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "ComercioTotal",
+    "Valor": 19320153971
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Importacion",
+    "Valor": 17544577199
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "Exportacion",
+    "Valor": 2608463090
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "BalanzaComercial",
+    "Valor": -14936114109
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "AAE Mexico-Japón",
+    "Operacion": "ComercioTotal",
+    "Valor": 20153040289
+  }
+]

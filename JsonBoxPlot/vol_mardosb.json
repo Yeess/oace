@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 1258,
+    "Year": 2005,
+    "Exportacion": 626,
+    "ComercioTotal": 1884,
+    "BalanzaComercial": -632
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 1015,
+    "Year": 2006,
+    "Exportacion": 770,
+    "ComercioTotal": 1785,
+    "BalanzaComercial": -245
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 1176,
+    "Year": 2007,
+    "Exportacion": 988,
+    "ComercioTotal": 2164,
+    "BalanzaComercial": -188
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 566,
+    "Year": 2008,
+    "Exportacion": 746,
+    "ComercioTotal": 1312,
+    "BalanzaComercial": 180
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 172,
+    "Year": 2009,
+    "Exportacion": 500,
+    "ComercioTotal": 672,
+    "BalanzaComercial": 328
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 158,
+    "Year": 2010,
+    "Exportacion": 892,
+    "ComercioTotal": 1050,
+    "BalanzaComercial": 734
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 171,
+    "Year": 2011,
+    "Exportacion": 876,
+    "ComercioTotal": 1047,
+    "BalanzaComercial": 705
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 248,
+    "Year": 2012,
+    "Exportacion": 862,
+    "ComercioTotal": 1110,
+    "BalanzaComercial": 614
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 166,
+    "Year": 2013,
+    "Exportacion": 1561,
+    "ComercioTotal": 1727,
+    "BalanzaComercial": 1395
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 403,
+    "Year": 2014,
+    "Exportacion": 426,
+    "ComercioTotal": 829,
+    "BalanzaComercial": 23
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 164,
+    "Year": 2015,
+    "Exportacion": 397,
+    "ComercioTotal": 561,
+    "BalanzaComercial": 233
+  }
+]

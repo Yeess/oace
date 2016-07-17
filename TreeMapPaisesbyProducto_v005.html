@@ -1,0 +1,362 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Single Variable Visualizations: Tree Map</title>
+
+  <!-- load D3js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+  
+  <!-- load D3plus after D3js -->
+  <script src="http://www.d3plus.org/js/d3.js"></script>
+  <script src="http://www.d3plus.org/js/d3plus.js"></script>
+  <script src="js/underscore.js"></script>
+</head>
+
+<style>
+.viz{ height : 100%; width : 100%}
+.f1{font-size: 11.5px;
+	position:fixed; height:2.7%; width: 8%; top:93%; left:10%; border-style: solid; margin: 0px; display: inline-block; font-family: Helvetica; font-size: 12px;
+    color: rgb(68, 68, 68); border: 1px solid rgb(195, 195, 195); 
+    font-weight: 200; letter-spacing: 0px; cursor: auto; background-color: rgb(255, 255, 255);
+	}
+
+	
+</style>
+
+<body>
+  <div id="viz" class = "viz" ></div>
+<select name="par1" id="par1" class="f1"> 
+<Option value="Afghanistan">Afghanistan</Option>
+<Option value='Albania'>Albania</Option>
+<Option value='Andorra' >Andorra </Option>
+<Option value='Angola' >Angola </Option>
+<Option value='Anguilla' >Anguilla </Option>
+<Option value='Antigua and Barbuda' >Antigua and Barbuda </Option>
+<Option value='Argentina' >Argentina </Option>
+<Option value='Armenia' >Armenia </Option>
+<Option value='Aruba' >Aruba </Option>
+<Option value='Australia' >Australia </Option>
+<Option value='Austria' >Austria </Option>
+<Option value='Azerbaijan' >Azerbaijan </Option>
+<Option value='Bahamas' >Bahamas </Option>
+<Option value='Bahrain' >Bahrain </Option>
+<Option value='Bangladesh' >Bangladesh </Option>
+<Option value='Barbados' >Barbados </Option>
+<Option value='Belarus' >Belarus </Option>
+<Option value='Belgium' >Belgium </Option>
+<Option value='Belize' >Belize </Option>
+<Option value='Benin' >Benin </Option>
+<Option value='Bermuda' >Bermuda </Option>
+<Option value='Bhutan' >Bhutan </Option>
+<Option value='Bolivia (Plurinational State of)' >Bolivia (Plurinational State of) </Option>
+<Option value='Bosnia Herzegovina' >Bosnia Herzegovina </Option>
+<Option value='Botswana' >Botswana </Option>
+<Option value='Br. Indian Ocean Terr.' >Br. Indian Ocean Terr. </Option>
+<Option value='Br. Virgin Isds' >Br. Virgin Isds </Option>
+<Option value='Brazil' >Brazil </Option>
+<Option value='Brunei Darussalam' >Brunei Darussalam </Option>
+<Option value='Bulgaria' >Bulgaria </Option>
+<Option value='Burkina Faso' >Burkina Faso </Option>
+<Option value='Burundi' >Burundi </Option>
+<Option value='Cabo Verde' >Cabo Verde </Option>
+<Option value='Cambodia' >Cambodia </Option>
+<Option value='Cameroon' >Cameroon </Option>
+<Option value='Canada' >Canada </Option>
+<Option value='Cayman Isds' >Cayman Isds </Option>
+<Option value='Central African Rep.' >Central African Rep. </Option>
+<Option value='Chad' >Chad </Option>
+<Option value='Chile' >Chile </Option>
+<Option value='China' >China </Option>
+<Option value='China, Hong Kong SAR' >China, Hong Kong SAR </Option>
+<Option value='China, Macao SAR' >China, Macao SAR </Option>
+<Option value='Christmas Isds' >Christmas Isds </Option>
+<Option value='Cocos Isds' >Cocos Isds </Option>
+<Option value='Colombia' >Colombia </Option>
+<Option value='Comoros' >Comoros </Option>
+<Option value='Congo' >Congo </Option>
+<Option value='Cook Isds' >Cook Isds </Option>
+<Option value='Costa Rica' >Costa Rica </Option>
+<Option value='Croatia' >Croatia </Option>
+<Option value='Cuba' >Cuba </Option>
+<Option value='Cyprus' >Cyprus </Option>
+<Option value='Czech Rep.' >Czech Rep. </Option>
+<Option value='Dem. Rep. of the Congo' >Dem. Rep. of the Congo </Option>
+<Option value='Denmark' >Denmark </Option>
+<Option value='Djibouti' >Djibouti </Option>
+<Option value='Dominica' >Dominica </Option>
+<Option value='Dominican Rep.' >Dominican Rep. </Option>
+<Option value='Ecuador' >Ecuador </Option>
+<Option value='Egypt' >Egypt </Option>
+<Option value='El Salvador' >El Salvador </Option>
+<Option value='Equatorial Guinea' >Equatorial Guinea </Option>
+<Option value='Eritrea' >Eritrea </Option>
+<Option value='Estonia' >Estonia </Option>
+<Option value='Ethiopia' >Ethiopia </Option>
+<Option value='FS Micronesia' >FS Micronesia </Option>
+<Option value='Falkland Isds (Malvinas)' >Falkland Isds (Malvinas) </Option>
+<Option value='Fiji' >Fiji </Option>
+<Option value='Finland' >Finland </Option>
+<Option value='Fmr Sudan' >Fmr Sudan </Option>
+<Option value='Fr. South Antarctic Terr.' >Fr. South Antarctic Terr. </Option>
+<Option value='France' >France </Option>
+<Option value='French Polynesia' >French Polynesia </Option>
+<Option value='Gabon' >Gabon </Option>
+<Option value='Gambia' >Gambia </Option>
+<Option value='Georgia' >Georgia </Option>
+<Option value='Germany' >Germany </Option>
+<Option value='Ghana' >Ghana </Option>
+<Option value='Gibraltar' >Gibraltar </Option>
+<Option value='Greece' >Greece </Option>
+<Option value='Greenland' >Greenland </Option>
+<Option value='Grenada' >Grenada </Option>
+<Option value='Guam' >Guam </Option>
+<Option value='Guatemala' >Guatemala </Option>
+<Option value='Guinea' >Guinea </Option>
+<Option value='Guinea-Bissau' >Guinea-Bissau </Option>
+<Option value='Guyana' >Guyana </Option>
+<Option value='Haiti' >Haiti </Option>
+<Option value='Heard Island and McDonald Islands' >Heard Island and McDonald Islands </Option>
+<Option value='Holy See (Vatican City State)' >Holy See (Vatican City State) </Option>
+<Option value='Honduras' >Honduras </Option>
+<Option value='Hungary' >Hungary </Option>
+<Option value='Iceland' >Iceland </Option>
+<Option value='India' >India </Option>
+<Option value='Indonesia' >Indonesia </Option>
+<Option value='Iran' >Iran </Option>
+<Option value='Iraq' >Iraq </Option>
+<Option value='Ireland' >Ireland </Option>
+<Option value='Israel' >Israel </Option>
+<Option value='Italy' >Italy </Option>
+<Option value='Jamaica' >Jamaica </Option>
+<Option value='Japan' >Japan </Option>
+<Option value='Jordan' >Jordan </Option>
+<Option value='Kazakhstan' >Kazakhstan </Option>
+<Option value='Kenya' >Kenya </Option>
+<Option value='Kiribati' >Kiribati </Option>
+<Option value='Kuwait' >Kuwait </Option>
+<Option value='Kyrgyzstan' >Kyrgyzstan </Option>
+<Option value='Latvia' >Latvia </Option>
+<Option value='Lebanon' >Lebanon </Option>
+<Option value='Lesotho' >Lesotho </Option>
+<Option value='Liberia' >Liberia </Option>
+<Option value='Libya' >Libya </Option>
+<Option value='Lithuania' >Lithuania </Option>
+<Option value='Luxembourg' >Luxembourg </Option>
+<Option value='Madagascar' >Madagascar </Option>
+<Option value='Malawi' >Malawi </Option>
+<Option value='Malaysia' >Malaysia </Option>
+<Option value='Maldives' >Maldives </Option>
+<Option value='Mali' >Mali </Option>
+<Option value='Malta' >Malta </Option>
+<Option value='Marshall Isds' >Marshall Isds </Option>
+<Option value='Mauritania' >Mauritania </Option>
+<Option value='Mauritius' >Mauritius </Option>
+<Option value='Mongolia' >Mongolia </Option>
+<Option value='Montenegro' >Montenegro </Option>
+<Option value='Montserrat' >Montserrat </Option>
+<Option value='Morocco' >Morocco </Option>
+<Option value='Mozambique' >Mozambique </Option>
+<Option value='Myanmar' >Myanmar </Option>
+<Option value='N. Mariana Isds' >N. Mariana Isds </Option>
+<Option value='Namibia' >Namibia </Option>
+<Option value='Nauru' >Nauru </Option>
+<Option value='Nepal' >Nepal </Option>
+<Option value='Neth. Antilles' >Neth. Antilles </Option>
+<Option value='Netherlands' >Netherlands </Option>
+<Option value='New Caledonia' >New Caledonia </Option>
+<Option value='New Zealand' >New Zealand </Option>
+<Option value='Nicaragua' >Nicaragua </Option>
+<Option value='Niger' >Niger </Option>
+<Option value='Nigeria' >Nigeria </Option>
+<Option value='Niue' >Niue </Option>
+<Option value='Norfolk Isds' >Norfolk Isds </Option>
+<Option value='Norway' >Norway </Option>
+<Option value='Oman' >Oman </Option>
+<Option value='Pakistan' >Pakistan </Option>
+<Option value='Palau' >Palau </Option>
+<Option value='Panama' >Panama </Option>
+<Option value='Papua New Guinea' >Papua New Guinea </Option>
+<Option value='Paraguay' >Paraguay </Option>
+<Option value='Peru' >Peru </Option>
+<Option value='Philippines' >Philippines </Option>
+<Option value='Pitcairn' >Pitcairn </Option>
+<Option value='Poland' >Poland </Option>
+<Option value='Portugal' >Portugal </Option>
+<Option value='Qatar' >Qatar </Option>
+<Option value='Rep. of Korea' >Rep. of Korea </Option>
+<Option value='Rep. of Moldova' >Rep. of Moldova </Option>
+<Option value='Romania' >Romania </Option>
+<Option value='Russian Federation' >Russian Federation </Option>
+<Option value='Rwanda' >Rwanda </Option>
+<Option value='Saint Helena' >Saint Helena </Option>
+<Option value='Saint Kitts and Nevis' >Saint Kitts and Nevis </Option>
+<Option value='Saint Lucia' >Saint Lucia </Option>
+<Option value='Saint Pierre and Miquelon' >Saint Pierre and Miquelon </Option>
+<Option value='Saint Vincent and the Grenadines' >Saint Vincent and the Grenadines </Option>
+<Option value='Samoa' >Samoa </Option>
+<Option value='San Marino' >San Marino </Option>
+<Option value='Sao Tome and Principe' >Sao Tome and Principe </Option>
+<Option value='Saudi Arabia' >Saudi Arabia </Option>
+<Option value='Senegal' >Senegal </Option>
+<Option value='Serbia' >Serbia </Option>
+<Option value='Serbia and Montenegro' >Serbia and Montenegro </Option>
+<Option value='Seychelles' >Seychelles </Option>
+<Option value='Sierra Leone' >Sierra Leone </Option>
+<Option value='Singapore' >Singapore </Option>
+<Option value='Slovakia' >Slovakia </Option>
+<Option value='Slovenia' >Slovenia </Option>
+<Option value='Solomon Isds' >Solomon Isds </Option>
+<Option value='Somalia' >Somalia </Option>
+<Option value='South Africa' >South Africa </Option>
+<Option value='Spain' >Spain </Option>
+<Option value='Sri Lanka' >Sri Lanka </Option>
+<Option value='State of Palestine' >State of Palestine </Option>
+<Option value='Sudan' >Sudan </Option>
+<Option value='Suriname' >Suriname </Option>
+<Option value='Swaziland' >Swaziland </Option>
+<Option value='Sweden' >Sweden </Option>
+<Option value='Switzerland' >Switzerland </Option>
+<Option value='Syria' >Syria </Option>
+<Option value='TFYR of Macedonia' >TFYR of Macedonia </Option>
+<Option value='Tajikistan' >Tajikistan </Option>
+<Option value='Thailand' >Thailand </Option>
+<Option value='Timor-Leste' >Timor-Leste </Option>
+<Option value='Togo' >Togo </Option>
+<Option value='Tokelau' >Tokelau </Option>
+<Option value='Tonga' >Tonga </Option>
+<Option value='Trinidad and Tobago' >Trinidad and Tobago </Option>
+<Option value='Tunisia' >Tunisia </Option>
+<Option value='Turkey' >Turkey </Option>
+<Option value='Turkmenistan' >Turkmenistan </Option>
+<Option value='Turks and Caicos Isds' >Turks and Caicos Isds </Option>
+<Option value='Tuvalu' >Tuvalu </Option>
+<Option value='USA' >USA </Option>
+<Option value='Uganda' >Uganda </Option>
+<Option value='Ukraine' >Ukraine </Option>
+<Option value='United Arab Emirates' >United Arab Emirates </Option>
+<Option value='United Kingdom' >United Kingdom </Option>
+<Option value='United Rep. of Tanzania' >United Rep. of Tanzania </Option>
+<Option value='Uruguay' >Uruguay </Option>
+<Option value='Uzbekistan' >Uzbekistan </Option>
+<Option value='Vanuatu' >Vanuatu </Option>
+<Option value='Venezuela' >Venezuela </Option>
+<Option value='Viet Nam' >Viet Nam </Option>
+<Option value='Wallis and Futuna Isds' >Wallis and Futuna Isds </Option>
+<Option value='Western Sahara' >Western Sahara </Option>
+<Option value='Yemen' >Yemen </Option>
+<Option value='Zambia' >Zambia </Option>
+<Option value='Zimbabwe' >Zimbabwe </Option>  	
+</select>	 
+ 
+ </body>
+
+
+
+<script>
+
+
+function initialize() {
+var par1 = 'Afghanistan';
+d3.json("JsonTreeMapPP/tmproductobypais.json", function(error, json) {
+				if (error) return console.warn(error);
+				tMap = json;
+				PintaTreeM(tMap,par1);
+			});
+	        
+		google.maps.event.addDomListener(document.getElementById('par1'), 'change', function() {	
+              par1 = this.value; 
+			  document.getElementById("viz").innerHTML = "";	
+			  d3.json("JsonTreeMapPP/tmproductobypais.json", function(error, json) {
+				if (error) return console.warn(error);
+				tMap = json;
+				PintaTreeM(tMap,par1);
+			});
+			
+        });
+
+    } // Aqui termina la funcion initialize.
+
+
+function PintaTreeM(data,par1){
+//Hola=RegresaPais(par1);
+// Valores=[Hola,'Afghanistan',	'Albania',	'Algeria',	'Andorra',	'Angola',	'Anguilla',	'Antigua and Barbuda',	'Argentina',	'Armenia',	'Aruba',	'Australia',	'Austria',	'Azerbaijan',	'Bahamas',	'Bahrain',	'Bangladesh',	'Barbados',	'Belarus',	'Belgium',	'Belize',	'Benin',	'Bermuda',	'Bhutan',	'Bolivia (Plurinational State of)',	'Bosnia Herzegovina',	'Botswana',	'Br. Indian Ocean Terr.',	'Br. Virgin Isds',	'Brazil',	'Brunei Darussalam',	'Bulgaria',	'Burkina Faso',	'Burundi',	'Cabo Verde',	'Cambodia',	'Cameroon',	'Canada',	'Cayman Isds',	'Central African Rep.',	'Chad',	'Chile',	'China',	'China, Hong Kong SAR',	'China, Macao SAR',	'Christmas Isds',	'Cocos Isds',	'Colombia',	'Comoros',	'Congo',	'Cook Isds',	'Costa Rica',	'Croatia',	'Cuba',	'Cyprus',	'Czech Rep.',	'Dem. Rep. of the Congo',	'Denmark',	'Djibouti',	'Dominica',	'Dominican Rep.',	'Ecuador',	'Egypt',	'El Salvador',	'Equatorial Guinea',	'Eritrea',	'Estonia',	'Ethiopia',	'FS Micronesia',	'Falkland Isds (Malvinas)',	'Fiji',	'Finland',	'Fmr Sudan',	'Fr. South Antarctic Terr.',	'France',	'French Polynesia',	'Gabon',	'Gambia',	'Georgia',	'Germany',	'Ghana',	'Gibraltar',	'Greece',	'Greenland',	'Grenada',	'Guam',	'Guatemala',	'Guinea',	'Guinea-Bissau',	'Guyana',	'Haiti',	'Heard Island and McDonald Islands',	'Holy See (Vatican City State)',	'Honduras',	'Hungary',	'Iceland',	'India',	'Indonesia',	'Iran',	'Iraq',	'Ireland',	'Israel',	'Italy',	'Jamaica',	'Japan',	'Jordan',	'Kazakhstan',	'Kenya',	'Kiribati',	'Kuwait',	'Kyrgyzstan',	'Latvia',	'Lebanon',	'Lesotho',	'Liberia',	'Libya',	'Lithuania',	'Luxembourg',	'Madagascar',	'Malawi',	'Malaysia',	'Maldives',	'Mali',	'Malta',	'Marshall Isds',	'Mauritania',	'Mauritius',	'Mongolia',	'Montenegro',	'Montserrat',	'Morocco',	'Mozambique',	'Myanmar',	'N. Mariana Isds',	'Namibia',	'Nauru',	'Nepal',	'Neth. Antilles',	'Netherlands',	'New Caledonia',	'New Zealand',	'Nicaragua',	'Niger',	'Nigeria',	'Niue',	'Norfolk Isds',	'Norway',	'Oman',	'Pakistan',	'Palau',	'Panama',	'Papua New Guinea',	'Paraguay',	'Peru',	'Philippines',	'Pitcairn',	'Poland',	'Portugal',	'Qatar',	'Rep. of Korea',	'Rep. of Moldova',	'Romania',	'Russian Federation',	'Rwanda',	'Saint Helena',	'Saint Kitts and Nevis',	'Saint Lucia',	'Saint Pierre and Miquelon',	'Saint Vincent and the Grenadines',	'Samoa',	'San Marino',	'Sao Tome and Principe',	'Saudi Arabia',	'Senegal',	'Serbia',	'Serbia and Montenegro',	'Seychelles',	'Sierra Leone',	'Singapore',	'Slovakia',	'Slovenia',	'Solomon Isds',	'Somalia',	'South Africa',	'Spain',	'Sri Lanka',	'State of Palestine',	'Sudan',	'Suriname',	'Swaziland',	'Sweden',	'Switzerland',	'Syria',	'TFYR of Macedonia',	'Tajikistan',	'Thailand',	'Timor-Leste',	'Togo',	'Tokelau',	'Tonga',	'Trinidad and Tobago',	'Tunisia',	'Turkey',	'Turkmenistan',	'Turks and Caicos Isds',	'Tuvalu',	'USA',	'Uganda',	'Ukraine',	'United Arab Emirates',	'United Kingdom',	'United Rep. of Tanzania',	'Uruguay',	'Uzbekistan',	'Vanuatu',	'Venezuela',	'Viet Nam',	'Wallis and Futuna Isds',	'Western Sahara',	'Yemen',	'Zambia',	'Zimbabwe'];  
+  
+  var htmlButton = "<a id='id1' href='PagMexico_v007.html#obj2' target='_blank'> Ver países con los que México comercia.</a><br/><br/><br/><a id='id2' href='PagMexico_v004.html#obj4' target='_blank'> Ver productos que comercia México.</a><br/><br/><br/><a id='id2' href='PagMexico_v010.html#obj7' target='_blank'> Ver acuerdos económicos firmados por México.</a>"		
+  //var value = "Afghanistan";
+  var visualization = d3plus.viz()
+      .container("#viz")
+      .data(data)
+      .type("tree_map")
+	  .dev(true)
+	  .font({family: 'Trebuchet MS, Helvetica, Arial'})
+      .legend({font: {size: 14}})
+	  .icon({
+      "style": "knockout",
+      "value": "Imagen"
+	})
+      .id(["Partner","Capitulo"])
+	  //.id(["Partner"])
+	  .id({ "solo" : par1 })
+	  .depth(1)
+      .size("ComercioTotal")
+	  .color({
+      "range": [ "blue" , "white" , "yellow" ],
+      "value": "ComercioTotal"
+    })
+      //.color("Capitulo_")
+	  .time({"value": "Year","solo": 2000})
+	  .ui([
+      {
+        "method" : "size",
+        "value"  : [ "Exportacion" , "Importacion" , "ComercioTotal"]
+      }
+    
+	/*{
+        "method": function(){
+          visualization.csv(true) // will DL all data not just what is shown
+        },
+        "value": ["Descargar datos"]
+      }*/
+	
+	
+    ])
+	  .labels({"align": "left", "valign": "top"})
+	  .format("es_ES")
+	  .format({
+      "text": function(text, params) { 
+        if (text === "ComercioTotal") {
+          return "Comercio total";
+        }else if(text === "BalanzaComercial"){
+	return "Balanza comercial";
+	}else {
+          return d3plus.string.title(text, params);
+        }  
+      },
+      "number": function(number, params) {
+        var formatted = d3plus.number.format(number, params);
+        if (params.key === "ComercioTotal") {    return "$" + formatted ;}
+		  else if (params.key === "Importacion") {return "$" + formatted ;} 
+		  else if (params.key === "Exportacion") {return "$" + formatted ;} 
+         else if (params.key === "BalanzaComercial"){return "$" + formatted ;}
+        else {     return formatted;   }
+      }
+
+    })
+	.axes({"background": {"color": "#0d0d0d", "stroke": {"width": 0}}}, {"ticks": false})
+	.background("#0d0d0d" )
+	.font({family: 'Trebuchet MS, Helvetica, Arial', color: '#fff' })
+	.tooltip({"html": htmlButton, "background": "#bbb", "small": 200, "large": 250, "anchor": "bottom center" } )
+	//.legend({"size": 20})
+      .draw()
+	  
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+	
+	
+	
+  </script>

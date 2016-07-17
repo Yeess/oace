@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "TORREON",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 17667,
+    "Year": 2005,
+    "Exportacion": 4654,
+    "ComercioTotal": 22321,
+    "BalanzaComercial": -13013
+  },
+  {
+    "Aduana": "TORREON",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 20951,
+    "Year": 2006,
+    "Exportacion": 4119,
+    "ComercioTotal": 25070,
+    "BalanzaComercial": -16832
+  },
+  {
+    "Aduana": "TORREON",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 4327,
+    "Year": 2007,
+    "Exportacion": 3278,
+    "ComercioTotal": 7605,
+    "BalanzaComercial": -1049
+  },
+  {
+    "Aduana": "TORREON",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 4182,
+    "Year": 2008,
+    "Exportacion": 3399,
+    "ComercioTotal": 7581,
+    "BalanzaComercial": -783
+  },
+  {
+    "Aduana": "TORREON",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 5805,
+    "Year": 2009,
+    "Exportacion": 3237,
+    "ComercioTotal": 9042,
+    "BalanzaComercial": -2568
+  },
+  {
+    "Aduana": "TORREON",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 7392,
+    "Year": 2010,
+    "Exportacion": 3323,
+    "ComercioTotal": 10715,
+    "BalanzaComercial": -4069
+  },
+  {
+    "Aduana": "TORREON",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 5079,
+    "Year": 2011,
+    "Exportacion": 2270,
+    "ComercioTotal": 7349,
+    "BalanzaComercial": -2809
+  },
+  {
+    "Aduana": "TORREON",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 4855,
+    "Year": 2012,
+    "Exportacion": 2179,
+    "ComercioTotal": 7034,
+    "BalanzaComercial": -2676
+  },
+  {
+    "Aduana": "TORREON",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 5057,
+    "Year": 2013,
+    "Exportacion": 2467,
+    "ComercioTotal": 7524,
+    "BalanzaComercial": -2590
+  },
+  {
+    "Aduana": "TORREON",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 6206,
+    "Year": 2014,
+    "Exportacion": 3230,
+    "ComercioTotal": 9436,
+    "BalanzaComercial": -2976
+  },
+  {
+    "Aduana": "TORREON",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 2948,
+    "Year": 2015,
+    "Exportacion": 1525,
+    "ComercioTotal": 4473,
+    "BalanzaComercial": -1423
+  }
+]

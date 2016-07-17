@@ -1,0 +1,362 @@
+[
+  {
+    "Year": 2000,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Importacion",
+    "Valor": 15119583277
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Exportacion",
+    "Valor": 5833232359
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "BalanzaComercial",
+    "Valor": -9286350918
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "ComercioTotal",
+    "Valor": 20952815636
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Importacion",
+    "Valor": 16720375647
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Exportacion",
+    "Valor": 5641899015
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "BalanzaComercial",
+    "Valor": -11078476632
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "ComercioTotal",
+    "Valor": 22362274662
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Importacion",
+    "Valor": 17020869608
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Exportacion",
+    "Valor": 5669460907
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "BalanzaComercial",
+    "Valor": -11351408701
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "ComercioTotal",
+    "Valor": 22690330515
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Importacion",
+    "Valor": 18493465825
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Exportacion",
+    "Valor": 6173329157
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "BalanzaComercial",
+    "Valor": -12320136668
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "ComercioTotal",
+    "Valor": 24666794982
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Importacion",
+    "Valor": 21718906337
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Exportacion",
+    "Valor": 6669439311
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "BalanzaComercial",
+    "Valor": -15049467026
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "ComercioTotal",
+    "Valor": 28388345648
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Importacion",
+    "Valor": 25880939859
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Exportacion",
+    "Valor": 9205519566
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "BalanzaComercial",
+    "Valor": -16675420293
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "ComercioTotal",
+    "Valor": 35086459425
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Importacion",
+    "Valor": 29093109160
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Exportacion",
+    "Valor": 11043209142
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "BalanzaComercial",
+    "Valor": -18049900018
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "ComercioTotal",
+    "Valor": 40136318302
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Importacion",
+    "Valor": 33926631610
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Exportacion",
+    "Valor": 14408648337
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "BalanzaComercial",
+    "Valor": -19517983273
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "ComercioTotal",
+    "Valor": 48335279947
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Importacion",
+    "Valor": 39264364195
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Exportacion",
+    "Valor": 17168537738
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "BalanzaComercial",
+    "Valor": -22095826457
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "ComercioTotal",
+    "Valor": 56432901933
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Importacion",
+    "Valor": 27315247758
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Exportacion",
+    "Valor": 11665325114
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "BalanzaComercial",
+    "Valor": -15649922644
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "ComercioTotal",
+    "Valor": 38980572872
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Importacion",
+    "Valor": 32572708403
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Exportacion",
+    "Valor": 14461822391
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "BalanzaComercial",
+    "Valor": -18110886012
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "ComercioTotal",
+    "Valor": 47034530794
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Importacion",
+    "Valor": 37744982794
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Exportacion",
+    "Valor": 19144692222
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "BalanzaComercial",
+    "Valor": -18600290572
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "ComercioTotal",
+    "Valor": 56889675016
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Importacion",
+    "Valor": 40963871688
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Exportacion",
+    "Valor": 22030554511
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "BalanzaComercial",
+    "Valor": -18933317177
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "ComercioTotal",
+    "Valor": 62994426199
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Importacion",
+    "Valor": 43095279337
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Exportacion",
+    "Valor": 19619708717
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "BalanzaComercial",
+    "Valor": -23475570620
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "ComercioTotal",
+    "Valor": 62714988054
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Importacion",
+    "Valor": 44529969432
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "Exportacion",
+    "Valor": 20396121307
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "BalanzaComercial",
+    "Valor": -24133848125
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "CE TLCUEM",
+    "Operacion": "ComercioTotal",
+    "Valor": 64926090739
+  }
+]

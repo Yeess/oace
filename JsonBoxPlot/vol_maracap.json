@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 736,
+    "Year": 2005,
+    "Exportacion": 394,
+    "ComercioTotal": 1130,
+    "BalanzaComercial": -342
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 872,
+    "Year": 2006,
+    "Exportacion": 283,
+    "ComercioTotal": 1155,
+    "BalanzaComercial": -589
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 57,
+    "Year": 2007,
+    "Exportacion": 256,
+    "ComercioTotal": 313,
+    "BalanzaComercial": 199
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 55,
+    "Year": 2008,
+    "Exportacion": 223,
+    "ComercioTotal": 278,
+    "BalanzaComercial": 168
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 65,
+    "Year": 2009,
+    "Exportacion": 113,
+    "ComercioTotal": 178,
+    "BalanzaComercial": 48
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 43,
+    "Year": 2010,
+    "Exportacion": 152,
+    "ComercioTotal": 195,
+    "BalanzaComercial": 109
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 56,
+    "Year": 2011,
+    "Exportacion": 161,
+    "ComercioTotal": 217,
+    "BalanzaComercial": 105
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 39,
+    "Year": 2012,
+    "Exportacion": 126,
+    "ComercioTotal": 165,
+    "BalanzaComercial": 87
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 28,
+    "Year": 2013,
+    "Exportacion": 69,
+    "ComercioTotal": 97,
+    "BalanzaComercial": 41
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 24,
+    "Year": 2014,
+    "Exportacion": 33,
+    "ComercioTotal": 57,
+    "BalanzaComercial": 9
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 10,
+    "Year": 2015,
+    "Exportacion": 15,
+    "ComercioTotal": 25,
+    "BalanzaComercial": 5
+  }
+]

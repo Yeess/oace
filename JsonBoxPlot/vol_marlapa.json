@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 4538,
+    "Year": 2005,
+    "Exportacion": 928,
+    "ComercioTotal": 5466,
+    "BalanzaComercial": -3610
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 6634,
+    "Year": 2006,
+    "Exportacion": 585,
+    "ComercioTotal": 7219,
+    "BalanzaComercial": -6049
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 5724,
+    "Year": 2007,
+    "Exportacion": 471,
+    "ComercioTotal": 6195,
+    "BalanzaComercial": -5253
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 5616,
+    "Year": 2008,
+    "Exportacion": 450,
+    "ComercioTotal": 6066,
+    "BalanzaComercial": -5166
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 3531,
+    "Year": 2009,
+    "Exportacion": 422,
+    "ComercioTotal": 3953,
+    "BalanzaComercial": -3109
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 3456,
+    "Year": 2010,
+    "Exportacion": 475,
+    "ComercioTotal": 3931,
+    "BalanzaComercial": -2981
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 3697,
+    "Year": 2011,
+    "Exportacion": 459,
+    "ComercioTotal": 4156,
+    "BalanzaComercial": -3238
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 3235,
+    "Year": 2012,
+    "Exportacion": 329,
+    "ComercioTotal": 3564,
+    "BalanzaComercial": -2906
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 3259,
+    "Year": 2013,
+    "Exportacion": 454,
+    "ComercioTotal": 3713,
+    "BalanzaComercial": -2805
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 1547,
+    "Year": 2014,
+    "Exportacion": 333,
+    "ComercioTotal": 1880,
+    "BalanzaComercial": -1214
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 620,
+    "Year": 2015,
+    "Exportacion": 124,
+    "ComercioTotal": 744,
+    "BalanzaComercial": -496
+  }
+]

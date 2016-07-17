@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "TODAS",
+    "Tipo_aduana": "TODAS",
+    "Metrica": "Volumen",
+    "Importacion": 5811788,
+    "Year": 2005,
+    "Exportacion": 1920399,
+    "ComercioTotal": 7732187,
+    "BalanzaComercial": -3891389
+  },
+  {
+    "Aduana": "TODAS",
+    "Tipo_aduana": "TODAS",
+    "Metrica": "Volumen",
+    "Importacion": 6742076,
+    "Year": 2006,
+    "Exportacion": 1923233,
+    "ComercioTotal": 8665309,
+    "BalanzaComercial": -4818843
+  },
+  {
+    "Aduana": "TODAS",
+    "Tipo_aduana": "TODAS",
+    "Metrica": "Volumen",
+    "Importacion": 6535168,
+    "Year": 2007,
+    "Exportacion": 1955896,
+    "ComercioTotal": 8491064,
+    "BalanzaComercial": -4579272
+  },
+  {
+    "Aduana": "TODAS",
+    "Tipo_aduana": "TODAS",
+    "Metrica": "Volumen",
+    "Importacion": 6202016,
+    "Year": 2008,
+    "Exportacion": 1921662,
+    "ComercioTotal": 8123678,
+    "BalanzaComercial": -4280354
+  },
+  {
+    "Aduana": "TODAS",
+    "Tipo_aduana": "TODAS",
+    "Metrica": "Volumen",
+    "Importacion": 4811858,
+    "Year": 2009,
+    "Exportacion": 1768552,
+    "ComercioTotal": 6580410,
+    "BalanzaComercial": -3043306
+  },
+  {
+    "Aduana": "TODAS",
+    "Tipo_aduana": "TODAS",
+    "Metrica": "Volumen",
+    "Importacion": 5617277,
+    "Year": 2010,
+    "Exportacion": 1986234,
+    "ComercioTotal": 7603511,
+    "BalanzaComercial": -3631043
+  },
+  {
+    "Aduana": "TODAS",
+    "Tipo_aduana": "TODAS",
+    "Metrica": "Volumen",
+    "Importacion": 5937379,
+    "Year": 2011,
+    "Exportacion": 2082954,
+    "ComercioTotal": 8020333,
+    "BalanzaComercial": -3854425
+  },
+  {
+    "Aduana": "TODAS",
+    "Tipo_aduana": "TODAS",
+    "Metrica": "Volumen",
+    "Importacion": 6016150,
+    "Year": 2012,
+    "Exportacion": 2155769,
+    "ComercioTotal": 8171919,
+    "BalanzaComercial": -3860381
+  },
+  {
+    "Aduana": "TODAS",
+    "Tipo_aduana": "TODAS",
+    "Metrica": "Volumen",
+    "Importacion": 6289219,
+    "Year": 2013,
+    "Exportacion": 2167931,
+    "ComercioTotal": 8457150,
+    "BalanzaComercial": -4121288
+  },
+  {
+    "Aduana": "TODAS",
+    "Tipo_aduana": "TODAS",
+    "Metrica": "Volumen",
+    "Importacion": 6352021,
+    "Year": 2014,
+    "Exportacion": 2261599,
+    "ComercioTotal": 8613620,
+    "BalanzaComercial": -4090422
+  },
+  {
+    "Aduana": "TODAS",
+    "Tipo_aduana": "TODAS",
+    "Metrica": "Volumen",
+    "Importacion": 3014570,
+    "Year": 2015,
+    "Exportacion": 1149388,
+    "ComercioTotal": 4163958,
+    "BalanzaComercial": -1865182
+  }
+]

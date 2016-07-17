@@ -1,0 +1,2092 @@
+[
+  {
+    "Aduana": "AGUA PRIETA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 21342,
+    "Year": 2005,
+    "Exportacion": 5708,
+    "ComercioTotal": 27050,
+    "BalanzaComercial": -15634
+  },
+  {
+    "Aduana": "AGUA PRIETA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 21563,
+    "Year": 2006,
+    "Exportacion": 6054,
+    "ComercioTotal": 27617,
+    "BalanzaComercial": -15509
+  },
+  {
+    "Aduana": "AGUA PRIETA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 25007,
+    "Year": 2007,
+    "Exportacion": 5388,
+    "ComercioTotal": 30395,
+    "BalanzaComercial": -19619
+  },
+  {
+    "Aduana": "AGUA PRIETA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 21459,
+    "Year": 2008,
+    "Exportacion": 5196,
+    "ComercioTotal": 26655,
+    "BalanzaComercial": -16263
+  },
+  {
+    "Aduana": "AGUA PRIETA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 12233,
+    "Year": 2009,
+    "Exportacion": 5558,
+    "ComercioTotal": 17791,
+    "BalanzaComercial": -6675
+  },
+  {
+    "Aduana": "AGUA PRIETA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 13165,
+    "Year": 2010,
+    "Exportacion": 5540,
+    "ComercioTotal": 18705,
+    "BalanzaComercial": -7625
+  },
+  {
+    "Aduana": "AGUA PRIETA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 14850,
+    "Year": 2011,
+    "Exportacion": 6984,
+    "ComercioTotal": 21834,
+    "BalanzaComercial": -7866
+  },
+  {
+    "Aduana": "AGUA PRIETA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 16230,
+    "Year": 2012,
+    "Exportacion": 6887,
+    "ComercioTotal": 23117,
+    "BalanzaComercial": -9343
+  },
+  {
+    "Aduana": "AGUA PRIETA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 18957,
+    "Year": 2013,
+    "Exportacion": 6987,
+    "ComercioTotal": 25944,
+    "BalanzaComercial": -11970
+  },
+  {
+    "Aduana": "AGUA PRIETA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 17813,
+    "Year": 2014,
+    "Exportacion": 7040,
+    "ComercioTotal": 24853,
+    "BalanzaComercial": -10773
+  },
+  {
+    "Aduana": "AGUA PRIETA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 6973,
+    "Year": 2015,
+    "Exportacion": 3585,
+    "ComercioTotal": 10558,
+    "BalanzaComercial": -3388
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 24500,
+    "Year": 2005,
+    "Exportacion": 12807,
+    "ComercioTotal": 37307,
+    "BalanzaComercial": -11693
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 30496,
+    "Year": 2006,
+    "Exportacion": 13655,
+    "ComercioTotal": 44151,
+    "BalanzaComercial": -16841
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 29141,
+    "Year": 2007,
+    "Exportacion": 12182,
+    "ComercioTotal": 41323,
+    "BalanzaComercial": -16959
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 24885,
+    "Year": 2008,
+    "Exportacion": 11810,
+    "ComercioTotal": 36695,
+    "BalanzaComercial": -13075
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 16581,
+    "Year": 2009,
+    "Exportacion": 11907,
+    "ComercioTotal": 28488,
+    "BalanzaComercial": -4674
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 17633,
+    "Year": 2010,
+    "Exportacion": 13216,
+    "ComercioTotal": 30849,
+    "BalanzaComercial": -4417
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 19091,
+    "Year": 2011,
+    "Exportacion": 13684,
+    "ComercioTotal": 32775,
+    "BalanzaComercial": -5407
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 17380,
+    "Year": 2012,
+    "Exportacion": 11679,
+    "ComercioTotal": 29059,
+    "BalanzaComercial": -5701
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 16691,
+    "Year": 2013,
+    "Exportacion": 12249,
+    "ComercioTotal": 28940,
+    "BalanzaComercial": -4442
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 17091,
+    "Year": 2014,
+    "Exportacion": 12753,
+    "ComercioTotal": 29844,
+    "BalanzaComercial": -4338
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 8289,
+    "Year": 2015,
+    "Exportacion": 6300,
+    "ComercioTotal": 14589,
+    "BalanzaComercial": -1989
+  },
+  {
+    "Aduana": "CD. CAMARGO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 8388,
+    "Year": 2005,
+    "Exportacion": 4923,
+    "ComercioTotal": 13311,
+    "BalanzaComercial": -3465
+  },
+  {
+    "Aduana": "CD. CAMARGO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 9959,
+    "Year": 2006,
+    "Exportacion": 4645,
+    "ComercioTotal": 14604,
+    "BalanzaComercial": -5314
+  },
+  {
+    "Aduana": "CD. CAMARGO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 10904,
+    "Year": 2007,
+    "Exportacion": 4151,
+    "ComercioTotal": 15055,
+    "BalanzaComercial": -6753
+  },
+  {
+    "Aduana": "CD. CAMARGO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 10949,
+    "Year": 2008,
+    "Exportacion": 3999,
+    "ComercioTotal": 14948,
+    "BalanzaComercial": -6950
+  },
+  {
+    "Aduana": "CD. CAMARGO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 11573,
+    "Year": 2009,
+    "Exportacion": 3765,
+    "ComercioTotal": 15338,
+    "BalanzaComercial": -7808
+  },
+  {
+    "Aduana": "CD. CAMARGO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 13871,
+    "Year": 2010,
+    "Exportacion": 4399,
+    "ComercioTotal": 18270,
+    "BalanzaComercial": -9472
+  },
+  {
+    "Aduana": "CD. CAMARGO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 11523,
+    "Year": 2011,
+    "Exportacion": 5056,
+    "ComercioTotal": 16579,
+    "BalanzaComercial": -6467
+  },
+  {
+    "Aduana": "CD. CAMARGO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 11368,
+    "Year": 2012,
+    "Exportacion": 6001,
+    "ComercioTotal": 17369,
+    "BalanzaComercial": -5367
+  },
+  {
+    "Aduana": "CD. CAMARGO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 10667,
+    "Year": 2013,
+    "Exportacion": 5397,
+    "ComercioTotal": 16064,
+    "BalanzaComercial": -5270
+  },
+  {
+    "Aduana": "CD. CAMARGO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 10282,
+    "Year": 2014,
+    "Exportacion": 5667,
+    "ComercioTotal": 15949,
+    "BalanzaComercial": -4615
+  },
+  {
+    "Aduana": "CD. CAMARGO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 5513,
+    "Year": 2015,
+    "Exportacion": 2707,
+    "ComercioTotal": 8220,
+    "BalanzaComercial": -2806
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 352085,
+    "Year": 2005,
+    "Exportacion": 102045,
+    "ComercioTotal": 454130,
+    "BalanzaComercial": -250040
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 459830,
+    "Year": 2006,
+    "Exportacion": 101982,
+    "ComercioTotal": 561812,
+    "BalanzaComercial": -357848
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 417286,
+    "Year": 2007,
+    "Exportacion": 102355,
+    "ComercioTotal": 519641,
+    "BalanzaComercial": -314931
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 383230,
+    "Year": 2008,
+    "Exportacion": 105569,
+    "ComercioTotal": 488799,
+    "BalanzaComercial": -277661
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 261828,
+    "Year": 2009,
+    "Exportacion": 100526,
+    "ComercioTotal": 362354,
+    "BalanzaComercial": -161302
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 340410,
+    "Year": 2010,
+    "Exportacion": 111794,
+    "ComercioTotal": 452204,
+    "BalanzaComercial": -228616
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 352512,
+    "Year": 2011,
+    "Exportacion": 115195,
+    "ComercioTotal": 467707,
+    "BalanzaComercial": -237317
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 345126,
+    "Year": 2012,
+    "Exportacion": 114959,
+    "ComercioTotal": 460085,
+    "BalanzaComercial": -230167
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 440909,
+    "Year": 2013,
+    "Exportacion": 114821,
+    "ComercioTotal": 555730,
+    "BalanzaComercial": -326088
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 402294,
+    "Year": 2014,
+    "Exportacion": 118973,
+    "ComercioTotal": 521267,
+    "BalanzaComercial": -283321
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 172979,
+    "Year": 2015,
+    "Exportacion": 60141,
+    "ComercioTotal": 233120,
+    "BalanzaComercial": -112838
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 14328,
+    "Year": 2005,
+    "Exportacion": 1418,
+    "ComercioTotal": 15746,
+    "BalanzaComercial": -12910
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 22954,
+    "Year": 2006,
+    "Exportacion": 1188,
+    "ComercioTotal": 24142,
+    "BalanzaComercial": -21766
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 21908,
+    "Year": 2007,
+    "Exportacion": 1101,
+    "ComercioTotal": 23009,
+    "BalanzaComercial": -20807
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 16374,
+    "Year": 2008,
+    "Exportacion": 1004,
+    "ComercioTotal": 17378,
+    "BalanzaComercial": -15370
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 8800,
+    "Year": 2009,
+    "Exportacion": 936,
+    "ComercioTotal": 9736,
+    "BalanzaComercial": -7864
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 6020,
+    "Year": 2010,
+    "Exportacion": 799,
+    "ComercioTotal": 6819,
+    "BalanzaComercial": -5221
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 4970,
+    "Year": 2011,
+    "Exportacion": 707,
+    "ComercioTotal": 5677,
+    "BalanzaComercial": -4263
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 4439,
+    "Year": 2012,
+    "Exportacion": 793,
+    "ComercioTotal": 5232,
+    "BalanzaComercial": -3646
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 4337,
+    "Year": 2013,
+    "Exportacion": 748,
+    "ComercioTotal": 5085,
+    "BalanzaComercial": -3589
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 5468,
+    "Year": 2014,
+    "Exportacion": 842,
+    "ComercioTotal": 6310,
+    "BalanzaComercial": -4626
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 2173,
+    "Year": 2015,
+    "Exportacion": 378,
+    "ComercioTotal": 2551,
+    "BalanzaComercial": -1795
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 276239,
+    "Year": 2005,
+    "Exportacion": 85149,
+    "ComercioTotal": 361388,
+    "BalanzaComercial": -191090
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 346093,
+    "Year": 2006,
+    "Exportacion": 84602,
+    "ComercioTotal": 430695,
+    "BalanzaComercial": -261491
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 356622,
+    "Year": 2007,
+    "Exportacion": 93971,
+    "ComercioTotal": 450593,
+    "BalanzaComercial": -262651
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 317364,
+    "Year": 2008,
+    "Exportacion": 97832,
+    "ComercioTotal": 415196,
+    "BalanzaComercial": -219532
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 209056,
+    "Year": 2009,
+    "Exportacion": 92329,
+    "ComercioTotal": 301385,
+    "BalanzaComercial": -116727
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 214560,
+    "Year": 2010,
+    "Exportacion": 94934,
+    "ComercioTotal": 309494,
+    "BalanzaComercial": -119626
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 220721,
+    "Year": 2011,
+    "Exportacion": 92957,
+    "ComercioTotal": 313678,
+    "BalanzaComercial": -127764
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 228748,
+    "Year": 2012,
+    "Exportacion": 96093,
+    "ComercioTotal": 324841,
+    "BalanzaComercial": -132655
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 227344,
+    "Year": 2013,
+    "Exportacion": 98987,
+    "ComercioTotal": 326331,
+    "BalanzaComercial": -128357
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 220436,
+    "Year": 2014,
+    "Exportacion": 103680,
+    "ComercioTotal": 324116,
+    "BalanzaComercial": -116756
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 103167,
+    "Year": 2015,
+    "Exportacion": 53866,
+    "ComercioTotal": 157033,
+    "BalanzaComercial": -49301
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 366442,
+    "Year": 2005,
+    "Exportacion": 111016,
+    "ComercioTotal": 477458,
+    "BalanzaComercial": -255426
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 486553,
+    "Year": 2006,
+    "Exportacion": 123638,
+    "ComercioTotal": 610191,
+    "BalanzaComercial": -362915
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 381165,
+    "Year": 2007,
+    "Exportacion": 133323,
+    "ComercioTotal": 514488,
+    "BalanzaComercial": -247842
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 335718,
+    "Year": 2008,
+    "Exportacion": 116123,
+    "ComercioTotal": 451841,
+    "BalanzaComercial": -219595
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 276167,
+    "Year": 2009,
+    "Exportacion": 87500,
+    "ComercioTotal": 363667,
+    "BalanzaComercial": -188667
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 311406,
+    "Year": 2010,
+    "Exportacion": 101118,
+    "ComercioTotal": 412524,
+    "BalanzaComercial": -210288
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 314753,
+    "Year": 2011,
+    "Exportacion": 112081,
+    "ComercioTotal": 426834,
+    "BalanzaComercial": -202672
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 309824,
+    "Year": 2012,
+    "Exportacion": 116000,
+    "ComercioTotal": 425824,
+    "BalanzaComercial": -193824
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 315816,
+    "Year": 2013,
+    "Exportacion": 104794,
+    "ComercioTotal": 420610,
+    "BalanzaComercial": -211022
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 326496,
+    "Year": 2014,
+    "Exportacion": 102828,
+    "ComercioTotal": 429324,
+    "BalanzaComercial": -223668
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 144914,
+    "Year": 2015,
+    "Exportacion": 49758,
+    "ComercioTotal": 194672,
+    "BalanzaComercial": -95156
+  },
+  {
+    "Aduana": "MATAMOROS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 279341,
+    "Year": 2005,
+    "Exportacion": 49511,
+    "ComercioTotal": 328852,
+    "BalanzaComercial": -229830
+  },
+  {
+    "Aduana": "MATAMOROS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 397897,
+    "Year": 2006,
+    "Exportacion": 47378,
+    "ComercioTotal": 445275,
+    "BalanzaComercial": -350519
+  },
+  {
+    "Aduana": "MATAMOROS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 411717,
+    "Year": 2007,
+    "Exportacion": 48948,
+    "ComercioTotal": 460665,
+    "BalanzaComercial": -362769
+  },
+  {
+    "Aduana": "MATAMOROS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 330865,
+    "Year": 2008,
+    "Exportacion": 48531,
+    "ComercioTotal": 379396,
+    "BalanzaComercial": -282334
+  },
+  {
+    "Aduana": "MATAMOROS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 176974,
+    "Year": 2009,
+    "Exportacion": 44707,
+    "ComercioTotal": 221681,
+    "BalanzaComercial": -132267
+  },
+  {
+    "Aduana": "MATAMOROS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 199767,
+    "Year": 2010,
+    "Exportacion": 48981,
+    "ComercioTotal": 248748,
+    "BalanzaComercial": -150786
+  },
+  {
+    "Aduana": "MATAMOROS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 193890,
+    "Year": 2011,
+    "Exportacion": 49141,
+    "ComercioTotal": 243031,
+    "BalanzaComercial": -144749
+  },
+  {
+    "Aduana": "MATAMOROS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 197361,
+    "Year": 2012,
+    "Exportacion": 49495,
+    "ComercioTotal": 246856,
+    "BalanzaComercial": -147866
+  },
+  {
+    "Aduana": "MATAMOROS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 188568,
+    "Year": 2013,
+    "Exportacion": 49121,
+    "ComercioTotal": 237689,
+    "BalanzaComercial": -139447
+  },
+  {
+    "Aduana": "MATAMOROS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 176515,
+    "Year": 2014,
+    "Exportacion": 49260,
+    "ComercioTotal": 225775,
+    "BalanzaComercial": -127255
+  },
+  {
+    "Aduana": "MATAMOROS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 79154,
+    "Year": 2015,
+    "Exportacion": 23671,
+    "ComercioTotal": 102825,
+    "BalanzaComercial": -55483
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 221498,
+    "Year": 2005,
+    "Exportacion": 41071,
+    "ComercioTotal": 262569,
+    "BalanzaComercial": -180427
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 254416,
+    "Year": 2006,
+    "Exportacion": 43278,
+    "ComercioTotal": 297694,
+    "BalanzaComercial": -211138
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 242290,
+    "Year": 2007,
+    "Exportacion": 44374,
+    "ComercioTotal": 286664,
+    "BalanzaComercial": -197916
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 215076,
+    "Year": 2008,
+    "Exportacion": 41791,
+    "ComercioTotal": 256867,
+    "BalanzaComercial": -173285
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 135543,
+    "Year": 2009,
+    "Exportacion": 35936,
+    "ComercioTotal": 171479,
+    "BalanzaComercial": -99607
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 191138,
+    "Year": 2010,
+    "Exportacion": 36802,
+    "ComercioTotal": 227940,
+    "BalanzaComercial": -154336
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 211568,
+    "Year": 2011,
+    "Exportacion": 38129,
+    "ComercioTotal": 249697,
+    "BalanzaComercial": -173439
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 206228,
+    "Year": 2012,
+    "Exportacion": 40741,
+    "ComercioTotal": 246969,
+    "BalanzaComercial": -165487
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 194542,
+    "Year": 2013,
+    "Exportacion": 41209,
+    "ComercioTotal": 235751,
+    "BalanzaComercial": -153333
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 185534,
+    "Year": 2014,
+    "Exportacion": 42615,
+    "ComercioTotal": 228149,
+    "BalanzaComercial": -142919
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 80235,
+    "Year": 2015,
+    "Exportacion": 23939,
+    "ComercioTotal": 104174,
+    "BalanzaComercial": -56296
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 13090,
+    "Year": 2005,
+    "Exportacion": 1755,
+    "ComercioTotal": 14845,
+    "BalanzaComercial": -11335
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 11721,
+    "Year": 2006,
+    "Exportacion": 1669,
+    "ComercioTotal": 13390,
+    "BalanzaComercial": -10052
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 8090,
+    "Year": 2007,
+    "Exportacion": 1487,
+    "ComercioTotal": 9577,
+    "BalanzaComercial": -6603
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 5881,
+    "Year": 2008,
+    "Exportacion": 812,
+    "ComercioTotal": 6693,
+    "BalanzaComercial": -5069
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 2152,
+    "Year": 2009,
+    "Exportacion": 680,
+    "ComercioTotal": 2832,
+    "BalanzaComercial": -1472
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 3136,
+    "Year": 2010,
+    "Exportacion": 971,
+    "ComercioTotal": 4107,
+    "BalanzaComercial": -2165
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 5896,
+    "Year": 2011,
+    "Exportacion": 1110,
+    "ComercioTotal": 7006,
+    "BalanzaComercial": -4786
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 5556,
+    "Year": 2012,
+    "Exportacion": 1125,
+    "ComercioTotal": 6681,
+    "BalanzaComercial": -4431
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 4690,
+    "Year": 2013,
+    "Exportacion": 1123,
+    "ComercioTotal": 5813,
+    "BalanzaComercial": -3567
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 6010,
+    "Year": 2014,
+    "Exportacion": 916,
+    "ComercioTotal": 6926,
+    "BalanzaComercial": -5094
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1751,
+    "Year": 2015,
+    "Exportacion": 357,
+    "ComercioTotal": 2108,
+    "BalanzaComercial": -1394
+  },
+  {
+    "Aduana": "NOGALES",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 185031,
+    "Year": 2005,
+    "Exportacion": 90708,
+    "ComercioTotal": 275739,
+    "BalanzaComercial": -94323
+  },
+  {
+    "Aduana": "NOGALES",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 237663,
+    "Year": 2006,
+    "Exportacion": 85988,
+    "ComercioTotal": 323651,
+    "BalanzaComercial": -151675
+  },
+  {
+    "Aduana": "NOGALES",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 265139,
+    "Year": 2007,
+    "Exportacion": 79355,
+    "ComercioTotal": 344494,
+    "BalanzaComercial": -185784
+  },
+  {
+    "Aduana": "NOGALES",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 242621,
+    "Year": 2008,
+    "Exportacion": 77447,
+    "ComercioTotal": 320068,
+    "BalanzaComercial": -165174
+  },
+  {
+    "Aduana": "NOGALES",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 139583,
+    "Year": 2009,
+    "Exportacion": 73128,
+    "ComercioTotal": 212711,
+    "BalanzaComercial": -66455
+  },
+  {
+    "Aduana": "NOGALES",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 160233,
+    "Year": 2010,
+    "Exportacion": 72309,
+    "ComercioTotal": 232542,
+    "BalanzaComercial": -87924
+  },
+  {
+    "Aduana": "NOGALES",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 167028,
+    "Year": 2011,
+    "Exportacion": 73687,
+    "ComercioTotal": 240715,
+    "BalanzaComercial": -93341
+  },
+  {
+    "Aduana": "NOGALES",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 169975,
+    "Year": 2012,
+    "Exportacion": 74786,
+    "ComercioTotal": 244761,
+    "BalanzaComercial": -95189
+  },
+  {
+    "Aduana": "NOGALES",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 188966,
+    "Year": 2013,
+    "Exportacion": 73066,
+    "ComercioTotal": 262032,
+    "BalanzaComercial": -115900
+  },
+  {
+    "Aduana": "NOGALES",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 183026,
+    "Year": 2014,
+    "Exportacion": 71558,
+    "ComercioTotal": 254584,
+    "BalanzaComercial": -111468
+  },
+  {
+    "Aduana": "NOGALES",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 74648,
+    "Year": 2015,
+    "Exportacion": 41892,
+    "ComercioTotal": 116540,
+    "BalanzaComercial": -32756
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1263960,
+    "Year": 2005,
+    "Exportacion": 446546,
+    "ComercioTotal": 1710506,
+    "BalanzaComercial": -817414
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1352963,
+    "Year": 2006,
+    "Exportacion": 430916,
+    "ComercioTotal": 1783879,
+    "BalanzaComercial": -922047
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1494430,
+    "Year": 2007,
+    "Exportacion": 429686,
+    "ComercioTotal": 1924116,
+    "BalanzaComercial": -1064744
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1484133,
+    "Year": 2008,
+    "Exportacion": 406908,
+    "ComercioTotal": 1891041,
+    "BalanzaComercial": -1077225
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1093204,
+    "Year": 2009,
+    "Exportacion": 381452,
+    "ComercioTotal": 1474656,
+    "BalanzaComercial": -711752
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1290134,
+    "Year": 2010,
+    "Exportacion": 448297,
+    "ComercioTotal": 1738431,
+    "BalanzaComercial": -841837
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1352594,
+    "Year": 2011,
+    "Exportacion": 485871,
+    "ComercioTotal": 1838465,
+    "BalanzaComercial": -866723
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1388978,
+    "Year": 2012,
+    "Exportacion": 506285,
+    "ComercioTotal": 1895263,
+    "BalanzaComercial": -882693
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1404790,
+    "Year": 2013,
+    "Exportacion": 496672,
+    "ComercioTotal": 1901462,
+    "BalanzaComercial": -908118
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1411944,
+    "Year": 2014,
+    "Exportacion": 539932,
+    "ComercioTotal": 1951876,
+    "BalanzaComercial": -872012
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 677838,
+    "Year": 2015,
+    "Exportacion": 282033,
+    "ComercioTotal": 959871,
+    "BalanzaComercial": -395805
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 9096,
+    "Year": 2005,
+    "Exportacion": 3516,
+    "ComercioTotal": 12612,
+    "BalanzaComercial": -5580
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 14051,
+    "Year": 2006,
+    "Exportacion": 3425,
+    "ComercioTotal": 17476,
+    "BalanzaComercial": -10626
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 16181,
+    "Year": 2007,
+    "Exportacion": 3339,
+    "ComercioTotal": 19520,
+    "BalanzaComercial": -12842
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 11819,
+    "Year": 2008,
+    "Exportacion": 2701,
+    "ComercioTotal": 14520,
+    "BalanzaComercial": -9118
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 5571,
+    "Year": 2009,
+    "Exportacion": 2367,
+    "ComercioTotal": 7938,
+    "BalanzaComercial": -3204
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 6233,
+    "Year": 2010,
+    "Exportacion": 3026,
+    "ComercioTotal": 9259,
+    "BalanzaComercial": -3207
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 6774,
+    "Year": 2011,
+    "Exportacion": 3422,
+    "ComercioTotal": 10196,
+    "BalanzaComercial": -3352
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 6605,
+    "Year": 2012,
+    "Exportacion": 4145,
+    "ComercioTotal": 10750,
+    "BalanzaComercial": -2460
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 15935,
+    "Year": 2013,
+    "Exportacion": 2237,
+    "ComercioTotal": 18172,
+    "BalanzaComercial": -13698
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 17381,
+    "Year": 2014,
+    "Exportacion": 2318,
+    "ComercioTotal": 19699,
+    "BalanzaComercial": -15063
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 2373,
+    "Year": 2015,
+    "Exportacion": 1011,
+    "ComercioTotal": 3384,
+    "BalanzaComercial": -1362
+  },
+  {
+    "Aduana": "PIEDRAS NEGRAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 117023,
+    "Year": 2005,
+    "Exportacion": 38000,
+    "ComercioTotal": 155023,
+    "BalanzaComercial": -79023
+  },
+  {
+    "Aduana": "PIEDRAS NEGRAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 136604,
+    "Year": 2006,
+    "Exportacion": 38976,
+    "ComercioTotal": 175580,
+    "BalanzaComercial": -97628
+  },
+  {
+    "Aduana": "PIEDRAS NEGRAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 132792,
+    "Year": 2007,
+    "Exportacion": 40838,
+    "ComercioTotal": 173630,
+    "BalanzaComercial": -91954
+  },
+  {
+    "Aduana": "PIEDRAS NEGRAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 128377,
+    "Year": 2008,
+    "Exportacion": 40519,
+    "ComercioTotal": 168896,
+    "BalanzaComercial": -87858
+  },
+  {
+    "Aduana": "PIEDRAS NEGRAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 108180,
+    "Year": 2009,
+    "Exportacion": 32355,
+    "ComercioTotal": 140535,
+    "BalanzaComercial": -75825
+  },
+  {
+    "Aduana": "PIEDRAS NEGRAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 112638,
+    "Year": 2010,
+    "Exportacion": 33293,
+    "ComercioTotal": 145931,
+    "BalanzaComercial": -79345
+  },
+  {
+    "Aduana": "PIEDRAS NEGRAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 116041,
+    "Year": 2011,
+    "Exportacion": 35622,
+    "ComercioTotal": 151663,
+    "BalanzaComercial": -80419
+  },
+  {
+    "Aduana": "PIEDRAS NEGRAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 112742,
+    "Year": 2012,
+    "Exportacion": 36865,
+    "ComercioTotal": 149607,
+    "BalanzaComercial": -75877
+  },
+  {
+    "Aduana": "PIEDRAS NEGRAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 113768,
+    "Year": 2013,
+    "Exportacion": 38449,
+    "ComercioTotal": 152217,
+    "BalanzaComercial": -75319
+  },
+  {
+    "Aduana": "PIEDRAS NEGRAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 130228,
+    "Year": 2014,
+    "Exportacion": 42367,
+    "ComercioTotal": 172595,
+    "BalanzaComercial": -87861
+  },
+  {
+    "Aduana": "PIEDRAS NEGRAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 69196,
+    "Year": 2015,
+    "Exportacion": 20835,
+    "ComercioTotal": 90031,
+    "BalanzaComercial": -48361
+  },
+  {
+    "Aduana": "PUERTO PALOMAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 4774,
+    "Year": 2005,
+    "Exportacion": 1089,
+    "ComercioTotal": 5863,
+    "BalanzaComercial": -3685
+  },
+  {
+    "Aduana": "PUERTO PALOMAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 7459,
+    "Year": 2006,
+    "Exportacion": 1195,
+    "ComercioTotal": 8654,
+    "BalanzaComercial": -6264
+  },
+  {
+    "Aduana": "PUERTO PALOMAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 12989,
+    "Year": 2007,
+    "Exportacion": 1478,
+    "ComercioTotal": 14467,
+    "BalanzaComercial": -11511
+  },
+  {
+    "Aduana": "PUERTO PALOMAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 7025,
+    "Year": 2008,
+    "Exportacion": 1354,
+    "ComercioTotal": 8379,
+    "BalanzaComercial": -5671
+  },
+  {
+    "Aduana": "PUERTO PALOMAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1871,
+    "Year": 2009,
+    "Exportacion": 1667,
+    "ComercioTotal": 3538,
+    "BalanzaComercial": -204
+  },
+  {
+    "Aduana": "PUERTO PALOMAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1454,
+    "Year": 2010,
+    "Exportacion": 1615,
+    "ComercioTotal": 3069,
+    "BalanzaComercial": 161
+  },
+  {
+    "Aduana": "PUERTO PALOMAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1314,
+    "Year": 2011,
+    "Exportacion": 1754,
+    "ComercioTotal": 3068,
+    "BalanzaComercial": 440
+  },
+  {
+    "Aduana": "PUERTO PALOMAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1201,
+    "Year": 2012,
+    "Exportacion": 1906,
+    "ComercioTotal": 3107,
+    "BalanzaComercial": 705
+  },
+  {
+    "Aduana": "PUERTO PALOMAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 2725,
+    "Year": 2013,
+    "Exportacion": 1892,
+    "ComercioTotal": 4617,
+    "BalanzaComercial": -833
+  },
+  {
+    "Aduana": "PUERTO PALOMAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 3301,
+    "Year": 2014,
+    "Exportacion": 1607,
+    "ComercioTotal": 4908,
+    "BalanzaComercial": -1694
+  },
+  {
+    "Aduana": "PUERTO PALOMAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 460,
+    "Year": 2015,
+    "Exportacion": 674,
+    "ComercioTotal": 1134,
+    "BalanzaComercial": 214
+  },
+  {
+    "Aduana": "SAN LUIS RIO COLORADO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 30449,
+    "Year": 2005,
+    "Exportacion": 13879,
+    "ComercioTotal": 44328,
+    "BalanzaComercial": -16570
+  },
+  {
+    "Aduana": "SAN LUIS RIO COLORADO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 51881,
+    "Year": 2006,
+    "Exportacion": 13501,
+    "ComercioTotal": 65382,
+    "BalanzaComercial": -38380
+  },
+  {
+    "Aduana": "SAN LUIS RIO COLORADO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 41649,
+    "Year": 2007,
+    "Exportacion": 12930,
+    "ComercioTotal": 54579,
+    "BalanzaComercial": -28719
+  },
+  {
+    "Aduana": "SAN LUIS RIO COLORADO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 43075,
+    "Year": 2008,
+    "Exportacion": 11407,
+    "ComercioTotal": 54482,
+    "BalanzaComercial": -31668
+  },
+  {
+    "Aduana": "SAN LUIS RIO COLORADO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 44566,
+    "Year": 2009,
+    "Exportacion": 9245,
+    "ComercioTotal": 53811,
+    "BalanzaComercial": -35321
+  },
+  {
+    "Aduana": "SAN LUIS RIO COLORADO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 63228,
+    "Year": 2010,
+    "Exportacion": 8164,
+    "ComercioTotal": 71392,
+    "BalanzaComercial": -55064
+  },
+  {
+    "Aduana": "SAN LUIS RIO COLORADO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 40555,
+    "Year": 2011,
+    "Exportacion": 7951,
+    "ComercioTotal": 48506,
+    "BalanzaComercial": -32604
+  },
+  {
+    "Aduana": "SAN LUIS RIO COLORADO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 46188,
+    "Year": 2012,
+    "Exportacion": 7281,
+    "ComercioTotal": 53469,
+    "BalanzaComercial": -38907
+  },
+  {
+    "Aduana": "SAN LUIS RIO COLORADO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 47844,
+    "Year": 2013,
+    "Exportacion": 7350,
+    "ComercioTotal": 55194,
+    "BalanzaComercial": -40494
+  },
+  {
+    "Aduana": "SAN LUIS RIO COLORADO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 39738,
+    "Year": 2014,
+    "Exportacion": 6902,
+    "ComercioTotal": 46640,
+    "BalanzaComercial": -32836
+  },
+  {
+    "Aduana": "SAN LUIS RIO COLORADO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 8885,
+    "Year": 2015,
+    "Exportacion": 3572,
+    "ComercioTotal": 12457,
+    "BalanzaComercial": -5313
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 5189,
+    "Year": 2005,
+    "Exportacion": 109,
+    "ComercioTotal": 5298,
+    "BalanzaComercial": -5080
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 7265,
+    "Year": 2006,
+    "Exportacion": 59,
+    "ComercioTotal": 7324,
+    "BalanzaComercial": -7206
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 18085,
+    "Year": 2007,
+    "Exportacion": 90,
+    "ComercioTotal": 18175,
+    "BalanzaComercial": -17995
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 14264,
+    "Year": 2008,
+    "Exportacion": 89,
+    "ComercioTotal": 14353,
+    "BalanzaComercial": -14175
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 3232,
+    "Year": 2009,
+    "Exportacion": 173,
+    "ComercioTotal": 3405,
+    "BalanzaComercial": -3059
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 2286,
+    "Year": 2010,
+    "Exportacion": 56,
+    "ComercioTotal": 2342,
+    "BalanzaComercial": -2230
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1609,
+    "Year": 2011,
+    "Exportacion": 30,
+    "ComercioTotal": 1639,
+    "BalanzaComercial": -1579
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1161,
+    "Year": 2012,
+    "Exportacion": 18,
+    "ComercioTotal": 1179,
+    "BalanzaComercial": -1143
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 993,
+    "Year": 2013,
+    "Exportacion": 39,
+    "ComercioTotal": 1032,
+    "BalanzaComercial": -954
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 354,
+    "Year": 2014,
+    "Exportacion": 50,
+    "ComercioTotal": 404,
+    "BalanzaComercial": -304
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 117,
+    "Year": 2015,
+    "Exportacion": 25,
+    "ComercioTotal": 142,
+    "BalanzaComercial": -92
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 31835,
+    "Year": 2005,
+    "Exportacion": 15442,
+    "ComercioTotal": 47277,
+    "BalanzaComercial": -16393
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 31900,
+    "Year": 2006,
+    "Exportacion": 15673,
+    "ComercioTotal": 47573,
+    "BalanzaComercial": -16227
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 31317,
+    "Year": 2007,
+    "Exportacion": 15084,
+    "ComercioTotal": 46401,
+    "BalanzaComercial": -16233
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 26323,
+    "Year": 2008,
+    "Exportacion": 14016,
+    "ComercioTotal": 40339,
+    "BalanzaComercial": -12307
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 20663,
+    "Year": 2009,
+    "Exportacion": 12764,
+    "ComercioTotal": 33427,
+    "BalanzaComercial": -7899
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 20181,
+    "Year": 2010,
+    "Exportacion": 11786,
+    "ComercioTotal": 31967,
+    "BalanzaComercial": -8395
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 22574,
+    "Year": 2011,
+    "Exportacion": 11897,
+    "ComercioTotal": 34471,
+    "BalanzaComercial": -10677
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 22907,
+    "Year": 2012,
+    "Exportacion": 11771,
+    "ComercioTotal": 34678,
+    "BalanzaComercial": -11136
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 32560,
+    "Year": 2013,
+    "Exportacion": 11533,
+    "ComercioTotal": 44093,
+    "BalanzaComercial": -21027
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 21614,
+    "Year": 2014,
+    "Exportacion": 11298,
+    "ComercioTotal": 32912,
+    "BalanzaComercial": -10316
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 7958,
+    "Year": 2015,
+    "Exportacion": 4887,
+    "ComercioTotal": 12845,
+    "BalanzaComercial": -3071
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 470242,
+    "Year": 2005,
+    "Exportacion": 149119,
+    "ComercioTotal": 619361,
+    "BalanzaComercial": -321123
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 474009,
+    "Year": 2006,
+    "Exportacion": 141570,
+    "ComercioTotal": 615579,
+    "BalanzaComercial": -332439
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 482579,
+    "Year": 2007,
+    "Exportacion": 137986,
+    "ComercioTotal": 620565,
+    "BalanzaComercial": -344593
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 438252,
+    "Year": 2008,
+    "Exportacion": 138097,
+    "ComercioTotal": 576349,
+    "BalanzaComercial": -300155
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 341311,
+    "Year": 2009,
+    "Exportacion": 129761,
+    "ComercioTotal": 471072,
+    "BalanzaComercial": -211550
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 387092,
+    "Year": 2010,
+    "Exportacion": 132464,
+    "ComercioTotal": 519556,
+    "BalanzaComercial": -254628
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 426247,
+    "Year": 2011,
+    "Exportacion": 134164,
+    "ComercioTotal": 560411,
+    "BalanzaComercial": -292083
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 416291,
+    "Year": 2012,
+    "Exportacion": 138118,
+    "ComercioTotal": 554409,
+    "BalanzaComercial": -278173
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 443085,
+    "Year": 2013,
+    "Exportacion": 139749,
+    "ComercioTotal": 582834,
+    "BalanzaComercial": -303336
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 419111,
+    "Year": 2014,
+    "Exportacion": 148444,
+    "ComercioTotal": 567555,
+    "BalanzaComercial": -270667
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 191321,
+    "Year": 2015,
+    "Exportacion": 72884,
+    "ComercioTotal": 264205,
+    "BalanzaComercial": -118437
+  }
+]

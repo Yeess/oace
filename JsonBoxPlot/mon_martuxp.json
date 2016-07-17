@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 36632085181,
+    "Year": 2005,
+    "Exportacion": 2876325896,
+    "ComercioTotal": 39508411077,
+    "BalanzaComercial": -33755759285
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 42896862754,
+    "Year": 2006,
+    "Exportacion": 4191979056,
+    "ComercioTotal": 47088841810,
+    "BalanzaComercial": -38704883698
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 61320677954,
+    "Year": 2007,
+    "Exportacion": 1478986142,
+    "ComercioTotal": 62799664096,
+    "BalanzaComercial": -59841691812
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 82179410038,
+    "Year": 2008,
+    "Exportacion": 976458757,
+    "ComercioTotal": 83155868795,
+    "BalanzaComercial": -81202951281
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 64506700757,
+    "Year": 2009,
+    "Exportacion": 752530687,
+    "ComercioTotal": 65259231444,
+    "BalanzaComercial": -63754170070
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 77879891063,
+    "Year": 2010,
+    "Exportacion": 2429082809,
+    "ComercioTotal": 80308973872,
+    "BalanzaComercial": -75450808254
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 124000000000,
+    "Year": 2011,
+    "Exportacion": 1750851015,
+    "ComercioTotal": 125750851015,
+    "BalanzaComercial": -122249148985
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 161000000000,
+    "Year": 2012,
+    "Exportacion": 7815805143,
+    "ComercioTotal": 168815805143,
+    "BalanzaComercial": -153184194857
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 140000000000,
+    "Year": 2013,
+    "Exportacion": 1576976966,
+    "ComercioTotal": 141576976966,
+    "BalanzaComercial": -138423023034
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 130000000000,
+    "Year": 2014,
+    "Exportacion": 2017890518,
+    "ComercioTotal": 132017890518,
+    "BalanzaComercial": -127982109482
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 59737101188,
+    "Year": 2015,
+    "Exportacion": 316138585,
+    "ComercioTotal": 60053239773,
+    "BalanzaComercial": -59420962603
+  }
+]

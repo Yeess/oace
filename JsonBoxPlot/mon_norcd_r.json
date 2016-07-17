@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 163000000000,
+    "Year": 2005,
+    "Exportacion": 174000000000,
+    "ComercioTotal": 337000000000,
+    "BalanzaComercial": 11000000000
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 883000000000,
+    "Year": 2006,
+    "Exportacion": 200000000000,
+    "ComercioTotal": 1.083e+12,
+    "BalanzaComercial": -683000000000
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 230000000000,
+    "Year": 2007,
+    "Exportacion": 230000000000,
+    "ComercioTotal": 460000000000,
+    "BalanzaComercial": 0
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 259000000000,
+    "Year": 2008,
+    "Exportacion": 244000000000,
+    "ComercioTotal": 503000000000,
+    "BalanzaComercial": -15000000000
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 263000000000,
+    "Year": 2009,
+    "Exportacion": 265000000000,
+    "ComercioTotal": 528000000000,
+    "BalanzaComercial": 2000000000
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 290000000000,
+    "Year": 2010,
+    "Exportacion": 315000000000,
+    "ComercioTotal": 605000000000,
+    "BalanzaComercial": 25000000000
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 280000000000,
+    "Year": 2011,
+    "Exportacion": 292000000000,
+    "ComercioTotal": 572000000000,
+    "BalanzaComercial": 12000000000
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 352000000000,
+    "Year": 2012,
+    "Exportacion": 315000000000,
+    "ComercioTotal": 667000000000,
+    "BalanzaComercial": -37000000000
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 333000000000,
+    "Year": 2013,
+    "Exportacion": 325000000000,
+    "ComercioTotal": 658000000000,
+    "BalanzaComercial": -8000000000
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 358000000000,
+    "Year": 2014,
+    "Exportacion": 382000000000,
+    "ComercioTotal": 740000000000,
+    "BalanzaComercial": 24000000000
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 172000000000,
+    "Year": 2015,
+    "Exportacion": 199000000000,
+    "ComercioTotal": 371000000000,
+    "BalanzaComercial": 27000000000
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "GUANAJUATO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": null,
+    "Year": 2005,
+    "Exportacion": null,
+    "ComercioTotal": null,
+    "BalanzaComercial": null
+  },
+  {
+    "Aduana": "GUANAJUATO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 14201,
+    "Year": 2006,
+    "Exportacion": 1342,
+    "ComercioTotal": 15543,
+    "BalanzaComercial": -12859
+  },
+  {
+    "Aduana": "GUANAJUATO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 25908,
+    "Year": 2007,
+    "Exportacion": 2283,
+    "ComercioTotal": 28191,
+    "BalanzaComercial": -23625
+  },
+  {
+    "Aduana": "GUANAJUATO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 25047,
+    "Year": 2008,
+    "Exportacion": 2560,
+    "ComercioTotal": 27607,
+    "BalanzaComercial": -22487
+  },
+  {
+    "Aduana": "GUANAJUATO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 23238,
+    "Year": 2009,
+    "Exportacion": 2331,
+    "ComercioTotal": 25569,
+    "BalanzaComercial": -20907
+  },
+  {
+    "Aduana": "GUANAJUATO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 28990,
+    "Year": 2010,
+    "Exportacion": 2569,
+    "ComercioTotal": 31559,
+    "BalanzaComercial": -26421
+  },
+  {
+    "Aduana": "GUANAJUATO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 41245,
+    "Year": 2011,
+    "Exportacion": 3140,
+    "ComercioTotal": 44385,
+    "BalanzaComercial": -38105
+  },
+  {
+    "Aduana": "GUANAJUATO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 31606,
+    "Year": 2012,
+    "Exportacion": 2853,
+    "ComercioTotal": 34459,
+    "BalanzaComercial": -28753
+  },
+  {
+    "Aduana": "GUANAJUATO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 28959,
+    "Year": 2013,
+    "Exportacion": 2685,
+    "ComercioTotal": 31644,
+    "BalanzaComercial": -26274
+  },
+  {
+    "Aduana": "GUANAJUATO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 30886,
+    "Year": 2014,
+    "Exportacion": 2916,
+    "ComercioTotal": 33802,
+    "BalanzaComercial": -27970
+  },
+  {
+    "Aduana": "GUANAJUATO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 17051,
+    "Year": 2015,
+    "Exportacion": 1644,
+    "ComercioTotal": 18695,
+    "BalanzaComercial": -15407
+  }
+]

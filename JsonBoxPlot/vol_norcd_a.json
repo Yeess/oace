@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 24500,
+    "Year": 2005,
+    "Exportacion": 12807,
+    "ComercioTotal": 37307,
+    "BalanzaComercial": -11693
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 30496,
+    "Year": 2006,
+    "Exportacion": 13655,
+    "ComercioTotal": 44151,
+    "BalanzaComercial": -16841
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 29141,
+    "Year": 2007,
+    "Exportacion": 12182,
+    "ComercioTotal": 41323,
+    "BalanzaComercial": -16959
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 24885,
+    "Year": 2008,
+    "Exportacion": 11810,
+    "ComercioTotal": 36695,
+    "BalanzaComercial": -13075
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 16581,
+    "Year": 2009,
+    "Exportacion": 11907,
+    "ComercioTotal": 28488,
+    "BalanzaComercial": -4674
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 17633,
+    "Year": 2010,
+    "Exportacion": 13216,
+    "ComercioTotal": 30849,
+    "BalanzaComercial": -4417
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 19091,
+    "Year": 2011,
+    "Exportacion": 13684,
+    "ComercioTotal": 32775,
+    "BalanzaComercial": -5407
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 17380,
+    "Year": 2012,
+    "Exportacion": 11679,
+    "ComercioTotal": 29059,
+    "BalanzaComercial": -5701
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 16691,
+    "Year": 2013,
+    "Exportacion": 12249,
+    "ComercioTotal": 28940,
+    "BalanzaComercial": -4442
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 17091,
+    "Year": 2014,
+    "Exportacion": 12753,
+    "ComercioTotal": 29844,
+    "BalanzaComercial": -4338
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 8289,
+    "Year": 2015,
+    "Exportacion": 6300,
+    "ComercioTotal": 14589,
+    "BalanzaComercial": -1989
+  }
+]

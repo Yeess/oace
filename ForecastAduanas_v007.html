@@ -1,0 +1,365 @@
+<html>
+<head>
+<meta charset="utf-8">
+
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script src="http://www.d3plus.org/js/d3.js"></script>
+<script src="http://www.d3plus.org/js/d3plus.js"></script>
+
+<style>
+/*.body{ overflow: scroll; overflow-x: hidden; overflow-y: hidden;}*/
+.viz {   width: 100%; height: 100%;  top:0%;   left:0%;  
+		overflow-x: hidden; overflow-y: hidden;
+		border: 2px; border-style: solid; border-color: #0000ff;
+		/*background: #000; opacity: 0.9; 	filter: alpha(opacity=90);*/
+		}
+		
+		#obj2 { position: fixed; width: 97%; height: 95.2%;  top:4.7%; left:1%; /*border-style: dotted; border-color: #ccccb3;*/ }
+		
+	.f1{font-size: 11.5px;
+	position:absolute; height:3.7%; width: 10%; top:0.4%; left:3%; border-style: solid; margin: 0px; display: inline-block; font-family: Helvetica; font-size: 12px;
+	color: rgb(68, 68, 68); border: 1px solid rgb(195, 195, 195); 
+    font-weight: 200; letter-spacing: 0px; cursor: auto; background-color: rgb(255, 255, 255);
+	}
+	.f2{font-size: 11.5px;
+	position:absolute; height:3.7%; width: 10%; top:0.4%; left:20%; border-style: solid; margin: 0px; display: inline-block; font-family: Helvetica; font-size: 12px;
+	color: rgb(68, 68, 68); border: 1px solid rgb(195, 195, 195); 
+    font-weight: 200; letter-spacing: 0px; cursor: auto; background-color: rgb(255, 255, 255);
+	}
+	.f3{font-size: 11.5px;
+	position:fixed; height:3.7%; width: 10%; top:0.4%; left:35%; border-style: solid; margin: 0px; display: inline-block; font-family: Helvetica; font-size: 12px;
+	color: rgb(68, 68, 68); border: 1px solid rgb(195, 195, 195); 
+    font-weight: 200; letter-spacing: 0px; cursor: auto; background-color: rgb(255, 255, 255);
+	}
+
+	
+</style>
+
+
+<script>
+	
+function initialize() {
+        var par2 = 'Norte'; //Tipo Aduana
+		var par1 = 'Nuevo Laredo'; //Aduana
+		var par3 = 'No'; //Aduana
+		
+		dropdownlist(par2);
+		CargaJson(par2,par1,par3);
+       //alert(par1);
+	   //alert(par2);
+
+google.maps.event.addDomListener(document.getElementById('par2'),'change', function() {
+              par2 = this.value;
+              par1 = dropdownlist(par2);
+			  CargaJson(par2,par1,par3);
+        });
+		 
+google.maps.event.addDomListener(document.getElementById('par1'), 'change', function() {		
+              par1 = this.value; 
+			  CargaJson(par2,par1,par3);	  
+        });
+google.maps.event.addDomListener(document.getElementById('par3'), 'change', function() {		
+              par3 = this.value; 
+			  CargaJson(par2,par1,par3);	  
+        });
+
+		
+    } 		
+	
+	
+	function CargaJson(par2,par1,par3){
+			var DatosForPro;
+			var DatosForReal;
+											
+			switch(par2 + "-" + par1) {
+				//case 'Todas-Todas':     DatosForReal= 'for_reales_mensual.json'; DatosForPro = 'for_pronostico_mensual.json';  dataTreeMapM = 'maptmaduanastotal.json'; dataTreeMapV = 'vaptmaduanastotal.json'; break;
+				
+				
+				case 'Interior-Mexico' :DatosForReal= 'forreal_20.json' ; DatosForPro='forpro_20.json'; break;
+				case 'Interior-Torreon' :DatosForReal= 'forreal_46.json' ; DatosForPro='forpro_46.json'; break;
+				case 'Interior-AICM' :DatosForReal= 'forreal_47.json' ; DatosForPro='forpro_47.json'; break;
+				case 'Interior-Guadalajara' :DatosForReal= 'forreal_48.json' ; DatosForPro='forpro_48.json'; break;
+				case 'Interior-Monterrey' :DatosForReal= 'forreal_52.json' ; DatosForPro='forpro_52.json'; break;
+				case 'Interior-Queretaro' :DatosForReal= 'forreal_64.json' ; DatosForPro='forpro_64.json'; break;
+				case 'Interior-Toluca' :DatosForReal= 'forreal_65.json' ; DatosForPro='forpro_65.json'; break;
+				case 'Interior-Chihuahua' :DatosForReal= 'forreal_67.json' ; DatosForPro='forpro_67.json'; break;
+				case 'Interior-Aguascalientes' :DatosForReal= 'forreal_73.json' ; DatosForPro='forpro_73.json'; break;
+				case 'Interior-Puebla' :DatosForReal= 'forreal_75.json' ; DatosForPro='forpro_75.json'; break;
+				case 'Interior-Guanajuato' :DatosForReal= 'forreal_84.json' ; DatosForPro='forpro_84.json'; break;
+				case 'Maritima-Acapulco' :DatosForReal= 'forreal_01.json' ; DatosForPro='forpro_01.json'; break;
+				case 'Maritima-Cd. del Carmen' :DatosForReal= 'forreal_06.json' ; DatosForPro='forpro_06.json'; break;
+				case 'Maritima-Coatzacoalcos' :DatosForReal= 'forreal_08.json' ; DatosForPro='forpro_08.json'; break;
+				case 'Maritima-Ensenada' :DatosForReal= 'forreal_11.json' ; DatosForPro='forpro_11.json'; break;
+				case 'Maritima-Guaymas' :DatosForReal= 'forreal_12.json' ; DatosForPro='forpro_12.json'; break;
+				case 'Maritima-La Paz' :DatosForReal= 'forreal_14.json' ; DatosForPro='forpro_14.json'; break;
+				case 'Maritima-Manzanillo' :DatosForReal= 'forreal_16.json' ; DatosForPro='forpro_16.json'; break;
+				case 'Maritima-Mazatlan' :DatosForReal= 'forreal_18.json' ; DatosForPro='forpro_18.json'; break;
+				case 'Maritima-Progreso' :DatosForReal= 'forreal_28.json' ; DatosForPro='forpro_28.json'; break;
+				case 'Maritima-Salina cruz' :DatosForReal= 'forreal_31.json' ; DatosForPro='forpro_31.json'; break;
+				case 'Maritima-Tampico' :DatosForReal= 'forreal_38.json' ; DatosForPro='forpro_38.json'; break;
+				case 'Maritima-Tuxpan' :DatosForReal= 'forreal_42.json' ; DatosForPro='forpro_42.json'; break;
+				case 'Maritima-Veracruz' :DatosForReal= 'forreal_43.json' ; DatosForPro='forpro_43.json'; break;
+				case 'Maritima-Lazaro Cardenas' :DatosForReal= 'forreal_51.json' ; DatosForPro='forpro_51.json'; break;
+				case 'Maritima-Cancun' :DatosForReal= 'forreal_53.json' ; DatosForPro='forpro_53.json'; break;
+				case 'Maritima-Altamira' :DatosForReal= 'forreal_81.json' ; DatosForPro='forpro_81.json'; break;
+				case 'Maritima-Dos Bocas' :DatosForReal= 'forreal_83.json' ; DatosForPro='forpro_83.json'; break;
+				case 'Norte-Agua Prieta' :DatosForReal= 'forreal_02.json' ; DatosForPro='forpro_02.json'; break;
+				case 'Norte-Cd. Juarez' :DatosForReal= 'forreal_07.json' ; DatosForPro='forpro_07.json'; break;
+				case 'Norte-Matamoros' :DatosForReal= 'forreal_17.json' ; DatosForPro='forpro_17.json'; break;
+				case 'Norte-Mexicali' :DatosForReal= 'forreal_19.json' ; DatosForPro='forpro_19.json'; break;
+				case 'Norte-Naco' :DatosForReal= 'forreal_22.json' ; DatosForPro='forpro_22.json'; break;
+				case 'Norte-Nogales' :DatosForReal= 'forreal_23.json' ; DatosForPro='forpro_23.json'; break;
+				case 'Norte-Nuevo Laredo' :DatosForReal= 'forreal_24.json' ; DatosForPro='forpro_24.json'; break;
+				case 'Norte-Ojinaga' :DatosForReal= 'forreal_25.json' ; DatosForPro='forpro_25.json'; break;
+				case 'Norte-Puerto Palomas' :DatosForReal= 'forreal_26.json' ; DatosForPro='forpro_26.json'; break;
+				case 'Norte-Piedras Negras' :DatosForReal= 'forreal_27.json' ; DatosForPro='forpro_27.json'; break;
+				case 'Norte-Cd. Reynosa' :DatosForReal= 'forreal_30.json' ; DatosForPro='forpro_30.json'; break;
+				case 'Norte-San Luis Rio Colorado' :DatosForReal= 'forreal_33.json' ; DatosForPro='forpro_33.json'; break;
+				case 'Norte-Cd. Miguel Aleman' :DatosForReal= 'forreal_34.json' ; DatosForPro='forpro_34.json'; break;
+				case 'Norte-Tecate' :DatosForReal= 'forreal_39.json' ; DatosForPro='forpro_39.json'; break;
+				case 'Norte-Tijuana' :DatosForReal= 'forreal_40.json' ; DatosForPro='forpro_40.json'; break;
+				case 'Norte-Cd. Acuna' :DatosForReal= 'forreal_44.json' ; DatosForPro='forpro_44.json'; break;
+				case 'Norte-Sonoyta' :DatosForReal= 'forreal_50.json' ; DatosForPro='forpro_50.json'; break;
+				case 'Norte-Colombia' :DatosForReal= 'forreal_80.json' ; DatosForPro='forpro_80.json'; break;
+				case 'Norte-Cd.Camargo' :DatosForReal= 'forreal_82.json' ; DatosForPro='forpro_82.json'; break;
+				case 'Sur-Subteniente Lopez' :DatosForReal= 'forreal_05.json' ; DatosForPro='forpro_05.json'; break;
+				case 'Sur-Cd. Hidalgo' :DatosForReal= 'forreal_37.json' ; DatosForPro='forpro_37.json'; break;
+				case 'Maritima-Todas':DatosForReal = 'forreal_maritima.json'; DatosForPro = 'forpro_maritima.json'; break;
+				case 'Interior-Todas':DatosForReal = 'forreal_interior.json'; DatosForPro = 'forpro_interior.json';  break;
+				case 'Norte-Todas':DatosForReal = 'forreal_norte.json'; DatosForPro = 'forpro_norte.json'; break;
+				case 'Sur-Todas':DatosForReal = 'forreal_sur.json'; DatosForPro = 'forpro_sur.json'; break;
+
+				default: 	 		
+					if(par2 == 'Sur'){  DatosForReal = 'forreal_sur.json'; DatosForPro = 'forpro_sur.json';     }
+					else if (par2 == 'Interior'){DatosForReal = 'forreal_interior.json'; DatosForPro = 'forpro_interior.json';  }
+					else if (par2 == 'Norte'){DatosForReal = 'forreal_norte.json'; DatosForPro = 'forpro_norte.json'; }
+					else if (par2 == 'Maritima'){DatosForReal = 'forreal_maritima.json'; DatosForPro = 'forpro_maritima.json';  }
+					//else {DatosForReal= 'for_reales_mensual.json'; DatosForPro = 'for_pronostico_mensual.json'; }
+					break;
+					
+			};
+			document.getElementById("obj2").innerHTML = "";
+			if(par3 == 'No'){		
+				d3.json("JsonForecast/"+DatosForReal, function(error, json) {
+					if (error) return console.warn(error);
+					dReal= json;
+					Pintalo(dReal);
+					});
+			}else {
+				d3.json("JsonForecast/"+DatosForPro, function(error, json) {
+					if (error) return console.warn(error);
+					dPronostico = json;
+					Pintalo(dPronostico);
+					});
+			}	
+				
+			}  // Aqui termina la carga json para los gráficos.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<!-- d3.json("JsonForecast/for_reales_Mensual.json", function(error, json) {
+//if (error) return console.warn(error);
+//	dReal= json;
+//d3.json("JsonForecast/For_Pronostico_Mensual.json", function(error, json) {
+//		if (error) return console.warn(error);
+//		dPronostico = json;
+//		Pintalo(dReal,dPronostico);
+//		});
+//	}); -->
+var htmlButton = "<a id='id1' href='PagAduanas_v003.html#obj1' target='_blank'> Ver productos que comercia ésta aduana.</a><br/><br/><br/><a id='id2' href='PagAduanas_v003.html#obj2' target='_blank'> Ver comercio de México por producto (capítulo), tipo de aduana y aduana.</a><br/><br/><br/>"
+	function Pintalo(data1){
+	//var data1 = data1;
+	//var data2 = data2;
+	var data = data1;
+	var visualization = d3plus.viz()
+    .container("#obj2")
+    .data(data)
+    .type("line")
+    .id(["id_adu"])
+	.text("Aduana")
+    .y("Monto de Exportacion")
+    .x("Fecha")
+	//.legend({"filters": true})
+	.legend(false)
+	.time("Fecha")
+	.ui([{
+					"label" : "Operación",
+					"method": "y",
+					"value"  : [ "Monto de Exportacion","Monto de Importacion","Volumen de Exportacion","Volumen de Importacion"]
+					},
+			/*	
+				{
+				"method": function(){
+				  visualization.csv(true) 
+				},
+				"value": ["Descargar datos"]
+				},
+			  { 
+					"label": "Pronóstico",
+					"method": function(value,viz){
+						if(value == "No"){
+						data = data1;
+						viz.data(data).draw();
+						}else if (value == "Si"){
+						data = data2;
+						viz.data(data).draw();
+						}
+					},
+					"value": ["No","Si"]
+				  }*/				 	
+				  ])
+	.format("es_ES")
+	.format({
+					"number": function(number, params) {
+						var formatted = d3plus.number.format(number, params);
+						if (params.key === "Monto de Exportacion") {	return "$" + formatted ;} 
+						else if (params.key === "Monto de Importacion"){return "$" + formatted ;}
+						else {	return formatted;}
+					}
+					})
+	.format({
+	"text": function(text, params) {
+	if (text === "Monto de Exportacion") { return "Monto de Exportación";  }
+	else if (text === "Monto de Importacion") { return "Monto de Importación";  }
+	else if (text === "Volumen de Exportacion") { return "Volumen de Exportación";  }
+	else if (text === "Volumen de Importacion") { return "Volumen de Importación";  }
+	else { return d3plus.string.title(text, params);  }  
+	}
+	})						  
+	.x({"grid": {"color": "#fff", "width": 20} })
+	.y({"grid": false})
+	.x({"grid": false})
+	.axes({"background": {"color": "#0d0d0d", "stroke": {"width": 0}}}, {"ticks": false})
+	.background("#0d0d0d" )
+	.tooltip({ "html":htmlButton , "background": "#bbb", "small": 200, "large": 250, "anchor": "bottom center" } )
+	.tooltip(["Fecha"])
+	.font({family: 'Trebuchet MS, Helvetica, Arial', color: '#fff' })
+	//.legend({"size": 30})
+	.draw()
+	.color("Color")
+	}
+	
+	function dropdownlist(par2){ 
+	document.formname.par1.options.length = 0;
+	switch (par2){	
+	case 'Norte' :
+	document.formname.par1.options[0] = new Option('Aduanas');
+	document.formname.par1.options[0].disabled = true;	
+	document.formname.par1.options[1]=new Option('Todas');
+	document.formname.par1.options[9]=new Option('Matamoros');
+	document.formname.par1.options[19]=new Option('Tecate');
+	document.formname.par1.options[18]=new Option('Sonoyta');
+	document.formname.par1.options[20]=new Option('Tijuana');
+	document.formname.par1.options[10]=new Option('Mexicali');
+	document.formname.par1.options[17]=new Option('San Luis Río Colorado');
+	document.formname.par1.options[12]=new Option('Nogales');
+	document.formname.par1.options[11]=new Option('Naco');
+	document.formname.par1.options[2]=new Option('Agua Prieta');
+	document.formname.par1.options[16]=new Option('Puerto Palomas');
+	document.formname.par1.options[5]=new Option('Cd. Juárez');
+	document.formname.par1.options[14]=new Option('Ojinaga');
+	document.formname.par1.options[3]=new Option('Cd. Acuña');
+	document.formname.par1.options[15]=new Option('Piedras Negras');
+	document.formname.par1.options[13]=new Option('Nuevo Laredo');
+	document.formname.par1.options[8]=new Option('Colombia');
+	document.formname.par1.options[6]=new Option('Cd. Miguel Alemán');
+	document.formname.par1.options[4]=new Option('Cd. Camargo');
+	document.formname.par1.options[7]=new Option('Cd. Reynosa');
+	break;	
+	case 'Sur' : 
+	document.formname.par1.options[0] = new Option('Aduanas');
+	document.formname.par1.options[0].disabled = true;	
+	document.formname.par1.options[1]=new Option('Todas');
+	document.formname.par1.options[2]=new Option('Cd. Hidalgo');
+	document.formname.par1.options[3]=new Option('Subteniente López');
+	break;
+	case 'Maritima' : 
+	document.formname.par1.options[0] = new Option('Aduanas');
+	document.formname.par1.options[0].disabled = true;	
+	document.formname.par1.options[1]=new Option('Todas');
+	document.formname.par1.options[18]=new Option('Veracruz');
+	document.formname.par1.options[2]=new Option('Acapulco');
+	document.formname.par1.options[3]=new Option('Altamira');
+	document.formname.par1.options[4]=new Option('Cancún');
+	document.formname.par1.options[5]=new Option('Cd. del Carmen');
+	document.formname.par1.options[6]=new Option('Coatzacoalcos');
+	document.formname.par1.options[7]=new Option('Dos Bocas');
+	document.formname.par1.options[8]=new Option('Ensenada');
+	document.formname.par1.options[9]=new Option('Guaymas');
+	document.formname.par1.options[11]=new Option('La Paz');
+	document.formname.par1.options[10]=new Option('Lázaro Cárdenas');
+	document.formname.par1.options[12]=new Option('Manzanillo');
+	document.formname.par1.options[13]=new Option('Mazatlán');
+	document.formname.par1.options[14]=new Option('Progreso');
+	document.formname.par1.options[15]=new Option('Salina cruz');
+	document.formname.par1.options[16]=new Option('Tampico');
+	document.formname.par1.options[17]=new Option('Tuxpan');
+	break;
+	case 'Interior' : 
+	document.formname.par1.options[0] = new Option('Aduanas');
+	document.formname.par1.options[0].disabled = true;	
+	document.formname.par1.options[1]=new Option('Todas');
+	document.formname.par1.options[2]=new Option('Aguascalientes');
+	document.formname.par1.options[3]=new Option('AICM');
+	document.formname.par1.options[4]=new Option('Chihuahua');
+	document.formname.par1.options[5]=new Option('Guadalajara');
+	document.formname.par1.options[6]=new Option('Guanajuato');
+	document.formname.par1.options[7]=new Option('México');
+	document.formname.par1.options[8]=new Option('Monterrey');
+	document.formname.par1.options[9]=new Option('Puebla');
+	document.formname.par1.options[10]=new Option('Querétaro');
+	document.formname.par1.options[11]=new Option('Toluca');
+	document.formname.par1.options[12]=new Option('Torreón');
+	break;
+	case 'Todas' :
+	document.formname.par1.options[0] = new Option('Aduanas');
+	document.formname.par1.options[0].disabled = true;	
+	document.formname.par1.options[1]=new Option('Interior');
+	document.formname.par1.options[2]=new Option('Maritima');
+	document.formname.par1.options[3]=new Option('Norte');
+	document.formname.par1.options[4]=new Option('Sur');
+	document.formname.par1.options[5] = new Option('Todas');
+	break;
+	
+	
+	}
+	
+	return document.formname.par1.options[0];
+}
+			google.maps.event.addDomListener(window, 'load', initialize);
+	
+</script>
+
+  </head>
+
+  <body >
+	 	
+			
+		<form id="formname" name="formname"  >				
+			<select name="par2" id="par2" class="f1"> 
+				<Option value="" disabled selected>Tipo de aduana</Option>	  
+				<Option value="Maritima">Maritima</Option>
+				<Option value="Norte">Norte</Option>
+				<Option value="Interior">Interior</Option>
+				<Option value="Sur">Sur</Option>
+			</select>		 
+		<select name="par1" id="par1" class="f2">			
+			</select>
+			</form>
+		
+	<div id= "obj2"></div>	
+<select name="par3" id="par3" class="f3">			
+<!-- <Option value="" disabled selected>Pronóstico</Option>	   -->
+<Option value="No">Serie real</Option>
+<Option value="Si">Serie pronosticada</Option>
+</select>
+	
+</body>
+</html>

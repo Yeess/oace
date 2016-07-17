@@ -1,0 +1,362 @@
+[
+  {
+    "Year": 2000,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Importacion",
+    "Valor": 330316650
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Exportacion",
+    "Valor": 1496128152
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "BalanzaComercial",
+    "Valor": 1165811502
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "ComercioTotal",
+    "Valor": 1826444802
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Importacion",
+    "Valor": 357704896
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Exportacion",
+    "Valor": 1555174546
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "BalanzaComercial",
+    "Valor": 1197469650
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "ComercioTotal",
+    "Valor": 1912879442
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Importacion",
+    "Valor": 621362840
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Exportacion",
+    "Valor": 1469151969
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "BalanzaComercial",
+    "Valor": 847789129
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "ComercioTotal",
+    "Valor": 2090514809
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Importacion",
+    "Valor": 864313022
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Exportacion",
+    "Valor": 1507299924
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "BalanzaComercial",
+    "Valor": 642986902
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "ComercioTotal",
+    "Valor": 2371612946
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Importacion",
+    "Valor": 1250315533
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Exportacion",
+    "Valor": 1582914109
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "BalanzaComercial",
+    "Valor": 332598576
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "ComercioTotal",
+    "Valor": 2833229642
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Importacion",
+    "Valor": 1426660955
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Exportacion",
+    "Valor": 2319723641
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "BalanzaComercial",
+    "Valor": 893062686
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "ComercioTotal",
+    "Valor": 3746384596
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Importacion",
+    "Valor": 1404296590
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Exportacion",
+    "Valor": 2761062139
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "BalanzaComercial",
+    "Valor": 1356765549
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "ComercioTotal",
+    "Valor": 4165358729
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Importacion",
+    "Valor": 1533217688
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Exportacion",
+    "Valor": 3470730138
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "BalanzaComercial",
+    "Valor": 1937512450
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "ComercioTotal",
+    "Valor": 5003947826
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Importacion",
+    "Valor": 1722025313
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Exportacion",
+    "Valor": 3936471915
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "BalanzaComercial",
+    "Valor": 2214446602
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "ComercioTotal",
+    "Valor": 5658497228
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Importacion",
+    "Valor": 1776681906
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Exportacion",
+    "Valor": 2902399404
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "BalanzaComercial",
+    "Valor": 1125717498
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "ComercioTotal",
+    "Valor": 4679081310
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Importacion",
+    "Valor": 2892024683
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Exportacion",
+    "Valor": 3660582498
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "BalanzaComercial",
+    "Valor": 768557815
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "ComercioTotal",
+    "Valor": 6552607181
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Importacion",
+    "Valor": 3796085189
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Exportacion",
+    "Valor": 4356119998
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "BalanzaComercial",
+    "Valor": 560034809
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "ComercioTotal",
+    "Valor": 8152205187
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Importacion",
+    "Valor": 4483659335
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Exportacion",
+    "Valor": 4725918387
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "BalanzaComercial",
+    "Valor": 242259052
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "ComercioTotal",
+    "Valor": 9209577722
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Importacion",
+    "Valor": 4875110798
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Exportacion",
+    "Valor": 4680356260
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "BalanzaComercial",
+    "Valor": -194754538
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "ComercioTotal",
+    "Valor": 9555467058
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Importacion",
+    "Valor": 4273466144
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "Exportacion",
+    "Valor": 4758816386
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "BalanzaComercial",
+    "Valor": 485350242
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "TLC Centroamérica Único",
+    "Operacion": "ComercioTotal",
+    "Valor": 9032282530
+  }
+]

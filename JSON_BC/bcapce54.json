@@ -1,0 +1,362 @@
+[
+  {
+    "Year": 2000,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Importacion",
+    "Valor": 2134161494
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Exportacion",
+    "Valor": 1097563946
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "BalanzaComercial",
+    "Valor": -1036597548
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "ComercioTotal",
+    "Valor": 3231725440
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Importacion",
+    "Valor": 2628841195
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Exportacion",
+    "Valor": 1080949704
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "BalanzaComercial",
+    "Valor": -1547891491
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "ComercioTotal",
+    "Valor": 3709790899
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Importacion",
+    "Valor": 3344924874
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Exportacion",
+    "Valor": 817607054
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "BalanzaComercial",
+    "Valor": -2527317820
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "ComercioTotal",
+    "Valor": 4162531928
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Importacion",
+    "Valor": 4239177262
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Exportacion",
+    "Valor": 898731515
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "BalanzaComercial",
+    "Valor": -3340445747
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "ComercioTotal",
+    "Valor": 5137908777
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Importacion",
+    "Valor": 5621668456
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Exportacion",
+    "Valor": 1342573925
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "BalanzaComercial",
+    "Valor": -4279094531
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "ComercioTotal",
+    "Valor": 6964242381
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Importacion",
+    "Valor": 6789198888
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Exportacion",
+    "Valor": 1642398040
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "BalanzaComercial",
+    "Valor": -5146800848
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "ComercioTotal",
+    "Valor": 8431596928
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Importacion",
+    "Valor": 7628005320
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Exportacion",
+    "Valor": 2193012835
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "BalanzaComercial",
+    "Valor": -5434992485
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "ComercioTotal",
+    "Valor": 9821018155
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Importacion",
+    "Valor": 7527531287
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Exportacion",
+    "Valor": 3276514098
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "BalanzaComercial",
+    "Valor": -4251017189
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "ComercioTotal",
+    "Valor": 10804045385
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Importacion",
+    "Valor": 6956630111
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Exportacion",
+    "Valor": 4963329756
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "BalanzaComercial",
+    "Valor": -1993300355
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "ComercioTotal",
+    "Valor": 11919959867
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Importacion",
+    "Valor": 4911886198
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Exportacion",
+    "Valor": 3702957193
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "BalanzaComercial",
+    "Valor": -1208929005
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "ComercioTotal",
+    "Valor": 8614843391
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Importacion",
+    "Valor": 5729411001
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Exportacion",
+    "Valor": 5847932613
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "BalanzaComercial",
+    "Valor": 118521612
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "ComercioTotal",
+    "Valor": 11577343614
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Importacion",
+    "Valor": 6013231421
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Exportacion",
+    "Valor": 7242556329
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "BalanzaComercial",
+    "Valor": 1229324908
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "ComercioTotal",
+    "Valor": 13255787750
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Importacion",
+    "Valor": 5903204149
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Exportacion",
+    "Valor": 7987170338
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "BalanzaComercial",
+    "Valor": 2083966189
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "ComercioTotal",
+    "Valor": 13890374487
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Importacion",
+    "Valor": 6191471199
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Exportacion",
+    "Valor": 7790445046
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "BalanzaComercial",
+    "Valor": 1598973847
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "ComercioTotal",
+    "Valor": 13981916245
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Importacion",
+    "Valor": 6063320897
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "Exportacion",
+    "Valor": 6503384287
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "BalanzaComercial",
+    "Valor": 440063390
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "CE No 54 y 55",
+    "Operacion": "ComercioTotal",
+    "Valor": 12566705184
+  }
+]

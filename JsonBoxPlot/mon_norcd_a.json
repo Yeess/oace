@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 19524979027,
+    "Year": 2005,
+    "Exportacion": 21713041258,
+    "ComercioTotal": 41238020285,
+    "BalanzaComercial": 2188062231
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 22168594265,
+    "Year": 2006,
+    "Exportacion": 23587530105,
+    "ComercioTotal": 45756124370,
+    "BalanzaComercial": 1418935840
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 24269577677,
+    "Year": 2007,
+    "Exportacion": 24928008881,
+    "ComercioTotal": 49197586558,
+    "BalanzaComercial": 658431204
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 21668239191,
+    "Year": 2008,
+    "Exportacion": 23066705681,
+    "ComercioTotal": 44734944872,
+    "BalanzaComercial": 1398466490
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 20186515039,
+    "Year": 2009,
+    "Exportacion": 21740921339,
+    "ComercioTotal": 41927436378,
+    "BalanzaComercial": 1554406300
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 24724750167,
+    "Year": 2010,
+    "Exportacion": 26263769353,
+    "ComercioTotal": 50988519520,
+    "BalanzaComercial": 1539019186
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 49260189491,
+    "Year": 2011,
+    "Exportacion": 32729907898,
+    "ComercioTotal": 81990097389,
+    "BalanzaComercial": -16530281593
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 36875362823,
+    "Year": 2012,
+    "Exportacion": 41043671459,
+    "ComercioTotal": 77919034282,
+    "BalanzaComercial": 4168308636
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 34454968328,
+    "Year": 2013,
+    "Exportacion": 39915609276,
+    "ComercioTotal": 74370577604,
+    "BalanzaComercial": 5460640948
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 39338310968,
+    "Year": 2014,
+    "Exportacion": 45201037701,
+    "ComercioTotal": 84539348669,
+    "BalanzaComercial": 5862726733
+  },
+  {
+    "Aduana": "CD. ACUÑA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 21664769684,
+    "Year": 2015,
+    "Exportacion": 25234024499,
+    "ComercioTotal": 46898794183,
+    "BalanzaComercial": 3569254815
+  }
+]

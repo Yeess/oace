@@ -1,0 +1,217 @@
+<!doctype html>
+<meta charset="utf-8">
+
+<script src="http://www.d3plus.org/js/d3.js"></script>
+<script src="http://www.d3plus.org/js/d3plus.js"></script>
+     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+	
+	
+<style>
+.body{ overflow: scroll; overflow-x: hidden; overflow-y: hidden;}
+background-image: url("Css/Img/Mexico.jpg");}
+/*background: #000; color: #fff;*/
+/*
+.viz { position: absolute;  width: 100%; height: 100%;  top:0%;   left:0%;  
+		/*border: 2px; border-style: solid; border-color: #0000ff;*/
+		/*background: #000; opacity: 0.9; 	filter: alpha(opacity=90);*/
+		}
+
+a {
+    background-color: #bbb;
+    color: #000033; 
+	
+    display: block;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+		
+	.f1{font-size: 11.5px;
+	position:absolute; height:2.6%; width: 10%; top:95.9%; left:6.7%; border-style: solid; margin: 0px; display: inline-block; font-family: Helvetica; font-size: 12px;  
+	color: rgb(68, 68, 68); border: 1px solid rgb(195, 195, 195); 
+    font-weight: 200; letter-spacing: 0px; cursor: auto; background-color: rgb(255, 255, 255);
+	}
+
+ 
+
+
+</style>
+
+
+
+<body class = "body">
+<div id="viz" class = "viz"></div>
+<select name="par1" id="par1" class="f1"> 
+	<Option value="" disabled selected>Continentes</Option>
+	<Option value="amer">América</Option>	  
+	<Option value="as">Asia</Option>	  
+	<Option value="af">Africa</Option>	  
+	<Option value="eu">Europa</Option>	
+	<Option value="pe">Potencias Economicas</Option>	
+</select>	
+
+</body>
+
+
+<script>
+  
+  function initialize() {
+	var par1 = 'as';	
+	var data; // a global
+	
+	d3.json("JsonLinePlot/potenciaseco.json", function(error, json) {
+		if (error) return console.warn(error);
+			data = json;
+		
+				Pintalo(data);}
+			
+	);
+	
+	
+google.maps.event.addDomListener(document.getElementById('par1'),'change', function() {
+              par1 = this.value;
+			  
+	document.getElementById("viz").innerHTML = "";		  
+			  if (par1 == 'amer'){
+	d3.json("JsonLinePlot/america.json", function(error, json) {
+		if (error) return console.warn(error);
+			data = json;
+		
+				Pintalo(data);}
+			
+	);
+	}
+	else if (par1 == 'as'){
+	d3.json("JsonLinePlot/asia.json", function(error, json) {
+		if (error) return console.warn(error);
+			data = json;
+		
+				Pintalo(data);}
+			
+	);
+	}
+	else if (par1 == 'eu'){
+	d3.json("JsonLinePlot/europa.json", function(error, json) {
+		if (error) return console.warn(error);
+			data = json;
+		
+				Pintalo(data);}
+			
+	);
+	}
+	else if (par1 == 'af'){
+	d3.json("JsonLinePlot/africa.json", function(error, json) {
+		if (error) return console.warn(error);
+			data = json;
+
+				Pintalo(data);}
+			
+	);
+	}
+		
+	else if (par1 == 'oc'){
+	d3.json("JsonLinePlot/oceania.json", function(error, json) {
+		if (error) return console.warn(error);
+			data = json;
+
+				Pintalo(data);}
+
+	);
+	}
+	
+	else if (par1 == 'pe'){
+	d3.json("JsonLinePlot/potenciaseco.json", function(error, json) {
+		if (error) return console.warn(error);
+			data = json;
+
+				Pintalo(data);}
+
+	);
+	}
+
+	
+    });   
+  }	// Aqui termina la funcion initialize.
+
+
+	
+	var atributos =[
+	{"Pais":"México","hex": "#006600"},
+	{"Pais":"Estados Unidos","hex": "#ffaa00"},
+	{"Pais":"China","hex": "#ff0000"},
+	{"Pais":"Alemania","hex": "#993300"},
+	{"Pais":"Francia","hex": "#003399"},
+	{"Pais":"Japón","hex": "#fff"},
+	{"Pais":"Australia","hex": "#66b3ff"},
+	{"Pais":"Canadá","hex": "#ff8080"},
+	{"Pais":"Mauritania","hex": "#ff471a"},
+	{"Pais":"Reino Unido","hex": "#ffcc00"},
+	{"Pais":"Rusia","hex": "#ff3300"},
+	{"Pais":"Brasil","hex": "#39e600"},
+	{"Pais":"India","hex": "#4d3300"},
+	{"Pais":"Corea del Sur","hex": "#000099"},
+		
+	]
+	
+	
+	var htmlButton = "<a ' href='NavegacionParametros_v002.html?parametro1=PM_Argentina.json#ob2' >Ver el comercio de este país con el mundo</a><a  href='NavegacionParametros_v002.html?parametro1=PM_Argentina.json#ob2' >Ver el comercio de este país con México</a><a  href='NavegacionParametros_v002.html?parametro1=PM_Argentina.json#ob2' >Verde</a>	"
+
+	
+	function Pintalo(datos){
+	var visualization = d3plus.viz()
+    .container("#viz")
+    .data(datos)
+	.type("line")
+    .id(["Pais"])
+	.y("Valor_exportacion")
+    .x("año")
+	.icon("Imagen")
+	.ui([		 {
+					
+					"label" : "Operación",
+					"method": "y",
+					"value"  : [ "Valor_importacion" , "Valor_exportacion" , "ComercioTotal", "BalanzaComercial"]
+						  
+				 
+					}])
+				  
+				  
+
+
+.format("es_ES")
+	.format({"text": function(text, params) {
+						if (text === "ComercioTotal") {return "Comercio total";}
+						else if(text === "BalanzaComercial"){return "Balanza comercial";}
+						else if(text === "Valor_importacion"){return "Importación";}
+						else if(text === "Valor_exportacion"){return "Exportación";}					
+						else{return d3plus.string.title(text, params);}  
+					},
+			"number": function(number, params) {
+						var formatted = d3plus.number.format(number, params);
+						if (params.key === "ComercioTotal") {return "$" + formatted;}
+						else if(params.key === "BalanzaComercial"){return "$" +  formatted; }
+						else if(params.key === "Valor_importacion"){return "$" +  formatted; }
+						else if(params.key === "Valor_exportacion"){return "$" +  formatted; }
+						else {return formatted; }
+					}})		
+
+					
+	
+	.x({"grid": {"color": "#fff", "width": 20} })
+	.y({"grid": false})
+	.x({"grid": false})
+	.attrs(atributos)
+	.axes({"background": {"color": "#0d0d0d", "stroke": {"width": 0}}}, {"ticks": false})
+	.background("#0d0d0d" )
+	.color("hex")
+	.legend({"size": 30})
+	.tooltip({ "background": "#bbb", "small": 200, "large": 200, "anchor": "bottom center"} )
+	.draw()
+	
+	}
+	google.maps.event.addDomListener(window, 'load', initialize);
+</script>

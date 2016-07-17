@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "MATAMOROS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 279341,
+    "Year": 2005,
+    "Exportacion": 49511,
+    "ComercioTotal": 328852,
+    "BalanzaComercial": -229830
+  },
+  {
+    "Aduana": "MATAMOROS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 397897,
+    "Year": 2006,
+    "Exportacion": 47378,
+    "ComercioTotal": 445275,
+    "BalanzaComercial": -350519
+  },
+  {
+    "Aduana": "MATAMOROS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 411717,
+    "Year": 2007,
+    "Exportacion": 48948,
+    "ComercioTotal": 460665,
+    "BalanzaComercial": -362769
+  },
+  {
+    "Aduana": "MATAMOROS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 330865,
+    "Year": 2008,
+    "Exportacion": 48531,
+    "ComercioTotal": 379396,
+    "BalanzaComercial": -282334
+  },
+  {
+    "Aduana": "MATAMOROS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 176974,
+    "Year": 2009,
+    "Exportacion": 44707,
+    "ComercioTotal": 221681,
+    "BalanzaComercial": -132267
+  },
+  {
+    "Aduana": "MATAMOROS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 199767,
+    "Year": 2010,
+    "Exportacion": 48981,
+    "ComercioTotal": 248748,
+    "BalanzaComercial": -150786
+  },
+  {
+    "Aduana": "MATAMOROS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 193890,
+    "Year": 2011,
+    "Exportacion": 49141,
+    "ComercioTotal": 243031,
+    "BalanzaComercial": -144749
+  },
+  {
+    "Aduana": "MATAMOROS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 197361,
+    "Year": 2012,
+    "Exportacion": 49495,
+    "ComercioTotal": 246856,
+    "BalanzaComercial": -147866
+  },
+  {
+    "Aduana": "MATAMOROS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 188568,
+    "Year": 2013,
+    "Exportacion": 49121,
+    "ComercioTotal": 237689,
+    "BalanzaComercial": -139447
+  },
+  {
+    "Aduana": "MATAMOROS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 176515,
+    "Year": 2014,
+    "Exportacion": 49260,
+    "ComercioTotal": 225775,
+    "BalanzaComercial": -127255
+  },
+  {
+    "Aduana": "MATAMOROS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 79154,
+    "Year": 2015,
+    "Exportacion": 23671,
+    "ComercioTotal": 102825,
+    "BalanzaComercial": -55483
+  }
+]

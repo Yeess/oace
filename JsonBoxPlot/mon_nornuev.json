@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 619000000000,
+    "Year": 2005,
+    "Exportacion": 560000000000,
+    "ComercioTotal": 1.179e+12,
+    "BalanzaComercial": -59000000000
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 682000000000,
+    "Year": 2006,
+    "Exportacion": 572000000000,
+    "ComercioTotal": 1.254e+12,
+    "BalanzaComercial": -110000000000
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 726000000000,
+    "Year": 2007,
+    "Exportacion": 623000000000,
+    "ComercioTotal": 1.349e+12,
+    "BalanzaComercial": -103000000000
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 861000000000,
+    "Year": 2008,
+    "Exportacion": 670000000000,
+    "ComercioTotal": 1.531e+12,
+    "BalanzaComercial": -191000000000
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 767000000000,
+    "Year": 2009,
+    "Exportacion": 674000000000,
+    "ComercioTotal": 1.441e+12,
+    "BalanzaComercial": -93000000000
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 957000000000,
+    "Year": 2010,
+    "Exportacion": 814000000000,
+    "ComercioTotal": 1.771e+12,
+    "BalanzaComercial": -143000000000
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 1.1e+12,
+    "Year": 2011,
+    "Exportacion": 1.02e+12,
+    "ComercioTotal": 2.12e+12,
+    "BalanzaComercial": -80000000000
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 1.39e+12,
+    "Year": 2012,
+    "Exportacion": 1.17e+12,
+    "ComercioTotal": 2.56e+12,
+    "BalanzaComercial": -220000000000
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 1.27e+12,
+    "Year": 2013,
+    "Exportacion": 1.24e+12,
+    "ComercioTotal": 2.51e+12,
+    "BalanzaComercial": -30000000000
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 1.47e+12,
+    "Year": 2014,
+    "Exportacion": 1.37e+12,
+    "ComercioTotal": 2.84e+12,
+    "BalanzaComercial": -100000000000
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 799000000000,
+    "Year": 2015,
+    "Exportacion": 801000000000,
+    "ComercioTotal": 1.6e+12,
+    "BalanzaComercial": 2000000000
+  }
+]

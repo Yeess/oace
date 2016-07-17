@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 992778309,
+    "Year": 2005,
+    "Exportacion": 929579890,
+    "ComercioTotal": 1922358199,
+    "BalanzaComercial": -63198419
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 2286246388,
+    "Year": 2006,
+    "Exportacion": 1778945269,
+    "ComercioTotal": 4065191657,
+    "BalanzaComercial": -507301119
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 3116840146,
+    "Year": 2007,
+    "Exportacion": 1974265668,
+    "ComercioTotal": 5091105814,
+    "BalanzaComercial": -1142574478
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 5644046918,
+    "Year": 2008,
+    "Exportacion": 5712529081,
+    "ComercioTotal": 11356575999,
+    "BalanzaComercial": 68482163
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 4693663518,
+    "Year": 2009,
+    "Exportacion": 3514349241,
+    "ComercioTotal": 8208012759,
+    "BalanzaComercial": -1179314277
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 4655830401,
+    "Year": 2010,
+    "Exportacion": 3987546049,
+    "ComercioTotal": 8643376450,
+    "BalanzaComercial": -668284352
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 8590123337,
+    "Year": 2011,
+    "Exportacion": 5633906035,
+    "ComercioTotal": 14224029372,
+    "BalanzaComercial": -2956217302
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 10939734571,
+    "Year": 2012,
+    "Exportacion": 8873649417,
+    "ComercioTotal": 19813383988,
+    "BalanzaComercial": -2066085154
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 8149406664,
+    "Year": 2013,
+    "Exportacion": 11007192892,
+    "ComercioTotal": 19156599556,
+    "BalanzaComercial": 2857786228
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 10909531724,
+    "Year": 2014,
+    "Exportacion": 13597207841,
+    "ComercioTotal": 24506739565,
+    "BalanzaComercial": 2687676117
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 8242240156,
+    "Year": 2015,
+    "Exportacion": 5266450641,
+    "ComercioTotal": 13508690797,
+    "BalanzaComercial": -2975789515
+  }
+]

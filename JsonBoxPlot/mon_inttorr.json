@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "TORREON",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 8979406226,
+    "Year": 2005,
+    "Exportacion": 10302105993,
+    "ComercioTotal": 19281512219,
+    "BalanzaComercial": 1322699767
+  },
+  {
+    "Aduana": "TORREON",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 11116496967,
+    "Year": 2006,
+    "Exportacion": 11049422383,
+    "ComercioTotal": 22165919350,
+    "BalanzaComercial": -67074584
+  },
+  {
+    "Aduana": "TORREON",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 10881737001,
+    "Year": 2007,
+    "Exportacion": 11291997278,
+    "ComercioTotal": 22173734279,
+    "BalanzaComercial": 410260277
+  },
+  {
+    "Aduana": "TORREON",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 13967522220,
+    "Year": 2008,
+    "Exportacion": 14099993977,
+    "ComercioTotal": 28067516197,
+    "BalanzaComercial": 132471757
+  },
+  {
+    "Aduana": "TORREON",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 10100785155,
+    "Year": 2009,
+    "Exportacion": 11811605036,
+    "ComercioTotal": 21912390191,
+    "BalanzaComercial": 1710819881
+  },
+  {
+    "Aduana": "TORREON",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 13827966626,
+    "Year": 2010,
+    "Exportacion": 14749749205,
+    "ComercioTotal": 28577715831,
+    "BalanzaComercial": 921782579
+  },
+  {
+    "Aduana": "TORREON",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 18438800396,
+    "Year": 2011,
+    "Exportacion": 19936596593,
+    "ComercioTotal": 38375396989,
+    "BalanzaComercial": 1497796197
+  },
+  {
+    "Aduana": "TORREON",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 28418936296,
+    "Year": 2012,
+    "Exportacion": 23940818581,
+    "ComercioTotal": 52359754877,
+    "BalanzaComercial": -4478117715
+  },
+  {
+    "Aduana": "TORREON",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 13846380266,
+    "Year": 2013,
+    "Exportacion": 15539030798,
+    "ComercioTotal": 29385411064,
+    "BalanzaComercial": 1692650532
+  },
+  {
+    "Aduana": "TORREON",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 12683209994,
+    "Year": 2014,
+    "Exportacion": 14369908954,
+    "ComercioTotal": 27053118948,
+    "BalanzaComercial": 1686698960
+  },
+  {
+    "Aduana": "TORREON",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 7186438791,
+    "Year": 2015,
+    "Exportacion": 7934547355,
+    "ComercioTotal": 15120986146,
+    "BalanzaComercial": 748108564
+  }
+]

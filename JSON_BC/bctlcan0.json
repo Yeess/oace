@@ -1,0 +1,362 @@
+[
+  {
+    "Year": 2000,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Importacion",
+    "Valor": 131705363396
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Exportacion",
+    "Valor": 150180121316
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "BalanzaComercial",
+    "Valor": 18474757920
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "ComercioTotal",
+    "Valor": 281885484712
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Importacion",
+    "Valor": 118294151132
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Exportacion",
+    "Valor": 139627832603
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "BalanzaComercial",
+    "Valor": 21333681471
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "ComercioTotal",
+    "Valor": 257921983735
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Importacion",
+    "Valor": 111379436705
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Exportacion",
+    "Valor": 140973131889
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "BalanzaComercial",
+    "Valor": 29593695184
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "ComercioTotal",
+    "Valor": 252352568594
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Importacion",
+    "Valor": 109843523866
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Exportacion",
+    "Valor": 147718475027
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "BalanzaComercial",
+    "Valor": 37874951161
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "ComercioTotal",
+    "Valor": 257561998893
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Importacion",
+    "Valor": 116589367133
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Exportacion",
+    "Valor": 169314040979
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "BalanzaComercial",
+    "Valor": 52724673846
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "ComercioTotal",
+    "Valor": 285903408112
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Importacion",
+    "Valor": 125142442596
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Exportacion",
+    "Valor": 188072191211
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "BalanzaComercial",
+    "Valor": 62929748615
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "ComercioTotal",
+    "Valor": 313214633807
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Importacion",
+    "Valor": 138186044670
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Exportacion",
+    "Valor": 217307996372
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "BalanzaComercial",
+    "Valor": 79121951702
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "ComercioTotal",
+    "Valor": 355494041042
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Importacion",
+    "Valor": 147887903248
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Exportacion",
+    "Valor": 229865658613
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "BalanzaComercial",
+    "Valor": 81977755365
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "ComercioTotal",
+    "Valor": 377753561861
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Importacion",
+    "Valor": 161188908659
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Exportacion",
+    "Valor": 240877630188
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "BalanzaComercial",
+    "Valor": 79688721529
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "ComercioTotal",
+    "Valor": 402066538847
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Importacion",
+    "Valor": 120092481207
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Exportacion",
+    "Valor": 193684994573
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "BalanzaComercial",
+    "Valor": 73592513366
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "ComercioTotal",
+    "Valor": 313777475780
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Importacion",
+    "Valor": 154057839826
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Exportacion",
+    "Valor": 249522832088
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "BalanzaComercial",
+    "Valor": 95464992262
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "ComercioTotal",
+    "Valor": 403580671914
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Importacion",
+    "Valor": 184523915447
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Exportacion",
+    "Valor": 285414235593
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "BalanzaComercial",
+    "Valor": 100890320146
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "ComercioTotal",
+    "Valor": 469938151040
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Importacion",
+    "Valor": 195573727982
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Exportacion",
+    "Valor": 299103617944
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "BalanzaComercial",
+    "Valor": 103529889962
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "ComercioTotal",
+    "Valor": 494677345926
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Importacion",
+    "Valor": 197605489065
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Exportacion",
+    "Valor": 310260464687
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "BalanzaComercial",
+    "Valor": 112654975622
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "ComercioTotal",
+    "Valor": 507865953752
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Importacion",
+    "Valor": 205902479775
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "Exportacion",
+    "Valor": 329395368887
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "BalanzaComercial",
+    "Valor": 123492889112
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "CE TLCAN",
+    "Operacion": "ComercioTotal",
+    "Valor": 535297848662
+  }
+]

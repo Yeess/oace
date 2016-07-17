@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 201,
+    "Year": 2005,
+    "Exportacion": 266,
+    "ComercioTotal": 467,
+    "BalanzaComercial": 65
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 713,
+    "Year": 2006,
+    "Exportacion": 424,
+    "ComercioTotal": 1137,
+    "BalanzaComercial": -289
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 32,
+    "Year": 2007,
+    "Exportacion": 484,
+    "ComercioTotal": 516,
+    "BalanzaComercial": 452
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 92,
+    "Year": 2008,
+    "Exportacion": 662,
+    "ComercioTotal": 754,
+    "BalanzaComercial": 570
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 243,
+    "Year": 2009,
+    "Exportacion": 950,
+    "ComercioTotal": 1193,
+    "BalanzaComercial": 707
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 873,
+    "Year": 2010,
+    "Exportacion": 532,
+    "ComercioTotal": 1405,
+    "BalanzaComercial": -341
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 237,
+    "Year": 2011,
+    "Exportacion": 551,
+    "ComercioTotal": 788,
+    "BalanzaComercial": 314
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 1405,
+    "Year": 2012,
+    "Exportacion": 354,
+    "ComercioTotal": 1759,
+    "BalanzaComercial": -1051
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 565,
+    "Year": 2013,
+    "Exportacion": 312,
+    "ComercioTotal": 877,
+    "BalanzaComercial": -253
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 154,
+    "Year": 2014,
+    "Exportacion": 199,
+    "ComercioTotal": 353,
+    "BalanzaComercial": 45
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 58,
+    "Year": 2015,
+    "Exportacion": 89,
+    "ComercioTotal": 147,
+    "BalanzaComercial": 31
+  }
+]

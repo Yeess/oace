@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 33298,
+    "Year": 2005,
+    "Exportacion": 14208,
+    "ComercioTotal": 47506,
+    "BalanzaComercial": -19090
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 34435,
+    "Year": 2006,
+    "Exportacion": 13913,
+    "ComercioTotal": 48348,
+    "BalanzaComercial": -20522
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 37925,
+    "Year": 2007,
+    "Exportacion": 14188,
+    "ComercioTotal": 52113,
+    "BalanzaComercial": -23737
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 35306,
+    "Year": 2008,
+    "Exportacion": 13239,
+    "ComercioTotal": 48545,
+    "BalanzaComercial": -22067
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 28093,
+    "Year": 2009,
+    "Exportacion": 12082,
+    "ComercioTotal": 40175,
+    "BalanzaComercial": -16011
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 30487,
+    "Year": 2010,
+    "Exportacion": 12371,
+    "ComercioTotal": 42858,
+    "BalanzaComercial": -18116
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 35631,
+    "Year": 2011,
+    "Exportacion": 12509,
+    "ComercioTotal": 48140,
+    "BalanzaComercial": -23122
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 37395,
+    "Year": 2012,
+    "Exportacion": 11831,
+    "ComercioTotal": 49226,
+    "BalanzaComercial": -25564
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 36741,
+    "Year": 2013,
+    "Exportacion": 11876,
+    "ComercioTotal": 48617,
+    "BalanzaComercial": -24865
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 38755,
+    "Year": 2014,
+    "Exportacion": 12141,
+    "ComercioTotal": 50896,
+    "BalanzaComercial": -26614
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 17979,
+    "Year": 2015,
+    "Exportacion": 6154,
+    "ComercioTotal": 24133,
+    "BalanzaComercial": -11825
+  }
+]

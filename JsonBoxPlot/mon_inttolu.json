@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "TOLUCA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 50666249682,
+    "Year": 2005,
+    "Exportacion": 10218537574,
+    "ComercioTotal": 60884787256,
+    "BalanzaComercial": -40447712108
+  },
+  {
+    "Aduana": "TOLUCA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 52993307005,
+    "Year": 2006,
+    "Exportacion": 9833126563,
+    "ComercioTotal": 62826433568,
+    "BalanzaComercial": -43160180442
+  },
+  {
+    "Aduana": "TOLUCA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 63860398417,
+    "Year": 2007,
+    "Exportacion": 11203362436,
+    "ComercioTotal": 75063760853,
+    "BalanzaComercial": -52657035981
+  },
+  {
+    "Aduana": "TOLUCA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 62903368531,
+    "Year": 2008,
+    "Exportacion": 11588677656,
+    "ComercioTotal": 74492046187,
+    "BalanzaComercial": -51314690875
+  },
+  {
+    "Aduana": "TOLUCA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 42561504168,
+    "Year": 2009,
+    "Exportacion": 14585378762,
+    "ComercioTotal": 57146882930,
+    "BalanzaComercial": -27976125406
+  },
+  {
+    "Aduana": "TOLUCA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 68484117985,
+    "Year": 2010,
+    "Exportacion": 19804160855,
+    "ComercioTotal": 88288278840,
+    "BalanzaComercial": -48679957130
+  },
+  {
+    "Aduana": "TOLUCA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 119000000000,
+    "Year": 2011,
+    "Exportacion": 25077042231,
+    "ComercioTotal": 144077042231,
+    "BalanzaComercial": -93922957769
+  },
+  {
+    "Aduana": "TOLUCA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 98715608809,
+    "Year": 2012,
+    "Exportacion": 31449104714,
+    "ComercioTotal": 130164713523,
+    "BalanzaComercial": -67266504095
+  },
+  {
+    "Aduana": "TOLUCA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 104000000000,
+    "Year": 2013,
+    "Exportacion": 35347511450,
+    "ComercioTotal": 139347511450,
+    "BalanzaComercial": -68652488550
+  },
+  {
+    "Aduana": "TOLUCA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 120000000000,
+    "Year": 2014,
+    "Exportacion": 40275636336,
+    "ComercioTotal": 160275636336,
+    "BalanzaComercial": -79724363664
+  },
+  {
+    "Aduana": "TOLUCA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 136000000000,
+    "Year": 2015,
+    "Exportacion": 28162050945,
+    "ComercioTotal": 164162050945,
+    "BalanzaComercial": -107837949055
+  }
+]

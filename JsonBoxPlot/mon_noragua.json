@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "AGUA PRIETA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 9736482086,
+    "Year": 2005,
+    "Exportacion": 12863989958,
+    "ComercioTotal": 22600472044,
+    "BalanzaComercial": 3127507872
+  },
+  {
+    "Aduana": "AGUA PRIETA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 13827059011,
+    "Year": 2006,
+    "Exportacion": 14902729752,
+    "ComercioTotal": 28729788763,
+    "BalanzaComercial": 1075670741
+  },
+  {
+    "Aduana": "AGUA PRIETA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 14618797110,
+    "Year": 2007,
+    "Exportacion": 17366718951,
+    "ComercioTotal": 31985516061,
+    "BalanzaComercial": 2747921841
+  },
+  {
+    "Aduana": "AGUA PRIETA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 13647775225,
+    "Year": 2008,
+    "Exportacion": 13659542061,
+    "ComercioTotal": 27307317286,
+    "BalanzaComercial": 11766836
+  },
+  {
+    "Aduana": "AGUA PRIETA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 9274645733,
+    "Year": 2009,
+    "Exportacion": 12353027641,
+    "ComercioTotal": 21627673374,
+    "BalanzaComercial": 3078381908
+  },
+  {
+    "Aduana": "AGUA PRIETA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 9683484256,
+    "Year": 2010,
+    "Exportacion": 16285551698,
+    "ComercioTotal": 25969035954,
+    "BalanzaComercial": 6602067442
+  },
+  {
+    "Aduana": "AGUA PRIETA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 13826736178,
+    "Year": 2011,
+    "Exportacion": 27497286029,
+    "ComercioTotal": 41324022207,
+    "BalanzaComercial": 13670549851
+  },
+  {
+    "Aduana": "AGUA PRIETA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 18438379168,
+    "Year": 2012,
+    "Exportacion": 25793274287,
+    "ComercioTotal": 44231653455,
+    "BalanzaComercial": 7354895119
+  },
+  {
+    "Aduana": "AGUA PRIETA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 20333788788,
+    "Year": 2013,
+    "Exportacion": 21527963040,
+    "ComercioTotal": 41861751828,
+    "BalanzaComercial": 1194174252
+  },
+  {
+    "Aduana": "AGUA PRIETA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 25222551961,
+    "Year": 2014,
+    "Exportacion": 26190926822,
+    "ComercioTotal": 51413478783,
+    "BalanzaComercial": 968374861
+  },
+  {
+    "Aduana": "AGUA PRIETA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 10592127932,
+    "Year": 2015,
+    "Exportacion": 12099939475,
+    "ComercioTotal": 22692067407,
+    "BalanzaComercial": 1507811543
+  }
+]

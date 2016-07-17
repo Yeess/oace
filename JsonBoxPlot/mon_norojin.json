@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 658283318,
+    "Year": 2005,
+    "Exportacion": 1571874210,
+    "ComercioTotal": 2230157528,
+    "BalanzaComercial": 913590892
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 824260609,
+    "Year": 2006,
+    "Exportacion": 1523995709,
+    "ComercioTotal": 2348256318,
+    "BalanzaComercial": 699735100
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 1153237537,
+    "Year": 2007,
+    "Exportacion": 1508168272,
+    "ComercioTotal": 2661405809,
+    "BalanzaComercial": 354930735
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 1169154588,
+    "Year": 2008,
+    "Exportacion": 1221039610,
+    "ComercioTotal": 2390194198,
+    "BalanzaComercial": 51885022
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 1289769196,
+    "Year": 2009,
+    "Exportacion": 1292463834,
+    "ComercioTotal": 2582233030,
+    "BalanzaComercial": 2694638
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 1428854743,
+    "Year": 2010,
+    "Exportacion": 1690665896,
+    "ComercioTotal": 3119520639,
+    "BalanzaComercial": 261811153
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 1591338193,
+    "Year": 2011,
+    "Exportacion": 1891276764,
+    "ComercioTotal": 3482614957,
+    "BalanzaComercial": 299938571
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 2104119455,
+    "Year": 2012,
+    "Exportacion": 2162624799,
+    "ComercioTotal": 4266744254,
+    "BalanzaComercial": 58505344
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 2084966925,
+    "Year": 2013,
+    "Exportacion": 1300693013,
+    "ComercioTotal": 3385659938,
+    "BalanzaComercial": -784273912
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 2440480849,
+    "Year": 2014,
+    "Exportacion": 1742544446,
+    "ComercioTotal": 4183025295,
+    "BalanzaComercial": -697936403
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 1004841718,
+    "Year": 2015,
+    "Exportacion": 766309320,
+    "ComercioTotal": 1771151038,
+    "BalanzaComercial": -238532398
+  }
+]

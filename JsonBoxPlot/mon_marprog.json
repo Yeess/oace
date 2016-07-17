@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 18834517815,
+    "Year": 2005,
+    "Exportacion": 15451119910,
+    "ComercioTotal": 34285637725,
+    "BalanzaComercial": -3383397905
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 18185054845,
+    "Year": 2006,
+    "Exportacion": 16753741649,
+    "ComercioTotal": 34938796494,
+    "BalanzaComercial": -1431313196
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 20717461093,
+    "Year": 2007,
+    "Exportacion": 22236771171,
+    "ComercioTotal": 42954232264,
+    "BalanzaComercial": 1519310078
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 21466529528,
+    "Year": 2008,
+    "Exportacion": 18624095856,
+    "ComercioTotal": 40090625384,
+    "BalanzaComercial": -2842433672
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 20911349478,
+    "Year": 2009,
+    "Exportacion": 20089556245,
+    "ComercioTotal": 41000905723,
+    "BalanzaComercial": -821793233
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 22505100195,
+    "Year": 2010,
+    "Exportacion": 19426961448,
+    "ComercioTotal": 41932061643,
+    "BalanzaComercial": -3078138747
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 27574902099,
+    "Year": 2011,
+    "Exportacion": 21500142571,
+    "ComercioTotal": 49075044670,
+    "BalanzaComercial": -6074759528
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 28863587803,
+    "Year": 2012,
+    "Exportacion": 23988740189,
+    "ComercioTotal": 52852327992,
+    "BalanzaComercial": -4874847614
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 27676999895,
+    "Year": 2013,
+    "Exportacion": 20489084959,
+    "ComercioTotal": 48166084854,
+    "BalanzaComercial": -7187914936
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 30466010841,
+    "Year": 2014,
+    "Exportacion": 23927799361,
+    "ComercioTotal": 54393810202,
+    "BalanzaComercial": -6538211480
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 18552463532,
+    "Year": 2015,
+    "Exportacion": 14473024947,
+    "ComercioTotal": 33025488479,
+    "BalanzaComercial": -4079438585
+  }
+]

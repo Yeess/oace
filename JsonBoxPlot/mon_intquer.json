@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "QUERETARO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 4885820130,
+    "Year": 2005,
+    "Exportacion": 4771814126,
+    "ComercioTotal": 9657634256,
+    "BalanzaComercial": -114006004
+  },
+  {
+    "Aduana": "QUERETARO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 7800599592,
+    "Year": 2006,
+    "Exportacion": 4484367159,
+    "ComercioTotal": 12284966751,
+    "BalanzaComercial": -3316232433
+  },
+  {
+    "Aduana": "QUERETARO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 7507735872,
+    "Year": 2007,
+    "Exportacion": 6157331405,
+    "ComercioTotal": 13665067277,
+    "BalanzaComercial": -1350404467
+  },
+  {
+    "Aduana": "QUERETARO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 13848098079,
+    "Year": 2008,
+    "Exportacion": 14634073835,
+    "ComercioTotal": 28482171914,
+    "BalanzaComercial": 785975756
+  },
+  {
+    "Aduana": "QUERETARO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 14311658850,
+    "Year": 2009,
+    "Exportacion": 10549896292,
+    "ComercioTotal": 24861555142,
+    "BalanzaComercial": -3761762558
+  },
+  {
+    "Aduana": "QUERETARO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 10031044946,
+    "Year": 2010,
+    "Exportacion": 8164119539,
+    "ComercioTotal": 18195164485,
+    "BalanzaComercial": -1866925407
+  },
+  {
+    "Aduana": "QUERETARO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 8812038251,
+    "Year": 2011,
+    "Exportacion": 10367242153,
+    "ComercioTotal": 19179280404,
+    "BalanzaComercial": 1555203902
+  },
+  {
+    "Aduana": "QUERETARO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 17060407932,
+    "Year": 2012,
+    "Exportacion": 17829425196,
+    "ComercioTotal": 34889833128,
+    "BalanzaComercial": 769017264
+  },
+  {
+    "Aduana": "QUERETARO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 26028454158,
+    "Year": 2013,
+    "Exportacion": 24940196617,
+    "ComercioTotal": 50968650775,
+    "BalanzaComercial": -1088257541
+  },
+  {
+    "Aduana": "QUERETARO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 53012843544,
+    "Year": 2014,
+    "Exportacion": 33642316829,
+    "ComercioTotal": 86655160373,
+    "BalanzaComercial": -19370526715
+  },
+  {
+    "Aduana": "QUERETARO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 46006349317,
+    "Year": 2015,
+    "Exportacion": 19306277365,
+    "ComercioTotal": 65312626682,
+    "BalanzaComercial": -26700071952
+  }
+]

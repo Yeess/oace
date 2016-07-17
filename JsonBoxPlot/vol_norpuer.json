@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "PUERTO PALOMAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 4774,
+    "Year": 2005,
+    "Exportacion": 1089,
+    "ComercioTotal": 5863,
+    "BalanzaComercial": -3685
+  },
+  {
+    "Aduana": "PUERTO PALOMAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 7459,
+    "Year": 2006,
+    "Exportacion": 1195,
+    "ComercioTotal": 8654,
+    "BalanzaComercial": -6264
+  },
+  {
+    "Aduana": "PUERTO PALOMAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 12989,
+    "Year": 2007,
+    "Exportacion": 1478,
+    "ComercioTotal": 14467,
+    "BalanzaComercial": -11511
+  },
+  {
+    "Aduana": "PUERTO PALOMAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 7025,
+    "Year": 2008,
+    "Exportacion": 1354,
+    "ComercioTotal": 8379,
+    "BalanzaComercial": -5671
+  },
+  {
+    "Aduana": "PUERTO PALOMAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1871,
+    "Year": 2009,
+    "Exportacion": 1667,
+    "ComercioTotal": 3538,
+    "BalanzaComercial": -204
+  },
+  {
+    "Aduana": "PUERTO PALOMAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1454,
+    "Year": 2010,
+    "Exportacion": 1615,
+    "ComercioTotal": 3069,
+    "BalanzaComercial": 161
+  },
+  {
+    "Aduana": "PUERTO PALOMAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1314,
+    "Year": 2011,
+    "Exportacion": 1754,
+    "ComercioTotal": 3068,
+    "BalanzaComercial": 440
+  },
+  {
+    "Aduana": "PUERTO PALOMAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1201,
+    "Year": 2012,
+    "Exportacion": 1906,
+    "ComercioTotal": 3107,
+    "BalanzaComercial": 705
+  },
+  {
+    "Aduana": "PUERTO PALOMAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 2725,
+    "Year": 2013,
+    "Exportacion": 1892,
+    "ComercioTotal": 4617,
+    "BalanzaComercial": -833
+  },
+  {
+    "Aduana": "PUERTO PALOMAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 3301,
+    "Year": 2014,
+    "Exportacion": 1607,
+    "ComercioTotal": 4908,
+    "BalanzaComercial": -1694
+  },
+  {
+    "Aduana": "PUERTO PALOMAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 460,
+    "Year": 2015,
+    "Exportacion": 674,
+    "ComercioTotal": 1134,
+    "BalanzaComercial": 214
+  }
+]

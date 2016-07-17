@@ -1,0 +1,362 @@
+[
+  {
+    "Year": 2000,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 141704773012
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 152492131122
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": 10787358110
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 294196904134
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 131318009859
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 142054507737
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": 10736497878
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 273372517596
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 126142406291
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 143195820537
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": 17053414246
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 269338226828
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 123574905831
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 149938660878
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": 26363755047
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 273513566709
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 135364817020
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 171080121001
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": 35715303981
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 306444938021
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 147765964158
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 191306237320
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": 43540273162
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 339072201478
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 164464147074
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 221190520484
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": 56726373410
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 385654667558
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 175835489357
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 234717349628
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": 58881860271
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 410552838985
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 188684240689
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 247028005133
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": 58343764444
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 435712245822
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 140637630373
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 198105185993
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": 57467555620
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 338742816366
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 180074656783
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 255846220987
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": 75771564204
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 435920877770
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 212888196699
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 292791268761
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": 79903072062
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 505679465460
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 223701771636
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 307697356216
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": 83995584580
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 531399127852
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 225915853224
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 318322509132
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": 92406655908
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 544238362356
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 236705623558
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 337890494377
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": 101184870819
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "Acuerdo Asociacion Trans-Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 574596117935
+  }
+]

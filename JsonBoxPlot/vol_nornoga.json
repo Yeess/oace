@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "NOGALES",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 185031,
+    "Year": 2005,
+    "Exportacion": 90708,
+    "ComercioTotal": 275739,
+    "BalanzaComercial": -94323
+  },
+  {
+    "Aduana": "NOGALES",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 237663,
+    "Year": 2006,
+    "Exportacion": 85988,
+    "ComercioTotal": 323651,
+    "BalanzaComercial": -151675
+  },
+  {
+    "Aduana": "NOGALES",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 265139,
+    "Year": 2007,
+    "Exportacion": 79355,
+    "ComercioTotal": 344494,
+    "BalanzaComercial": -185784
+  },
+  {
+    "Aduana": "NOGALES",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 242621,
+    "Year": 2008,
+    "Exportacion": 77447,
+    "ComercioTotal": 320068,
+    "BalanzaComercial": -165174
+  },
+  {
+    "Aduana": "NOGALES",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 139583,
+    "Year": 2009,
+    "Exportacion": 73128,
+    "ComercioTotal": 212711,
+    "BalanzaComercial": -66455
+  },
+  {
+    "Aduana": "NOGALES",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 160233,
+    "Year": 2010,
+    "Exportacion": 72309,
+    "ComercioTotal": 232542,
+    "BalanzaComercial": -87924
+  },
+  {
+    "Aduana": "NOGALES",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 167028,
+    "Year": 2011,
+    "Exportacion": 73687,
+    "ComercioTotal": 240715,
+    "BalanzaComercial": -93341
+  },
+  {
+    "Aduana": "NOGALES",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 169975,
+    "Year": 2012,
+    "Exportacion": 74786,
+    "ComercioTotal": 244761,
+    "BalanzaComercial": -95189
+  },
+  {
+    "Aduana": "NOGALES",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 188966,
+    "Year": 2013,
+    "Exportacion": 73066,
+    "ComercioTotal": 262032,
+    "BalanzaComercial": -115900
+  },
+  {
+    "Aduana": "NOGALES",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 183026,
+    "Year": 2014,
+    "Exportacion": 71558,
+    "ComercioTotal": 254584,
+    "BalanzaComercial": -111468
+  },
+  {
+    "Aduana": "NOGALES",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 74648,
+    "Year": 2015,
+    "Exportacion": 41892,
+    "ComercioTotal": 116540,
+    "BalanzaComercial": -32756
+  }
+]

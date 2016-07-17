@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 15514757170,
+    "Year": 2005,
+    "Exportacion": 10295735497,
+    "ComercioTotal": 25810492667,
+    "BalanzaComercial": -5219021673
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 31499027982,
+    "Year": 2006,
+    "Exportacion": 12392443868,
+    "ComercioTotal": 43891471850,
+    "BalanzaComercial": -19106584114
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 38782279800,
+    "Year": 2007,
+    "Exportacion": 14532256017,
+    "ComercioTotal": 53314535817,
+    "BalanzaComercial": -24250023783
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 48795855538,
+    "Year": 2008,
+    "Exportacion": 15783112708,
+    "ComercioTotal": 64578968246,
+    "BalanzaComercial": -33012742830
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 27896893155,
+    "Year": 2009,
+    "Exportacion": 14812686280,
+    "ComercioTotal": 42709579435,
+    "BalanzaComercial": -13084206875
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 38850580530,
+    "Year": 2010,
+    "Exportacion": 15963310617,
+    "ComercioTotal": 54813891147,
+    "BalanzaComercial": -22887269913
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 44459818597,
+    "Year": 2011,
+    "Exportacion": 21728555072,
+    "ComercioTotal": 66188373669,
+    "BalanzaComercial": -22731263525
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 57281357001,
+    "Year": 2012,
+    "Exportacion": 21990979421,
+    "ComercioTotal": 79272336422,
+    "BalanzaComercial": -35290377580
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 53087936906,
+    "Year": 2013,
+    "Exportacion": 22164233789,
+    "ComercioTotal": 75252170695,
+    "BalanzaComercial": -30923703117
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 52567325310,
+    "Year": 2014,
+    "Exportacion": 26912518700,
+    "ComercioTotal": 79479844010,
+    "BalanzaComercial": -25654806610
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 49810641758,
+    "Year": 2015,
+    "Exportacion": 14688683446,
+    "ComercioTotal": 64499325204,
+    "BalanzaComercial": -35121958312
+  }
+]

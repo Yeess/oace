@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "INTERIOR",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 473725000000,
+    "Year": 2005,
+    "Exportacion": 247612000000,
+    "ComercioTotal": 721337000000,
+    "BalanzaComercial": -226113000000
+  },
+  {
+    "Aduana": "INTERIOR",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 526413000000,
+    "Year": 2006,
+    "Exportacion": 273139000000,
+    "ComercioTotal": 799552000000,
+    "BalanzaComercial": -253274000000
+  },
+  {
+    "Aduana": "INTERIOR",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 547276000000,
+    "Year": 2007,
+    "Exportacion": 314763000000,
+    "ComercioTotal": 862039000000,
+    "BalanzaComercial": -232513000000
+  },
+  {
+    "Aduana": "INTERIOR",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 639098000000,
+    "Year": 2008,
+    "Exportacion": 408128000000,
+    "ComercioTotal": 1.047226e+12,
+    "BalanzaComercial": -230970000000
+  },
+  {
+    "Aduana": "INTERIOR",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 604810000000,
+    "Year": 2009,
+    "Exportacion": 441144000000,
+    "ComercioTotal": 1.045954e+12,
+    "BalanzaComercial": -163666000000
+  },
+  {
+    "Aduana": "INTERIOR",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 821153000000,
+    "Year": 2010,
+    "Exportacion": 620969000000,
+    "ComercioTotal": 1.442122e+12,
+    "BalanzaComercial": -200184000000
+  },
+  {
+    "Aduana": "INTERIOR",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 1.00363e+12,
+    "Year": 2011,
+    "Exportacion": 661862000000,
+    "ComercioTotal": 1.665492e+12,
+    "BalanzaComercial": -341768000000
+  },
+  {
+    "Aduana": "INTERIOR",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 1.1743e+12,
+    "Year": 2012,
+    "Exportacion": 773537000000,
+    "ComercioTotal": 1.947837e+12,
+    "BalanzaComercial": -400763000000
+  },
+  {
+    "Aduana": "INTERIOR",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 1.15364e+12,
+    "Year": 2013,
+    "Exportacion": 653317000000,
+    "ComercioTotal": 1.806957e+12,
+    "BalanzaComercial": -500323000000
+  },
+  {
+    "Aduana": "INTERIOR",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 1.2914e+12,
+    "Year": 2014,
+    "Exportacion": 733324000000,
+    "ComercioTotal": 2.024724e+12,
+    "BalanzaComercial": -558076000000
+  },
+  {
+    "Aduana": "INTERIOR",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 832451000000,
+    "Year": 2015,
+    "Exportacion": 418984000000,
+    "ComercioTotal": 1.251435e+12,
+    "BalanzaComercial": -413467000000
+  }
+]

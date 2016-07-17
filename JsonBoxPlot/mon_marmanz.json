@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 165000000000,
+    "Year": 2005,
+    "Exportacion": 32430179891,
+    "ComercioTotal": 197430179891,
+    "BalanzaComercial": -132569820109
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 157000000000,
+    "Year": 2006,
+    "Exportacion": 48654324088,
+    "ComercioTotal": 205654324088,
+    "BalanzaComercial": -108345675912
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 185000000000,
+    "Year": 2007,
+    "Exportacion": 55409470189,
+    "ComercioTotal": 240409470189,
+    "BalanzaComercial": -129590529811
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 206000000000,
+    "Year": 2008,
+    "Exportacion": 66071927421,
+    "ComercioTotal": 272071927421,
+    "BalanzaComercial": -139928072579
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 195000000000,
+    "Year": 2009,
+    "Exportacion": 66916932595,
+    "ComercioTotal": 261916932595,
+    "BalanzaComercial": -128083067405
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 267000000000,
+    "Year": 2010,
+    "Exportacion": 106000000000,
+    "ComercioTotal": 373000000000,
+    "BalanzaComercial": -161000000000
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 305000000000,
+    "Year": 2011,
+    "Exportacion": 128000000000,
+    "ComercioTotal": 433000000000,
+    "BalanzaComercial": -177000000000
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 368000000000,
+    "Year": 2012,
+    "Exportacion": 147000000000,
+    "ComercioTotal": 515000000000,
+    "BalanzaComercial": -221000000000
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 341000000000,
+    "Year": 2013,
+    "Exportacion": 130000000000,
+    "ComercioTotal": 471000000000,
+    "BalanzaComercial": -211000000000
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 420000000000,
+    "Year": 2014,
+    "Exportacion": 162000000000,
+    "ComercioTotal": 582000000000,
+    "BalanzaComercial": -258000000000
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 259000000000,
+    "Year": 2015,
+    "Exportacion": 82190670436,
+    "ComercioTotal": 341190670436,
+    "BalanzaComercial": -176809329564
+  }
+]

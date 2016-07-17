@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "ALTAMIRA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 53804,
+    "Year": 2005,
+    "Exportacion": 39172,
+    "ComercioTotal": 92976,
+    "BalanzaComercial": -14632
+  },
+  {
+    "Aduana": "ALTAMIRA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 57392,
+    "Year": 2006,
+    "Exportacion": 41133,
+    "ComercioTotal": 98525,
+    "BalanzaComercial": -16259
+  },
+  {
+    "Aduana": "ALTAMIRA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 57162,
+    "Year": 2007,
+    "Exportacion": 47846,
+    "ComercioTotal": 105008,
+    "BalanzaComercial": -9316
+  },
+  {
+    "Aduana": "ALTAMIRA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 60271,
+    "Year": 2008,
+    "Exportacion": 50745,
+    "ComercioTotal": 111016,
+    "BalanzaComercial": -9526
+  },
+  {
+    "Aduana": "ALTAMIRA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 53326,
+    "Year": 2009,
+    "Exportacion": 46312,
+    "ComercioTotal": 99638,
+    "BalanzaComercial": -7014
+  },
+  {
+    "Aduana": "ALTAMIRA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 66922,
+    "Year": 2010,
+    "Exportacion": 55393,
+    "ComercioTotal": 122315,
+    "BalanzaComercial": -11529
+  },
+  {
+    "Aduana": "ALTAMIRA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 69246,
+    "Year": 2011,
+    "Exportacion": 62076,
+    "ComercioTotal": 131322,
+    "BalanzaComercial": -7170
+  },
+  {
+    "Aduana": "ALTAMIRA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 74571,
+    "Year": 2012,
+    "Exportacion": 64314,
+    "ComercioTotal": 138885,
+    "BalanzaComercial": -10257
+  },
+  {
+    "Aduana": "ALTAMIRA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 77540,
+    "Year": 2013,
+    "Exportacion": 68082,
+    "ComercioTotal": 145622,
+    "BalanzaComercial": -9458
+  },
+  {
+    "Aduana": "ALTAMIRA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 86623,
+    "Year": 2014,
+    "Exportacion": 67584,
+    "ComercioTotal": 154207,
+    "BalanzaComercial": -19039
+  },
+  {
+    "Aduana": "ALTAMIRA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 45768,
+    "Year": 2015,
+    "Exportacion": 32625,
+    "ComercioTotal": 78393,
+    "BalanzaComercial": -13143
+  }
+]

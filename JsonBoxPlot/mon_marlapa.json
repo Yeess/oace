@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 780960634,
+    "Year": 2005,
+    "Exportacion": 710205493,
+    "ComercioTotal": 1491166127,
+    "BalanzaComercial": -70755141
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 1702291826,
+    "Year": 2006,
+    "Exportacion": 1616204598,
+    "ComercioTotal": 3318496424,
+    "BalanzaComercial": -86087228
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 1126977802,
+    "Year": 2007,
+    "Exportacion": 995564589,
+    "ComercioTotal": 2122542391,
+    "BalanzaComercial": -131413213
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 1670946254,
+    "Year": 2008,
+    "Exportacion": 1040183160,
+    "ComercioTotal": 2711129414,
+    "BalanzaComercial": -630763094
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 613970849,
+    "Year": 2009,
+    "Exportacion": 1454959793,
+    "ComercioTotal": 2068930642,
+    "BalanzaComercial": 840988944
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 685654343,
+    "Year": 2010,
+    "Exportacion": 365087246,
+    "ComercioTotal": 1050741589,
+    "BalanzaComercial": -320567097
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 2701416107,
+    "Year": 2011,
+    "Exportacion": 2445450880,
+    "ComercioTotal": 5146866987,
+    "BalanzaComercial": -255965227
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 4708417453,
+    "Year": 2012,
+    "Exportacion": 645939142,
+    "ComercioTotal": 5354356595,
+    "BalanzaComercial": -4062478311
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 3224608681,
+    "Year": 2013,
+    "Exportacion": 910574731,
+    "ComercioTotal": 4135183412,
+    "BalanzaComercial": -2314033950
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 2939822157,
+    "Year": 2014,
+    "Exportacion": 839426236,
+    "ComercioTotal": 3779248393,
+    "BalanzaComercial": -2100395921
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 698058817,
+    "Year": 2015,
+    "Exportacion": 343960405,
+    "ComercioTotal": 1042019222,
+    "BalanzaComercial": -354098412
+  }
+]

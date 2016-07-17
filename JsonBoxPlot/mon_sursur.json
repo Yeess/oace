@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "SUR",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Monto",
+    "Importacion": 4659747477,
+    "Year": 2005,
+    "Exportacion": 15789823650,
+    "ComercioTotal": 20449571127,
+    "BalanzaComercial": 11130076173
+  },
+  {
+    "Aduana": "SUR",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Monto",
+    "Importacion": 5565503586,
+    "Year": 2006,
+    "Exportacion": 18260314971,
+    "ComercioTotal": 23825818557,
+    "BalanzaComercial": 12694811385
+  },
+  {
+    "Aduana": "SUR",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Monto",
+    "Importacion": 7237666297,
+    "Year": 2007,
+    "Exportacion": 24280134800,
+    "ComercioTotal": 31517801097,
+    "BalanzaComercial": 17042468503
+  },
+  {
+    "Aduana": "SUR",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Monto",
+    "Importacion": 8426676078,
+    "Year": 2008,
+    "Exportacion": 28183522626,
+    "ComercioTotal": 36610198704,
+    "BalanzaComercial": 19756846548
+  },
+  {
+    "Aduana": "SUR",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Monto",
+    "Importacion": 8562373855,
+    "Year": 2009,
+    "Exportacion": 28619409063,
+    "ComercioTotal": 37181782918,
+    "BalanzaComercial": 20057035208
+  },
+  {
+    "Aduana": "SUR",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Monto",
+    "Importacion": 9868559591,
+    "Year": 2010,
+    "Exportacion": 33717834541,
+    "ComercioTotal": 43586394132,
+    "BalanzaComercial": 23849274950
+  },
+  {
+    "Aduana": "SUR",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Monto",
+    "Importacion": 13245016532,
+    "Year": 2011,
+    "Exportacion": 40423396178,
+    "ComercioTotal": 53668412710,
+    "BalanzaComercial": 27178379646
+  },
+  {
+    "Aduana": "SUR",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Monto",
+    "Importacion": 16134109971,
+    "Year": 2012,
+    "Exportacion": 46402973783,
+    "ComercioTotal": 62537083754,
+    "BalanzaComercial": 30268863812
+  },
+  {
+    "Aduana": "SUR",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Monto",
+    "Importacion": 16411598772,
+    "Year": 2013,
+    "Exportacion": 46219348042,
+    "ComercioTotal": 62630946814,
+    "BalanzaComercial": 29807749270
+  },
+  {
+    "Aduana": "SUR",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Monto",
+    "Importacion": 17787032762,
+    "Year": 2014,
+    "Exportacion": 47298395211,
+    "ComercioTotal": 65085427973,
+    "BalanzaComercial": 29511362449
+  },
+  {
+    "Aduana": "SUR",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Monto",
+    "Importacion": 8127595759,
+    "Year": 2015,
+    "Exportacion": 27897160176,
+    "ComercioTotal": 36024755935,
+    "BalanzaComercial": 19769564417
+  }
+]

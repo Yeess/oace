@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "MONTERREY",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 155325,
+    "Year": 2005,
+    "Exportacion": 85894,
+    "ComercioTotal": 241219,
+    "BalanzaComercial": -69431
+  },
+  {
+    "Aduana": "MONTERREY",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 169672,
+    "Year": 2006,
+    "Exportacion": 89399,
+    "ComercioTotal": 259071,
+    "BalanzaComercial": -80273
+  },
+  {
+    "Aduana": "MONTERREY",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 161699,
+    "Year": 2007,
+    "Exportacion": 84584,
+    "ComercioTotal": 246283,
+    "BalanzaComercial": -77115
+  },
+  {
+    "Aduana": "MONTERREY",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 161603,
+    "Year": 2008,
+    "Exportacion": 95077,
+    "ComercioTotal": 256680,
+    "BalanzaComercial": -66526
+  },
+  {
+    "Aduana": "MONTERREY",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 144647,
+    "Year": 2009,
+    "Exportacion": 86235,
+    "ComercioTotal": 230882,
+    "BalanzaComercial": -58412
+  },
+  {
+    "Aduana": "MONTERREY",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 182384,
+    "Year": 2010,
+    "Exportacion": 95684,
+    "ComercioTotal": 278068,
+    "BalanzaComercial": -86700
+  },
+  {
+    "Aduana": "MONTERREY",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 200416,
+    "Year": 2011,
+    "Exportacion": 100555,
+    "ComercioTotal": 300971,
+    "BalanzaComercial": -99861
+  },
+  {
+    "Aduana": "MONTERREY",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 208897,
+    "Year": 2012,
+    "Exportacion": 104989,
+    "ComercioTotal": 313886,
+    "BalanzaComercial": -103908
+  },
+  {
+    "Aduana": "MONTERREY",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 220095,
+    "Year": 2013,
+    "Exportacion": 105996,
+    "ComercioTotal": 326091,
+    "BalanzaComercial": -114099
+  },
+  {
+    "Aduana": "MONTERREY",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 236679,
+    "Year": 2014,
+    "Exportacion": 112483,
+    "ComercioTotal": 349162,
+    "BalanzaComercial": -124196
+  },
+  {
+    "Aduana": "MONTERREY",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 114633,
+    "Year": 2015,
+    "Exportacion": 56459,
+    "ComercioTotal": 171092,
+    "BalanzaComercial": -58174
+  }
+]

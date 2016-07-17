@@ -1,0 +1,362 @@
+[
+  {
+    "Year": 2000,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Importacion",
+    "Valor": 296296479
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Exportacion",
+    "Valor": 66409503
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "BalanzaComercial",
+    "Valor": -229886976
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "ComercioTotal",
+    "Valor": 362705982
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Importacion",
+    "Valor": 257519755
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Exportacion",
+    "Valor": 45113109
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "BalanzaComercial",
+    "Valor": -212406646
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "ComercioTotal",
+    "Valor": 302632864
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Importacion",
+    "Valor": 249789378
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Exportacion",
+    "Valor": 55592593
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "BalanzaComercial",
+    "Valor": -194196785
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "ComercioTotal",
+    "Valor": 305381971
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Importacion",
+    "Valor": 313253888
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Exportacion",
+    "Valor": 61331758
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "BalanzaComercial",
+    "Valor": -251922130
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "ComercioTotal",
+    "Valor": 374585646
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Importacion",
+    "Valor": 401934276
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Exportacion",
+    "Valor": 54756518
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "BalanzaComercial",
+    "Valor": -347177758
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "ComercioTotal",
+    "Valor": 456690794
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Importacion",
+    "Valor": 370655166
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Exportacion",
+    "Valor": 87279083
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "BalanzaComercial",
+    "Valor": -283376083
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "ComercioTotal",
+    "Valor": 457934249
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Importacion",
+    "Valor": 428894296
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Exportacion",
+    "Valor": 90621023
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "BalanzaComercial",
+    "Valor": -338273273
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "ComercioTotal",
+    "Valor": 519515319
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Importacion",
+    "Valor": 441093999
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Exportacion",
+    "Valor": 129541924
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "BalanzaComercial",
+    "Valor": -311552075
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "ComercioTotal",
+    "Valor": 570635923
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Importacion",
+    "Valor": 523521013
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Exportacion",
+    "Valor": 221854914
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "BalanzaComercial",
+    "Valor": -301666099
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "ComercioTotal",
+    "Valor": 745375927
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Importacion",
+    "Valor": 415886404
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Exportacion",
+    "Valor": 85644280
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "BalanzaComercial",
+    "Valor": -330242124
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "ComercioTotal",
+    "Valor": 501530684
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Importacion",
+    "Valor": 510169286
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Exportacion",
+    "Valor": 88768637
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "BalanzaComercial",
+    "Valor": -421400649
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "ComercioTotal",
+    "Valor": 598937923
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Importacion",
+    "Valor": 541739243
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Exportacion",
+    "Valor": 115863578
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "BalanzaComercial",
+    "Valor": -425875665
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "ComercioTotal",
+    "Valor": 657602821
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Importacion",
+    "Valor": 735926755
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Exportacion",
+    "Valor": 115723746
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "BalanzaComercial",
+    "Valor": -620203009
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "ComercioTotal",
+    "Valor": 851650501
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Importacion",
+    "Valor": 615829119
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Exportacion",
+    "Valor": 111897350
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "BalanzaComercial",
+    "Valor": -503931769
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "ComercioTotal",
+    "Valor": 727726469
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Importacion",
+    "Valor": 640576442
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "Exportacion",
+    "Valor": 135896130
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "BalanzaComercial",
+    "Valor": -504680312
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "TLC México-Israel",
+    "Operacion": "ComercioTotal",
+    "Valor": 776472572
+  }
+]

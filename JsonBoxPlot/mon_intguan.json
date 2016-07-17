@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "GUANAJUATO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": null,
+    "Year": 2005,
+    "Exportacion": null,
+    "ComercioTotal": null,
+    "BalanzaComercial": null
+  },
+  {
+    "Aduana": "GUANAJUATO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 1179240107,
+    "Year": 2006,
+    "Exportacion": 1203420996,
+    "ComercioTotal": 2382661103,
+    "BalanzaComercial": 24180889
+  },
+  {
+    "Aduana": "GUANAJUATO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 4757796145,
+    "Year": 2007,
+    "Exportacion": 2514347699,
+    "ComercioTotal": 7272143844,
+    "BalanzaComercial": -2243448446
+  },
+  {
+    "Aduana": "GUANAJUATO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 6529209666,
+    "Year": 2008,
+    "Exportacion": 3341362978,
+    "ComercioTotal": 9870572644,
+    "BalanzaComercial": -3187846688
+  },
+  {
+    "Aduana": "GUANAJUATO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 5824436233,
+    "Year": 2009,
+    "Exportacion": 3768431192,
+    "ComercioTotal": 9592867425,
+    "BalanzaComercial": -2056005041
+  },
+  {
+    "Aduana": "GUANAJUATO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 5055214206,
+    "Year": 2010,
+    "Exportacion": 5064726331,
+    "ComercioTotal": 10119940537,
+    "BalanzaComercial": 9512125
+  },
+  {
+    "Aduana": "GUANAJUATO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 6563954918,
+    "Year": 2011,
+    "Exportacion": 8697123799,
+    "ComercioTotal": 15261078717,
+    "BalanzaComercial": 2133168881
+  },
+  {
+    "Aduana": "GUANAJUATO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 8554458127,
+    "Year": 2012,
+    "Exportacion": 9492959547,
+    "ComercioTotal": 18047417674,
+    "BalanzaComercial": 938501420
+  },
+  {
+    "Aduana": "GUANAJUATO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 7311222072,
+    "Year": 2013,
+    "Exportacion": 7835368412,
+    "ComercioTotal": 15146590484,
+    "BalanzaComercial": 524146340
+  },
+  {
+    "Aduana": "GUANAJUATO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 8888645960,
+    "Year": 2014,
+    "Exportacion": 8550578667,
+    "ComercioTotal": 17439224627,
+    "BalanzaComercial": -338067293
+  },
+  {
+    "Aduana": "GUANAJUATO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 2605586832,
+    "Year": 2015,
+    "Exportacion": 3763885017,
+    "ComercioTotal": 6369471849,
+    "BalanzaComercial": 1158298185
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "MEXICO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 42079262650,
+    "Year": 2005,
+    "Exportacion": 3099459507,
+    "ComercioTotal": 45178722157,
+    "BalanzaComercial": -38979803143
+  },
+  {
+    "Aduana": "MEXICO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 39597609410,
+    "Year": 2006,
+    "Exportacion": 3853511810,
+    "ComercioTotal": 43451121220,
+    "BalanzaComercial": -35744097600
+  },
+  {
+    "Aduana": "MEXICO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 29225461836,
+    "Year": 2007,
+    "Exportacion": 4323902574,
+    "ComercioTotal": 33549364410,
+    "BalanzaComercial": -24901559262
+  },
+  {
+    "Aduana": "MEXICO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 37557391678,
+    "Year": 2008,
+    "Exportacion": 4537349909,
+    "ComercioTotal": 42094741587,
+    "BalanzaComercial": -33020041769
+  },
+  {
+    "Aduana": "MEXICO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 37243208488,
+    "Year": 2009,
+    "Exportacion": 2464771727,
+    "ComercioTotal": 39707980215,
+    "BalanzaComercial": -34778436761
+  },
+  {
+    "Aduana": "MEXICO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 76977836231,
+    "Year": 2010,
+    "Exportacion": 1543962253,
+    "ComercioTotal": 78521798484,
+    "BalanzaComercial": -75433873978
+  },
+  {
+    "Aduana": "MEXICO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 86545773938,
+    "Year": 2011,
+    "Exportacion": 932315504,
+    "ComercioTotal": 87478089442,
+    "BalanzaComercial": -85613458434
+  },
+  {
+    "Aduana": "MEXICO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 71572308764,
+    "Year": 2012,
+    "Exportacion": 1570103449,
+    "ComercioTotal": 73142412213,
+    "BalanzaComercial": -70002205315
+  },
+  {
+    "Aduana": "MEXICO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 97293713548,
+    "Year": 2013,
+    "Exportacion": 1512264495,
+    "ComercioTotal": 98805978043,
+    "BalanzaComercial": -95781449053
+  },
+  {
+    "Aduana": "MEXICO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 81192918396,
+    "Year": 2014,
+    "Exportacion": 1893936508,
+    "ComercioTotal": 83086854904,
+    "BalanzaComercial": -79298981888
+  },
+  {
+    "Aduana": "MEXICO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 60138324540,
+    "Year": 2015,
+    "Exportacion": 380182921,
+    "ComercioTotal": 60518507461,
+    "BalanzaComercial": -59758141619
+  }
+]

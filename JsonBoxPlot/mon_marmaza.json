@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 13138849390,
+    "Year": 2005,
+    "Exportacion": 2813222651,
+    "ComercioTotal": 15952072041,
+    "BalanzaComercial": -10325626739
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 17173013112,
+    "Year": 2006,
+    "Exportacion": 2126821417,
+    "ComercioTotal": 19299834529,
+    "BalanzaComercial": -15046191695
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 19330032394,
+    "Year": 2007,
+    "Exportacion": 3942210009,
+    "ComercioTotal": 23272242403,
+    "BalanzaComercial": -15387822385
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 27572252102,
+    "Year": 2008,
+    "Exportacion": 5486347542,
+    "ComercioTotal": 33058599644,
+    "BalanzaComercial": -22085904560
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 18914846765,
+    "Year": 2009,
+    "Exportacion": 4674138351,
+    "ComercioTotal": 23588985116,
+    "BalanzaComercial": -14240708414
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 18969421987,
+    "Year": 2010,
+    "Exportacion": 5039400946,
+    "ComercioTotal": 24008822933,
+    "BalanzaComercial": -13930021041
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 17800828544,
+    "Year": 2011,
+    "Exportacion": 6022957514,
+    "ComercioTotal": 23823786058,
+    "BalanzaComercial": -11777871030
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 19192478776,
+    "Year": 2012,
+    "Exportacion": 12193439388,
+    "ComercioTotal": 31385918164,
+    "BalanzaComercial": -6999039388
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 17128388284,
+    "Year": 2013,
+    "Exportacion": 8559870302,
+    "ComercioTotal": 25688258586,
+    "BalanzaComercial": -8568517982
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 19634197331,
+    "Year": 2014,
+    "Exportacion": 7088379147,
+    "ComercioTotal": 26722576478,
+    "BalanzaComercial": -12545818184
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 12536587477,
+    "Year": 2015,
+    "Exportacion": 4954209199,
+    "ComercioTotal": 17490796676,
+    "BalanzaComercial": -7582378278
+  }
+]

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html  class="demo-2 no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>OACE: global</title>
+		<link rel="shortcut icon" href="ionicons/png/512/earth.png" type="image/png" >
+		
+		<script src="js/snap.svg-min.js"></script>
+		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script> 
+		<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+		
+		<!-- <script src="http://code.jquery.com/jquery-1.10.2.js"></script> -->
+		
+		
+		<!--
+		<script src="http://www.d3plus.org/js/d3.js"></script>
+		-->
+		<!-- Recurso web
+		<script src="http://www.d3plus.org/js/d3plus.js"></script> 
+		-->
+		<!-- Recurso local -->
+		<script src="js/D3PlusMaster/d3plus.js"></script>
+		
+		
+		<link href="css/ionicons/css/ionicons.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="css/EstiloMexico_v6.css" /> 
+		
+		
+	</head>
+	
+	<body>
+	<script>
+         $(function() {
+            $('.tooltip-0').tooltip({
+               items: 'a.tooltip-0',
+               content: "Las métricas que se utilizan en el aplicativo son las siguientes:<br/><br/>&nbsp;Exportación: venta de un producto a un país extranjero. <br/>	&nbsp;Importación: ingreso legal de mercancías de una país origen al país importador. <br/>&nbsp;Comercio total: exportación + importación.<br/>&nbsp;Balanza total: exportación - importación.<br/><br/>Definiciones tomadas de &nbsp;<a href = 'http://www.comercioyaduanas.com.mx/' target='_blank'>www.comercioyaduanas.com.mx</a><br/><br/>La información que se muestra es la que está disponible en el sitio <a href = 'http://comtrade.un.org/' target='_blank'>United Nations Comtrade Database</a>.<br/>Los países no están obligados a reportar su información, debido a esto no se tiene información de todos los años para todos los países.",
+               show: "slideDown", // show immediately
+               open: function(event, ui)
+               {                
+				  ui.tooltip.hover(function()
+                  {
+                     $(this).stop(true).fadeTo(500, 1); 
+                  },
+                  function()
+                  {
+                     $(this).fadeOut('500', function()
+                     {
+                        $(this).remove();
+                     });
+                  });
+               }
+            });
+         });
+		 $(function() {
+            $('.tooltip-11').tooltip({
+               items: 'a.tooltip-11',
+               content: "Este gráfico es una comparación de México vs las 5 economías más grandes en los últimos 5 años. <br/><br/> El ranking es generado por el Fondo Monetario Internacional (FMI) y el Banco Mundial (BM). Está basado en el Producto Interno Bruto (PIB). <br/><br/>En 2013 México ocupaba el 14º lugar y en el 2014 se posicionó en el 10º.<br/><br/> En el gráfico se puede apreciar la crisis financiera de 2008, que se desató de manera directa debido al colapso de la burbuja inmobiliaria en Estados Unidos en el año 2006.",
+               show: "slideDown", // show immediately
+               open: function(event, ui)
+               {                
+				  ui.tooltip.hover(function()
+                  {
+                     $(this).stop(true).fadeTo(500, 1); 
+                  },
+                  function()
+                  {
+                     $(this).fadeOut('500', function()
+                     {
+                        $(this).remove();
+                     });
+                  });
+               }
+            });
+         });
+		 $(function() {
+            $('.tooltip-12').tooltip({
+               items: 'a.tooltip-12',
+               content: "Este gráfico muestra la evolución del comercio mundial. <br/><br/> El eje X muestra la importación, el eje Y la exportación y el diámetro de los círculos es el comercio total. <br/><br/>Los montos están expresados en billones norteamericanos (1 billón = 1,000,000,000). <br/><br/> La información que se muestra es la que está disponible en el sitio <a href = 'http://comtrade.un.org/' target='_blank'>United Nations Comtrade Database</a>. Los países no están obligados a reportar su información, debido a esto no se tiene información de todos los años para todos los países. <br/><br/>",
+               show: "slideDown", // show immediately
+               open: function(event, ui)
+               {                
+				  ui.tooltip.hover(function()
+                  {
+                     $(this).stop(true).fadeTo(500, 1); 
+                  },
+                  function()
+                  {
+                     $(this).fadeOut('500', function()
+                     {
+                        $(this).remove();
+                     });
+                  });
+               }
+            });
+         });
+		 $(function() {
+            $('.tooltip-2').tooltip({
+               items: 'a.tooltip-2',
+               content: "La tabla muestra información de los países con los que México tuvo comercio durante el periodo: 2000 - 2014.<br/><br/> Solo se muestra este periodo, por cuestiones de procesamiento al descargar la información.<br/><br/> Por defecto, la tabla está ordenada de por la columna Año y Comercio total.",
+               show: "slideDown", // show immediately
+               open: function(event, ui)
+               {                
+				  ui.tooltip.hover(function()
+                  {
+                     $(this).stop(true).fadeTo(500, 1); 
+                  },
+                  function()
+                  {
+                     $(this).fadeOut('500', function()
+                     {
+                        $(this).remove();
+                     });
+                  });
+               }
+            });
+         });
+		 $(function() {
+            $('.tooltip-3').tooltip({
+               items: 'a.tooltip-3',
+               content: "En este mapa de árbol se puede ver el detalle de los productos (capítulos) que México comercia con cada uno de los países con los que ha comerciado; además de ver la proporción del comercio total (en el país elegido) que representa cada producto.<br/><br/> La escala de color (azul-rojo) representa los montos del comercio total, expresados en billones norteamericanos (1 billón = 1,000,000,000). ",
+               show: "slideDown", // show immediately
+               open: function(event, ui)
+               {                
+				  ui.tooltip.hover(function()
+                  {
+                     $(this).stop(true).fadeTo(500, 1); 
+                  },
+                  function()
+                  {
+                     $(this).fadeOut('500', function()
+                     {
+                        $(this).remove();
+                     });
+                  });
+               }
+            });
+         });
+		 $(function() {
+            $('.tooltip-4').tooltip({
+               items: 'a.tooltip-4',
+               content: "La tabla muestra información de los productos (capítulos) con los que México comerció durante el periodo: 2000 - 2014.<br/><br/>Solo se muestra este periodo, por cuestiones de procesamiento al descargar la información.<br/><br/>Por defecto, la tabla está ordenada de por la columna Año y Comercio total. ",
+               show: "slideDown", // show immediately
+               open: function(event, ui)
+               {                
+				  ui.tooltip.hover(function()
+                  {
+                     $(this).stop(true).fadeTo(500, 1); 
+                  },
+                  function()
+                  {
+                     $(this).fadeOut('500', function()
+                     {
+                        $(this).remove();
+                     });
+                  });
+               }
+            });
+         });
+		 $(function() {
+            $('.tooltip-5').tooltip({
+               items: 'a.tooltip-5',
+               content: "En este mapa de árbol se puede ver el detalle de los destinos y orígenes de los productos (capítulos) que México comercia; además de ver la proporción del comercio total que representan los países en cada producto elegido.<br/><br/> La escala de color (azul-rojo) representa los montos del comercio total, expresados en billones norteamericanos (1 billón = 1,000,000,000). ",
+               show: "slideDown", // show immediately
+               open: function(event, ui)
+               {                
+				  ui.tooltip.hover(function()
+                  {
+                     $(this).stop(true).fadeTo(500, 1); 
+                  },
+                  function()
+                  {
+                     $(this).fadeOut('500', function()
+                     {
+                        $(this).remove();
+                     });
+                  });
+               }
+            });
+         });
+		 $(function() {
+            $('.tooltip-6').tooltip({
+               items: 'a.tooltip-6',
+               content: "El mapa de árbol muestra los países con los que México no ha tenido comercio. <br/><br/> La escala de color (azul-rojo) representa los montos del comercio total que tiene cada país con el mundo, están expresados en billones norteamericanos (1 billón = 1,000,000,000).  <br/><br/> También se puede ver el detalle de los productos (capítulos) que comercia cada país.<br/><br/> En cuanto a productos, México no tiene operaciones con el capítulo 98 (Productos no específicados).",
+               show: "slideDown", // show immediately
+               open: function(event, ui)
+               {                
+				  ui.tooltip.hover(function()
+                  {
+                     $(this).stop(true).fadeTo(500, 1); 
+                  },
+                  function()
+                  {
+                     $(this).fadeOut('500', function()
+                     {
+                        $(this).remove();
+                     });
+                  });
+               }
+            });
+         });
+		 $(function() {
+            $('.tooltip-7').tooltip({
+               items: 'a.tooltip-7',
+               content: "La línea del tiempo muestra los acuerdos de alcance parcial y complementación económica firmados por México.<br/><br/> En cada auerdo, se muestra el preambulo del documento y además se puede acceder a la fuente de la documentación.<br/><br/> La definición de los acuerdos se puede ver en el sitio de la <a href = 'http://www.aladi.org/sitioAladi/index.html' target='_blank'> Asociación Latinoamericana de Integración</a>.",
+               show: "slideDown", // show immediately
+               open: function(event, ui)
+               {                
+				  ui.tooltip.hover(function()
+                  {
+                     $(this).stop(true).fadeTo(500, 1); 
+                  },
+                  function()
+                  {
+                     $(this).fadeOut('500', function()
+                     {
+                        $(this).remove();
+                     });
+                  });
+               }
+            });
+         });
+		 $(function() {
+            $('.tooltip-8').tooltip({
+               items: 'a.tooltip-8',
+               content: "En esta sección se muestra información relativa a los acuerdos que ha firmado México.<br/><br/> En el mapa de árbol, la escala de color (azul-rojo) representa los montos del comercio total, expresados en billones norteamericanos (1 billón = 1,000,000,000). <br/><br/> En la gráfica de barras los montos están expresados en billones norteamericanos (1 billón = 1,000,000,000).",
+               show: "slideDown", // show immediately
+               open: function(event, ui)
+               {                
+				  ui.tooltip.hover(function()
+                  {
+                     $(this).stop(true).fadeTo(500, 1); 
+                  },
+                  function()
+                  {
+                     $(this).fadeOut('500', function()
+                     {
+                        $(this).remove();
+                     });
+                  });
+               }
+            });
+         });
+	</script>	 
+		
+		<header class="codrops-header">
+				<h1>OACE: global&nbsp;
+				<a class="tooltip-0"> <i class="ion-ios-information" title = "Info"></i> </a> 
+				</h1>				
+		</header>
+
+		<div id="BotIncNac" >
+				<nav  class="codrops-demos">					
+					<a href="NacInicioNue_v007.html" title = "Página de inicio"> <i class="ion-android-globe"></i> </a>
+					
+				</nav>	
+		</div >
+		
+	
+		<div class = "cuerpo" > 
+		
+		<div id="obj1" class= "obj1">
+			<div class= "desObj11">
+			Comercio de México vs las economías más grandes.&nbsp;
+			<a class="tooltip-11"> <i class="ion-ios-information" title = "Info"></i> </a> 
+			</div>
+			
+			<div id="TimeLine" class= "TimeLine" > 
+			<a href="CrisisTimeLineversion1.html" title = "Ver crisis importantes"> <i class="ion-share"></i> </a>
+			</div>
+			
+			<div class= "obj11">
+			<object type="text/html" data="PlotLineMexico_v04.html" width="100%" height="100%" ></object>	
+			</div>
+			
+			<div class= "desObj12">
+			Evolución del comercio mundial (periodo: 1988 - 2014).&nbsp;
+			<a class="tooltip-12"> <i class="ion-ios-information" title = "Info"></i> </a> 
+			</div>
+			<div id="foreverAlone" class= "foreverAlone" > 
+			<a href="ScatterPlotMundoAlone_v5.html" title = "Ver de forma aislada"> <i class="ion-share"></i> </a>
+			</div>
+			
+			<div id ="obj12"  class= "obj12">
+				<object type="text/html" data="ScatterPlotMundo_v007.html" width="100%" height="100%" ></object>	
+			</div>
+		</div>
+					
+		<div id="obj2" class= "obj2">
+			<div class= "desObj2">
+				Países con los que México ha comerciado (periodo: 2000 - 2014).&nbsp;
+				<a class="tooltip-2"> <i class="ion-ios-information" title = "Info"></i> </a> 
+			</div>	
+			<div class= "obj21">
+				<object type="text/html" data="EjemploTablaDropdown_v005.html" width="100%" height="100%" ></object>	
+			</div>
+		</div>
+		
+		<div id="obj3" class= "obj3">
+			<div class= "desObj3">
+				Detalle por producto de los países con los que México comercia.&nbsp;
+				<a class="tooltip-3"> <i class="ion-ios-information" title = "Info"></i> </a> 
+			</div>	
+			<div class= "obj31">
+				<object type="text/html" data="TreeMapPaisesbyProducto_v005.html" width="100%" height="100%" ></object>				
+			</div>		
+		</div>
+
+		
+		<div id="obj4" class= "obj4">
+			<div class= "desObj4">
+				Capítulos que México ha comerciado (periodo: 2000 - 2014).&nbsp;
+				<a class="tooltip-4"> <i class="ion-ios-information" title = "Info"></i> </a> 
+			</div>	
+			<div class= "obj41">
+				<object type="text/html" data="TablaProducto_v002.html" width="100%" height="100%" ></object>	
+			</div>		
+		</div>
+		
+		<div id="obj5" class= "obj5">
+			<div class= "desObj5">
+				Detalle por país de los productos (capítulos) que México comercia.&nbsp;
+				<a class="tooltip-5"> <i class="ion-ios-information" title = "Info"></i> </a> 
+			</div>	
+			<div class= "obj51">
+			<object type="text/html" data="TreeMapProductosPaises_v009.html" width="100%" height="100%" ></object>	
+			</div>			
+		</div>
+		
+		<div id="obj6" class= "obj6">
+			<div class= "desObj6">
+				Países con los que México no ha comerciado (periodo: 2000 - 2014).&nbsp;
+				<a class="tooltip-6"> <i class="ion-ios-information" title = "Info"></i> </a> 
+			</div>	
+			<div class= "obj61">
+				<object type="text/html" data="PaisesProductosNoComercio_v002.html" width="100%" height="100%" ></object>
+			</div>			
+		</div>
+		
+		<div id="obj7" class= "obj7">
+			<div class= "desObj7">
+				Acuerdos de alcance parcial y complementación económica firmados por México.&nbsp;
+				<a class="tooltip-7"> <i class="ion-ios-information" title = "Info"></i> </a> 
+			</div>	
+			<div class= "obj71">
+				<object type="text/html" data="Acuerdosversion2.html" width="100%" height="100%" ></object>
+			</div>
+		</div>
+		
+		<div id="obj8" class= "obj8">
+			<div class= "desObj8">
+				Comercio de México con los países que ha firmado acuerdos (periodo: 2000 - 2014).&nbsp;
+				<a class="tooltip-8"> <i class="ion-ios-information" title = "Info"></i> </a> 
+			</div>	
+			<div class= "obj81">
+				<object type="text/html" data="SeccionAcuerdos_v004.html?Parametro1=Total" width="100%" height="100%" ></object>
+			</div>			
+		</div>
+		</div >
+		
+			
+			
+	</body>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80865768-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	
+</html>

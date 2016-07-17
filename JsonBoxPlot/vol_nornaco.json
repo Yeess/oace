@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 13090,
+    "Year": 2005,
+    "Exportacion": 1755,
+    "ComercioTotal": 14845,
+    "BalanzaComercial": -11335
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 11721,
+    "Year": 2006,
+    "Exportacion": 1669,
+    "ComercioTotal": 13390,
+    "BalanzaComercial": -10052
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 8090,
+    "Year": 2007,
+    "Exportacion": 1487,
+    "ComercioTotal": 9577,
+    "BalanzaComercial": -6603
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 5881,
+    "Year": 2008,
+    "Exportacion": 812,
+    "ComercioTotal": 6693,
+    "BalanzaComercial": -5069
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 2152,
+    "Year": 2009,
+    "Exportacion": 680,
+    "ComercioTotal": 2832,
+    "BalanzaComercial": -1472
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 3136,
+    "Year": 2010,
+    "Exportacion": 971,
+    "ComercioTotal": 4107,
+    "BalanzaComercial": -2165
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 5896,
+    "Year": 2011,
+    "Exportacion": 1110,
+    "ComercioTotal": 7006,
+    "BalanzaComercial": -4786
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 5556,
+    "Year": 2012,
+    "Exportacion": 1125,
+    "ComercioTotal": 6681,
+    "BalanzaComercial": -4431
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 4690,
+    "Year": 2013,
+    "Exportacion": 1123,
+    "ComercioTotal": 5813,
+    "BalanzaComercial": -3567
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 6010,
+    "Year": 2014,
+    "Exportacion": 916,
+    "ComercioTotal": 6926,
+    "BalanzaComercial": -5094
+  },
+  {
+    "Aduana": "NACO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1751,
+    "Year": 2015,
+    "Exportacion": 357,
+    "ComercioTotal": 2108,
+    "BalanzaComercial": -1394
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 222000000000,
+    "Year": 2005,
+    "Exportacion": 264000000000,
+    "ComercioTotal": 486000000000,
+    "BalanzaComercial": 42000000000
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 299000000000,
+    "Year": 2006,
+    "Exportacion": 327000000000,
+    "ComercioTotal": 626000000000,
+    "BalanzaComercial": 28000000000
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 304000000000,
+    "Year": 2007,
+    "Exportacion": 350000000000,
+    "ComercioTotal": 654000000000,
+    "BalanzaComercial": 46000000000
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 339000000000,
+    "Year": 2008,
+    "Exportacion": 376000000000,
+    "ComercioTotal": 715000000000,
+    "BalanzaComercial": 37000000000
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 347000000000,
+    "Year": 2009,
+    "Exportacion": 405000000000,
+    "ComercioTotal": 752000000000,
+    "BalanzaComercial": 58000000000
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 382000000000,
+    "Year": 2010,
+    "Exportacion": 423000000000,
+    "ComercioTotal": 805000000000,
+    "BalanzaComercial": 41000000000
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 371000000000,
+    "Year": 2011,
+    "Exportacion": 410000000000,
+    "ComercioTotal": 781000000000,
+    "BalanzaComercial": 39000000000
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 491000000000,
+    "Year": 2012,
+    "Exportacion": 484000000000,
+    "ComercioTotal": 975000000000,
+    "BalanzaComercial": -7000000000
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 439000000000,
+    "Year": 2013,
+    "Exportacion": 479000000000,
+    "ComercioTotal": 918000000000,
+    "BalanzaComercial": 40000000000
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 470000000000,
+    "Year": 2014,
+    "Exportacion": 494000000000,
+    "ComercioTotal": 964000000000,
+    "BalanzaComercial": 24000000000
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 230000000000,
+    "Year": 2015,
+    "Exportacion": 266000000000,
+    "ComercioTotal": 496000000000,
+    "BalanzaComercial": 36000000000
+  }
+]

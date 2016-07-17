@@ -1,0 +1,362 @@
+[
+  {
+    "Year": 2000,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Importacion",
+    "Valor": 1003850575
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Exportacion",
+    "Valor": 1420332277
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "BalanzaComercial",
+    "Valor": 416481702
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "ComercioTotal",
+    "Valor": 2424182852
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Importacion",
+    "Valor": 1099842990
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Exportacion",
+    "Valor": 1383411626
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "BalanzaComercial",
+    "Valor": 283568636
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "ComercioTotal",
+    "Valor": 2483254616
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Importacion",
+    "Valor": 1162891958
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Exportacion",
+    "Valor": 1159507476
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "BalanzaComercial",
+    "Valor": -3384482
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "ComercioTotal",
+    "Valor": 2322399434
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Importacion",
+    "Valor": 1276990625
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Exportacion",
+    "Valor": 1256904416
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "BalanzaComercial",
+    "Valor": -20086209
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "ComercioTotal",
+    "Valor": 2533895041
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Importacion",
+    "Valor": 1743739317
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Exportacion",
+    "Valor": 1445413388
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "BalanzaComercial",
+    "Valor": -298325929
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "ComercioTotal",
+    "Valor": 3189152705
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Importacion",
+    "Valor": 2034444776
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Exportacion",
+    "Valor": 2002978035
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "BalanzaComercial",
+    "Valor": -31466741
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "ComercioTotal",
+    "Valor": 4037422811
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Importacion",
+    "Valor": 2883913690
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Exportacion",
+    "Valor": 2337291513
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "BalanzaComercial",
+    "Valor": -546622177
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "ComercioTotal",
+    "Valor": 5221205203
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Importacion",
+    "Valor": 3112296813
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Exportacion",
+    "Valor": 2841119568
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "BalanzaComercial",
+    "Valor": -271177245
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "ComercioTotal",
+    "Valor": 5953416381
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Importacion",
+    "Valor": 3164069992
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Exportacion",
+    "Valor": 3773101667
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "BalanzaComercial",
+    "Valor": 609031675
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "ComercioTotal",
+    "Valor": 6937171659
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Importacion",
+    "Valor": 2221086903
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Exportacion",
+    "Valor": 2703921892
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "BalanzaComercial",
+    "Valor": 482834989
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "ComercioTotal",
+    "Valor": 4925008795
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Importacion",
+    "Valor": 2545895811
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Exportacion",
+    "Valor": 3987078920
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "BalanzaComercial",
+    "Valor": 1441183109
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "ComercioTotal",
+    "Valor": 6532974731
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Importacion",
+    "Valor": 2754976630
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Exportacion",
+    "Valor": 4525170128
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "BalanzaComercial",
+    "Valor": 1770193498
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "ComercioTotal",
+    "Valor": 7280146758
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Importacion",
+    "Valor": 2220361906
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Exportacion",
+    "Valor": 4687627579
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "BalanzaComercial",
+    "Valor": 2467265673
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "ComercioTotal",
+    "Valor": 6907989485
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Importacion",
+    "Valor": 2093101844
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Exportacion",
+    "Valor": 4458498743
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "BalanzaComercial",
+    "Valor": 2365396899
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "ComercioTotal",
+    "Valor": 6551600587
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Importacion",
+    "Valor": 2014455326
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "Exportacion",
+    "Valor": 4543276594
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "BalanzaComercial",
+    "Valor": 2528821268
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "A25TM  No 37",
+    "Operacion": "ComercioTotal",
+    "Valor": 6557731920
+  }
+]

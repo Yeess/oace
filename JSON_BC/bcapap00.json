@@ -1,0 +1,362 @@
+[
+  {
+    "Year": 2000,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 1343388588
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 1255453694
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": -87934894
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 2598842282
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 1460346775
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 1208696770
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": -251650005
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 2669043545
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 1514547074
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 1212065853
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": -302481221
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 2726612927
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 1618333165
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 1236920260
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": -381412905
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 2855253425
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 2381061656
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 1358183125
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": -1022878531
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 3739244781
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 2874609561
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 2560983143
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": -313626418
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 5435592704
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 3684163238
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 3570519971
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": -113643267
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 7254683209
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 3740990389
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 4790217807
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": 1049227418
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 8531208196
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 4090074693
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 5799166196
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": 1709091503
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 9889240889
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 2624998716
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 4125837036
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": 1500838320
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 6750835752
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 3084806927
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 6594063891
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": 3509256964
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 9678870818
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 3508254441
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 8991080592
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": 5482826151
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 12499335033
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 2819657514
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 9371430144
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": 6551772630
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 12191087658
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 2935550454
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 8590342335
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": 5654791881
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 11525892789
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Importacion",
+    "Valor": 3438353223
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "Exportacion",
+    "Valor": 8612087402
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "BalanzaComercial",
+    "Valor": 5173734179
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "Alianza Pacifico",
+    "Operacion": "ComercioTotal",
+    "Valor": 12050440625
+  }
+]

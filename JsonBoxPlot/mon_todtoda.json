@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "TODAS",
+    "Tipo_aduana": "TODAS",
+    "Metrica": "Monto",
+    "Importacion": 3.08e+12,
+    "Year": 2005,
+    "Exportacion": 2.72e+12,
+    "ComercioTotal": 5.8e+12,
+    "BalanzaComercial": -360000000000
+  },
+  {
+    "Aduana": "TODAS",
+    "Tipo_aduana": "TODAS",
+    "Metrica": "Monto",
+    "Importacion": 4.19e+12,
+    "Year": 2006,
+    "Exportacion": 3.14e+12,
+    "ComercioTotal": 7.33e+12,
+    "BalanzaComercial": -1.05e+12
+  },
+  {
+    "Aduana": "TODAS",
+    "Tipo_aduana": "TODAS",
+    "Metrica": "Monto",
+    "Importacion": 3.81e+12,
+    "Year": 2007,
+    "Exportacion": 3.52e+12,
+    "ComercioTotal": 7.33e+12,
+    "BalanzaComercial": -290000000000
+  },
+  {
+    "Aduana": "TODAS",
+    "Tipo_aduana": "TODAS",
+    "Metrica": "Monto",
+    "Importacion": 4.33e+12,
+    "Year": 2008,
+    "Exportacion": 3.89e+12,
+    "ComercioTotal": 8.22e+12,
+    "BalanzaComercial": -440000000000
+  },
+  {
+    "Aduana": "TODAS",
+    "Tipo_aduana": "TODAS",
+    "Metrica": "Monto",
+    "Importacion": 4.1e+12,
+    "Year": 2009,
+    "Exportacion": 3.9e+12,
+    "ComercioTotal": 8e+12,
+    "BalanzaComercial": -200000000000
+  },
+  {
+    "Aduana": "TODAS",
+    "Tipo_aduana": "TODAS",
+    "Metrica": "Monto",
+    "Importacion": 5e+12,
+    "Year": 2010,
+    "Exportacion": 4.64e+12,
+    "ComercioTotal": 9.64e+12,
+    "BalanzaComercial": -360000000000
+  },
+  {
+    "Aduana": "TODAS",
+    "Tipo_aduana": "TODAS",
+    "Metrica": "Monto",
+    "Importacion": 5.85e+12,
+    "Year": 2011,
+    "Exportacion": 5.36e+12,
+    "ComercioTotal": 1.121e+13,
+    "BalanzaComercial": -490000000000
+  },
+  {
+    "Aduana": "TODAS",
+    "Tipo_aduana": "TODAS",
+    "Metrica": "Monto",
+    "Importacion": 6.93e+12,
+    "Year": 2012,
+    "Exportacion": 6.04e+12,
+    "ComercioTotal": 1.297e+13,
+    "BalanzaComercial": -890000000000
+  },
+  {
+    "Aduana": "TODAS",
+    "Tipo_aduana": "TODAS",
+    "Metrica": "Monto",
+    "Importacion": 6.54e+12,
+    "Year": 2013,
+    "Exportacion": 5.85e+12,
+    "ComercioTotal": 1.239e+13,
+    "BalanzaComercial": -690000000000
+  },
+  {
+    "Aduana": "TODAS",
+    "Tipo_aduana": "TODAS",
+    "Metrica": "Monto",
+    "Importacion": 7.59e+12,
+    "Year": 2014,
+    "Exportacion": 6.48e+12,
+    "ComercioTotal": 1.407e+13,
+    "BalanzaComercial": -1.11e+12
+  },
+  {
+    "Aduana": "TODAS",
+    "Tipo_aduana": "TODAS",
+    "Metrica": "Monto",
+    "Importacion": 4.06e+12,
+    "Year": 2015,
+    "Exportacion": 3.51e+12,
+    "ComercioTotal": 7.57e+12,
+    "BalanzaComercial": -550000000000
+  }
+]

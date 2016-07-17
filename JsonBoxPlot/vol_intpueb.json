@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "PUEBLA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 8441,
+    "Year": 2005,
+    "Exportacion": 311,
+    "ComercioTotal": 8752,
+    "BalanzaComercial": -8130
+  },
+  {
+    "Aduana": "PUEBLA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 8292,
+    "Year": 2006,
+    "Exportacion": 452,
+    "ComercioTotal": 8744,
+    "BalanzaComercial": -7840
+  },
+  {
+    "Aduana": "PUEBLA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 6558,
+    "Year": 2007,
+    "Exportacion": 846,
+    "ComercioTotal": 7404,
+    "BalanzaComercial": -5712
+  },
+  {
+    "Aduana": "PUEBLA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 9507,
+    "Year": 2008,
+    "Exportacion": 1123,
+    "ComercioTotal": 10630,
+    "BalanzaComercial": -8384
+  },
+  {
+    "Aduana": "PUEBLA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 12036,
+    "Year": 2009,
+    "Exportacion": 1580,
+    "ComercioTotal": 13616,
+    "BalanzaComercial": -10456
+  },
+  {
+    "Aduana": "PUEBLA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 16339,
+    "Year": 2010,
+    "Exportacion": 2600,
+    "ComercioTotal": 18939,
+    "BalanzaComercial": -13739
+  },
+  {
+    "Aduana": "PUEBLA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 22260,
+    "Year": 2011,
+    "Exportacion": 2559,
+    "ComercioTotal": 24819,
+    "BalanzaComercial": -19701
+  },
+  {
+    "Aduana": "PUEBLA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 30311,
+    "Year": 2012,
+    "Exportacion": 2505,
+    "ComercioTotal": 32816,
+    "BalanzaComercial": -27806
+  },
+  {
+    "Aduana": "PUEBLA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 38126,
+    "Year": 2013,
+    "Exportacion": 2688,
+    "ComercioTotal": 40814,
+    "BalanzaComercial": -35438
+  },
+  {
+    "Aduana": "PUEBLA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 61819,
+    "Year": 2014,
+    "Exportacion": 3314,
+    "ComercioTotal": 65133,
+    "BalanzaComercial": -58505
+  },
+  {
+    "Aduana": "PUEBLA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 27439,
+    "Year": 2015,
+    "Exportacion": 1696,
+    "ComercioTotal": 29135,
+    "BalanzaComercial": -25743
+  }
+]

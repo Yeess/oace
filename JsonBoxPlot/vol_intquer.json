@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "QUERETARO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 99251,
+    "Year": 2005,
+    "Exportacion": 5269,
+    "ComercioTotal": 104520,
+    "BalanzaComercial": -93982
+  },
+  {
+    "Aduana": "QUERETARO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 101335,
+    "Year": 2006,
+    "Exportacion": 3376,
+    "ComercioTotal": 104711,
+    "BalanzaComercial": -97959
+  },
+  {
+    "Aduana": "QUERETARO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 25620,
+    "Year": 2007,
+    "Exportacion": 3624,
+    "ComercioTotal": 29244,
+    "BalanzaComercial": -21996
+  },
+  {
+    "Aduana": "QUERETARO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 29639,
+    "Year": 2008,
+    "Exportacion": 6148,
+    "ComercioTotal": 35787,
+    "BalanzaComercial": -23491
+  },
+  {
+    "Aduana": "QUERETARO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 29504,
+    "Year": 2009,
+    "Exportacion": 5627,
+    "ComercioTotal": 35131,
+    "BalanzaComercial": -23877
+  },
+  {
+    "Aduana": "QUERETARO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 30707,
+    "Year": 2010,
+    "Exportacion": 6998,
+    "ComercioTotal": 37705,
+    "BalanzaComercial": -23709
+  },
+  {
+    "Aduana": "QUERETARO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 36283,
+    "Year": 2011,
+    "Exportacion": 10878,
+    "ComercioTotal": 47161,
+    "BalanzaComercial": -25405
+  },
+  {
+    "Aduana": "QUERETARO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 39332,
+    "Year": 2012,
+    "Exportacion": 36505,
+    "ComercioTotal": 75837,
+    "BalanzaComercial": -2827
+  },
+  {
+    "Aduana": "QUERETARO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 70598,
+    "Year": 2013,
+    "Exportacion": 49900,
+    "ComercioTotal": 120498,
+    "BalanzaComercial": -20698
+  },
+  {
+    "Aduana": "QUERETARO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 82793,
+    "Year": 2014,
+    "Exportacion": 54467,
+    "ComercioTotal": 137260,
+    "BalanzaComercial": -28326
+  },
+  {
+    "Aduana": "QUERETARO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 43910,
+    "Year": 2015,
+    "Exportacion": 29138,
+    "ComercioTotal": 73048,
+    "BalanzaComercial": -14772
+  }
+]

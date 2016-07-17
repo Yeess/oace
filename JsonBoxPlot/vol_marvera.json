@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 191732,
+    "Year": 2005,
+    "Exportacion": 47574,
+    "ComercioTotal": 239306,
+    "BalanzaComercial": -144158
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 202699,
+    "Year": 2006,
+    "Exportacion": 51667,
+    "ComercioTotal": 254366,
+    "BalanzaComercial": -151032
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 203086,
+    "Year": 2007,
+    "Exportacion": 54922,
+    "ComercioTotal": 258008,
+    "BalanzaComercial": -148164
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 197762,
+    "Year": 2008,
+    "Exportacion": 59647,
+    "ComercioTotal": 257409,
+    "BalanzaComercial": -138115
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 167083,
+    "Year": 2009,
+    "Exportacion": 57171,
+    "ComercioTotal": 224254,
+    "BalanzaComercial": -109912
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 190879,
+    "Year": 2010,
+    "Exportacion": 63086,
+    "ComercioTotal": 253965,
+    "BalanzaComercial": -127793
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 196535,
+    "Year": 2011,
+    "Exportacion": 68386,
+    "ComercioTotal": 264921,
+    "BalanzaComercial": -128149
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 206786,
+    "Year": 2012,
+    "Exportacion": 73022,
+    "ComercioTotal": 279808,
+    "BalanzaComercial": -133764
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 204761,
+    "Year": 2013,
+    "Exportacion": 78880,
+    "ComercioTotal": 283641,
+    "BalanzaComercial": -125881
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 213425,
+    "Year": 2014,
+    "Exportacion": 78681,
+    "ComercioTotal": 292106,
+    "BalanzaComercial": -134744
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 108612,
+    "Year": 2015,
+    "Exportacion": 37665,
+    "ComercioTotal": 146277,
+    "BalanzaComercial": -70947
+  }
+]

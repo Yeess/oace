@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 41456104299,
+    "Year": 2005,
+    "Exportacion": 83137519327,
+    "ComercioTotal": 124593623626,
+    "BalanzaComercial": 41681415028
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 51632003394,
+    "Year": 2006,
+    "Exportacion": 99153264706,
+    "ComercioTotal": 150785268100,
+    "BalanzaComercial": 47521261312
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 56013965033,
+    "Year": 2007,
+    "Exportacion": 93983451337,
+    "ComercioTotal": 149997416370,
+    "BalanzaComercial": 37969486304
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 69219439057,
+    "Year": 2008,
+    "Exportacion": 116000000000,
+    "ComercioTotal": 185219439057,
+    "BalanzaComercial": 46780560943
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 52906724329,
+    "Year": 2009,
+    "Exportacion": 90279042981,
+    "ComercioTotal": 143185767310,
+    "BalanzaComercial": 37372318652
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 98500286048,
+    "Year": 2010,
+    "Exportacion": 137000000000,
+    "ComercioTotal": 235500286048,
+    "BalanzaComercial": 38499713952
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 151000000000,
+    "Year": 2011,
+    "Exportacion": 179000000000,
+    "ComercioTotal": 330000000000,
+    "BalanzaComercial": 28000000000
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 133000000000,
+    "Year": 2012,
+    "Exportacion": 174000000000,
+    "ComercioTotal": 307000000000,
+    "BalanzaComercial": 41000000000
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 126000000000,
+    "Year": 2013,
+    "Exportacion": 112000000000,
+    "ComercioTotal": 238000000000,
+    "BalanzaComercial": -14000000000
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 132000000000,
+    "Year": 2014,
+    "Exportacion": 106000000000,
+    "ComercioTotal": 238000000000,
+    "BalanzaComercial": -26000000000
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 49729680980,
+    "Year": 2015,
+    "Exportacion": 52583139458,
+    "ComercioTotal": 102312820438,
+    "BalanzaComercial": 2853458478
+  }
+]

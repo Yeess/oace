@@ -1,0 +1,362 @@
+[
+  {
+    "Year": 2000,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Importacion",
+    "Valor": 83181152
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Exportacion",
+    "Valor": 61440338
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "BalanzaComercial",
+    "Valor": -21740814
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "ComercioTotal",
+    "Valor": 144621490
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Importacion",
+    "Valor": 84554504
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Exportacion",
+    "Valor": 50912115
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "BalanzaComercial",
+    "Valor": -33642389
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "ComercioTotal",
+    "Valor": 135466619
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Importacion",
+    "Valor": 91534707
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Exportacion",
+    "Valor": 25837719
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "BalanzaComercial",
+    "Valor": -65696988
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "ComercioTotal",
+    "Valor": 117372426
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Importacion",
+    "Valor": 101449731
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Exportacion",
+    "Valor": 34244074
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "BalanzaComercial",
+    "Valor": -67205657
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "ComercioTotal",
+    "Valor": 135693805
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Importacion",
+    "Valor": 135808845
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Exportacion",
+    "Valor": 341409911
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "BalanzaComercial",
+    "Valor": 205601066
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "ComercioTotal",
+    "Valor": 477218756
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Importacion",
+    "Valor": 262845995
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Exportacion",
+    "Valor": 65570001
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "BalanzaComercial",
+    "Valor": -197275994
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "ComercioTotal",
+    "Valor": 328415996
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Importacion",
+    "Valor": 262282761
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Exportacion",
+    "Valor": 66480975
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "BalanzaComercial",
+    "Valor": -195801786
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "ComercioTotal",
+    "Valor": 328763736
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Importacion",
+    "Valor": 333248406
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Exportacion",
+    "Valor": 89681889
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "BalanzaComercial",
+    "Valor": -243566517
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "ComercioTotal",
+    "Valor": 422930295
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Importacion",
+    "Valor": 325786889
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Exportacion",
+    "Valor": 169308136
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "BalanzaComercial",
+    "Valor": -156478753
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "ComercioTotal",
+    "Valor": 495095025
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Importacion",
+    "Valor": 261430672
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Exportacion",
+    "Valor": 99714847
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "BalanzaComercial",
+    "Valor": -161715825
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "ComercioTotal",
+    "Valor": 361145519
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Importacion",
+    "Valor": 233188678
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Exportacion",
+    "Valor": 207608709
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "BalanzaComercial",
+    "Valor": -25579969
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "ComercioTotal",
+    "Valor": 440797387
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Importacion",
+    "Valor": 277255820
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Exportacion",
+    "Valor": 270964506
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "BalanzaComercial",
+    "Valor": -6291314
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "ComercioTotal",
+    "Valor": 548220326
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Importacion",
+    "Valor": 288732480
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Exportacion",
+    "Valor": 293752138
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "BalanzaComercial",
+    "Valor": 5019658
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "ComercioTotal",
+    "Valor": 582484618
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Importacion",
+    "Valor": 283612717
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Exportacion",
+    "Valor": 308058523
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "BalanzaComercial",
+    "Valor": 24445806
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "ComercioTotal",
+    "Valor": 591671240
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Importacion",
+    "Valor": 372701305
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "Exportacion",
+    "Valor": 299920773
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "BalanzaComercial",
+    "Valor": -72780532
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "CE No 60 (TLC)",
+    "Operacion": "ComercioTotal",
+    "Valor": 672622078
+  }
+]

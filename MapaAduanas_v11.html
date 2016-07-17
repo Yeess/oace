@@ -1,0 +1,1131 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+
+    <title>Tablero Comercio Exterior</title>
+	 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />	
+    
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	<script src="http://www.d3plus.org/js/d3.js"></script>
+	<script src="http://www.d3plus.org/js/d3plus.js"></script>
+	<script src="http://www.d3plus.org/js/topojson.js"></script>
+	<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+
+	<link href="ionicons/css/ionicons.css" rel="stylesheet" type="text/css" />
+	
+	
+	<style type="text/css">
+	body {font-family: Arial, sans-serif;font-size: 12px; 
+	/*border-style: solid; border-color: #0000ff;*/
+	}
+	
+	#mapa { position: fixed; width: 49%; height: 49.4%; top:0.4%;  right:.1%; 
+	/*border-style: dotted; border-color: #ccccb3;*/
+	}
+	#obj1 { position: fixed; width: 49%; height: 48.9%; top:51%;  right:0.1%;
+	/*border-style: solid; border-color: #0000ff;*/
+	}
+    #obj2 { position: fixed; width: 49%; height: 95.2%;  top:4.7%; left:.1%;  
+	
+	}
+	
+	.f1{font-size: 11.5px;
+	position:absolute; height:3.7%; width: 15%; top:0.4%; left:1%; border-style: solid; margin: 0px; display: inline-block; font-family: Helvetica; font-size: 12px;
+	color: rgb(68, 68, 68); border: 1px solid rgb(195, 195, 195); 
+    font-weight: 200; letter-spacing: 0px; cursor: auto; background-color: rgb(255, 255, 255);
+	}
+	.f2{font-size: 11.5px;
+	position:absolute; height:3.7%; width: 15%; top:0.4%; left:18%; border-style: solid; margin: 0px; display: inline-block; font-family: Helvetica; font-size: 12px;
+	color: rgb(68, 68, 68); border: 1px solid rgb(195, 195, 195); 
+    font-weight: 200; letter-spacing: 0px; cursor: auto; background-color: rgb(255, 255, 255);
+	}
+	.f3{font-size: 11.5px;
+	position:absolute; height:3.7%; width: 12%; top:0.4%; left:35%; border-style: solid; margin: 0px; display: inline-block; font-family: Helvetica; font-size: 12px;
+	color: rgb(68, 68, 68); border: 1px solid rgb(195, 195, 195); 
+    font-weight: 200; letter-spacing: 0px; cursor: auto; background-color: rgb(255, 255, 255);
+	}
+	
+	/* css to customize Leaflet default styles  */
+	.iniMapa .leaflet-popup-tip,
+	.iniMapa .leaflet-popup-content-wrapper {
+	font-size:11.0px; 
+	/*background: #00061a;*/
+	background: #000000;
+	color: #fff;
+	opacity: 0.74; 	filter: alpha(opacity=.74);
+	}
+	.iniMapa .leaflet-popup-content-wrapper-a{background: #fff;}	
+	
+	
+	
+    </style>
+
+	
+    <script language="Javascript" type="text/javascript">
+      //google.load('visualization', '1', { packages: ['corechart'] });
+	  //google.load("visualization", "1", {packages:["motionchart"]});
+	  //google.load('search', '1'); // Este paquete es para las noticas.	
+
+	    
+
+	  // par1 es para el pais.
+	  // par2 es para el sector.
+    function initialize() {
+        var par2 = 'Todas';
+		var par1 = 'Todas';
+		var par3 = 'Monto';
+	var map = L.map('mapa').setView([24.380156, -99.128557], 4);
+	
+	L.tileLayer('http://map1.vis.earthdata.nasa.gov/wmts-webmerc/VIIRS_CityLights_2012/default/{time}/{tilematrixset}{maxZoom}/{z}/{y}/{x}.{format}', {
+	attribution: 'By the NASA (<a href="https://earthdata.nasa.gov">ESDIS</a>).',
+	bounds: [[-85.0511287776, -179.999999975], [85.0511287776, 179.999999975]],
+	minZoom: 1,
+	maxZoom: 8,
+	format: 'jpg',
+	time: '',
+	tilematrixset: 'GoogleMapsCompatible_Level'
+	}).addTo(map);
+	/*
+	L.tileLayer('http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+	maxZoom: 18,
+	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);	
+	*/
+	var mex = {"type":"FeatureCollection","features":[
+	{"type":"Feature","id":"MEX","properties":{"name":"Mexico"},"geometry":{"type":"Polygon","coordinates":[[[-97.140008,25.869997],[-97.528072,24.992144],[-97.702946,24.272343],[-97.776042,22.93258],[-97.872367,22.444212],[-97.699044,21.898689],[-97.38896,21.411019],[-97.189333,20.635433],[-96.525576,19.890931],[-96.292127,19.320371],[-95.900885,18.828024],[-94.839063,18.562717],[-94.42573,18.144371],[-93.548651,18.423837],[-92.786114,18.524839],[-92.037348,18.704569],[-91.407903,18.876083],[-90.77187,19.28412],[-90.53359,19.867418],[-90.451476,20.707522],[-90.278618,20.999855],[-89.601321,21.261726],[-88.543866,21.493675],[-87.658417,21.458846],[-87.05189,21.543543],[-86.811982,21.331515],[-86.845908,20.849865],[-87.383291,20.255405],[-87.621054,19.646553],[-87.43675,19.472403],[-87.58656,19.04013],[-87.837191,18.259816],[-88.090664,18.516648],[-88.300031,18.499982],[-88.490123,18.486831],[-88.848344,17.883198],[-89.029857,18.001511],[-89.150909,17.955468],[-89.14308,17.808319],[-90.067934,17.819326],[-91.00152,17.817595],[-91.002269,17.254658],[-91.453921,17.252177],[-91.08167,16.918477],[-90.711822,16.687483],[-90.600847,16.470778],[-90.438867,16.41011],[-90.464473,16.069562],[-91.74796,16.066565],[-92.229249,15.251447],[-92.087216,15.064585],[-92.20323,14.830103],[-92.22775,14.538829],[-93.359464,15.61543],[-93.875169,15.940164],[-94.691656,16.200975],[-95.250227,16.128318],[-96.053382,15.752088],[-96.557434,15.653515],[-97.263592,15.917065],[-98.01303,16.107312],[-98.947676,16.566043],[-99.697397,16.706164],[-100.829499,17.171071],[-101.666089,17.649026],[-101.918528,17.91609],[-102.478132,17.975751],[-103.50099,18.292295],[-103.917527,18.748572],[-104.99201,19.316134],[-105.493038,19.946767],[-105.731396,20.434102],[-105.397773,20.531719],[-105.500661,20.816895],[-105.270752,21.076285],[-105.265817,21.422104],[-105.603161,21.871146],[-105.693414,22.26908],[-106.028716,22.773752],[-106.90998,23.767774],[-107.915449,24.548915],[-108.401905,25.172314],[-109.260199,25.580609],[-109.444089,25.824884],[-109.291644,26.442934],[-109.801458,26.676176],[-110.391732,27.162115],[-110.641019,27.859876],[-111.178919,27.941241],[-111.759607,28.467953],[-112.228235,28.954409],[-112.271824,29.266844],[-112.809594,30.021114],[-113.163811,30.786881],[-113.148669,31.170966],[-113.871881,31.567608],[-114.205737,31.524045],[-114.776451,31.799532],[-114.9367,31.393485],[-114.771232,30.913617],[-114.673899,30.162681],[-114.330974,29.750432],[-113.588875,29.061611],[-113.424053,28.826174],[-113.271969,28.754783],[-113.140039,28.411289],[-112.962298,28.42519],[-112.761587,27.780217],[-112.457911,27.525814],[-112.244952,27.171727],[-111.616489,26.662817],[-111.284675,25.73259],[-110.987819,25.294606],[-110.710007,24.826004],[-110.655049,24.298595],[-110.172856,24.265548],[-109.771847,23.811183],[-109.409104,23.364672],[-109.433392,23.185588],[-109.854219,22.818272],[-110.031392,22.823078],[-110.295071,23.430973],[-110.949501,24.000964],[-111.670568,24.484423],[-112.182036,24.738413],[-112.148989,25.470125],[-112.300711,26.012004],[-112.777297,26.32196],[-113.464671,26.768186],[-113.59673,26.63946],[-113.848937,26.900064],[-114.465747,27.14209],[-115.055142,27.722727],[-114.982253,27.7982],[-114.570366,27.741485],[-114.199329,28.115003],[-114.162018,28.566112],[-114.931842,29.279479],[-115.518654,29.556362],[-115.887365,30.180794],[-116.25835,30.836464],[-116.721526,31.635744],[-117.12776,32.53534],[-115.99135,32.61239],[-114.72139,32.72083],[-114.815,32.52528],[-113.30498,32.03914],[-111.02361,31.33472],[-109.035,31.34194],[-108.24194,31.34222],[-108.24,31.754854],[-106.50759,31.75452],[-106.1429,31.39995],[-105.63159,31.08383],[-105.03737,30.64402],[-104.70575,30.12173],[-104.45697,29.57196],[-103.94,29.27],[-103.11,28.97],[-102.48,29.76],[-101.6624,29.7793],[-100.9576,29.38071],[-100.45584,28.69612],[-100.11,28.11],[-99.52,27.54],[-99.3,26.84],[-99.02,26.37],[-98.24,26.06],[-97.53,25.84],[-97.140008,25.869997]]]}}
+	]};
+	
+	L.geoJson(mex,{style: {color: "#999999", weight: 1}}).addTo(map);
+	
+	var aguascalientes = '<h4> Aduana de Aguascalientes</h4><p>Se creá por decreto presidencial el 6 de agosto de 1987 y sus instalaciones fueron inauguradas el 15 de marzo de 1988, dependen de esta aduana las secciones aduaneras del Parque Multimodal Interpuerto de SLP, el Aeropuerto Internacional General Leobardo C. Ruiz en Calera Zacatecas, Ponciano Arriaga del municipio de Soledad de  Graciano Sánchez de SLP y el Aeropuerto Internacional de la Cd de Aguscalientes Lic Jesús Terán.Las exportaciones se despachan en su totalidad a domicilio, en lo que se refiere a recaudación ha ocupado el lugar 14 a nivel nacional y en pedimentos ha llegado a ocupar el número 22. </p>'
+	var aicm = '<h4> Aduana de AICM</h4><p>Esta Aduana nació como sección aduanera dependiente de la Aduana Interior de México entre los años de 1934 a 1946, el 19 de Agosto de 1948 se constituyó como  aduana de tipo especial, debido a su importancia estratégica, durante las siguientes dos décadas tuvo un aumento creciente de operaciones por lo que en 1975 se hicieron obras para proveer mejores instalaciones, la elevada tasa de crecimiento de los volúmenes de mercancía rebaso en solo cinco años la infraestructura de la aduana. En octubre de 1984 empezaron a operar los almacenes concesionados, a menos de dos decadas, un nuevo ciclo comienza a gestarse en la evolución del despacho de mercancias en esta aduana, la cual a nivel nacional ha estado en primer lugar de operaciones y segundo en recaudación; entre sus principales importadores y exportadores se encuentran las empresas de mensajería.</p>'
+	var chihuahua = '<h4> Aduana de Chihuahua</h4><p>En el año de 1977 como resultado del desarrollo del Parque Industrial Américas, que se solicitó a la Administración General de Aduanas que se estableciera un servicio aduanal siendo hasta Febrero de 1979 que se autorizó dicha solilcitud y en Marzo de ese año inició sus operaciones, posteriormete el 11 de Marzo de 1986 según decreto publicado en el  Diario Oficial de la Federación, se crea la aduana interior del Estado, iniciando operaciones en ese mismo mes, más adelante cuando inician los vuelos internacionales en el aeropuerto general Roberto Fierro, surge la sala de revisión de pasajeros, dando inicio a sus operaciones como sección aduanera en octubre de 1994, en mayo de 2003 inician los trabajos para construir un recinto fiscal que inicia operaciones el 22 de agosto de 2005 contando con una máquina de rayos X en la sala de pasajeros. </p>'
+	var guadalajara = '<h4> Aduana de Guadalajara</h4><p>Tuvo su inicio mediante decreto del Ejecutivo Federal el 14 de septiembre de 1950, publicado en el Diario Oficial de la Federación el 7 de noviembre de ese año, entrando formalmente en operación hasta el 1 de enero de 1951, en noviembre se crea la sección aduanera de Puerto Vallarta, con su Aeropuerto Internacional Gustavo Díaz Ordaz, está aduana cuenta con tres secciones aduaneras Puerto Vallarta, Ferropuerto y Carga Áerea y Pasajeros, en 1994 se reubicaron las oficinas al municipio de Tlajomulco de Zúñiga.En mejoras operativas se han implementado carriles de facilitación en la ruta fiscal para empresas certificadas, cuentan con tres módulos de mecanismo de selección automatizado: importación,exportación y segundo reconocimiento. </p>'
+	var guanajuato = '<h4> Aduana de Guanajuato</h4><p>Con la publicación del 12 de Mayo de 2006 del Diario Oficial de la Federación, se da a conocer el Decreto que modifica el Reglamento Interior del Servicio de Administración  Tributaria que entre otros contempla la creación de la aduana de Guanajuato, que absorve la sección aduanera de León que desaparece como tal, dentro de sus instalaciones cuenta con: área de reconocimiento aduanero, segundo reconocimiento, almacén fiscal. Las operaciones actuales de la aduana abarcan exportaciones, importaciones,  y las secciones aduaneras del Aeropuerto Internacional y la de Celaya. </p>'
+	var mexico = '<h4> Aduana de México</h4><p>En el año de 1889 la aduana de México permaneció frente al edificio que ocupaba la inquisición, por necesidades de ampliación se traslado a Tlatelolco, fue hasta el 12 de junio de 1907 mediante decreto publicado en el Diario Oficial de la Federación que se crea la aduana de México con una sección aduanera de correos, el último antecedente de dicha aduana, es la placa alusiva localizada a la entrada de la misma donde señala que las instalaciones actuales fueron inauguradas en septiembre de 1956 por el presidente Adolfo Ruíz Cortines. </p>'
+	var monterrey = '<h4> Aduana de Monterrey</h4><p>Mediante decreto del Ejecutivo Federal del 13 de septiembre de 1976, publicado en el Diario Oficial de la Federación del 15 de septiembre, se estableció la aduana interior específica para el tráfico aéreo del Aeropuerto Internacional Mariano Escobedo, el 20 de enero de 1983 se estableció la aduana Interior de Nuevo León siendo hasta el día 11 de marzo de 1981 cuando Jesús Silva Herzog en ese entonces Secretario de Hacienda dispuso que la aduana iniciara operaciones el día 15 del mismo mes.Cuenta con equipamientos de rayos X y cámaras de circuito cerrado en las secciones aduaneras, almacenes y patios fiscales.La aduana de Monterrey juega un papel importante en el desarrollo del país al estar ubicada en una zona conurbana de fácil acceso a través de modernas vías de comunicación:aeropuertos, carreteras y ferrocarriles. </p>'
+	var puebla = '<h4> Aduana de Puebla</h4><p>El 1 de febrero de 1988, en un acto solemne presidido por el entonces Secretario de Hacienda Gustavo Petriccioli, se inauguran las intalaciones y se da el inicio de las actividades formales de la aduana de Puebla, que concluye en 1990 con la disposición del Ejecutivo Federal de reestructurar administrativamente las secciones aduaneras de Morelos y Tlaxcala, quedando establecida en su domicilio actual con sus dos secciones en Atlangatepec, Tlaxcala y Jilutepec, Morelos.</p>'
+	var queretaro = '<h4> Aduana de Querétaro</h4><p>Se fundó la aduana interior el 22 de julio de 1983, para noviembre de 1993, se agregó a la circunscripción una parte del Estado de Michoacán y de Guanajuato, iniciando operaciones el 23 de noviembre de 1993 las secciones aduaneras de Morelia, Michoacán y Celaya, Guanajuato; el 19 de Diciembre de 1996 la sección de León, Guanajuato y el Aeropuerto Internacional de Guanajuato fueron agregados a la circunscripción de la aduana de Querétaro el 13 de junio de 1997, cambiando su ubicación a la actual el 29 de enero de 1993. </p>'
+	var toluca = '<h4> Aduana de Toluca</h4><p>Se establece hace más de 30 años en la Ciudad de Toluca la aduana debido al crecimiento económico de alguno de los municipios de su circunscripción aquí en esta aduana se llevan a cabo las denominadas operaciones virtuales de exportaciónes e importaciones solicitadas primordialmente por las maquiladoras.</p>'
+	var torreon = '<h4> Aduana de Torreón</h4><p>En un principio fue creada como aduana de tipo especial aéreo solamente para operaciones aduaneras por vía aérea por decreto del Diario Oficial de la Federación el 2 de agosto de 1947,  el 18 de Octubre de 1948 se publicó el decreto donde pasaba a ser aduana de interior de despacho. Durante el mes de noviembre de 1951 se construyó una nueva aduana, la cual a partir del 9 de abril de 1995 se ubicó en el complejo industrial de Ferropuerto Laguna.</p>'
+	var acapulco = '<h4> Aduana de Acapulco</h4><p>Debido al incremento de las importaciones, en 1597 se establece en Acapulco la primera aduana de la Nueva España; el edificio original de la aduana, debido a un sismo  de gran magitud sufrió graves daños por lo cual se ordenó la construcción de uno nuevo inaugurado en 1718. La aduana marítima en al año de 1743 cobraba un impuesto de exportación de planta del 17%, lo que registra un aumento del 2% como consecuencia de una reforma arancelaria a la tarifa estabecida en 1566. El 25 de Febrero de 1732 se lleva a cabo una nueva edificación de la aduana, durante la gesta revolucionaria, la aduana que era una oficina  eminentemente recaudadora, en varias ocasiones fue asaltada y en más de una de ellas algunos elementos de la institución fueron victimados. En 1952 las oficinas administrativas se instalarón en el primer piso del recien inaugurado Palacio Federal, en la decada de los 70s Acapulco tuvó el mayor auge en materia de comercio exterior, ya que se recibía y enviaba mercancias a países de Asia, Norte, Sur y Centroamérica.</p>'
+	var altamira = '<h4> Aduana de Altamira</h4><p>El 23 de Agosto de 1993 se creó por decreto presidencial la Aduana Marítima, ubicada en el puerto industrial de Altamira, que operaba anteriormente como sección aduanera de la Aduana de Tampico, el crecimiento de los despachos de mercancía de comercio exterior en el corredor-industrial Tampico-Altamira culminó con el inicio de operaciones de la aduana el 16 de Diciembre de 1993. </p>'
+	var cancun = '<h4> Aduana de Cancún</h4><p>Históricamente, la primera Aduana reconocida en el lado noreste de a peninsula de Yucatán, fue la sección aduanera de Cozumel, la cual inicia operaciones en el año de 1888 dependiendo de la Aduana de Progreso. En 1918 se creó la aduana marítima de Cozumel, siendo hasta 1982 cuando se crea la aduana de Cancún y Cozumel pasó a ser sección aduanera, asimismo se crearon las secciones aduaneras de Puerto Morelos e Isla Mujeres; actualmente en la sección aduanera de Cozumel arriban varios cruceros turisticos . La Aduana de Cancún se localiza a un costado del Aeropuerto Internacional, su principal función es la atención de pasajeros internacionales </p>'
+	var cddelcarmen = '<h4> Aduana de Cd. Del Carmen</h4><p>Se considera que en el año de 1825 se establece en forma la primera oficina de a Aduana Marítima, ésta se debió a que en aquellos tiempos, solamente había tres matriculas : Acapulco, Veracruz y Campeche, que eran los únicos puertos por donde se comercializaban las mercancías y se hacian los pagos aduanales correspondientes. Actualmente la principal actividad comercial esta enfocada a la industria petrolera. </p>'
+	var coatzacoalcos = '<h4> Aduana de Coatzacoalcos</h4><p>El puerto se crea por decreto el 8 de Octubre de 1825, en 1858 cubre por vez primera la ruta marítima Nueva Orleans-Minatitlán, en 1896 inician los trabajos del canal de entrada al puerto y en 1905 inician la construcción de muelles y bodegas, esta aduana está ubicada dentro de la Administración Portuaria Integral, cuenta con seis bodegas, nueve muelles y otro especial para el ferrobuque siendo este el primer muelle nacional que establecía una nueva frontera ferroviaría con los Estados Unidos. </p>'
+	var dosbocas = '<h4> Aduana de Dos Bocas</h4><p>En el año de 1829, la villa y Puerto de Guadalupe de la Frontera (actualmente Frontera, Tabasco), era un puerto muy importante del litoral del Golfo de México, siendo presidente el general Guadalupe Victoria, ordena que a partir del 6 de febrero de 1829 fuese instalada la aduana marítima del Puerto de Frontera, la segunda en importancia del Golfo de México despúes de Veracruz, siendo hasta el 1 de diciembre de ese año que inicia operaciones como principal centro de paso para importación y exportación de la región.Diecisiete año sin interrupción en sus actividades, en mayo de 1846 estalla la guerra entre Estados Unidos y nuestro país, el 21 de octubre de 1846 goletas norteamericanas bloquean el puerto, que es tomado el día 23 de octubre por el comandante Mathew C. Perry, la aduana fue saqueada y destruida hasta 1848 en que se firman los tratados de Guadalupe, al concluir la guerra el edificio de la aduana fue restaurado pero el 17 de junio de 1863 cuando estaba la guerra entre México y Francia ocurre de nueva cuenta otra intervención que destruye de nuevo el edificio de la aduana, por lo que se traslada a Villahermosa en Marzo de 1866, en 1871 vuelve a trasladarse la aduana marítima a Frontera.Siendo Presidente de México Benito Juárez ordena la reconstrucción y remodelación del la aduana marítima siendo así que desde 1872 y hasta 1923 las actividades de la aduana se normalizaron; otra rebelión da inicio en diciembre de 1923 y el 24 de febrero de 1924, Adolfo de la Huerta toma posesión de la aduana e instala ahí su cuartel militar, hasta que el  6 de octubre las tropas del General Álvaro Obregón fusilan a un costado de la aduana a los cabecillas de las tropas de Adolfo de la Huerta quien huye hacia los Estados Unidos, concluyendo así un suceso histórico mas en Frontera y en la Aduana. Al paso del tiempo esta aduana se ha visto afectada por eventos naturales desde 1973 hasta 1999, en el año del 2000 se crea la aduana de Dos Bocas en la ciudad de Paraíso a cuatro kilometros del muelle. </p>'
+	var ensenada = '<h4> Aduana de Ensenada</h4><p>La primera aduana era una casa de adobe ubicada en la playa en el año de 1877 la cual duró en operación tan sólo cinco meses, siendo cerrada hasta el 27 de Octubre de 1880 cuando el presidente decreta la reapertura de la aduana de Ensenada que trajo el cierre de la aduana de Tijuana, en 1922 se cambian al edificio que ocupo la compañía americana, siendo hasta el 30 de agosto de 1989 cuando se hace la entrega recepción del nuevo edificio donde despacharía por un periódo de diez años; a partir de 1994 la SHCP y la Administración Portuaría Integral acuerdan la realización y construcción de dos edificios dentro del recinto portuario, mismos que a partir de junio de 1999 y hasta la fecha esta ubicada la aduana. </p>'
+	var guaymas = '<h4> Aduana de Guaymas</h4><p>A principios del siglo XIX con la necesidad de recibir barcos de mayor calado dejó de utilizarse San José y se empezó a utilizar San Fernando de Guaymas que era un muelle natural durante mucho tiempo la casa de los cuatro fuentes fue utilizada para la llegada y desembarco de pasajeros por vía marítima, estando a corta distancia de las oficinas de la aduana marítima de Guaymas, en 1902 el edificio se derrumbó y la aduana cambió de oficinas; como hechos históricos en 1811 se autoriza el tráfico comercial marítimo en el puerto y en 1814 las cortes españolas lo habilitan para el comercio nacional, en 1823 se establece la aduana marítima y en 1825 se le otorga la categoría de municipio, en 1837 obtiene el reconocimiento de puerto de altura. Dependientes de la aduana se encuentran los Aeropuertos Internacionales de: Hermosillo, Ciudad Obregón y Guaymas. </p>'
+	var lapaz = '<h4> Aduana de La Paz</h4><p>El 12 de enero de 1854, siendo Ministro de Hacienda Antonio López de Santa Ana, se crea el Resguardo Marítimo de la Paz, expidiéndose el Decreto por el cual se declara habilitado para el comercio exterior surgiendo así la Aduana Marítima de la Paz, a partir del ordenamieto de la división política ordenada por el Presidente Díaz en 1888, la península se dividió en norte y sur. El puerto de Pichilingue abierto en el año de 1964, causó la disminución de las actividades de comercio exterior en la aduana de la Paz, y diez años despúes en 1974 la aduana establece sus oficinas compartiendo espacio con otras Administraciones Locales de la Secretaría de Hacienda y Crédito Público, los puntos de revisión de esta aduana son:La Garita de Pichilingue, la Garita de Santa Rosalía, cinco secciones aduaneras: San josé del Cabo, Cabo San Lucas, Santa Rosalía, Loreto y Pichilingue, Patio Fiscal y los Aeropuertos Internacionales de Loreto y Los Cabos. </p>'
+	var lazarocardenas = '<h4> Aduana de Lazaro Cardénas</h4><p>El puerto habilitado a través del Decreto publicado en el Diario Oficial de la Federación del 31 de mayo de 1974, considerado como uno de los puertos mexicanos con la mayor proyección a los mercados internacionales; hasta antes de 2004 la aduana atendía en sus despachos úicamente mercancía general, en su proyecto de diversificación de carga a finales de 2003 el puerto empieza a recibir buques, principalmente en la TUM II, asi tambien la creación de la terminal especializadad de contenedores a la cual acompaño una de las empresas navieras más grandes del mundo Maerks Line, siendo a partir del segundo semestre de 2004 que comenzó a recibirse de forma más regular contenedores de carga.Gracias a la accesabilidad que tiene el puerto a un ágil corredor intermodal sin costuras se atienden tránsitos internacionales con destino a la costa oeste de los Estados Unidos; parte de la infraestructura actual consta de cámaras de circuito cerrado, equipo de rayos X, equipos de rayos gamma, báscula dinámica, GPS y cámaras digitales. </p>'
+	var manzanillo = '<h4> Aduana de Manzanillo</h4><p>En 1564 comenzó la misión de colonizar las Filipinas y encontrar un camino de regreso que conectara a ambos continentes, a lo que se le llamo el tornaviaje, que permitió en 1576 el establecimiento de la ruta del Pacífico, que unió a Acapulco con Manila, conocida tambien como el Camino de Asia prolongandose por 300 años, en 1824 se decreta la apertura de Manzanillo como puerto del Pacífico y un año más tarde como puerto de Cabotage, por lo que el 1 de mayo de 1848 se establece la aduana marítima habilitada para el comercio exterior e interior quedando como Puerto de Altura, debido al incremento de operaciones en el puerto en 1971 se realiza la apertura del Puerto Interior de San Pedrito, donde se encuentra hoy actualmente. Manzanillo es el puerto número uno en manejo de carga contenerizada, por ello es la primer aduana marítima de este rubro. </p>'
+	var progreso = '<h4> Aduana de Progreso</h4><p>El 11 de julio de 1871, el presidente Juárez publica el decreto para abrir de forma oficial el puerto de Progreso a la navegación, para sustituir al puerto de Sisal, Yucatán. En otra fecha, 1936 el gobierno del Presidente Lázaro Cárdenas autoriza la construcción de un nuevo muelle, mismo que inicio en 1947 y en el año de 1960 bautizada como Heroes Aduaneros, en memoría de los jovenes empleados sacrificados en la Independencia.</p>'
+	var mazatlan = '<h4> Aduana de Mazatlán</h4><p>Al comienzo del siglo XVII, utilizaron el puerto como punto de envío de monedas de oro y otros valiosos productos a Europa, que eran extraidos en grandes cantidades de minerales ubicados en Villa San Sebastián (Concordía), Rosario y Mazatlán; entre 1826 y 1827 el comienzo del arribo de buques al puerto generó la necesidad al Gobierno de establecer una aduana marítima para que cobrara los derechos correspondientes al comercio exterior que se tenía en el puerto; lo cua ocurre en 1828 al quedar establecida la aduana marítima  en el puerto, convirtiendose desde el siglo XIX como el centro comercial más importante de occidente.Llos descubrimientos de oro en California durante 1849 trajo un movimiento importante para las mercancias que los inmigrantes buscadores de oro necesitaban.En 1861 se contrató la edificación de la nueva aduana marítima quedando terminada en 1862, un nuevo muelle se comenzó a constriur el 8 de septiembre de 1875, actualmente este puerto cuenta con seis muelles, cuatro de estos se utilizan para la carga en general, un recinto fiscalizado. </p>' 
+	var salinacruz = '<h4> Aduana de Salina Cruz</h4><p>En el siglo XVII Salina Cruz pasó de ser una aldea de pescadores al puerto de altura industrial gracias a la infraestructura portuaria y su planta de refinación de PEMEX Desde la llegada de los conquistadores el puerto sirvió como zona privilegiada para la Colonia, pero debió esperar tres siglos más para que el proyecto juarista situára en la región a la compañía ferroviaria Leuisiana que nunca concluyó. El uerto artificial se construyó de 1902 a 1906 como terminal de puerto terrestre, siendo hasta 1907cuando el General Porfirio Díaz declaró abierto el tráfico internacional a Salina Cruz.</p>'
+	var tampico = '<h4> Aduana de Tampico</h4><p>El 30 de septiembre de 1823 se concedió el establecimiento de una receptoría marítima por decreto del Soberano Congreso quedando abierta al comercio extranjero a partir del 10 de febrero de 1827. El primer embarcadero se construyó en 1870, las escolleras y el dragado se completo en 1889, incluyendo instalaciones de carga, se construyeron tambien tres almacenes y cuatro muelles.El edificio de la aduana fue pedido por catálogo a Europa por Porfirio Díaz, llegando por vía marítima, su construcción se inició en 1896 pero a consecuencia de un siniestro se pospuso su inauguración hasta 1902.En 2002 se inauguró el nuevo edificio de la aduana marítima de Tampico.</p>'
+	var tuxpan = '<h4> Aduana de Tuxpan</h4><p>En 1804 se establecen las receptorías marítimas de Tuxpan, Tamiahua y Tihuatlán de la red portuaria, siendo hasta 1826 cuando se crea el departamento de Tuxpan para habilitar el comercio exterior, el 28 de abril de 1826 se le designa puerto internacional por decreto y entre 1835 y 1837 a puerto de altura; al correr de los años se funda la aduana marítima de Tuxpan.Tuxpan es famoso por haber sido el lugar de donde partió el Granma, embarcación capitaneada por Fidel Castro y un puñado de hombres audaces que así iniciaron la revolución cubana.</p>'
+	var veracruz = '<h4> Aduana de Veracruz</h4><p>El puerto de Veracruz es el más antiguo del continente americano y más grande de la república, fundado en 1519 por Hernán Cortés con el nombre de Villa Rica de la Veracruz en 1601 le fue acondicionado un muelle para el atracadero de barcos repletos de mercancías. Hacia las últimas decadas del siglo XIX se dio la entrada principal al tráfico marítimo internacional, el cambio de fisonomía de Veracruz se emprendió a  inicios de 1880, se construyeron edificios para la jefatura de hacienda, almacenes fiscales y la aduana, inaugurados en 1902 por Porfirio Díaz. </p>'
+	var aguaprieta = '<h4> Aduana de Agua Prieta</h4><p>Fundada en 1899 al sur de la fundición, cerca de la línea internacional como la conocemos ahora, dos años despúes se crea la primer aduana de Agua Prieta en 1900, la cual 13 años posteriores a su creación fue consumida por las llamas, las siguientes dos construcciones sufrieron la misma suerte , hasta que llegaron al edificio que actualmente ocupa, edificio construido de 1917 a 1919, sus principales importadores y exportadores son las empresas maquiladoras. </p>'
+	var cdacuna = '<h4> Aduana de Cd. Acuña</h4><p>El 19 de marzo de 1897, el Gobierno Federal ordenó el establecimiento de una aduana fronteriza de importación de sexto orden en Villa del Carmen, motivado por el gran movimiento comercial entre las poblaciones fronterizas, se ordenó el establecimiento de la aduana por el año de 1903, inicialmente el cruce de mercancias era a pie por el vacío del río, posteriormente se construyó un puente de madera que continuamente era arrastrado por el río Bravo, el cual en 1929 se substituye por un puente metalico y en 1989 se construyó el actual puente de cuatro carriles. En Septiembre de 1968 , inició operaciones un puente de un solo carril  en la zona denominada la Linda, este puente se encuentra cerrado desde 1995 debido a un incidente trágico y por que dejo de ser costeable la exportación del mineral (fluorita). Actualmente se cuenta con un puente internacional de carga en la presa la Amistad. </p>'
+	var cdcamargo = '<h4> Aduana de Cd.Camargo</h4><p>Gracias al desarrollo comercial de la región el 24 de noviembre de 1849 se fundó por decreto la primera aduana fronteriza y marítima, la que se estableció con lo  que hoy se conoce por Villanueva de Camargo, despúes la aduana fue trasladada a la Villa de Camargo, funcionando por largo tiempo al sur de la Plaza Hidalgo posteriormente con la construcción del puente internacional Camargo-Río Grande, Texas se instala ahí la Aduana, el puente cuenta con un carril de autodeclaración,  dos carriles de no declaración y un carril para transporte de carga equipado con el sistema de rayos gamma; el patio fiscal cuenta con dos andenes para la verificación de mercancias. </p>'
+	var cdjuarez = '<h4> Aduana de Cd. Juárez</h4><p>En 1835, el presidente Miguel Barragán autoriza el establecimiento en la frontera en el estado de Chihuahua, de dos aduanas Ojinaga y Ciudad Juárez, las que fueron construidas para satisfacer las necesidades del creciente tráfico de este puerto aduanal, en 1848 Ciudad Juárez se convierte en frontera nacional en virtud del Tratado de Guadalupe Hidalgo,adquiere relevancia histórica el 14 de agosto de 1865, al recibir a Benito Juárez y establecerse ahí hasta 1866, con la inauguración del ferrocarril en 1882 y la instalación de la Zona libre en 1885, provoco mejoras en las actividades comerciales de la región.EL 29 de Julio de 1888 recibe la categoría de ciudad y el nuevo nombre de Juárez y el 10 de Septiembre de 1889 Lauro Carrillo gobernador del estado inaugura el edificio que albergará las intalaciones de la aduana por casí 90 años, en el cual se entrevistan en 1909 los presidentes Díaz y Taft, aquí se firmaron los tratados de paz de Ciudad Juárez para finalizar la revolución el 21 de Mayo de 1911. El tráfico pesado empezó a trasladarse al Puente Libre y con ello, la idea de construir un nuevo recinto aduanal anexo a las instalaciones del cruce fronterizo, por lo que el 15 de septiembre de 1976 las oficinas de la aduana se trasladaron al costado poniente en el nuevo edificio.Esta aduana es una de las 5 más grandes del país, siendo la única que cuenta con seis cruces para pasajeros internacionales, de estas 3 permanecen abiertas 24 horas.</p>'
+	var cdmiguelaleman = '<h4> Aduana de Cd. Miguel Alemán</h4><p>El 31 de Enero de 1856 se expidió la Ordenanza General de Aduanas, siendo el Secretario de Hacienda Manuel Payno con la cual se crearon las aduanas fronterizas en aquel entonces la aduana radicaba en el municipio de Ciudad Mier allá por agosto de 1891 funcionando hasta 1928, año en que se construye el puente Colgante declarado monumento arquitectónico por el gobierno federal, con dicho puente se dio una nueva era en la vida económica de la región. En el Diario Oficial de la  Federación del 8 de Febrero de 1939, se fija la jurisdicción de la aduana de San Pedro de Roma y en esa epoca la aduana de Camargo paso a ser una sección aduanera.En el año de 1980 se construye otro puente paralelo al colgante ampliando así el cruce internacional, siendo que a partir del 11 de Octubre de 1951 San Pedro de Romase independizó de Ciudad Mier naciendo así el municipio de Ciudad Alemán. </p>'
+	var cdreynosa = '<h4> Aduana de Cd. Reynosa</h4><p>La aduana ha existido desde finales del siglo XVII cuando el Gobierno Central Nuevo Hispánico ordenó instalarla en la Villa de Nuestra Señora de Guadalupe de Reynosa sería en 1848 al celebrarse el tratado de Guadalupe-Hidalgo entre México y los Estados Unidos y el concepto de línea fronteriza ha de sentar las bases de la Aduana moderna..En 1926 se inaugura el primer Puente Internacional que comunicaba a Reynosa con el condado de Hidalgo, pero este fue destruido por un ciclón por lo que se tuvo que  remodelar; este puente tuvo una vida útil de 1926 a 1970; cuando fue remodelada construyendose la nueva Garita Internacional Benito Juárez.Otro aspecto relevante surgió en 1988 con la construcción del nuevo puente Internacional denominado Puente 2, en la decada de los 90s se inició la construcción de otro puente internacional llamado Nuevo Amanecer el más largo de América Latina. </p>'
+	var colombia = '<h4> Aduana de Colombia</h4><p>La aduana fue fundada el 15 de Agosto de 1991 estando ubicada en un lugar geográficamente privilegiado para el transporte terrestre de mercancías de comercio exterior.Esta aduana se compone por el puente Internacional Solidaridad y por la salidad de garita de Camarón , en el municipio de Anáhuac, este puente tiene seis carriles  de carga, cuenta con cinco módulos de captura para pedimentos de importación y exportación, contando con dos módulos de rayos gamma. </p>'
+	var matamoros = '<h4> Aduana de Matamoros</h4><p>Por decreto de las cortes españolas y arancel de 1821, en Matamoros se abrió una aduana habilitada para el comercio exterior con el extranjero, en 1831 se firma el trato de amistad con nuestro país en materia del comercio internacional. El 16 de junio de 1910 se inaugura el puente internacional de ferrocarril, conocido como Puerto Viejo; en el año de 1923 la aduana deja de ser marítima y queda solamente como fronteriza; en 1928 se construye el puente internacional llamado Nuevo posteriormente en 1962 se inauguran las nuevas instalaciones de la aduana que podía recibir carga gracias a sus instalaciones especiales y a partir de 2001 se notifica que las operaciones del comercio exterior se llevarán a cabo en instalaciones edificadas del Puente Internacional Ignacio Zaragoza, actualmente cuenta con cuatro puentes internacionales el mencionado además de Puerta Mexico, Brownsville y Matamoros Viejo. </p>'
+	var mexicali = '<h4> Aduana de Mexicali</h4><p>El decreto para establecer la aduana fue expedido por el presidente Porfirio Díaz el 10 de junio de 1904, aunque ya desde 1902 existía una garita fiscal o de resguardo en la línea fronteriza, con la introducción de la vía del tren permitió que la segunda aduana de Mexicali abriera sus puertas y fue hacia finales de 1915 que la aduana se translada al Palacio Municipal, posteriormente a principios de 1923 se cambian a otra edificación (antiguamente jefaturas de operaciones militares) donde estuvieron hasta 1928 cuando vuelve a cambiarse de edificio permaneciendo en este último hasta 1952, cuando la aduana inaugura sus nuevas instalaciones con la modernidad de ese tiempo retomando su sitio original. </p>'
+	var naco = '<h4> Aduana de Naco</h4><p>Surge por la necesidad de agilizar las operaciones mineras de Nacozan, Sonora con el condado de Cochise en Estado Unidos, por lo que se establece una nueva vía de ferrocarril aunque si bien es cierto que para el año de 1899 ya se realizaban operaciones de importación y exportación la situación en que se encontraba la aduana, era muy precaría; ubicada en el punto conocido como la Morita, siendo hasta el 16 de julio de 1900 cuando el gobierno cambia oficialmente su estación aduanera a Naco,Sonora. En el año de 1901 da inicio la construcción de una nueva vía de ferrocarril , nueve años más tarde estalla la revolución en 1910 afectando de gran manera a la aduana, para el 19 de mayo de 1911, Naco fue escenario de la primera batalla de la revolución que devasto al pueblo a partir de 1915 las batallas disminuyeron y no fue sino hasta 1920 que Naco volvió a la normalidad; en la década de los 40 y 50s la aduana estaba mejor establecida, en 1945 se incendia el edificio que ocupaba la aduana, por lo que en 1954 se inaugura el edificio que ocupa actualmente. </p>'
+	var nogales = '<h4> Aduana de Nogales</h4><p>Los origenes básicos surgen desde la fundación de Nogales en el cruce fronterizo a traves de las montañas desde mediados de 1800, las redes de comercio se establecen como consecuencia de la invasión del imperio francés en 1860 y del contrabando proveniente de Arizona; el 2 de agosto de 1880 por decreto de Porfirio Díaz se establece la primer aduana en este puerto fronterizo; en 1887 se construye el flamante edificio de la aduana fronteriza, siendo hasta finales del siglo XIX que se construyen las primeras agencias aduanales en Nogales.En 1994 la aduana se mueve de edificio a un costado de la garita 3 Mariposas pero solamente por espacio de cuatro años debido al caos vial que significaba la revisión de camiones de carga por ello a mediados de los 90s se inicia la construcción de una nueva vialidad, surge el nuevo corredor fiscal y el recinto donde se ubicaría la aduana inaugurada el 5 de marzo de 1999 por Ernesto Zedillo Ponce de León. </p>'
+	var nuevolaredo = '<h4> Aduana de Nuevo Laredo</h4><p>La creación de una aduana en la nueva frontera internacional entre las Villas de San Agustín de Laredo y de Nuevo Laredo en el margen del río Bravo, fue decretada el 26 de agosto de 1855 por el General Santiago Vidaurri, esta aduana ha sido testigo de innumerables hechos históricos vinculados con el quehacer económico nacional, como el decreto que dio vida a la Zona Libre en el año de 1858, misma que aprobará en 1861 el presidente Benito Juárez, vigente hasta su derogación en el año de 1905 bajo la presidencia de Porfirio Díaz, así como la construcción del primer puente urbano para el paso de personas y mercancías en 1889.Nuevo Laredo y su aduana inician la edad adulta a partir de la llegada del ferrocarril a la frontera en 1881, por lo que iría ganando presencia y prestigio por lo que en 1887 dio inicio la construcción del edifico para albergar las oficinas de la aduana las cuales por necesidad fueron inaugurandas el 5 de mayo de 1891; años despúes con el panorama revolucionario y tras la ocupación en 1913 por tropas de Victoriano Huerta, el edificio es incendiado en 1914 al abandono de dichas tropas del lugar.Una nueva reconstrucción se dio durante 1915 y 1917 siendo presidente Lázaro Cárdenas, siendo hasta el año de 1944 que se inauguran las nuevas remodelaciones que se efectuaron al edificio. </p>'
+	var ojinaga = '<h4> Aduana de Ojinaga</h4><p>El edificio que ocupa la aduana fue construido en octubre de 1953, sus puntos de revisión se comprenden de las siguientes garitas: Puente Internacional Manual Ojinaga,Garita el Peguis y Garita La Mula.</p>'
+	var piedrasnegras = '<h4> Aduana de Piedras Negras</h4><p>EL 22 de agosto de 1855 el gobernador Santiago Vidaurri, emitió el decreto que reformó el arancel de las aduanas marítimas y fronterizas el 1 de junio de 1853, todas estas medidas dieron a Piedras Negras la oportunidad de un despegue económico por lo que Juárez juzgó necesario contar con los recursos que esta aduana generaba para poder continuar en la lucha, por lo que ordena a los gobiernos de Nuevo León y Coahuila poner a dispocisión del Ministerio de Hacienda dichos recursos y demás ingresos que obtuvieran, como consecuencia de la negativa del gobernador, el presidente Juárez emite el 26 de febrero de 1864 un decreto separando a Coahuila de Nuevo León y declarando traidor a la patria a Vidaurri, el 26 de mayo de 1865 se nombra al General Gregorio Galindo como administrador de la aduana años más tarde el 14 de marzo de 1890 se coloca la primer piedra del edificio principal de la aduana el cual ya terminado sería por corto tiempo el cuartel general de Venustiano Carranza. </p>' 
+	var puertopalomas = '<h4> Aduana de Puerto Palomas</h4><p>Palomas fue blanco importante de los movimientos armados del país desde 1892, cuando se fundó la colonia de la Ascención, a solicitud de los colonos para contener el contrabando y proteger el pequeño comercio, el presidente de la República Sebastian Lerdo de Tejada, autorizó al Administrador Interino de la Aduana Fronteriza de Janos, establecer un puesto de vigilancia, al correr de los años las obras de reparación y adaptación del edificio de la aduana se iniciaron el 7 de septiembre de 1944 terminandose el 24 de marzo de 1945. Puerto Palomas cuenta con dos Garitas y un cruce internacional denominado el Berrendo utilizado casi de forma exclusiva para turismo. </p>'
+	var sanluisriocolorado = '<h4> Aduana de San Luis Río Colorado</h4><p>En el año de 1923 fue que recibió el título de Aduana, teniendo una actividad comercial siempre en ascenso, por lo que en 1951 se inaugura un edificio para la aduana, pero en 1964 con la construcción del puente que une Sonora con Baja California, la actividad comercial se incrementa por lo que en 1999 el edificio es derribado para edificar una infraestructura que soporte la actividad diaria.</p>'
+	var sonoyta = '<h4> Aduana de Sonoyta</h4><p>La Ciudad de Caborca es una de las más antiguas de Sonora, su fundación data del año 1688, el sitio constituye un monumento histórico y arquitectónico que se distinguio como una fortaleza contra una invasión estadounidense (1857). En la aduana se encuentran cuatro puntos tácticos de revisión: Línea internacional, San Emeterio,Almejas y el Aeropuerto Puerto Peñasco; en la línea internacional se registra una constante afluencia vehicular, de turismo internacional procedente de los Estados Unidos observandose vehiculos de Arizona, California, Texas y Nevada.</p>'
+	var tecate = '<h4> Aduana de Tecate</h4><p>En el año de 1915 se construye la estación de ferrocarril y con el funcionamiento de este, la zona adquirió gran dinamismo económico y se hizo necesaria una aduana, siendoasí que el 10 de agosto de 1917 empieza a funcionar la aduana fronteriza de sexta clase que había sido concedida por decreto del 16 de junio de 1917, la aduana cuenta con una garita de entrada.</p>'
+	var tijuana = '<h4> Aduana de Tijuana</h4><p>El 6 de agosto de 1874 se decretó establecer en el punto situado con la intersección de Estados Unidos y Baja California una aduana fronteriza para encargarse de la vigilancia del tráfico y el cobro de impuestos por los derechos de arancel, por lo que sus primeras funciones fueron las de regular la entrada de mercancías para que estas fueran introducidas con los respectivos derechos de importación por lo que los celadores de la aduana continuamente confiscaban mercancías. Con la resolución del 8 de febrero de 1978 mismo que por acuerdo del 22 de febrero del mismo año se dio el apoyo para la apertura de una nueva garita, pero hasta el 30 de septiembre de 1981 por acuerdo se autoriza la creación de la garita y la aduana de la Mesa de Otay, que fue inaugurada hasta el 24 de enero de 1985.</p>'
+	var cdhidalgo = '<h4> Aduana de Cd. Hidalgo</h4><p>De la Aduana de Suchiate no se tiene fecha exacta o aproximada de su creación, en los años treinta con el deseo de darle impulso a nuestra frontera sur, se contruyó en 1936 el edificio para uso exclusivo de la aduana y otro como almacen fiscal en la ciudad de Suchiate, cuando se cambia el nombre del municipio de Suchiate por el de Ciudad Hidalgo, cambia tambien el nombre de la aduana, en el año de 1942 por motivo de la segunda guerra mundial, se originó un gran movimiento de mercancías.A partir de la apertura comercial con la adhesión de México al GATT en 1986, se dio un incremento en las operaciones de exportación e importación, la población aumentó y la aduana se vio en la necesidad de construir un nuevo puerto con las instalaciones adecuadas para la demanda de operaciones y se construye un puente internacional que inicia operaciones formales en 2002.</p>'
+	var subtenientelopez = '<h4> Aduana de Subteniente Lopéz</h4><p>El 22 de enero de 1898 arribó una embarcación que formaba parte de una estrategia para terminar con la Guerra de Castas, dicha embarcación hizo las veces de puesto aduanal para establecer el registro fiscal de los productos forestales que salian del territorio nacional hacia Belice. Para fomentar el arraigo, el gobierno nacional autorizó en 1901 la existencia de un régimen de excepción aduanal en Payo Obispo, permitiendo lal libre importación de multiples productos; el 28 de septiembre de 1936 Payo Obispo recibe el nombre de Chetumal. A principios de 1970 de nueva cuenta se conto con un régimen de excepción aduanal denominado Zona Libre en Quintana Roo, al iniciar la decada de los 90s Chetumal dejó de ser zona libre, lo que provocó una caÍda del comercio local, en esos años se creó la zona libre de Belice donde se estableció el comercio.</p>'
+
+	mAduanas = [	
+	[aguascalientes,21.84513, -102.290928,'Img/aduanaIcono.png'], 
+	[aicm ,19.443652, -99.075063,'Img/aduanaIcono.png'],
+	[chihuahua,28.713917, -106.101116,'Img/aduanaIcono.png'],
+	[guadalajara,20.525956, -103.307625,'Img/aduanaIcono.png'], 
+	[guanajuato,21.004596, -101.513776,'Img/aduanaIcono.png'], 
+	[mexico,19.4687621, -99.1614033,'Img/aduanaIcono.png'], 
+	[monterrey,25.805366, -100.294045,'Img/aduanaIcono.png'],
+	[puebla,19.072164, -98.160747,'Img/aduanaIcono.png'], 
+	[queretaro,20.591473, -100.393586,'Img/aduanaIcono.png'], 
+	[toluca ,19.318279, -99.564923,'Img/aduanaIcono.png'], 
+	[torreon,25.483288, -103.357608,'Img/aduanaIcono.png'], 
+	[acapulco,16.849103, -99.904422,'Img/aduanaIcono.png'], 
+	[altamira,22.4847734, -97.8753873,'Img/aduanaIcono.png'],
+	[cancun,21.152419, -86.866258,'Img/aduanaIcono.png'], 
+	[cddelcarmen,18.650689, -91.839896,'Img/aduanaIcono.png'], 
+	[coatzacoalcos,18.1330411, -94.4180986,'Img/aduanaIcono.png'], 
+	[dosbocas,18.4302879, -93.1996095,'Img/aduanaIcono.png'], 
+	[ensenada,31.8508325, -116.626389,'Img/aduanaIcono.png'], 
+	[guaymas,27.92414, -110.886343,'Img/aduanaIcono.png'], 
+	[lapaz,24.161512, -110.31825,'Img/aduanaIcono.png'], 
+	[lazarocardenas,17.950673, -102.190011,'Img/aduanaIcono.png'], 
+	[manzanillo,19.059093, -104.303023,'Img/aduanaIcono.png'], 
+	[mazatlan,23.197946, -106.414333,'Img/aduanaIcono.png'], 
+	[progreso,21.3397901, -89.672034,'Img/aduanaIcono.png'], 
+	[salinacruz,16.170938, -95.190788,'Img/aduanaIcono.png'], 
+	[tampico,22.212747, -97.857676,'Img/aduanaIcono.png'], 
+	[tuxpan,20.953908, -97.348871,'Img/aduanaIcono.png'], 
+	[veracruz,19.216095, -96.141175,'Img/aduanaIcono.png'], 
+	[aguaprieta,31.3333378, -109.5604585,'Img/aduanaIcono.png'], 
+	[cdacuna,29.3255807, -100.9284613,'Img/aduanaIcono.png'], 
+	[cdcamargo,26.3623826, -98.8061864,'Img/aduanaIcono.png'], 
+	[cdjuarez,31.761851, -106.451863,'Img/aduanaIcono.png'], 
+	[cdmiguelaleman,26.4025116, -99.0211719,'Img/aduanaIcono.png'], 
+	[cdreynosa,26.09486, -98.272781,'Img/aduanaIcono.png'],
+	[colombia,27.6948975, -99.7549731,'Img/aduanaIcono.png'], 
+	[matamoros,25.86752, -97.477032,'Img/aduanaIcono.png'], 
+	[mexicali,32.6719273, -115.3870496,'Img/aduanaIcono.png'], 
+	[naco,31.3337185, -109.9483552,'Img/aduanaIcono.png'], 
+	[nogales,31.3323562, -110.9435409,'Img/aduanaIcono.png'], 
+	[nuevolaredo,27.498033, -99.501444,'Img/aduanaIcono.png'], 
+	[ojinaga,29.560628, -104.39806,'Img/aduanaIcono.png'], 
+	[piedrasnegras,28.698118, -100.514285,'Img/aduanaIcono.png'], 
+	[puertopalomas,31.783121, -107.627702,'Img/aduanaIcono.png'], 
+	[sanluisriocolorado,32.4845, -114.780736,'Img/aduanaIcono.png'], 
+	[sonoyta,31.8800218, -112.8173628,'Img/aduanaIcono.png'], 
+	[tecate,32.575656, -116.627475,'Img/aduanaIcono.png'], 
+	[tijuana,32.548478, -116.935946,'Img/aduanaIcono.png'], 
+	[cdhidalgo,14.677654, -92.149648,'Img/aduanaIcono.png'], 
+	[subtenientelopez,18.493409, -88.395245,'Img/aduanaIcono.png']
+	];
+	
+	var configMapaIni =  { 'maxWidth': '480', 'className' : 'iniMapa'}
+	
+	for (var i = 0; i < mAduanas.length; i++) {
+	var Icono = L.icon({
+	iconUrl: mAduanas[i][3],
+	iconSize: [13,13],
+	});
+	marker = new L.marker([mAduanas[i][1],mAduanas[i][2]],{icon: Icono})
+	.addTo(map)
+	.bindPopup(mAduanas[i][0],configMapaIni)
+	};	
+	
+	
+	
+	
+	
+	dropdownlist(par2);
+	CargaJson(par2,par1,par3);
+	
+	google.maps.event.addDomListener(document.getElementById('par2'),'change', function() {
+              par2 = this.value;
+              par1 = dropdownlist(par2);
+			CargaJson(par2,par1,par3);
+	  map = resetea(map,par2,par1);
+        });
+	 
+     google.maps.event.addDomListener(document.getElementById('par1'), 'change', function() {	
+              par1 = this.value; 
+	  CargaJson(par2,par1,par3);
+	  map = resetea(map,par2,par1);	  
+        });
+	 
+	 google.maps.event.addDomListener(document.getElementById('par3'), 'change', function() {	
+              par3 = this.value; 
+	  CargaJson(par2,par1,par3);
+	  map = resetea(map,par2,par1);	  
+        });	
+
+    } // Aqui termina la funcion initialize.
+
+	
+	
+	function PintaloTreeM(data){	  
+	  var visualization = d3plus.viz()
+      .container("#obj2")
+      .data(data)
+      .type("tree_map")
+	  .dev(true)
+	  .icon({
+      "style": "knockout",
+      "value": "Imagen"
+	})
+      .id(["DesCap"])
+	  .depth(1)
+      .size("ComercioTotal")
+	  .time({
+        "value": "Year",
+        "solo": 2006
+      })
+	  .color({
+      "range": [ "blue" , "white" , "yellow" ],
+      "value": "ComercioTotal"
+    })
+	  .ui([	
+	  {
+	"label" : "Operación",
+	"method": "size",
+	"value"  : ["ComercioTotal", "Importacion" , "Exportacion" ]
+	}
+	])
+	  .labels({"align": "left", "valign": "top"})
+	  .axes({"background": {"color": "#0d0d0d", "stroke": {"width": 0}}}, {"ticks": false})
+	.background("#0d0d0d" )
+	  .format("es_ES")
+	  .font({family: 'Trebuchet MS, Helvetica, Arial', color: '#fff' , transform: 'none'})
+	  .format({
+      "text": function(text, params) {
+        
+        if (text === "ComercioTotal") { return "Comercio total";  }
+        else if (text === "Importacion") { return "Importación";  }
+	else if (text === "Exportacion") { return "Exportación";  }
+	else { return d3plus.string.title(text, params);  }  
+      },
+      "number": function(number, params) {     
+        var formatted = d3plus.number.format(number, params);
+             if (params.key === "ComercioTotal") {  return "$" + formatted ; } 
+	 else if (params.key === "Importacion") {return "$" + formatted ;} 
+	 else if (params.key === "Exportacion") {return "$" + formatted ;} 
+	 else {return formatted; }
+              }
+    })
+	.legend({"size": 20})
+      .draw()
+	}
+	
+	function PintaloTreeV(data){	  
+	  var visualization = d3plus.viz()
+      .container("#obj2")
+      .data(data)
+      .type("tree_map")
+	  .dev(true)
+	  .icon({
+      "style": "knockout",
+      "value": "Imagen"
+	})
+      .id(["DesCap"])
+	  .depth(1)
+      .size("ComercioTotal")
+	  .time({
+        "value": "Year",
+        "solo": 2006
+      })
+	  .color({
+      "range": [ "blue" , "white" , "yellow" ],
+      "value": "ComercioTotal"
+    })
+	  .ui([	
+	  {
+	"label" : "Operación",
+	"method": "size",
+	"value"  : ["ComercioTotal", "Importacion" , "Exportacion" ]
+	}
+	])
+	  .labels({"align": "left", "valign": "top"})
+	  .axes({"background": {"color": "#0d0d0d", "stroke": {"width": 0}}}, {"ticks": false})
+	.background("#0d0d0d" )
+	  .format("es_ES")
+	  .font({family: 'Trebuchet MS, Helvetica, Arial', color: '#fff' , transform: 'none'})
+	  .format({
+      "text": function(text, params) {
+        
+        if (text === "ComercioTotal") { return "Comercio total";  }
+        else if (text === "Importacion") { return "Importación";  }
+	else if (text === "Exportacion") { return "Exportación";  }
+	else { return d3plus.string.title(text, params);  }  
+      }
+    })
+	.legend({"size": 20})
+      .draw()
+	}
+	
+	
+	function PintaloBoxM(data){	
+	  var visualization = d3plus.viz()
+	.container("#obj1")
+	.data(data)
+	.type({
+	  "value": "box",
+	  "mode": "extent"  // changes box/whisker from tukey to extent mode
+	  })
+	.id("Year")
+	.x("Aduana")
+	.y("ComercioTotal")
+	.time({ "value": "Year"})
+	.ui([
+	{ 
+	"label": "Tipo Visualización",
+	"method": "type", 
+	"value": ["scatter","box"]
+	 },
+	  {
+	"label" : "Operación",
+	"method": "y",
+	"value"  : [ "ComercioTotal","Importacion" , "Exportacion" , "BalanzaComercial"],
+	"type": "drop"
+	}
+	])
+	.format("es_ES")
+	.font({family: 'Trebuchet MS, Helvetica, Arial', color: '#fff' , transform: 'none'})
+	.format({
+	"text": function(text, params) {
+	if (text === "ComercioTotal") { return "Comercio total";  }
+	else if (text === "Importacion") { return "Importación";  }
+	else if (text === "Exportacion") { return "Exportación";  }
+	else { return d3plus.string.title(text, params);  }  
+	},
+	"number": function(number, params) {
+	var formatted = d3plus.number.format(number, params);
+	if (params.key === "ComercioTotal") {  return "$" + formatted ; } 
+	 else if (params.key === "Importacion") {return "$" + formatted ;} 
+	 else if (params.key === "Exportacion") {return "$" + formatted ;} 
+	 else {return formatted; }
+	}
+	})
+	.y({"grid": false})
+	.x({"grid": false})	
+	.axes({"background": {"color": "#0d0d0d", "stroke": {"width": 0}}}, {"ticks": false}, {"mirror": true})
+	.background("#0d0d0d" )
+	.draw()
+	}	
+	
+	function PintaloBoxV(data){	
+	  var visualization = d3plus.viz()
+	.container("#obj1")
+	.data(data)
+	.type({
+	  "value": "box",
+	  "mode": "extent"  // changes box/whisker from tukey to extent mode
+	  })
+	.id("Year")
+	.x("Aduana")
+	.y("ComercioTotal")
+	.time({ "value": "Year"})
+	.ui([
+	{ 
+	"label": "Tipo Visualización",
+	"method": "type", 
+	"value": ["scatter","box"]
+	 },
+	  {
+	"label" : "Operación",
+	"method": "y",
+	"value"  : [ "ComercioTotal","Importacion" , "Exportacion" , "BalanzaComercial"],
+	"type": "drop"
+	}
+	])
+	.format("es_ES")
+	.font({family: 'Trebuchet MS, Helvetica, Arial', color: '#fff' , transform: 'none'})
+	.format({
+	"text": function(text, params) {
+	if (text === "ComercioTotal") { return "Comercio total";  }
+	else if (text === "Importacion") { return "Importación";  }
+	else if (text === "Exportacion") { return "Exportación";  }
+	else { return d3plus.string.title(text, params);  }  
+	}
+	})
+	.y({"grid": false})
+	.x({"grid": false})	
+	.axes({"background": {"color": "#0d0d0d", "stroke": {"width": 0}}}, {"ticks": false}, {"mirror": true})
+	.background("#0d0d0d" )
+	.draw()
+	}	
+	
+	function CargaJson(par2,par1,par3){
+	var DatosBoxPM;
+	var DatosBoxPV;
+	var boxplot;
+	var boxplot1;
+	
+	var dataTreeMapM;
+	var dataTreeMapV;
+	var dataM;
+	var dataV;
+	
+	switch(par2 + "-" + par1) {
+	case 'Todas-Todas':     DatosBoxPV = 'vtodas.json'; DatosBoxPM = 'mtodas.json';  dataTreeMapM = 'maptmaduanastotal.json'; dataTreeMapV = 'vaptmaduanastotal.json'; break;
+	case 'Todas-Interior':     DatosBoxPV = 'vtodasinterior.json'; DatosBoxPM = 'mtodasinterior.json';  dataTreeMapM = 'maptminterior.json'; dataTreeMapV = 'vaptminterior.json'; break;
+	case 'Todas-Maritima':     DatosBoxPV = 'vtodasmaritima.json'; DatosBoxPM = 'mtodasmaritima.json';  dataTreeMapM = 'maptmmaritima.json'; dataTreeMapV = 'vaptmmaritima.json'; break;
+	case 'Todas-Norte':     DatosBoxPV = 'vtodasnorte.json'; DatosBoxPM = 'mtodasnorte.json';  dataTreeMapM = 'maptmnorte.json'; dataTreeMapV = 'vaptmnorte.json'; break;
+	case 'Todas-Sur':     DatosBoxPV = 'vtodassur.json'; DatosBoxPM = 'mtodassur.json';  dataTreeMapM = 'maptmsur.json'; dataTreeMapV = 'vaptmsur.json'; break;
+	
+	case 'Maritima-Todas': DatosBoxPV = 'vmaritima.json'; DatosBoxPM = 'mmaritima.json';  dataTreeMapM = 'maptmmaritima.json'; dataTreeMapV = 'vaptmmaritima.json'; break;
+	case 'Maritima-Veracruz': DatosBoxPV = 'vol_marvera.json'; DatosBoxPM = 'mon_marvera.json';  dataTreeMapM = 'maptmveracruz.json'; dataTreeMapV = 'vaptmveracruz.json'; break;
+	case 'Maritima-Acapulco': DatosBoxPV = 'vol_maracap.json'; DatosBoxPM = 'mon_maracap.json';  dataTreeMapM = 'maptmacapulco.json'; dataTreeMapV = 'vaptmacapulco.json'; break;
+	case 'Maritima-Altamira': DatosBoxPV = 'vol_maralta.json'; DatosBoxPM = 'mon_maralta.json';  dataTreeMapM = 'maptmaltamira.json'; dataTreeMapV = 'vaptmaltamira.json'; break;
+	case 'Maritima-Cancun': DatosBoxPV = 'vol_marcanc.json'; DatosBoxPM = 'mon_marcanc.json';  dataTreeMapM = 'maptmcancun.json'; dataTreeMapV = 'vaptmcancun.json'; break;
+	case 'Maritima-Cd. del Carmen': DatosBoxPV = 'vol_marcd_d.json'; DatosBoxPM = 'mon_marcd_d.json';  dataTreeMapM = 'maptmcddelcarmen.json'; dataTreeMapV = 'vaptmcddelcarmen.json'; break;
+	case 'Maritima-Coatzacoalcos': DatosBoxPV = 'vol_marcoat.json'; DatosBoxPM = 'mon_marcoat.json';  dataTreeMapM = 'maptmcoatzacolacos.json'; dataTreeMapV = 'vaptmcoatzacolacos.json'; break;
+	case 'Maritima-Dos Bocas': DatosBoxPV = 'vol_mardosb.json'; DatosBoxPM = 'mon_mardosb.json';  dataTreeMapM = 'maptmdosbocas.json'; dataTreeMapV = 'vaptmdosbocas.json'; break;
+	case 'Maritima-Ensenada': DatosBoxPV = 'vol_marense.json'; DatosBoxPM = 'mon_marense.json';  dataTreeMapM = 'maptmensenada.json'; dataTreeMapV = 'vaptmensenada.json'; break;
+	case 'Maritima-Guaymas': DatosBoxPV = 'vol_marguay.json'; DatosBoxPM = 'mon_marguay.json';  dataTreeMapM = 'maptmguaymas.json'; dataTreeMapV = 'vaptmguaymas.json'; break;
+	case 'Maritima-La Paz': DatosBoxPV = 'vol_marlapa.json'; DatosBoxPM = 'mon_marlapa.json';  dataTreeMapM = 'maptmlapaz.json'; dataTreeMapV = 'vaptmlapaz.json'; break;
+	case 'Maritima-Lazaro Cardenas': DatosBoxPV = 'vol_marlaza.json'; DatosBoxPM = 'mon_marlaza.json';  dataTreeMapM = 'maptmlazarocardenas.json'; dataTreeMapV = 'vaptmlazarocardenas.json'; break;
+	case 'Maritima-Manzanillo': DatosBoxPV = 'vol_marmanz.json'; DatosBoxPM = 'mon_marmanz.json';  dataTreeMapM = 'maptmmanzanillo.json'; dataTreeMapV = 'vaptmmanzanillo.json'; break;
+	case 'Maritima-Mazatlan': DatosBoxPV = 'vol_marmaza.json'; DatosBoxPM = 'mon_marmaza.json';  dataTreeMapM = 'maptmmazatlan.json'; dataTreeMapV = 'vaptmmazatlan.json'; break;
+	case 'Maritima-Progreso': DatosBoxPV = 'vol_marprog.json'; DatosBoxPM = 'mon_marprog.json';  dataTreeMapM = 'maptmprogreso.json'; dataTreeMapV = 'vaptmprogreso.json'; break;
+	case 'Maritima-Salina cruz': DatosBoxPV = 'vol_marsali.json'; DatosBoxPM = 'mon_marsali.json';  dataTreeMapM = 'maptmsalinacruz.json'; dataTreeMapV = 'vaptmsalinacruz.json'; break;
+	case 'Maritima-Tampico': DatosBoxPV = 'vol_martamp.json'; DatosBoxPM = 'mon_martamp.json';  dataTreeMapM = 'maptmtampico.json'; dataTreeMapV = 'vaptmtampico.json'; break;
+	case 'Maritima-Tuxpan': DatosBoxPV = 'vol_martuxp.json'; DatosBoxPM = 'mon_martuxp.json';  dataTreeMapM = 'maptmtuxpan.json'; dataTreeMapV = 'vaptmtuxpan.json'; break;
+	
+	case 'Norte-Todas':     DatosBoxPV = 'vnorte.json'; DatosBoxPM = 'mnorte.json';  dataTreeMapM = 'maptmnorte.json'; dataTreeMapV = 'vaptmnorte.json'; break;
+	case 'Norte-Matamoros': DatosBoxPV = 'vol_normata.json'; DatosBoxPM = 'mon_normata.json';  dataTreeMapM = 'maptmmatamoros.json'; dataTreeMapV = 'vaptmmatamoros.json'; break;
+	case 'Norte-Tecate': DatosBoxPV = 'vol_norteca.json'; DatosBoxPM = 'mon_norteca.json';  dataTreeMapM = 'maptmtecate.json'; dataTreeMapV = 'vaptmtecate.json'; break;
+	case 'Norte-Sonoyta': DatosBoxPV = 'vol_norsono.json'; DatosBoxPM = 'mon_norsono.json';  dataTreeMapM = 'maptmsonoyta.json'; dataTreeMapV = 'vaptmsonoyta.json'; break;
+	case 'Norte-Tijuana': DatosBoxPV = 'vol_nortiju.json'; DatosBoxPM = 'mon_nortiju.json';  dataTreeMapM = 'maptmtijuana.json'; dataTreeMapV = 'vaptmtijuana.json'; break;
+	case 'Norte-Mexicali': DatosBoxPV = 'vol_normexi.json'; DatosBoxPM = 'mon_normexi.json';  dataTreeMapM = 'maptmmexicali.json'; dataTreeMapV = 'vaptmmexicali.json'; break;
+	case 'Norte-San Luis Rio Colorado': DatosBoxPV = 'vol_norsanl.json'; DatosBoxPM = 'mon_norsanl.json';  dataTreeMapM = 'maptmsanluisriocolorado.json'; dataTreeMapV = 'vaptmsanluisriocolorado.json'; break;
+	case 'Norte-Nogales': DatosBoxPV = 'vol_nornoga.json'; DatosBoxPM = 'mon_nornoga.json';  dataTreeMapM = 'maptmnogales.json'; dataTreeMapV = 'vaptmnogales.json'; break;
+	case 'Norte-Naco': DatosBoxPV = 'vol_nornaco.json'; DatosBoxPM = 'mon_nornaco.json';  dataTreeMapM = 'maptmnaco.json'; dataTreeMapV = 'vaptmnaco.json'; break;
+	case 'Norte-Agua Prieta': DatosBoxPV = 'vol_noragua.json'; DatosBoxPM = 'mon_noragua.json';  dataTreeMapM = 'maptmaguaprieta.json'; dataTreeMapV = 'vaptmaguaprieta.json'; break;
+	case 'Norte-Puerto Palomas': DatosBoxPV = 'vol_norpuer.json'; DatosBoxPM = 'mon_norpuer.json';  dataTreeMapM = 'maptmpuertopalomas.json'; dataTreeMapV = 'vaptmpuertopalomas.json'; break;
+	case 'Norte-Cd. Juarez': DatosBoxPV = 'vol_norcd_j.json'; DatosBoxPM = 'mon_norcd_j.json';  dataTreeMapM = 'maptmcdjuarez.json'; dataTreeMapV = 'vaptmcdjuarez.json'; break;
+	case 'Norte-Ojinaga': DatosBoxPV = 'vol_norojin.json'; DatosBoxPM = 'mon_norojin.json';  dataTreeMapM = 'maptmojinaga.json'; dataTreeMapV = 'vaptmojinaga.json'; break;
+	case 'Norte-Cd. Acuña': DatosBoxPV = 'vol_norcd_a.json'; DatosBoxPM = 'mon_norcd_a.json';  dataTreeMapM = 'maptmcdacuna.json'; dataTreeMapV = 'vaptmcdacuna.json'; break;
+	case 'Norte-Piedras Negras': DatosBoxPV = 'vol_norpied.json'; DatosBoxPM = 'mon_norpied.json';  dataTreeMapM = 'maptmpiedrasnegras.json'; dataTreeMapV = 'vaptmpiedrasnegras.json'; break;
+	case 'Norte-Nuevo Laredo': DatosBoxPV = 'vol_nornuev.json'; DatosBoxPM = 'mon_nornuev.json';  dataTreeMapM = 'maptmnuevolaredo.json'; dataTreeMapV = 'vaptmnuevolaredo.json'; break;
+	case 'Norte-Colombia': DatosBoxPV = 'vol_norcolo.json'; DatosBoxPM = 'mon_norcolo.json';  dataTreeMapM = 'maptmcolombia.json'; dataTreeMapV = 'vaptmcolombia.json'; break;
+	case 'Norte-Cd. Miguel Aleman': DatosBoxPV = 'vol_norcd_m.json'; DatosBoxPM = 'mon_norcd_m.json';  dataTreeMapM = 'maptmcdmiguelaleman.json'; dataTreeMapV = 'vaptmcdmiguelaleman.json'; break;
+	case 'Norte-Cd. Camargo': DatosBoxPV = 'vol_norcd_c.json'; DatosBoxPM = 'mon_norcd_c.json';  dataTreeMapM = 'maptmcdcamargo.json'; dataTreeMapV = 'vaptmcdcamargo.json'; break;
+	case 'Norte-Cd. Reynosa': DatosBoxPV = 'vol_norcd_r.json'; DatosBoxPM = 'mon_norcd_r.json';  dataTreeMapM = 'maptmcdreynosa.json'; dataTreeMapV = 'vaptmcdreynosa.json'; break;
+	
+	case 'Interior-Todas':     DatosBoxPV = 'vInterior.json'; DatosBoxPM = 'mInterior.json';  dataTreeMapM = 'maptminterior.json'; dataTreeMapV = 'vaptminterior.json'; break;
+	case 'Interior-Aguascalientes':     DatosBoxPV = 'vol_intagua.json'; DatosBoxPM = 'mon_intagua.json';  dataTreeMapM = 'maptmaguascalientes.json'; dataTreeMapV = 'vaptmaguascalientes.json'; break;
+	case 'Interior-AICM':     DatosBoxPV = 'vol_intaicm.json'; DatosBoxPM = 'mon_intaicm.json';  dataTreeMapM = 'maptmaicm.json'; dataTreeMapV = 'vaptmaicm.json'; break;
+	case 'Interior-Chihuahua':     DatosBoxPV = 'vol_intchih.json'; DatosBoxPM = 'mon_intchih.json';  dataTreeMapM = 'maptmchihuahua.json'; dataTreeMapV = 'vaptmchihuahua.json'; break;
+	case 'Interior-Guadalajara':     DatosBoxPV = 'vol_intguad.json'; DatosBoxPM = 'mon_intguad.json';  dataTreeMapM = 'maptmguadalajara.json'; dataTreeMapV = 'vaptmguadalajara.json'; break;
+	case 'Interior-Guanajuato':     DatosBoxPV = 'vol_intguan.json'; DatosBoxPM = 'mon_intguan.json';  dataTreeMapM = 'maptmguanajuato.json'; dataTreeMapV = 'vaptmguanajuato.json'; break;
+	case 'Interior-Mexico':     DatosBoxPV = 'vol_intmexi.json'; DatosBoxPM = 'mon_intmexi.json';  dataTreeMapM = 'maptmmexico.json'; dataTreeMapV = 'vaptmmexico.json'; break;
+	case 'Interior-Monterrey':     DatosBoxPV = 'vol_intmont.json'; DatosBoxPM = 'mon_intmont.json';  dataTreeMapM = 'maptmmonterrey.json'; dataTreeMapV = 'vaptmmonterrey.json'; break;
+	case 'Interior-Puebla':     DatosBoxPV = 'vol_intpueb.json'; DatosBoxPM = 'mon_intpueb.json';  dataTreeMapM = 'maptmpuebla.json'; dataTreeMapV = 'vaptmpuebla.json'; break;
+	case 'Interior-Queretaro':     DatosBoxPV = 'vol_intquer.json'; DatosBoxPM = 'mon_intquer.json';  dataTreeMapM = 'maptmqueretaro.json'; dataTreeMapV = 'vaptmqueretaro.json'; break;
+	case 'Interior-Toluca':     DatosBoxPV = 'vol_inttolu.json'; DatosBoxPM = 'mon_inttolu.json';  dataTreeMapM = 'maptmtoluca.json'; dataTreeMapV = 'vaptmtoluca.json'; break;
+	case 'Interior-Torreon':     DatosBoxPV = 'vol_inttorr.json'; DatosBoxPM = 'mon_inttorr.json';  dataTreeMapM = 'maptmtorreon.json'; dataTreeMapV = 'vaptmtorreon.json'; break;
+	
+	case 'Sur-Todas':     DatosBoxPV = 'vsur.json'; DatosBoxPM = 'msur.json';   dataTreeMapM = 'maptmsur.json'; dataTreeMapV = 'vaptmsur.json';   break;
+	case 'Sur-Cd. Hidalgo':     DatosBoxPV = 'vol_surcd_h.json'; DatosBoxPM = 'mon_surcd_h.json';   dataTreeMapM = 'maptmcdhidalgo.json'; dataTreeMapV = 'vaptmcdhidalgo.json';   break;
+	case 'Sur-Subteniente Lopez':     DatosBoxPV = 'vol_sursubt.json'; DatosBoxPM = 'mon_sursubt.json';   dataTreeMapM = 'maptmsubtenientelopez.json'; dataTreeMapV = 'vaptmsubtenientelopez.json';   break;
+	
+	default: 	 	
+	if(par2 == 'Sur'){  DatosBoxPV = 'vsur.json'; DatosBoxPM = 'msur.json';   dataTreeMapM = 'maptmsur.json'; dataTreeMapV = 'vaptmsur.json';   }
+	else if (par2 == 'Interior'){DatosBoxPV = 'vinterior.json'; DatosBoxPM = 'minterior.json';  dataTreeMapM = 'maptminterior.json'; dataTreeMapV = 'vaptminterior.json';}
+	else if (par2 == 'Norte'){DatosBoxPV = 'vnorte.json'; DatosBoxPM = 'mnorte.json';  dataTreeMapM = 'maptmnorte.json'; dataTreeMapV = 'vaptmnorte.json';}
+	else if (par2 == 'Maritima'){DatosBoxPV = 'vmaritima.json'; DatosBoxPM = 'mmaritima.json';  dataTreeMapM = 'maptmmaritima.json'; dataTreeMapV = 'vaptmmaritima.json';}
+	else {DatosBoxPV = 'vtodas.json'; DatosBoxPM = 'mtodas.json';  dataTreeMapM = 'maptmaduanastotal.json'; dataTreeMapV = 'vaptmaduanastotal.json'; }
+	break;
+	
+	};
+	document.getElementById("obj1").innerHTML = "";
+	document.getElementById("obj2").innerHTML = "";
+	if(par3 == 'Monto'){		
+				d3.json("JsonBoxPlot/"+DatosBoxPM, function(error, json){
+					if (error) return console.warn(error);
+					boxplot = json;
+					PintaloBoxM(boxplot);
+					});
+				d3.json("JsonTreeMapAduanas/"+dataTreeMapM, function(error, json){
+					if (error) return console.warn(error);
+					dataM = json;
+					PintaloTreeM(dataM);
+					});	
+			}else {
+				d3.json("JsonBoxPlot/"+DatosBoxPV, function(error, json){
+					if (error) return console.warn(error);
+					boxplot1 = json;
+					PintaloBoxV(boxplot1);
+					});
+					d3.json("JsonTreeMapAduanas/"+dataTreeMapV, function(error, json){
+					if (error) return console.warn(error);
+					dataV = json;
+					PintaloTreeV(dataV);
+					});	
+			}	
+	
+	
+	
+	}  // Aqui termina la carga json para los gráficos.
+	
+	
+	
+	function resetea(map,par2,par1) {
+	map.remove();
+	//var map = L.map('mapa').setView([47.129, -23.55], 1);
+	var map = L.map('mapa');
+	
+	L.tileLayer('http://map1.vis.earthdata.nasa.gov/wmts-webmerc/VIIRS_CityLights_2012/default/{time}/{tilematrixset}{maxZoom}/{z}/{y}/{x}.{format}', {
+	attribution: 'By the NASA (<a href="https://earthdata.nasa.gov">ESDIS</a>).',
+	bounds: [[-85.0511287776, -179.999999975], [85.0511287776, 179.999999975]],
+	minZoom: 1,
+	maxZoom: 8,
+	format: 'jpg',
+	time: '',
+	tilematrixset: 'GoogleMapsCompatible_Level'
+	}).addTo(map);
+	/*
+	L.tileLayer('http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+	maxZoom: 18,
+	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);	
+	*/
+	centroMapaMarcador(map,par2,par1);
+	var mex = {"type":"FeatureCollection","features":[
+	{"type":"Feature","id":"MEX","properties":{"name":"Mexico"},"geometry":{"type":"Polygon","coordinates":[[[-97.140008,25.869997],[-97.528072,24.992144],[-97.702946,24.272343],[-97.776042,22.93258],[-97.872367,22.444212],[-97.699044,21.898689],[-97.38896,21.411019],[-97.189333,20.635433],[-96.525576,19.890931],[-96.292127,19.320371],[-95.900885,18.828024],[-94.839063,18.562717],[-94.42573,18.144371],[-93.548651,18.423837],[-92.786114,18.524839],[-92.037348,18.704569],[-91.407903,18.876083],[-90.77187,19.28412],[-90.53359,19.867418],[-90.451476,20.707522],[-90.278618,20.999855],[-89.601321,21.261726],[-88.543866,21.493675],[-87.658417,21.458846],[-87.05189,21.543543],[-86.811982,21.331515],[-86.845908,20.849865],[-87.383291,20.255405],[-87.621054,19.646553],[-87.43675,19.472403],[-87.58656,19.04013],[-87.837191,18.259816],[-88.090664,18.516648],[-88.300031,18.499982],[-88.490123,18.486831],[-88.848344,17.883198],[-89.029857,18.001511],[-89.150909,17.955468],[-89.14308,17.808319],[-90.067934,17.819326],[-91.00152,17.817595],[-91.002269,17.254658],[-91.453921,17.252177],[-91.08167,16.918477],[-90.711822,16.687483],[-90.600847,16.470778],[-90.438867,16.41011],[-90.464473,16.069562],[-91.74796,16.066565],[-92.229249,15.251447],[-92.087216,15.064585],[-92.20323,14.830103],[-92.22775,14.538829],[-93.359464,15.61543],[-93.875169,15.940164],[-94.691656,16.200975],[-95.250227,16.128318],[-96.053382,15.752088],[-96.557434,15.653515],[-97.263592,15.917065],[-98.01303,16.107312],[-98.947676,16.566043],[-99.697397,16.706164],[-100.829499,17.171071],[-101.666089,17.649026],[-101.918528,17.91609],[-102.478132,17.975751],[-103.50099,18.292295],[-103.917527,18.748572],[-104.99201,19.316134],[-105.493038,19.946767],[-105.731396,20.434102],[-105.397773,20.531719],[-105.500661,20.816895],[-105.270752,21.076285],[-105.265817,21.422104],[-105.603161,21.871146],[-105.693414,22.26908],[-106.028716,22.773752],[-106.90998,23.767774],[-107.915449,24.548915],[-108.401905,25.172314],[-109.260199,25.580609],[-109.444089,25.824884],[-109.291644,26.442934],[-109.801458,26.676176],[-110.391732,27.162115],[-110.641019,27.859876],[-111.178919,27.941241],[-111.759607,28.467953],[-112.228235,28.954409],[-112.271824,29.266844],[-112.809594,30.021114],[-113.163811,30.786881],[-113.148669,31.170966],[-113.871881,31.567608],[-114.205737,31.524045],[-114.776451,31.799532],[-114.9367,31.393485],[-114.771232,30.913617],[-114.673899,30.162681],[-114.330974,29.750432],[-113.588875,29.061611],[-113.424053,28.826174],[-113.271969,28.754783],[-113.140039,28.411289],[-112.962298,28.42519],[-112.761587,27.780217],[-112.457911,27.525814],[-112.244952,27.171727],[-111.616489,26.662817],[-111.284675,25.73259],[-110.987819,25.294606],[-110.710007,24.826004],[-110.655049,24.298595],[-110.172856,24.265548],[-109.771847,23.811183],[-109.409104,23.364672],[-109.433392,23.185588],[-109.854219,22.818272],[-110.031392,22.823078],[-110.295071,23.430973],[-110.949501,24.000964],[-111.670568,24.484423],[-112.182036,24.738413],[-112.148989,25.470125],[-112.300711,26.012004],[-112.777297,26.32196],[-113.464671,26.768186],[-113.59673,26.63946],[-113.848937,26.900064],[-114.465747,27.14209],[-115.055142,27.722727],[-114.982253,27.7982],[-114.570366,27.741485],[-114.199329,28.115003],[-114.162018,28.566112],[-114.931842,29.279479],[-115.518654,29.556362],[-115.887365,30.180794],[-116.25835,30.836464],[-116.721526,31.635744],[-117.12776,32.53534],[-115.99135,32.61239],[-114.72139,32.72083],[-114.815,32.52528],[-113.30498,32.03914],[-111.02361,31.33472],[-109.035,31.34194],[-108.24194,31.34222],[-108.24,31.754854],[-106.50759,31.75452],[-106.1429,31.39995],[-105.63159,31.08383],[-105.03737,30.64402],[-104.70575,30.12173],[-104.45697,29.57196],[-103.94,29.27],[-103.11,28.97],[-102.48,29.76],[-101.6624,29.7793],[-100.9576,29.38071],[-100.45584,28.69612],[-100.11,28.11],[-99.52,27.54],[-99.3,26.84],[-99.02,26.37],[-98.24,26.06],[-97.53,25.84],[-97.140008,25.869997]]]}}
+	]};
+	L.geoJson(mex,{style: {color: "#999999", weight: 1}}).addTo(map);	
+	return map;
+	}	
+	
+	function centroMapaMarcador(map,par2,par1){
+	Centro = new Array()
+	Marcador  = new Array();
+	var mensaje; 
+	mensaje = 'mensaje generico';
+	map.setView([24.380156, -99.128557], 4);
+	
+	var aguascalientes = '<h4> Aduana de Aguascalientes</h4><p>Se creá por decreto presidencial el 6 de agosto de 1987 y sus instalaciones fueron inauguradas el 15 de marzo de 1988, dependen de esta aduana las secciones aduaneras del Parque Multimodal Interpuerto de SLP, el Aeropuerto Internacional General Leobardo C. Ruiz en Calera Zacatecas, Ponciano Arriaga del municipio de Soledad de  Graciano Sánchez de SLP y el Aeropuerto Internacional de la Cd de Aguscalientes Lic Jesús Terán.Las exportaciones se despachan en su totalidad a domicilio, en lo que se refiere a recaudación ha ocupado el lugar 14 a nivel nacional y en pedimentos ha llegado a ocupar el número 22. </p>'
+	var aicm = '<h4> Aduana de AICM</h4><p>Esta Aduana nació como sección aduanera dependiente de la Aduana Interior de México entre los años de 1934 a 1946, el 19 de Agosto de 1948 se constituyó como  aduana de tipo especial, debido a su importancia estratégica, durante las siguientes dos décadas tuvo un aumento creciente de operaciones por lo que en 1975 se hicieron obras para proveer mejores instalaciones, la elevada tasa de crecimiento de los volúmenes de mercancía rebaso en solo cinco años la infraestructura de la aduana. En octubre de 1984 empezaron a operar los almacenes concesionados, a menos de dos decadas, un nuevo ciclo comienza a gestarse en la evolución del despacho de mercancias en esta aduana, la cual a nivel nacional ha estado en primer lugar de operaciones y segundo en recaudación; entre sus principales importadores y exportadores se encuentran las empresas de mensajería.</p>'
+	var chihuahua = '<h4> Aduana de Chihuahua</h4><p>En el año de 1977 como resultado del desarrollo del Parque Industrial Américas, que se solicitó a la Administración General de Aduanas que se estableciera un servicio aduanal siendo hasta Febrero de 1979 que se autorizó dicha solilcitud y en Marzo de ese año inició sus operaciones, posteriormete el 11 de Marzo de 1986 según decreto publicado en el  Diario Oficial de la Federación, se crea la aduana interior del Estado, iniciando operaciones en ese mismo mes, más adelante cuando inician los vuelos internacionales en el aeropuerto general Roberto Fierro, surge la sala de revisión de pasajeros, dando inicio a sus operaciones como sección aduanera en octubre de 1994, en mayo de 2003 inician los trabajos para construir un recinto fiscal que inicia operaciones el 22 de agosto de 2005 contando con una máquina de rayos X en la sala de pasajeros. </p>'
+	var guadalajara = '<h4> Aduana de Guadalajara</h4><p>Tuvo su inicio mediante decreto del Ejecutivo Federal el 14 de septiembre de 1950, publicado en el Diario Oficial de la Federación el 7 de noviembre de ese año, entrando formalmente en operación hasta el 1 de enero de 1951, en noviembre se crea la sección aduanera de Puerto Vallarta, con su Aeropuerto Internacional Gustavo Díaz Ordaz, está aduana cuenta con tres secciones aduaneras Puerto Vallarta, Ferropuerto y Carga Áerea y Pasajeros, en 1994 se reubicaron las oficinas al municipio de Tlajomulco de Zúñiga.En mejoras operativas se han implementado carriles de facilitación en la ruta fiscal para empresas certificadas, cuentan con tres módulos de mecanismo de selección automatizado: importación,exportación y segundo reconocimiento. </p>'
+	var guanajuato = '<h4> Aduana de Guanajuato</h4><p>Con la publicación del 12 de Mayo de 2006 del Diario Oficial de la Federación, se da a conocer el Decreto que modifica el Reglamento Interior del Servicio de Administración  Tributaria que entre otros contempla la creación de la aduana de Guanajuato, que absorve la sección aduanera de León que desaparece como tal, dentro de sus instalaciones cuenta con: área de reconocimiento aduanero, segundo reconocimiento, almacén fiscal. Las operaciones actuales de la aduana abarcan exportaciones, importaciones,  y las secciones aduaneras del Aeropuerto Internacional y la de Celaya. </p>'
+	var mexico = '<h4> Aduana de México</h4><p>En el año de 1889 la aduana de México permaneció frente al edificio que ocupaba la inquisición, por necesidades de ampliación se traslado a Tlatelolco, fue hasta el 12 de junio de 1907 mediante decreto publicado en el Diario Oficial de la Federación que se crea la aduana de México con una sección aduanera de correos, el último antecedente de dicha aduana, es la placa alusiva localizada a la entrada de la misma donde señala que las instalaciones actuales fueron inauguradas en septiembre de 1956 por el presidente Adolfo Ruíz Cortines. </p>'
+	var monterrey = '<h4> Aduana de Monterrey</h4><p>Mediante decreto del Ejecutivo Federal del 13 de septiembre de 1976, publicado en el Diario Oficial de la Federación del 15 de septiembre, se estableció la aduana interior específica para el tráfico aéreo del Aeropuerto Internacional Mariano Escobedo, el 20 de enero de 1983 se estableció la aduana Interior de Nuevo León siendo hasta el día 11 de marzo de 1981 cuando Jesús Silva Herzog en ese entonces Secretario de Hacienda dispuso que la aduana iniciara operaciones el día 15 del mismo mes.Cuenta con equipamientos de rayos X y cámaras de circuito cerrado en las secciones aduaneras, almacenes y patios fiscales.La aduana de Monterrey juega un papel importante en el desarrollo del país al estar ubicada en una zona conurbana de fácil acceso a través de modernas vías de comunicación:aeropuertos, carreteras y ferrocarriles. </p>'
+	var puebla = '<h4> Aduana de Puebla</h4><p>El 1 de febrero de 1988, en un acto solemne presidido por el entonces Secretario de Hacienda Gustavo Petriccioli, se inauguran las intalaciones y se da el inicio de las actividades formales de la aduana de Puebla, que concluye en 1990 con la disposición del Ejecutivo Federal de reestructurar administrativamente las secciones aduaneras de Morelos y Tlaxcala, quedando establecida en su domicilio actual con sus dos secciones en Atlangatepec, Tlaxcala y Jilutepec, Morelos.</p>'
+	var queretaro = '<h4> Aduana de Querétaro</h4><p>Se fundó la aduana interior el 22 de julio de 1983, para noviembre de 1993, se agregó a la circunscripción una parte del Estado de Michoacán y de Guanajuato, iniciando operaciones el 23 de noviembre de 1993 las secciones aduaneras de Morelia, Michoacán y Celaya, Guanajuato; el 19 de Diciembre de 1996 la sección de León, Guanajuato y el Aeropuerto Internacional de Guanajuato fueron agregados a la circunscripción de la aduana de Querétaro el 13 de junio de 1997, cambiando su ubicación a la actual el 29 de enero de 1993. </p>'
+	var toluca = '<h4> Aduana de Toluca</h4><p>Se establece hace más de 30 años en la Ciudad de Toluca la aduana debido al crecimiento económico de alguno de los municipios de su circunscripción aquí en esta aduana se llevan a cabo las denominadas operaciones virtuales de exportaciónes e importaciones solicitadas primordialmente por las maquiladoras.</p>'
+	var torreon = '<h4> Aduana de Torreón</h4><p>En un principio fue creada como aduana de tipo especial aéreo solamente para operaciones aduaneras por vía aérea por decreto del Diario Oficial de la Federación el 2 de agosto de 1947,  el 18 de Octubre de 1948 se publicó el decreto donde pasaba a ser aduana de interior de despacho. Durante el mes de noviembre de 1951 se construyó una nueva aduana, la cual a partir del 9 de abril de 1995 se ubicó en el complejo industrial de Ferropuerto Laguna.</p>'
+	var acapulco = '<h4> Aduana de Acapulco</h4><p>Debido al incremento de las importaciones, en 1597 se establece en Acapulco la primera aduana de la Nueva España; el edificio original de la aduana, debido a un sismo  de gran magitud sufrió graves daños por lo cual se ordenó la construcción de uno nuevo inaugurado en 1718. La aduana marítima en al año de 1743 cobraba un impuesto de exportación de planta del 17%, lo que registra un aumento del 2% como consecuencia de una reforma arancelaria a la tarifa estabecida en 1566. El 25 de Febrero de 1732 se lleva a cabo una nueva edificación de la aduana, durante la gesta revolucionaria, la aduana que era una oficina  eminentemente recaudadora, en varias ocasiones fue asaltada y en más de una de ellas algunos elementos de la institución fueron victimados. En 1952 las oficinas administrativas se instalarón en el primer piso del recien inaugurado Palacio Federal, en la decada de los 70s Acapulco tuvó el mayor auge en materia de comercio exterior, ya que se recibía y enviaba mercancias a países de Asia, Norte, Sur y Centroamérica.</p>'
+	var altamira = '<h4> Aduana de Altamira</h4><p>El 23 de Agosto de 1993 se creó por decreto presidencial la Aduana Marítima, ubicada en el puerto industrial de Altamira, que operaba anteriormente como sección aduanera de la Aduana de Tampico, el crecimiento de los despachos de mercancía de comercio exterior en el corredor-industrial Tampico-Altamira culminó con el inicio de operaciones de la aduana el 16 de Diciembre de 1993. </p>'
+	var cancun = '<h4> Aduana de Cancún</h4><p>Históricamente, la primera Aduana reconocida en el lado noreste de a peninsula de Yucatán, fue la sección aduanera de Cozumel, la cual inicia operaciones en el año de 1888 dependiendo de la Aduana de Progreso. En 1918 se creó la aduana marítima de Cozumel, siendo hasta 1982 cuando se crea la aduana de Cancún y Cozumel pasó a ser sección aduanera, asimismo se crearon las secciones aduaneras de Puerto Morelos e Isla Mujeres; actualmente en la sección aduanera de Cozumel arriban varios cruceros turisticos . La Aduana de Cancún se localiza a un costado del Aeropuerto Internacional, su principal función es la atención de pasajeros internacionales </p>'
+	var cddelcarmen = '<h4> Aduana de Cd. Del Carmen</h4><p>Se considera que en el año de 1825 se establece en forma la primera oficina de a Aduana Marítima, ésta se debió a que en aquellos tiempos, solamente había tres matriculas : Acapulco, Veracruz y Campeche, que eran los únicos puertos por donde se comercializaban las mercancías y se hacian los pagos aduanales correspondientes. Actualmente la principal actividad comercial esta enfocada a la industria petrolera. </p>'
+	var coatzacoalcos = '<h4> Aduana de Coatzacoalcos</h4><p>El puerto se crea por decreto el 8 de Octubre de 1825, en 1858 cubre por vez primera la ruta marítima Nueva Orleans-Minatitlán, en 1896 inician los trabajos del canal de entrada al puerto y en 1905 inician la construcción de muelles y bodegas, esta aduana está ubicada dentro de la Administración Portuaria Integral, cuenta con seis bodegas, nueve muelles y otro especial para el ferrobuque siendo este el primer muelle nacional que establecía una nueva frontera ferroviaría con los Estados Unidos. </p>'
+	var dosbocas = '<h4> Aduana de Dos Bocas</h4><p>En el año de 1829, la villa y Puerto de Guadalupe de la Frontera (actualmente Frontera, Tabasco), era un puerto muy importante del litoral del Golfo de México, siendo presidente el general Guadalupe Victoria, ordena que a partir del 6 de febrero de 1829 fuese instalada la aduana marítima del Puerto de Frontera, la segunda en importancia del Golfo de México despúes de Veracruz, siendo hasta el 1 de diciembre de ese año que inicia operaciones como principal centro de paso para importación y exportación de la región.Diecisiete año sin interrupción en sus actividades, en mayo de 1846 estalla la guerra entre Estados Unidos y nuestro país, el 21 de octubre de 1846 goletas norteamericanas bloquean el puerto, que es tomado el día 23 de octubre por el comandante Mathew C. Perry, la aduana fue saqueada y destruida hasta 1848 en que se firman los tratados de Guadalupe, al concluir la guerra el edificio de la aduana fue restaurado pero el 17 de junio de 1863 cuando estaba la guerra entre México y Francia ocurre de nueva cuenta otra intervención que destruye de nuevo el edificio de la aduana, por lo que se traslada a Villahermosa en Marzo de 1866, en 1871 vuelve a trasladarse la aduana marítima a Frontera.Siendo Presidente de México Benito Juárez ordena la reconstrucción y remodelación del la aduana marítima siendo así que desde 1872 y hasta 1923 las actividades de la aduana se normalizaron; otra rebelión da inicio en diciembre de 1923 y el 24 de febrero de 1924, Adolfo de la Huerta toma posesión de la aduana e instala ahí su cuartel militar, hasta que el  6 de octubre las tropas del General Álvaro Obregón fusilan a un costado de la aduana a los cabecillas de las tropas de Adolfo de la Huerta quien huye hacia los Estados Unidos, concluyendo así un suceso histórico mas en Frontera y en la Aduana. Al paso del tiempo esta aduana se ha visto afectada por eventos naturales desde 1973 hasta 1999, en el año del 2000 se crea la aduana de Dos Bocas en la ciudad de Paraíso a cuatro kilometros del muelle. </p>'
+	var ensenada = '<h4> Aduana de Ensenada</h4><p>La primera aduana era una casa de adobe ubicada en la playa en el año de 1877 la cual duró en operación tan sólo cinco meses, siendo cerrada hasta el 27 de Octubre de 1880 cuando el presidente decreta la reapertura de la aduana de Ensenada que trajo el cierre de la aduana de Tijuana, en 1922 se cambian al edificio que ocupo la compañía americana, siendo hasta el 30 de agosto de 1989 cuando se hace la entrega recepción del nuevo edificio donde despacharía por un periódo de diez años; a partir de 1994 la SHCP y la Administración Portuaría Integral acuerdan la realización y construcción de dos edificios dentro del recinto portuario, mismos que a partir de junio de 1999 y hasta la fecha esta ubicada la aduana. </p>'
+	var guaymas = '<h4> Aduana de Guaymas</h4><p>A principios del siglo XIX con la necesidad de recibir barcos de mayor calado dejó de utilizarse San José y se empezó a utilizar San Fernando de Guaymas que era un muelle natural durante mucho tiempo la casa de los cuatro fuentes fue utilizada para la llegada y desembarco de pasajeros por vía marítima, estando a corta distancia de las oficinas de la aduana marítima de Guaymas, en 1902 el edificio se derrumbó y la aduana cambió de oficinas; como hechos históricos en 1811 se autoriza el tráfico comercial marítimo en el puerto y en 1814 las cortes españolas lo habilitan para el comercio nacional, en 1823 se establece la aduana marítima y en 1825 se le otorga la categoría de municipio, en 1837 obtiene el reconocimiento de puerto de altura. Dependientes de la aduana se encuentran los Aeropuertos Internacionales de: Hermosillo, Ciudad Obregón y Guaymas. </p>'
+	var lapaz = '<h4> Aduana de La Paz</h4><p>El 12 de enero de 1854, siendo Ministro de Hacienda Antonio López de Santa Ana, se crea el Resguardo Marítimo de la Paz, expidiéndose el Decreto por el cual se declara habilitado para el comercio exterior surgiendo así la Aduana Marítima de la Paz, a partir del ordenamieto de la división política ordenada por el Presidente Díaz en 1888, la península se dividió en norte y sur. El puerto de Pichilingue abierto en el año de 1964, causó la disminución de las actividades de comercio exterior en la aduana de la Paz, y diez años despúes en 1974 la aduana establece sus oficinas compartiendo espacio con otras Administraciones Locales de la Secretaría de Hacienda y Crédito Público, los puntos de revisión de esta aduana son:La Garita de Pichilingue, la Garita de Santa Rosalía, cinco secciones aduaneras: San josé del Cabo, Cabo San Lucas, Santa Rosalía, Loreto y Pichilingue, Patio Fiscal y los Aeropuertos Internacionales de Loreto y Los Cabos. </p>'
+	var lazarocardenas = '<h4> Aduana de Lazaro Cardénas</h4><p>El puerto habilitado a través del Decreto publicado en el Diario Oficial de la Federación del 31 de mayo de 1974, considerado como uno de los puertos mexicanos con la mayor proyección a los mercados internacionales; hasta antes de 2004 la aduana atendía en sus despachos úicamente mercancía general, en su proyecto de diversificación de carga a finales de 2003 el puerto empieza a recibir buques, principalmente en la TUM II, asi tambien la creación de la terminal especializadad de contenedores a la cual acompaño una de las empresas navieras más grandes del mundo Maerks Line, siendo a partir del segundo semestre de 2004 que comenzó a recibirse de forma más regular contenedores de carga.Gracias a la accesabilidad que tiene el puerto a un ágil corredor intermodal sin costuras se atienden tránsitos internacionales con destino a la costa oeste de los Estados Unidos; parte de la infraestructura actual consta de cámaras de circuito cerrado, equipo de rayos X, equipos de rayos gamma, báscula dinámica, GPS y cámaras digitales. </p>'
+	var manzanillo = '<h4> Aduana de Manzanillo</h4><p>En 1564 comenzó la misión de colonizar las Filipinas y encontrar un camino de regreso que conectara a ambos continentes, a lo que se le llamo el tornaviaje, que permitió en 1576 el establecimiento de la ruta del Pacífico, que unió a Acapulco con Manila, conocida tambien como el Camino de Asia prolongandose por 300 años, en 1824 se decreta la apertura de Manzanillo como puerto del Pacífico y un año más tarde como puerto de Cabotage, por lo que el 1 de mayo de 1848 se establece la aduana marítima habilitada para el comercio exterior e interior quedando como Puerto de Altura, debido al incremento de operaciones en el puerto en 1971 se realiza la apertura del Puerto Interior de San Pedrito, donde se encuentra hoy actualmente. Manzanillo es el puerto número uno en manejo de carga contenerizada, por ello es la primer aduana marítima de este rubro. </p>'
+	var progreso = '<h4> Aduana de Progreso</h4><p>El 11 de julio de 1871, el presidente Juárez publica el decreto para abrir de forma oficial el puerto de Progreso a la navegación, para sustituir al puerto de Sisal, Yucatán. En otra fecha, 1936 el gobierno del Presidente Lázaro Cárdenas autoriza la construcción de un nuevo muelle, mismo que inicio en 1947 y en el año de 1960 bautizada como Heroes Aduaneros, en memoría de los jovenes empleados sacrificados en la Independencia.</p>'
+	var mazatlan = '<h4> Aduana de Mazatlán</h4><p>Al comienzo del siglo XVII, utilizaron el puerto como punto de envío de monedas de oro y otros valiosos productos a Europa, que eran extraidos en grandes cantidades de minerales ubicados en Villa San Sebastián (Concordía), Rosario y Mazatlán; entre 1826 y 1827 el comienzo del arribo de buques al puerto generó la necesidad al Gobierno de establecer una aduana marítima para que cobrara los derechos correspondientes al comercio exterior que se tenía en el puerto; lo cua ocurre en 1828 al quedar establecida la aduana marítima  en el puerto, convirtiendose desde el siglo XIX como el centro comercial más importante de occidente.Llos descubrimientos de oro en California durante 1849 trajo un movimiento importante para las mercancias que los inmigrantes buscadores de oro necesitaban.En 1861 se contrató la edificación de la nueva aduana marítima quedando terminada en 1862, un nuevo muelle se comenzó a constriur el 8 de septiembre de 1875, actualmente este puerto cuenta con seis muelles, cuatro de estos se utilizan para la carga en general, un recinto fiscalizado. </p>' 
+	var salinacruz = '<h4> Aduana de Salina Cruz</h4><p>En el siglo XVII Salina Cruz pasó de ser una aldea de pescadores al puerto de altura industrial gracias a la infraestructura portuaria y su planta de refinación de PEMEX Desde la llegada de los conquistadores el puerto sirvió como zona privilegiada para la Colonia, pero debió esperar tres siglos más para que el proyecto juarista situára en la región a la compañía ferroviaria Leuisiana que nunca concluyó. El uerto artificial se construyó de 1902 a 1906 como terminal de puerto terrestre, siendo hasta 1907cuando el General Porfirio Díaz declaró abierto el tráfico internacional a Salina Cruz.</p>'
+	var tampico = '<h4> Aduana de Tampico</h4><p>El 30 de septiembre de 1823 se concedió el establecimiento de una receptoría marítima por decreto del Soberano Congreso quedando abierta al comercio extranjero a partir del 10 de febrero de 1827. El primer embarcadero se construyó en 1870, las escolleras y el dragado se completo en 1889, incluyendo instalaciones de carga, se construyeron tambien tres almacenes y cuatro muelles.El edificio de la aduana fue pedido por catálogo a Europa por Porfirio Díaz, llegando por vía marítima, su construcción se inició en 1896 pero a consecuencia de un siniestro se pospuso su inauguración hasta 1902.En 2002 se inauguró el nuevo edificio de la aduana marítima de Tampico.</p>'
+	var tuxpan = '<h4> Aduana de Tuxpan</h4><p>En 1804 se establecen las receptorías marítimas de Tuxpan, Tamiahua y Tihuatlán de la red portuaria, siendo hasta 1826 cuando se crea el departamento de Tuxpan para habilitar el comercio exterior, el 28 de abril de 1826 se le designa puerto internacional por decreto y entre 1835 y 1837 a puerto de altura; al correr de los años se funda la aduana marítima de Tuxpan.Tuxpan es famoso por haber sido el lugar de donde partió el Granma, embarcación capitaneada por Fidel Castro y un puñado de hombres audaces que así iniciaron la revolución cubana.</p>'
+	var veracruz = '<h4> Aduana de Veracruz</h4><p>El puerto de Veracruz es el más antiguo del continente americano y más grande de la república, fundado en 1519 por Hernán Cortés con el nombre de Villa Rica de la Veracruz en 1601 le fue acondicionado un muelle para el atracadero de barcos repletos de mercancías. Hacia las últimas decadas del siglo XIX se dio la entrada principal al tráfico marítimo internacional, el cambio de fisonomía de Veracruz se emprendió a  inicios de 1880, se construyeron edificios para la jefatura de hacienda, almacenes fiscales y la aduana, inaugurados en 1902 por Porfirio Díaz. </p>'
+	var aguaprieta = '<h4> Aduana de Agua Prieta</h4><p>Fundada en 1899 al sur de la fundición, cerca de la línea internacional como la conocemos ahora, dos años despúes se crea la primer aduana de Agua Prieta en 1900, la cual 13 años posteriores a su creación fue consumida por las llamas, las siguientes dos construcciones sufrieron la misma suerte , hasta que llegaron al edificio que actualmente ocupa, edificio construido de 1917 a 1919, sus principales importadores y exportadores son las empresas maquiladoras. </p>'
+	var cdacuna = '<h4> Aduana de Cd. Acuña</h4><p>El 19 de marzo de 1897, el Gobierno Federal ordenó el establecimiento de una aduana fronteriza de importación de sexto orden en Villa del Carmen, motivado por el gran movimiento comercial entre las poblaciones fronterizas, se ordenó el establecimiento de la aduana por el año de 1903, inicialmente el cruce de mercancias era a pie por el vacío del río, posteriormente se construyó un puente de madera que continuamente era arrastrado por el río Bravo, el cual en 1929 se substituye por un puente metalico y en 1989 se construyó el actual puente de cuatro carriles. En Septiembre de 1968 , inició operaciones un puente de un solo carril  en la zona denominada la Linda, este puente se encuentra cerrado desde 1995 debido a un incidente trágico y por que dejo de ser costeable la exportación del mineral (fluorita). Actualmente se cuenta con un puente internacional de carga en la presa la Amistad. </p>'
+	var cdcamargo = '<h4> Aduana de Cd.Camargo</h4><p>Gracias al desarrollo comercial de la región el 24 de noviembre de 1849 se fundó por decreto la primera aduana fronteriza y marítima, la que se estableció con lo  que hoy se conoce por Villanueva de Camargo, despúes la aduana fue trasladada a la Villa de Camargo, funcionando por largo tiempo al sur de la Plaza Hidalgo posteriormente con la construcción del puente internacional Camargo-Río Grande, Texas se instala ahí la Aduana, el puente cuenta con un carril de autodeclaración,  dos carriles de no declaración y un carril para transporte de carga equipado con el sistema de rayos gamma; el patio fiscal cuenta con dos andenes para la verificación de mercancias. </p>'
+	var cdjuarez = '<h4> Aduana de Cd. Juárez</h4><p>En 1835, el presidente Miguel Barragán autoriza el establecimiento en la frontera en el estado de Chihuahua, de dos aduanas Ojinaga y Ciudad Juárez, las que fueron construidas para satisfacer las necesidades del creciente tráfico de este puerto aduanal, en 1848 Ciudad Juárez se convierte en frontera nacional en virtud del Tratado de Guadalupe Hidalgo,adquiere relevancia histórica el 14 de agosto de 1865, al recibir a Benito Juárez y establecerse ahí hasta 1866, con la inauguración del ferrocarril en 1882 y la instalación de la Zona libre en 1885, provoco mejoras en las actividades comerciales de la región.EL 29 de Julio de 1888 recibe la categoría de ciudad y el nuevo nombre de Juárez y el 10 de Septiembre de 1889 Lauro Carrillo gobernador del estado inaugura el edificio que albergará las intalaciones de la aduana por casí 90 años, en el cual se entrevistan en 1909 los presidentes Díaz y Taft, aquí se firmaron los tratados de paz de Ciudad Juárez para finalizar la revolución el 21 de Mayo de 1911. El tráfico pesado empezó a trasladarse al Puente Libre y con ello, la idea de construir un nuevo recinto aduanal anexo a las instalaciones del cruce fronterizo, por lo que el 15 de septiembre de 1976 las oficinas de la aduana se trasladaron al costado poniente en el nuevo edificio.Esta aduana es una de las 5 más grandes del país, siendo la única que cuenta con seis cruces para pasajeros internacionales, de estas 3 permanecen abiertas 24 horas.</p>'
+	var cdmiguelaleman = '<h4> Aduana de Cd. Miguel Alemán</h4><p>El 31 de Enero de 1856 se expidió la Ordenanza General de Aduanas, siendo el Secretario de Hacienda Manuel Payno con la cual se crearon las aduanas fronterizas en aquel entonces la aduana radicaba en el municipio de Ciudad Mier allá por agosto de 1891 funcionando hasta 1928, año en que se construye el puente Colgante declarado monumento arquitectónico por el gobierno federal, con dicho puente se dio una nueva era en la vida económica de la región. En el Diario Oficial de la  Federación del 8 de Febrero de 1939, se fija la jurisdicción de la aduana de San Pedro de Roma y en esa epoca la aduana de Camargo paso a ser una sección aduanera.En el año de 1980 se construye otro puente paralelo al colgante ampliando así el cruce internacional, siendo que a partir del 11 de Octubre de 1951 San Pedro de Romase independizó de Ciudad Mier naciendo así el municipio de Ciudad Alemán. </p>'
+	var cdreynosa = '<h4> Aduana de Cd. Reynosa</h4><p>La aduana ha existido desde finales del siglo XVII cuando el Gobierno Central Nuevo Hispánico ordenó instalarla en la Villa de Nuestra Señora de Guadalupe de Reynosa sería en 1848 al celebrarse el tratado de Guadalupe-Hidalgo entre México y los Estados Unidos y el concepto de línea fronteriza ha de sentar las bases de la Aduana moderna..En 1926 se inaugura el primer Puente Internacional que comunicaba a Reynosa con el condado de Hidalgo, pero este fue destruido por un ciclón por lo que se tuvo que  remodelar; este puente tuvo una vida útil de 1926 a 1970; cuando fue remodelada construyendose la nueva Garita Internacional Benito Juárez.Otro aspecto relevante surgió en 1988 con la construcción del nuevo puente Internacional denominado Puente 2, en la decada de los 90s se inició la construcción de otro puente internacional llamado Nuevo Amanecer el más largo de América Latina. </p>'
+	var colombia = '<h4> Aduana de Colombia</h4><p>La aduana fue fundada el 15 de Agosto de 1991 estando ubicada en un lugar geográficamente privilegiado para el transporte terrestre de mercancías de comercio exterior.Esta aduana se compone por el puente Internacional Solidaridad y por la salidad de garita de Camarón , en el municipio de Anáhuac, este puente tiene seis carriles  de carga, cuenta con cinco módulos de captura para pedimentos de importación y exportación, contando con dos módulos de rayos gamma. </p>'
+	var matamoros = '<h4> Aduana de Matamoros</h4><p>Por decreto de las cortes españolas y arancel de 1821, en Matamoros se abrió una aduana habilitada para el comercio exterior con el extranjero, en 1831 se firma el trato de amistad con nuestro país en materia del comercio internacional. El 16 de junio de 1910 se inaugura el puente internacional de ferrocarril, conocido como Puerto Viejo; en el año de 1923 la aduana deja de ser marítima y queda solamente como fronteriza; en 1928 se construye el puente internacional llamado Nuevo posteriormente en 1962 se inauguran las nuevas instalaciones de la aduana que podía recibir carga gracias a sus instalaciones especiales y a partir de 2001 se notifica que las operaciones del comercio exterior se llevarán a cabo en instalaciones edificadas del Puente Internacional Ignacio Zaragoza, actualmente cuenta con cuatro puentes internacionales el mencionado además de Puerta Mexico, Brownsville y Matamoros Viejo. </p>'
+	var mexicali = '<h4> Aduana de Mexicali</h4><p>El decreto para establecer la aduana fue expedido por el presidente Porfirio Díaz el 10 de junio de 1904, aunque ya desde 1902 existía una garita fiscal o de resguardo en la línea fronteriza, con la introducción de la vía del tren permitió que la segunda aduana de Mexicali abriera sus puertas y fue hacia finales de 1915 que la aduana se translada al Palacio Municipal, posteriormente a principios de 1923 se cambian a otra edificación (antiguamente jefaturas de operaciones militares) donde estuvieron hasta 1928 cuando vuelve a cambiarse de edificio permaneciendo en este último hasta 1952, cuando la aduana inaugura sus nuevas instalaciones con la modernidad de ese tiempo retomando su sitio original. </p>'
+	var naco = '<h4> Aduana de Naco</h4><p>Surge por la necesidad de agilizar las operaciones mineras de Nacozan, Sonora con el condado de Cochise en Estado Unidos, por lo que se establece una nueva vía de ferrocarril aunque si bien es cierto que para el año de 1899 ya se realizaban operaciones de importación y exportación la situación en que se encontraba la aduana, era muy precaría; ubicada en el punto conocido como la Morita, siendo hasta el 16 de julio de 1900 cuando el gobierno cambia oficialmente su estación aduanera a Naco,Sonora. En el año de 1901 da inicio la construcción de una nueva vía de ferrocarril , nueve años más tarde estalla la revolución en 1910 afectando de gran manera a la aduana, para el 19 de mayo de 1911, Naco fue escenario de la primera batalla de la revolución que devasto al pueblo a partir de 1915 las batallas disminuyeron y no fue sino hasta 1920 que Naco volvió a la normalidad; en la década de los 40 y 50s la aduana estaba mejor establecida, en 1945 se incendia el edificio que ocupaba la aduana, por lo que en 1954 se inaugura el edificio que ocupa actualmente. </p>'
+	var nogales = '<h4> Aduana de Nogales</h4><p>Los origenes básicos surgen desde la fundación de Nogales en el cruce fronterizo a traves de las montañas desde mediados de 1800, las redes de comercio se establecen como consecuencia de la invasión del imperio francés en 1860 y del contrabando proveniente de Arizona; el 2 de agosto de 1880 por decreto de Porfirio Díaz se establece la primer aduana en este puerto fronterizo; en 1887 se construye el flamante edificio de la aduana fronteriza, siendo hasta finales del siglo XIX que se construyen las primeras agencias aduanales en Nogales.En 1994 la aduana se mueve de edificio a un costado de la garita 3 Mariposas pero solamente por espacio de cuatro años debido al caos vial que significaba la revisión de camiones de carga por ello a mediados de los 90s se inicia la construcción de una nueva vialidad, surge el nuevo corredor fiscal y el recinto donde se ubicaría la aduana inaugurada el 5 de marzo de 1999 por Ernesto Zedillo Ponce de León. </p>'
+	var nuevolaredo = '<h4> Aduana de Nuevo Laredo</h4><p>La creación de una aduana en la nueva frontera internacional entre las Villas de San Agustín de Laredo y de Nuevo Laredo en el margen del río Bravo, fue decretada el 26 de agosto de 1855 por el General Santiago Vidaurri, esta aduana ha sido testigo de innumerables hechos históricos vinculados con el quehacer económico nacional, como el decreto que dio vida a la Zona Libre en el año de 1858, misma que aprobará en 1861 el presidente Benito Juárez, vigente hasta su derogación en el año de 1905 bajo la presidencia de Porfirio Díaz, así como la construcción del primer puente urbano para el paso de personas y mercancías en 1889.Nuevo Laredo y su aduana inician la edad adulta a partir de la llegada del ferrocarril a la frontera en 1881, por lo que iría ganando presencia y prestigio por lo que en 1887 dio inicio la construcción del edifico para albergar las oficinas de la aduana las cuales por necesidad fueron inaugurandas el 5 de mayo de 1891; años despúes con el panorama revolucionario y tras la ocupación en 1913 por tropas de Victoriano Huerta, el edificio es incendiado en 1914 al abandono de dichas tropas del lugar.Una nueva reconstrucción se dio durante 1915 y 1917 siendo presidente Lázaro Cárdenas, siendo hasta el año de 1944 que se inauguran las nuevas remodelaciones que se efectuaron al edificio. </p>'
+	var ojinaga = '<h4> Aduana de Ojinaga</h4><p>El edificio que ocupa la aduana fue construido en octubre de 1953, sus puntos de revisión se comprenden de las siguientes garitas: Puente Internacional Manual Ojinaga,Garita el Peguis y Garita La Mula.</p>'
+	var piedrasnegras = '<h4> Aduana de Piedras Negras</h4><p>EL 22 de agosto de 1855 el gobernador Santiago Vidaurri, emitió el decreto que reformó el arancel de las aduanas marítimas y fronterizas el 1 de junio de 1853, todas estas medidas dieron a Piedras Negras la oportunidad de un despegue económico por lo que Juárez juzgó necesario contar con los recursos que esta aduana generaba para poder continuar en la lucha, por lo que ordena a los gobiernos de Nuevo León y Coahuila poner a dispocisión del Ministerio de Hacienda dichos recursos y demás ingresos que obtuvieran, como consecuencia de la negativa del gobernador, el presidente Juárez emite el 26 de febrero de 1864 un decreto separando a Coahuila de Nuevo León y declarando traidor a la patria a Vidaurri, el 26 de mayo de 1865 se nombra al General Gregorio Galindo como administrador de la aduana años más tarde el 14 de marzo de 1890 se coloca la primer piedra del edificio principal de la aduana el cual ya terminado sería por corto tiempo el cuartel general de Venustiano Carranza. </p>' 
+	var puertopalomas = '<h4> Aduana de Puerto Palomas</h4><p>Palomas fue blanco importante de los movimientos armados del país desde 1892, cuando se fundó la colonia de la Ascención, a solicitud de los colonos para contener el contrabando y proteger el pequeño comercio, el presidente de la República Sebastian Lerdo de Tejada, autorizó al Administrador Interino de la Aduana Fronteriza de Janos, establecer un puesto de vigilancia, al correr de los años las obras de reparación y adaptación del edificio de la aduana se iniciaron el 7 de septiembre de 1944 terminandose el 24 de marzo de 1945. Puerto Palomas cuenta con dos Garitas y un cruce internacional denominado el Berrendo utilizado casi de forma exclusiva para turismo. </p>'
+	var sanluisriocolorado = '<h4> Aduana de San Luis Río Colorado</h4><p>En el año de 1923 fue que recibió el título de Aduana, teniendo una actividad comercial siempre en ascenso, por lo que en 1951 se inaugura un edificio para la aduana, pero en 1964 con la construcción del puente que une Sonora con Baja California, la actividad comercial se incrementa por lo que en 1999 el edificio es derribado para edificar una infraestructura que soporte la actividad diaria.</p>'
+	var sonoyta = '<h4> Aduana de Sonoyta</h4><p>La Ciudad de Caborca es una de las más antiguas de Sonora, su fundación data del año 1688, el sitio constituye un monumento histórico y arquitectónico que se distinguio como una fortaleza contra una invasión estadounidense (1857). En la aduana se encuentran cuatro puntos tácticos de revisión: Línea internacional, San Emeterio,Almejas y el Aeropuerto Puerto Peñasco; en la línea internacional se registra una constante afluencia vehicular, de turismo internacional procedente de los Estados Unidos observandose vehiculos de Arizona, California, Texas y Nevada.</p>'
+	var tecate = '<h4> Aduana de Tecate</h4><p>En el año de 1915 se construye la estación de ferrocarril y con el funcionamiento de este, la zona adquirió gran dinamismo económico y se hizo necesaria una aduana, siendoasí que el 10 de agosto de 1917 empieza a funcionar la aduana fronteriza de sexta clase que había sido concedida por decreto del 16 de junio de 1917, la aduana cuenta con una garita de entrada.</p>'
+	var tijuana = '<h4> Aduana de Tijuana</h4><p>El 6 de agosto de 1874 se decretó establecer en el punto situado con la intersección de Estados Unidos y Baja California una aduana fronteriza para encargarse de la vigilancia del tráfico y el cobro de impuestos por los derechos de arancel, por lo que sus primeras funciones fueron las de regular la entrada de mercancías para que estas fueran introducidas con los respectivos derechos de importación por lo que los celadores de la aduana continuamente confiscaban mercancías. Con la resolución del 8 de febrero de 1978 mismo que por acuerdo del 22 de febrero del mismo año se dio el apoyo para la apertura de una nueva garita, pero hasta el 30 de septiembre de 1981 por acuerdo se autoriza la creación de la garita y la aduana de la Mesa de Otay, que fue inaugurada hasta el 24 de enero de 1985.</p>'
+	var cdhidalgo = '<h4> Aduana de Cd. Hidalgo</h4><p>De la Aduana de Suchiate no se tiene fecha exacta o aproximada de su creación, en los años treinta con el deseo de darle impulso a nuestra frontera sur, se contruyó en 1936 el edificio para uso exclusivo de la aduana y otro como almacen fiscal en la ciudad de Suchiate, cuando se cambia el nombre del municipio de Suchiate por el de Ciudad Hidalgo, cambia tambien el nombre de la aduana, en el año de 1942 por motivo de la segunda guerra mundial, se originó un gran movimiento de mercancías.A partir de la apertura comercial con la adhesión de México al GATT en 1986, se dio un incremento en las operaciones de exportación e importación, la población aumentó y la aduana se vio en la necesidad de construir un nuevo puerto con las instalaciones adecuadas para la demanda de operaciones y se construye un puente internacional que inicia operaciones formales en 2002.</p>'
+	var subtenientelopez = '<h4> Aduana de Subteniente Lopéz</h4><p>El 22 de enero de 1898 arribó una embarcación que formaba parte de una estrategia para terminar con la Guerra de Castas, dicha embarcación hizo las veces de puesto aduanal para establecer el registro fiscal de los productos forestales que salian del territorio nacional hacia Belice. Para fomentar el arraigo, el gobierno nacional autorizó en 1901 la existencia de un régimen de excepción aduanal en Payo Obispo, permitiendo lal libre importación de multiples productos; el 28 de septiembre de 1936 Payo Obispo recibe el nombre de Chetumal. A principios de 1970 de nueva cuenta se conto con un régimen de excepción aduanal denominado Zona Libre en Quintana Roo, al iniciar la decada de los 90s Chetumal dejó de ser zona libre, lo que provocó una caÍda del comercio local, en esos años se creó la zona libre de Belice donde se estableció el comercio.</p>'
+
+	
+	switch(par2 + "-" + par1){	
+	case 'Todas-Todas': 	
+	mAduanas = [	
+	[aguascalientes,21.84513, -102.290928,'Img/aduanaIcono.png'], 
+	[aicm ,19.443652, -99.075063,'Img/aduanaIcono.png'],
+	[chihuahua,28.713917, -106.101116,'Img/aduanaIcono.png'],
+	[guadalajara,20.525956, -103.307625,'Img/aduanaIcono.png'], 
+	[guanajuato,21.004596, -101.513776,'Img/aduanaIcono.png'], 
+	[mexico,19.4687621, -99.1614033,'Img/aduanaIcono.png'], 
+	[monterrey,25.805366, -100.294045,'Img/aduanaIcono.png'],
+	[puebla,19.072164, -98.160747,'Img/aduanaIcono.png'], 
+	[queretaro,20.591473, -100.393586,'Img/aduanaIcono.png'], 
+	[toluca ,19.318279, -99.564923,'Img/aduanaIcono.png'], 
+	[torreon,25.483288, -103.357608,'Img/aduanaIcono.png'], 
+	[acapulco,16.849103, -99.904422,'Img/aduanaIcono.png'], 
+	[altamira,22.4847734, -97.8753873,'Img/aduanaIcono.png'],
+	[cancun,21.152419, -86.866258,'Img/aduanaIcono.png'], 
+	[cddelcarmen,18.650689, -91.839896,'Img/aduanaIcono.png'], 
+	[coatzacoalcos,18.1330411, -94.4180986,'Img/aduanaIcono.png'], 
+	[dosbocas,18.4302879, -93.1996095,'Img/aduanaIcono.png'], 
+	[ensenada,31.8508325, -116.626389,'Img/aduanaIcono.png'], 
+	[guaymas,27.92414, -110.886343,'Img/aduanaIcono.png'], 
+	[lapaz,24.161512, -110.31825,'Img/aduanaIcono.png'], 
+	[lazarocardenas,17.950673, -102.190011,'Img/aduanaIcono.png'], 
+	[manzanillo,19.059093, -104.303023,'Img/aduanaIcono.png'], 
+	[mazatlan,23.197946, -106.414333,'Img/aduanaIcono.png'], 
+	[progreso,21.3397901, -89.672034,'Img/aduanaIcono.png'], 
+	[salinacruz,16.170938, -95.190788,'Img/aduanaIcono.png'], 
+	[tampico,22.212747, -97.857676,'Img/aduanaIcono.png'], 
+	[tuxpan,20.953908, -97.348871,'Img/aduanaIcono.png'], 
+	[veracruz,19.216095, -96.141175,'Img/aduanaIcono.png'], 
+	[aguaprieta,31.3333378, -109.5604585,'Img/aduanaIcono.png'], 
+	[cdacuna,29.3255807, -100.9284613,'Img/aduanaIcono.png'], 
+	[cdcamargo,26.3623826, -98.8061864,'Img/aduanaIcono.png'], 
+	[cdjuarez,31.761851, -106.451863,'Img/aduanaIcono.png'], 
+	[cdmiguelaleman,26.4025116, -99.0211719,'Img/aduanaIcono.png'], 
+	[cdreynosa,26.09486, -98.272781,'Img/aduanaIcono.png'],
+	[colombia,27.6948975, -99.7549731,'Img/aduanaIcono.png'], 
+	[matamoros,25.86752, -97.477032,'Img/aduanaIcono.png'], 
+	[mexicali,32.6719273, -115.3870496,'Img/aduanaIcono.png'], 
+	[naco,31.3337185, -109.9483552,'Img/aduanaIcono.png'], 
+	[nogales,31.3323562, -110.9435409,'Img/aduanaIcono.png'], 
+	[nuevolaredo,27.498033, -99.501444,'Img/aduanaIcono.png'], 
+	[ojinaga,29.560628, -104.39806,'Img/aduanaIcono.png'], 
+	[piedrasnegras,28.698118, -100.514285,'Img/aduanaIcono.png'], 
+	[puertopalomas,31.783121, -107.627702,'Img/aduanaIcono.png'], 
+	[sanluisriocolorado,32.4845, -114.780736,'Img/aduanaIcono.png'], 
+	[sonoyta,31.8800218, -112.8173628,'Img/aduanaIcono.png'], 
+	[tecate,32.575656, -116.627475,'Img/aduanaIcono.png'], 
+	[tijuana,32.548478, -116.935946,'Img/aduanaIcono.png'], 
+	[cdhidalgo,14.677654, -92.149648,'Img/aduanaIcono.png'], 
+	[subtenientelopez,18.493409, -88.395245,'Img/aduanaIcono.png']
+	];
+	break;
+	case 'Todas-Maritima': 
+	mAduanas = [	
+	[acapulco,16.849103, -99.904422,'Img/aduanaIcono.png'], 
+	[altamira,22.4847734, -97.8753873,'Img/aduanaIcono.png'], 
+	[cancun,21.152419, -86.866258,'Img/aduanaIcono.png'],
+	[cddelcarmen,18.650689, -91.839896,'Img/aduanaIcono.png'], 
+	[coatzacoalcos,18.1330411, -94.4180986,'Img/aduanaIcono.png'],
+	[dosbocas,18.4302879, -93.1996095,'Img/aduanaIcono.png'], 
+	[ensenada,31.8508325, -116.626389,'Img/aduanaIcono.png'], 
+	[guaymas,27.92414, -110.886343,'Img/aduanaIcono.png'], 
+	[lapaz,24.161512, -110.31825,'Img/aduanaIcono.png'], 
+	[lazarocardenas,17.950673, -102.190011,'Img/aduanaIcono.png'], 
+	[manzanillo,19.059093, -104.303023,'Img/aduanaIcono.png'], 
+	[mazatlan,23.197946, -106.414333,'Img/aduanaIcono.png'], 
+	[progreso,21.3397901, -89.672034,'Img/aduanaIcono.png'], 
+	[salinacruz,16.170938, -95.190788,'Img/aduanaIcono.png'], 
+	[tampico,22.212747, -97.857676,'Img/aduanaIcono.png'], 
+	[tuxpan,20.953908, -97.348871,'Img/aduanaIcono.png'], 
+	[veracruz,19.216095, -96.141175,'Img/aduanaIcono.png']
+	]; 
+	break;
+	case 'Todas-Norte': 
+	mAduanas = [	
+	[aguaprieta,31.3333378, -109.5604585,'Img/aduanaIcono.png'], 
+	[cdacuna,29.3255807, -100.9284613,'Img/aduanaIcono.png'], 
+	[cdcamargo,26.3623826, -98.8061864,'Img/aduanaIcono.png'], 
+	[cdjuarez,31.761851, -106.451863,'Img/aduanaIcono.png'], 
+	[cdmiguelaleman,26.4025116, -99.0211719,'Img/aduanaIcono.png'], 
+	[cdreynosa,26.09486, -98.272781,'Img/aduanaIcono.png'], 
+	[colombia,27.6948975, -99.7549731,'Img/aduanaIcono.png'], 
+	[matamoros,25.86752, -97.477032,'Img/aduanaIcono.png'], 
+	[mexicali,32.6719273, -115.3870496,'Img/aduanaIcono.png'], 
+	[naco,31.3337185, -109.9483552,'Img/aduanaIcono.png'], 
+	[nogales,31.3323562, -110.9435409,'Img/aduanaIcono.png'], 
+	[nuevolaredo,27.498033, -99.501444,'Img/aduanaIcono.png'], 
+	[ojinaga,29.560628, -104.39806,'Img/aduanaIcono.png'], 
+	[piedrasnegras,28.698118, -100.514285,'Img/aduanaIcono.png'], 
+	[puertopalomas,31.783121, -107.627702,'Img/aduanaIcono.png'], 
+	[sanluisriocolorado,32.4845, -114.780736,'Img/aduanaIcono.png'], 
+	[sonoyta,31.8800218, -112.8173628,'Img/aduanaIcono.png'], 
+	[tecate,32.575656, -116.627475,'Img/aduanaIcono.png'], 
+	[tijuana,32.548478, -116.935946,'Img/aduanaIcono.png']
+	];
+	break;	
+	case 'Todas-Interior':  
+	mAduanas = [	
+	[aguascalientes,21.84513, -102.290928,'Img/aduanaIcono.png'], 
+	[aicm,19.443652, -99.075063,'Img/aduanaIcono.png'], 
+	[chihuahua,28.713917, -106.101116,'Img/aduanaIcono.png'], 
+	[guadalajara,20.525956, -103.307625,'Img/aduanaIcono.png'], 
+	[guanajuato,21.004596, -101.513776,'Img/aduanaIcono.png'], 
+	[mexico,19.4687621, -99.1614033,'Img/aduanaIcono.png'], 
+	[monterrey,25.805366, -100.294045,'Img/aduanaIcono.png'], 
+	[puebla,19.072164, -98.160747,'Img/aduanaIcono.png'], 
+	[queretaro,20.591473, -100.393586,'Img/aduanaIcono.png'], 
+	[toluca,19.318279, -99.564923,'Img/aduanaIcono.png'], 
+	[torreon,25.483288, -103.357608,'Img/aduanaIcono.png']
+	];
+	break;
+	case 'Todas-Sur':
+	mAduanas = [	
+	[cdhidalgo,14.677654, -92.149648,'Img/aduanaIcono.png'], 
+	[subtenientelopez,18.493409, -88.395245,'Img/aduanaIcono.png']
+	];
+	break;
+	
+	
+	
+	case 'Maritima-Todas': 
+	mAduanas = [	
+	[acapulco,16.849103, -99.904422,'Img/aduanaIcono.png'], 
+	[altamira,22.4847734, -97.8753873,'Img/aduanaIcono.png'], 
+	[cancun,21.152419, -86.866258,'Img/aduanaIcono.png'],
+	[cddelcarmen,18.650689, -91.839896,'Img/aduanaIcono.png'], 
+	[coatzacoalcos,18.1330411, -94.4180986,'Img/aduanaIcono.png'],
+	[dosbocas,18.4302879, -93.1996095,'Img/aduanaIcono.png'], 
+	[ensenada,31.8508325, -116.626389,'Img/aduanaIcono.png'], 
+	[guaymas,27.92414, -110.886343,'Img/aduanaIcono.png'], 
+	[lapaz,24.161512, -110.31825,'Img/aduanaIcono.png'], 
+	[lazarocardenas,17.950673, -102.190011,'Img/aduanaIcono.png'], 
+	[manzanillo,19.059093, -104.303023,'Img/aduanaIcono.png'], 
+	[mazatlan,23.197946, -106.414333,'Img/aduanaIcono.png'], 
+	[progreso,21.3397901, -89.672034,'Img/aduanaIcono.png'], 
+	[salinacruz,16.170938, -95.190788,'Img/aduanaIcono.png'], 
+	[tampico,22.212747, -97.857676,'Img/aduanaIcono.png'], 
+	[tuxpan,20.953908, -97.348871,'Img/aduanaIcono.png'], 
+	[veracruz,19.216095, -96.141175,'Img/aduanaIcono.png']
+	]; 
+	break;
+	case 'Maritima-Veracruz': mAduanas = [[veracruz,19.216095, -96.141175,'Img/aduanaIcono.png']];  break;
+	case 'Maritima-Acapulco': mAduanas = [[acapulco,16.849103, -99.904422,'Img/aduanaIcono.png']];  break;
+	case 'Maritima-Altamira': mAduanas = [[altamira,22.4847734, -97.8753873,'Img/aduanaIcono.png']];  break;
+	case 'Maritima-Cancun': mAduanas = [[cancun,21.152419, -86.866258,'Img/aduanaIcono.png']];  break;
+	case 'Maritima-Cd. del Carmen': mAduanas = [[cddelcarmen,18.650689, -91.839896,'Img/aduanaIcono.png']];  break;
+	case 'Maritima-Coatzacoalcos': mAduanas = [[coatzacoalcos,18.1330411, -94.4180986,'Img/aduanaIcono.png']];  break;
+	case 'Maritima-Dos Bocas': mAduanas = [[dosbocas,18.4302879, -93.1996095,'Img/aduanaIcono.png']];  break;
+	case 'Maritima-Ensenada': mAduanas = [[ensenada,31.8508325, -116.626389,'Img/aduanaIcono.png']];  break;
+	case 'Maritima-Guaymas': mAduanas = [[guaymas,27.92414, -110.886343,'Img/aduanaIcono.png']];  break;
+	case 'Maritima-La Paz': mAduanas = [[lapaz,24.161512, -110.31825,'Img/aduanaIcono.png']];  break;
+	case 'Maritima-Lazaro Cardenas': mAduanas = [[lazarocardenas,17.950673, -102.190011,'Img/aduanaIcono.png']];  break;
+	case 'Maritima-Manzanillo': mAduanas = [[manzanillo,19.059093, -104.303023,'Img/aduanaIcono.png']];  break;
+	case 'Maritima-Mazatlan': mAduanas = [[mazatlan,23.197946, -106.414333,'Img/aduanaIcono.png']];  break;
+	case 'Maritima-Progreso': mAduanas = [[progreso,21.3397901, -89.672034,'Img/aduanaIcono.png']];  break;
+	case 'Maritima-Salina cruz': mAduanas = [[salinacruz,16.170938, -95.190788,'Img/aduanaIcono.png']];  break;
+	case 'Maritima-Tampico': mAduanas = [[tampico,22.212747, -97.857676,'Img/aduanaIcono.png']];  break;
+	case 'Maritima-Tuxpan': mAduanas = [[tuxpan,20.953908, -97.348871,'Img/aduanaIcono.png']];  break;
+	
+	
+	case 'Norte-Todas': 
+	mAduanas = [	
+	[aguaprieta,31.3333378, -109.5604585,'Img/aduanaIcono.png'], 
+	[cdacuna,29.3255807, -100.9284613,'Img/aduanaIcono.png'], 
+	[cdcamargo,26.3623826, -98.8061864,'Img/aduanaIcono.png'], 
+	[cdjuarez,31.761851, -106.451863,'Img/aduanaIcono.png'], 
+	[cdmiguelaleman,26.4025116, -99.0211719,'Img/aduanaIcono.png'], 
+	[cdreynosa,26.09486, -98.272781,'Img/aduanaIcono.png'], 
+	[colombia,27.6948975, -99.7549731,'Img/aduanaIcono.png'], 
+	[matamoros,25.86752, -97.477032,'Img/aduanaIcono.png'], 
+	[mexicali,32.6719273, -115.3870496,'Img/aduanaIcono.png'], 
+	[naco,31.3337185, -109.9483552,'Img/aduanaIcono.png'], 
+	[nogales,31.3323562, -110.9435409,'Img/aduanaIcono.png'], 
+	[nuevolaredo,27.498033, -99.501444,'Img/aduanaIcono.png'], 
+	[ojinaga,29.560628, -104.39806,'Img/aduanaIcono.png'], 
+	[piedrasnegras,28.698118, -100.514285,'Img/aduanaIcono.png'], 
+	[puertopalomas,31.783121, -107.627702,'Img/aduanaIcono.png'], 
+	[sanluisriocolorado,32.4845, -114.780736,'Img/aduanaIcono.png'], 
+	[sonoyta,31.8800218, -112.8173628,'Img/aduanaIcono.png'], 
+	[tecate,32.575656, -116.627475,'Img/aduanaIcono.png'], 
+	[tijuana,32.548478, -116.935946,'Img/aduanaIcono.png']
+	];
+	break;	
+	case 'Norte-Matamoros': mAduanas = [[matamoros,25.86752, -97.477032,'Img/aduanaIcono.png']];  break;
+	case 'Norte-Tecate': mAduanas = [[tecate,32.575656, -116.627475,'Img/aduanaIcono.png']];  break;
+	case 'Norte-Sonoyta': mAduanas = [[sonoyta,31.8800218, -112.8173628,'Img/aduanaIcono.png']];  break;
+	case 'Norte-Tijuana': mAduanas = [[tijuana,32.548478, -116.935946,'Img/aduanaIcono.png']];  break;
+	case 'Norte-Mexicali': mAduanas = [[mexicali,32.6719273, -115.3870496,'Img/aduanaIcono.png']];  break;
+	case 'Norte-San Luis Rio Colorado': mAduanas = [[sanluisriocolorado,32.4845, -114.780736,'Img/aduanaIcono.png']];  break;
+	case 'Norte-Nogales': mAduanas = [[nogales,31.3323562, -110.9435409,'Img/aduanaIcono.png']];  break;
+	case 'Norte-Naco': mAduanas = [[naco,31.3337185, -109.9483552,'Img/aduanaIcono.png']];  break;
+	case 'Norte-Agua Prieta': mAduanas = [[aguaprieta,31.3333378, -109.5604585,'Img/aduanaIcono.png']];  break;
+	case 'Norte-Puerto Palomas': mAduanas = [[puertopalomas,31.783121, -107.627702,'Img/aduanaIcono.png']];  break;
+	case 'Norte-Cd. Juarez': mAduanas = [[cdjuarez,31.761851, -106.451863,'Img/aduanaIcono.png']];  break;
+	case 'Norte-Ojinaga': mAduanas = [[ojinaga,29.560628, -104.39806,'Img/aduanaIcono.png']];  break;
+	case 'Norte-Cd. Acuña': mAduanas = [[cdacuna,29.3255807, -100.9284613,'Img/aduanaIcono.png']];  break;
+	case 'Norte-Piedras Negras': mAduanas = [[piedrasnegras,28.698118, -100.514285,'Img/aduanaIcono.png']];  break;
+	case 'Norte-Nuevo Laredo': mAduanas = [[nuevolaredo,27.498033, -99.501444,'Img/aduanaIcono.png']];  break;
+	case 'Norte-Colombia': mAduanas = [[colombia,27.6948975, -99.7549731,'Img/aduanaIcono.png']];  break;
+	case 'Norte-Cd. Miguel Aleman': mAduanas = [[cdmiguelaleman,26.4025116, -99.0211719,'Img/aduanaIcono.png']];  break;
+	case 'Norte-Cd. Camargo': mAduanas = [[cdcamargo,26.3623826, -98.8061864,'Img/aduanaIcono.png']];  break;
+	case 'Norte-Cd. Reynosa': mAduanas = [[cdreynosa,26.09486, -98.272781,'Img/aduanaIcono.png']];  break;
+
+	case 'Interior-Todas':  
+	mAduanas = [	
+	[aguascalientes,21.84513, -102.290928,'Img/aduanaIcono.png'], 
+	[aicm,19.443652, -99.075063,'Img/aduanaIcono.png'], 
+	[chihuahua,28.713917, -106.101116,'Img/aduanaIcono.png'], 
+	[guadalajara,20.525956, -103.307625,'Img/aduanaIcono.png'], 
+	[guanajuato,21.004596, -101.513776,'Img/aduanaIcono.png'], 
+	[mexico,19.4687621, -99.1614033,'Img/aduanaIcono.png'], 
+	[monterrey,25.805366, -100.294045,'Img/aduanaIcono.png'], 
+	[puebla,19.072164, -98.160747,'Img/aduanaIcono.png'], 
+	[queretaro,20.591473, -100.393586,'Img/aduanaIcono.png'], 
+	[toluca,19.318279, -99.564923,'Img/aduanaIcono.png'], 
+	[torreon,25.483288, -103.357608,'Img/aduanaIcono.png']
+	];
+	break;
+	case 'Interior-Aguascalientes': mAduanas = [[aguascalientes,21.84513, -102.290928,'Img/aduanaIcono.png']]; break;
+	case 'Interior-AICM': mAduanas = [[aicm,19.443652, -99.075063,'Img/aduanaIcono.png'] ]; break;
+	case 'Interior-Chihuahua': mAduanas = [[chihuahua,28.713917, -106.101116,'Img/aduanaIcono.png'] ]; break;
+	case 'Interior-Guadalajara': mAduanas = [[guadalajara,20.525956, -103.307625,'Img/aduanaIcono.png']]; break;
+	case 'Interior-Guanajuato': mAduanas = [[guanajuato,21.004596, -101.513776,'Img/aduanaIcono.png']]; break;
+	case 'Interior-Mexico': mAduanas = [[mexico,19.4687621, -99.1614033,'Img/aduanaIcono.png']]; break;
+	case 'Interior-Monterrey': mAduanas = [[monterrey,25.805366, -100.294045,'Img/aduanaIcono.png']]; break;
+	case 'Interior-Puebla': mAduanas = [[puebla,19.072164, -98.160747,'Img/aduanaIcono.png']]; break;
+	case 'Interior-Queretaro': mAduanas = [[queretaro,20.591473, -100.393586,'Img/aduanaIcono.png']]; break;
+	case 'Interior-Toluca': mAduanas = [[toluca,19.318279, -99.564923,'Img/aduanaIcono.png']]; break;
+	case 'Interior-Torreon': mAduanas = [[torreon,25.483288, -103.357608,'Img/aduanaIcono.png']]; break;
+
+	case 'Sur-Todas':
+	mAduanas = [	
+	[cdhidalgo,14.677654, -92.149648,'Img/aduanaIcono.png'], 
+	[subtenientelopez,18.493409, -88.395245,'Img/aduanaIcono.png']
+	];
+	break;
+	case 'Sur-Cd. Hidalgo': mAduanas = [[cdhidalgo,14.677654, -92.149648,'Img/aduanaIcono.png']];  break;
+	case 'Sur-Subteniente Lopez': mAduanas = [[subtenientelopez,18.493409, -88.395245,'Img/aduanaIcono.png']];  break;
+
+	default: 	 	
+
+	if(par2 == 'Sur'){ 
+	mAduanas = [	
+	[cdhidalgo,14.677654, -92.149648,'Img/aduanaIcono.png'], 
+	[subtenientelopez,18.493409, -88.395245,'Img/aduanaIcono.png']
+	];
+	}
+	else if (par2 == 'Interior'){
+	mAduanas = [	
+	[aguascalientes,21.84513, -102.290928,'Img/aduanaIcono.png'], 
+	[aicm,19.443652, -99.075063,'Img/aduanaIcono.png'], 
+	[chihuahua,28.713917, -106.101116,'Img/aduanaIcono.png'], 
+	[guadalajara,20.525956, -103.307625,'Img/aduanaIcono.png'], 
+	[guanajuato,21.004596, -101.513776,'Img/aduanaIcono.png'], 
+	[mexico,19.4687621, -99.1614033,'Img/aduanaIcono.png'], 
+	[monterrey,25.805366, -100.294045,'Img/aduanaIcono.png'], 
+	[puebla,19.072164, -98.160747,'Img/aduanaIcono.png'], 
+	[queretaro,20.591473, -100.393586,'Img/aduanaIcono.png'], 
+	[toluca,19.318279, -99.564923,'Img/aduanaIcono.png'], 
+	[torreon,25.483288, -103.357608,'Img/aduanaIcono.png']
+	];
+	}
+	else if (par2 == 'Norte'){
+	mAduanas = [	
+	[aguaprieta,31.3333378, -109.5604585,'Img/aduanaIcono.png'], 
+	[cdacuna,29.3255807, -100.9284613,'Img/aduanaIcono.png'], 
+	[cdcamargo,26.3623826, -98.8061864,'Img/aduanaIcono.png'], 
+	[cdjuarez,31.761851, -106.451863,'Img/aduanaIcono.png'], 
+	[cdmiguelaleman,26.4025116, -99.0211719,'Img/aduanaIcono.png'], 
+	[cdreynosa,26.09486, -98.272781,'Img/aduanaIcono.png'], 
+	[colombia,27.6948975, -99.7549731,'Img/aduanaIcono.png'], 
+	[matamoros,25.86752, -97.477032,'Img/aduanaIcono.png'], 
+	[mexicali,32.6719273, -115.3870496,'Img/aduanaIcono.png'], 
+	[naco,31.3337185, -109.9483552,'Img/aduanaIcono.png'], 
+	[nogales,31.3323562, -110.9435409,'Img/aduanaIcono.png'], 
+	[nuevolaredo,27.498033, -99.501444,'Img/aduanaIcono.png'], 
+	[ojinaga,29.560628, -104.39806,'Img/aduanaIcono.png'], 
+	[piedrasnegras,28.698118, -100.514285,'Img/aduanaIcono.png'], 
+	[puertopalomas,31.783121, -107.627702,'Img/aduanaIcono.png'], 
+	[sanluisriocolorado,32.4845, -114.780736,'Img/aduanaIcono.png'], 
+	[sonoyta,31.8800218, -112.8173628,'Img/aduanaIcono.png'], 
+	[tecate,32.575656, -116.627475,'Img/aduanaIcono.png'], 
+	[tijuana,32.548478, -116.935946,'Img/aduanaIcono.png']
+	];
+	}
+	else if (par2 == 'Maritima'){
+	mAduanas = [	
+	[acapulco,16.849103, -99.904422,'Img/aduanaIcono.png'], 
+	[altamira,22.4847734, -97.8753873,'Img/aduanaIcono.png'], 
+	[cancun,21.152419, -86.866258,'Img/aduanaIcono.png'],
+	[cddelcarmen,18.650689, -91.839896,'Img/aduanaIcono.png'], 
+	[coatzacoalcos,18.1330411, -94.4180986,'Img/aduanaIcono.png'],
+	[dosbocas,18.4302879, -93.1996095,'Img/aduanaIcono.png'], 
+	[ensenada,31.8508325, -116.626389,'Img/aduanaIcono.png'], 
+	[guaymas,27.92414, -110.886343,'Img/aduanaIcono.png'], 
+	[lapaz,24.161512, -110.31825,'Img/aduanaIcono.png'], 
+	[lazarocardenas,17.950673, -102.190011,'Img/aduanaIcono.png'], 
+	[manzanillo,19.059093, -104.303023,'Img/aduanaIcono.png'], 
+	[mazatlan,23.197946, -106.414333,'Img/aduanaIcono.png'], 
+	[progreso,21.3397901, -89.672034,'Img/aduanaIcono.png'], 
+	[salinacruz,16.170938, -95.190788,'Img/aduanaIcono.png'], 
+	[tampico,22.212747, -97.857676,'Img/aduanaIcono.png'], 
+	[tuxpan,20.953908, -97.348871,'Img/aduanaIcono.png'], 
+	[veracruz,19.216095, -96.141175,'Img/aduanaIcono.png']
+	]; 
+	}
+	else {
+	mAduanas = [	
+	[aguascalientes,21.84513, -102.290928,'Img/aduanaIcono.png'], 
+	[aicm ,19.443652, -99.075063,'Img/aduanaIcono.png'],
+	[chihuahua,28.713917, -106.101116,'Img/aduanaIcono.png'],
+	[guadalajara,20.525956, -103.307625,'Img/aduanaIcono.png'], 
+	[guanajuato,21.004596, -101.513776,'Img/aduanaIcono.png'], 
+	[mexico,19.4687621, -99.1614033,'Img/aduanaIcono.png'], 
+	[monterrey,25.805366, -100.294045,'Img/aduanaIcono.png'],
+	[puebla,19.072164, -98.160747,'Img/aduanaIcono.png'], 
+	[queretaro,20.591473, -100.393586,'Img/aduanaIcono.png'], 
+	[toluca ,19.318279, -99.564923,'Img/aduanaIcono.png'], 
+	[torreon,25.483288, -103.357608,'Img/aduanaIcono.png'], 
+	[acapulco,16.849103, -99.904422,'Img/aduanaIcono.png'], 
+	[altamira,22.4847734, -97.8753873,'Img/aduanaIcono.png'],
+	[cancun,21.152419, -86.866258,'Img/aduanaIcono.png'], 
+	[cddelcarmen,18.650689, -91.839896,'Img/aduanaIcono.png'], 
+	[coatzacoalcos,18.1330411, -94.4180986,'Img/aduanaIcono.png'], 
+	[dosbocas,18.4302879, -93.1996095,'Img/aduanaIcono.png'], 
+	[ensenada,31.8508325, -116.626389,'Img/aduanaIcono.png'], 
+	[guaymas,27.92414, -110.886343,'Img/aduanaIcono.png'], 
+	[lapaz,24.161512, -110.31825,'Img/aduanaIcono.png'], 
+	[lazarocardenas,17.950673, -102.190011,'Img/aduanaIcono.png'], 
+	[manzanillo,19.059093, -104.303023,'Img/aduanaIcono.png'], 
+	[mazatlan,23.197946, -106.414333,'Img/aduanaIcono.png'], 
+	[progreso,21.3397901, -89.672034,'Img/aduanaIcono.png'], 
+	[salinacruz,16.170938, -95.190788,'Img/aduanaIcono.png'], 
+	[tampico,22.212747, -97.857676,'Img/aduanaIcono.png'], 
+	[tuxpan,20.953908, -97.348871,'Img/aduanaIcono.png'], 
+	[veracruz,19.216095, -96.141175,'Img/aduanaIcono.png'], 
+	[aguaprieta,31.3333378, -109.5604585,'Img/aduanaIcono.png'], 
+	[cdacuna,29.3255807, -100.9284613,'Img/aduanaIcono.png'], 
+	[cdcamargo,26.3623826, -98.8061864,'Img/aduanaIcono.png'], 
+	[cdjuarez,31.761851, -106.451863,'Img/aduanaIcono.png'], 
+	[cdmiguelaleman,26.4025116, -99.0211719,'Img/aduanaIcono.png'], 
+	[cdreynosa,26.09486, -98.272781,'Img/aduanaIcono.png'],
+	[colombia,27.6948975, -99.7549731,'Img/aduanaIcono.png'], 
+	[matamoros,25.86752, -97.477032,'Img/aduanaIcono.png'], 
+	[mexicali,32.6719273, -115.3870496,'Img/aduanaIcono.png'], 
+	[naco,31.3337185, -109.9483552,'Img/aduanaIcono.png'], 
+	[nogales,31.3323562, -110.9435409,'Img/aduanaIcono.png'], 
+	[nuevolaredo,27.498033, -99.501444,'Img/aduanaIcono.png'], 
+	[ojinaga,29.560628, -104.39806,'Img/aduanaIcono.png'], 
+	[piedrasnegras,28.698118, -100.514285,'Img/aduanaIcono.png'], 
+	[puertopalomas,31.783121, -107.627702,'Img/aduanaIcono.png'], 
+	[sanluisriocolorado,32.4845, -114.780736,'Img/aduanaIcono.png'], 
+	[sonoyta,31.8800218, -112.8173628,'Img/aduanaIcono.png'], 
+	[tecate,32.575656, -116.627475,'Img/aduanaIcono.png'], 
+	[tijuana,32.548478, -116.935946,'Img/aduanaIcono.png'], 
+	[cdhidalgo,14.677654, -92.149648,'Img/aduanaIcono.png'], 
+	[subtenientelopez,18.493409, -88.395245,'Img/aduanaIcono.png']
+	];
+	}
+	break;
+	}// aqui se cierra el switch
+	
+	var configMapaIni =  { 'maxWidth': '480', 'className' : 'iniMapa'}
+	
+	for (var i = 0; i < mAduanas.length; i++) {
+	var Icono = L.icon({
+	iconUrl: mAduanas[i][3],
+	iconSize: [13,13],
+	});
+	marker = new L.marker([mAduanas[i][1],mAduanas[i][2]],{icon: Icono})
+	.addTo(map)
+	.bindPopup(mAduanas[i][0],configMapaIni)
+	};
+	}	/* Aquí termina la parte para customizar los gráficos de D3Plus */	
+	
+
+	function dropdownlist(par2){ 
+	document.formname.par1.options.length = 0;
+	switch (par2){	
+	case 'Norte' :
+	document.formname.par1.options[0] = new Option('Aduanas');
+	document.formname.par1.options[0].disabled = true;	
+	document.formname.par1.options[1]=new Option('Todas');
+	document.formname.par1.options[9]=new Option('Matamoros');
+	document.formname.par1.options[19]=new Option('Tecate');
+	document.formname.par1.options[18]=new Option('Sonoyta');
+	document.formname.par1.options[20]=new Option('Tijuana');
+	document.formname.par1.options[10]=new Option('Mexicali');
+	document.formname.par1.options[17]=new Option('San Luis Río Colorado');
+	document.formname.par1.options[12]=new Option('Nogales');
+	document.formname.par1.options[11]=new Option('Naco');
+	document.formname.par1.options[2]=new Option('Agua Prieta');
+	document.formname.par1.options[16]=new Option('Puerto Palomas');
+	document.formname.par1.options[5]=new Option('Cd. Juárez');
+	document.formname.par1.options[14]=new Option('Ojinaga');
+	document.formname.par1.options[3]=new Option('Cd. Acuña');
+	document.formname.par1.options[15]=new Option('Piedras Negras');
+	document.formname.par1.options[13]=new Option('Nuevo Laredo');
+	document.formname.par1.options[8]=new Option('Colombia');
+	document.formname.par1.options[6]=new Option('Cd. Miguel Alemán');
+	document.formname.par1.options[4]=new Option('Cd. Camargo');
+	document.formname.par1.options[7]=new Option('Cd. Reynosa');
+	break;	
+	case 'Sur' : 
+	document.formname.par1.options[0] = new Option('Aduanas');
+	document.formname.par1.options[0].disabled = true;	
+	document.formname.par1.options[1]=new Option('Todas');
+	document.formname.par1.options[2]=new Option('Cd. Hidalgo');
+	document.formname.par1.options[3]=new Option('Subteniente López');
+	break;
+	case 'Maritima' : 
+	document.formname.par1.options[0] = new Option('Aduanas');
+	document.formname.par1.options[0].disabled = true;	
+	document.formname.par1.options[1]=new Option('Todas');
+	document.formname.par1.options[18]=new Option('Veracruz');
+	document.formname.par1.options[2]=new Option('Acapulco');
+	document.formname.par1.options[3]=new Option('Altamira');
+	document.formname.par1.options[4]=new Option('Cancún');
+	document.formname.par1.options[5]=new Option('Cd. del Carmen');
+	document.formname.par1.options[6]=new Option('Coatzacoalcos');
+	document.formname.par1.options[7]=new Option('Dos Bocas');
+	document.formname.par1.options[8]=new Option('Ensenada');
+	document.formname.par1.options[9]=new Option('Guaymas');
+	document.formname.par1.options[11]=new Option('La Paz');
+	document.formname.par1.options[10]=new Option('Lázaro Cárdenas');
+	document.formname.par1.options[12]=new Option('Manzanillo');
+	document.formname.par1.options[13]=new Option('Mazatlán');
+	document.formname.par1.options[14]=new Option('Progreso');
+	document.formname.par1.options[15]=new Option('Salina cruz');
+	document.formname.par1.options[16]=new Option('Tampico');
+	document.formname.par1.options[17]=new Option('Tuxpan');
+	break;
+	case 'Interior' : 
+	document.formname.par1.options[0] = new Option('Aduanas');
+	document.formname.par1.options[0].disabled = true;	
+	document.formname.par1.options[1]=new Option('Todas');
+	document.formname.par1.options[2]=new Option('Aguascalientes');
+	document.formname.par1.options[3]=new Option('AICM');
+	document.formname.par1.options[4]=new Option('Chihuahua');
+	document.formname.par1.options[5]=new Option('Guadalajara');
+	document.formname.par1.options[6]=new Option('Guanajuato');
+	document.formname.par1.options[7]=new Option('México');
+	document.formname.par1.options[8]=new Option('Monterrey');
+	document.formname.par1.options[9]=new Option('Puebla');
+	document.formname.par1.options[10]=new Option('Querétaro');
+	document.formname.par1.options[11]=new Option('Toluca');
+	document.formname.par1.options[12]=new Option('Torreón');
+	break;
+	case 'Todas' :
+	document.formname.par1.options[0] = new Option('Aduanas');
+	document.formname.par1.options[0].disabled = true;	
+	document.formname.par1.options[1]=new Option('Interior');
+	document.formname.par1.options[2]=new Option('Maritima');
+	document.formname.par1.options[3]=new Option('Norte');
+	document.formname.par1.options[4]=new Option('Sur');
+	document.formname.par1.options[5] = new Option('Todas');
+	break;
+	
+	
+	}
+	
+	return document.formname.par1.options[0];
+}
+	google.maps.event.addDomListener(window, 'load', initialize);
+	
+    </script>
+  </head>
+  <!-- <body background="mexico.jpg";> -->
+  <body >
+	 	
+	<div id="mapa"></div> 	
+	<form id="formname" name="formname"  >	
+	<select name="par2" id="par2" class="f1"> 
+	<Option value="" disabled selected>Tipo de aduana</Option>
+	<Option value="Todas">Todas</Option>	  
+	<Option value="Maritima">Maritima</Option>
+	<Option value="Norte">Norte</Option>
+	<Option value="Interior">Interior</Option>
+	<Option value="Sur">Sur</Option>
+	</select>	 
+	<select name="par1" id="par1" class="f2">	
+	</select>
+	<select name="par3" id="par3" class="f3">			
+	<!-- <Option value="" disabled selected>Pronóstico</Option>	   -->
+	<Option value="Monto">Monto</Option>
+	<Option value="Volumen">Volumen</Option>
+</select>
+	</form>
+	
+	<div id= "obj1"></div>	
+	<div id= "obj2"> </div>
+	
+</body>
+</html>

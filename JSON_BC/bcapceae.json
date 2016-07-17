@@ -1,0 +1,362 @@
+[
+  {
+    "Year": 2000,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Importacion",
+    "Valor": 856098672
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Exportacion",
+    "Valor": 131343959
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "CE AELC",
+    "Operacion": "BalanzaComercial",
+    "Valor": -724754713
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "CE AELC",
+    "Operacion": "ComercioTotal",
+    "Valor": 987442631
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Importacion",
+    "Valor": 916777148
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Exportacion",
+    "Valor": 89197904
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "CE AELC",
+    "Operacion": "BalanzaComercial",
+    "Valor": -827579244
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "CE AELC",
+    "Operacion": "ComercioTotal",
+    "Valor": 1005975052
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Importacion",
+    "Valor": 887087880
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Exportacion",
+    "Valor": 170283563
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "CE AELC",
+    "Operacion": "BalanzaComercial",
+    "Valor": -716804317
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "CE AELC",
+    "Operacion": "ComercioTotal",
+    "Valor": 1057371443
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Importacion",
+    "Valor": 940250838
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Exportacion",
+    "Valor": 113797286
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "CE AELC",
+    "Operacion": "BalanzaComercial",
+    "Valor": -826453552
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "CE AELC",
+    "Operacion": "ComercioTotal",
+    "Valor": 1054048124
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Importacion",
+    "Valor": 1095097244
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Exportacion",
+    "Valor": 806902174
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "CE AELC",
+    "Operacion": "BalanzaComercial",
+    "Valor": -288195070
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "CE AELC",
+    "Operacion": "ComercioTotal",
+    "Valor": 1901999418
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Importacion",
+    "Valor": 1262915487
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Exportacion",
+    "Valor": 153238947
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "CE AELC",
+    "Operacion": "BalanzaComercial",
+    "Valor": -1109676540
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "CE AELC",
+    "Operacion": "ComercioTotal",
+    "Valor": 1416154434
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Importacion",
+    "Valor": 1412275952
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Exportacion",
+    "Valor": 153257472
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "CE AELC",
+    "Operacion": "BalanzaComercial",
+    "Valor": -1259018480
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "CE AELC",
+    "Operacion": "ComercioTotal",
+    "Valor": 1565533424
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Importacion",
+    "Valor": 1544116258
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Exportacion",
+    "Valor": 260650758
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "CE AELC",
+    "Operacion": "BalanzaComercial",
+    "Valor": -1283465500
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "CE AELC",
+    "Operacion": "ComercioTotal",
+    "Valor": 1804767016
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Importacion",
+    "Valor": 1719952225
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Exportacion",
+    "Valor": 642785633
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "CE AELC",
+    "Operacion": "BalanzaComercial",
+    "Valor": -1077166592
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "CE AELC",
+    "Operacion": "ComercioTotal",
+    "Valor": 2362737858
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Importacion",
+    "Valor": 1395086711
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Exportacion",
+    "Valor": 478695391
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "CE AELC",
+    "Operacion": "BalanzaComercial",
+    "Valor": -916391320
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "CE AELC",
+    "Operacion": "ComercioTotal",
+    "Valor": 1873782102
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Importacion",
+    "Valor": 1735468997
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Exportacion",
+    "Valor": 903970839
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "CE AELC",
+    "Operacion": "BalanzaComercial",
+    "Valor": -831498158
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "CE AELC",
+    "Operacion": "ComercioTotal",
+    "Valor": 2639439836
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Importacion",
+    "Valor": 1716579074
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Exportacion",
+    "Valor": 1252935617
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "CE AELC",
+    "Operacion": "BalanzaComercial",
+    "Valor": -463643457
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "CE AELC",
+    "Operacion": "ComercioTotal",
+    "Valor": 2969514691
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Importacion",
+    "Valor": 1705288169
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Exportacion",
+    "Valor": 890175721
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "CE AELC",
+    "Operacion": "BalanzaComercial",
+    "Valor": -815112448
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "CE AELC",
+    "Operacion": "ComercioTotal",
+    "Valor": 2595463890
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Importacion",
+    "Valor": 1942636648
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Exportacion",
+    "Valor": 1146542907
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "CE AELC",
+    "Operacion": "BalanzaComercial",
+    "Valor": -796093741
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "CE AELC",
+    "Operacion": "ComercioTotal",
+    "Valor": 3089179555
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Importacion",
+    "Valor": 2173626304
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "CE AELC",
+    "Operacion": "Exportacion",
+    "Valor": 1542142609
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "CE AELC",
+    "Operacion": "BalanzaComercial",
+    "Valor": -631483695
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "CE AELC",
+    "Operacion": "ComercioTotal",
+    "Valor": 3715768913
+  }
+]

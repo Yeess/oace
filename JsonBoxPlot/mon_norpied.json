@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "PIEDRAS NEGRAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 96661047756,
+    "Year": 2005,
+    "Exportacion": 64550617522,
+    "ComercioTotal": 161211665278,
+    "BalanzaComercial": -32110430234
+  },
+  {
+    "Aduana": "PIEDRAS NEGRAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 97494549536,
+    "Year": 2006,
+    "Exportacion": 93241139426,
+    "ComercioTotal": 190735688962,
+    "BalanzaComercial": -4253410110
+  },
+  {
+    "Aduana": "PIEDRAS NEGRAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 98760164187,
+    "Year": 2007,
+    "Exportacion": 135000000000,
+    "ComercioTotal": 233760164187,
+    "BalanzaComercial": 36239835813
+  },
+  {
+    "Aduana": "PIEDRAS NEGRAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 141000000000,
+    "Year": 2008,
+    "Exportacion": 134000000000,
+    "ComercioTotal": 275000000000,
+    "BalanzaComercial": -7000000000
+  },
+  {
+    "Aduana": "PIEDRAS NEGRAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 141000000000,
+    "Year": 2009,
+    "Exportacion": 149000000000,
+    "ComercioTotal": 290000000000,
+    "BalanzaComercial": 8000000000
+  },
+  {
+    "Aduana": "PIEDRAS NEGRAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 211000000000,
+    "Year": 2010,
+    "Exportacion": 184000000000,
+    "ComercioTotal": 395000000000,
+    "BalanzaComercial": -27000000000
+  },
+  {
+    "Aduana": "PIEDRAS NEGRAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 264000000000,
+    "Year": 2011,
+    "Exportacion": 226000000000,
+    "ComercioTotal": 490000000000,
+    "BalanzaComercial": -38000000000
+  },
+  {
+    "Aduana": "PIEDRAS NEGRAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 243000000000,
+    "Year": 2012,
+    "Exportacion": 244000000000,
+    "ComercioTotal": 487000000000,
+    "BalanzaComercial": 1000000000
+  },
+  {
+    "Aduana": "PIEDRAS NEGRAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 225000000000,
+    "Year": 2013,
+    "Exportacion": 244000000000,
+    "ComercioTotal": 469000000000,
+    "BalanzaComercial": 19000000000
+  },
+  {
+    "Aduana": "PIEDRAS NEGRAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 468000000000,
+    "Year": 2014,
+    "Exportacion": 300000000000,
+    "ComercioTotal": 768000000000,
+    "BalanzaComercial": -168000000000
+  },
+  {
+    "Aduana": "PIEDRAS NEGRAS",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 164000000000,
+    "Year": 2015,
+    "Exportacion": 171000000000,
+    "ComercioTotal": 335000000000,
+    "BalanzaComercial": 7000000000
+  }
+]

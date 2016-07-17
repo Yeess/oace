@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 6657,
+    "Year": 2005,
+    "Exportacion": 128,
+    "ComercioTotal": 6785,
+    "BalanzaComercial": -6529
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 24933,
+    "Year": 2006,
+    "Exportacion": 115,
+    "ComercioTotal": 25048,
+    "BalanzaComercial": -24818
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 733,
+    "Year": 2007,
+    "Exportacion": 453,
+    "ComercioTotal": 1186,
+    "BalanzaComercial": -280
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 1492,
+    "Year": 2008,
+    "Exportacion": 1415,
+    "ComercioTotal": 2907,
+    "BalanzaComercial": -77
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 1599,
+    "Year": 2009,
+    "Exportacion": 1841,
+    "ComercioTotal": 3440,
+    "BalanzaComercial": 242
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 2341,
+    "Year": 2010,
+    "Exportacion": 2420,
+    "ComercioTotal": 4761,
+    "BalanzaComercial": 79
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 2800,
+    "Year": 2011,
+    "Exportacion": 2713,
+    "ComercioTotal": 5513,
+    "BalanzaComercial": -87
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 2836,
+    "Year": 2012,
+    "Exportacion": 3351,
+    "ComercioTotal": 6187,
+    "BalanzaComercial": 515
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 3425,
+    "Year": 2013,
+    "Exportacion": 3660,
+    "ComercioTotal": 7085,
+    "BalanzaComercial": 235
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 3678,
+    "Year": 2014,
+    "Exportacion": 3352,
+    "ComercioTotal": 7030,
+    "BalanzaComercial": -326
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 2314,
+    "Year": 2015,
+    "Exportacion": 1773,
+    "ComercioTotal": 4087,
+    "BalanzaComercial": -541
+  }
+]

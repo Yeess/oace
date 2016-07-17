@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 208000000000,
+    "Year": 2005,
+    "Exportacion": 78389563986,
+    "ComercioTotal": 286389563986,
+    "BalanzaComercial": -129610436014
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 229000000000,
+    "Year": 2006,
+    "Exportacion": 97670890521,
+    "ComercioTotal": 326670890521,
+    "BalanzaComercial": -131329109479
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 250000000000,
+    "Year": 2007,
+    "Exportacion": 131000000000,
+    "ComercioTotal": 381000000000,
+    "BalanzaComercial": -119000000000
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 289000000000,
+    "Year": 2008,
+    "Exportacion": 205000000000,
+    "ComercioTotal": 494000000000,
+    "BalanzaComercial": -84000000000
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 253000000000,
+    "Year": 2009,
+    "Exportacion": 277000000000,
+    "ComercioTotal": 530000000000,
+    "BalanzaComercial": 24000000000
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 286000000000,
+    "Year": 2010,
+    "Exportacion": 177000000000,
+    "ComercioTotal": 463000000000,
+    "BalanzaComercial": -109000000000
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 339000000000,
+    "Year": 2011,
+    "Exportacion": 251000000000,
+    "ComercioTotal": 590000000000,
+    "BalanzaComercial": -88000000000
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 394000000000,
+    "Year": 2012,
+    "Exportacion": 268000000000,
+    "ComercioTotal": 662000000000,
+    "BalanzaComercial": -126000000000
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 368000000000,
+    "Year": 2013,
+    "Exportacion": 227000000000,
+    "ComercioTotal": 595000000000,
+    "BalanzaComercial": -141000000000
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 571000000000,
+    "Year": 2014,
+    "Exportacion": 232000000000,
+    "ComercioTotal": 803000000000,
+    "BalanzaComercial": -339000000000
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 233000000000,
+    "Year": 2015,
+    "Exportacion": 138000000000,
+    "ComercioTotal": 371000000000,
+    "BalanzaComercial": -95000000000
+  }
+]

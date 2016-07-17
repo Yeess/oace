@@ -1,0 +1,1872 @@
+[
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 266142876,
+    "Year": 2005,
+    "Exportacion": 3735269192,
+    "ComercioTotal": 4001412068,
+    "BalanzaComercial": 3469126316
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 99709002,
+    "Year": 2006,
+    "Exportacion": 4971590831,
+    "ComercioTotal": 5071299833,
+    "BalanzaComercial": 4871881829
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 49102390,
+    "Year": 2007,
+    "Exportacion": 6116260421,
+    "ComercioTotal": 6165362811,
+    "BalanzaComercial": 6067158031
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 70242416,
+    "Year": 2008,
+    "Exportacion": 8937558870,
+    "ComercioTotal": 9007801286,
+    "BalanzaComercial": 8867316454
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 103450893,
+    "Year": 2009,
+    "Exportacion": 3794892150,
+    "ComercioTotal": 3898343043,
+    "BalanzaComercial": 3691441257
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 42767004,
+    "Year": 2010,
+    "Exportacion": 10753068379,
+    "ComercioTotal": 10795835383,
+    "BalanzaComercial": 10710301375
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 74880145,
+    "Year": 2011,
+    "Exportacion": 16200976630,
+    "ComercioTotal": 16275856775,
+    "BalanzaComercial": 16126096485
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 13037732,
+    "Year": 2012,
+    "Exportacion": 18606042259,
+    "ComercioTotal": 18619079991,
+    "BalanzaComercial": 18593004527
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 5794916,
+    "Year": 2013,
+    "Exportacion": 13231879689,
+    "ComercioTotal": 13237674605,
+    "BalanzaComercial": 13226084773
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 5006051,
+    "Year": 2014,
+    "Exportacion": 12625998604,
+    "ComercioTotal": 12631004655,
+    "BalanzaComercial": 12620992553
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 3904623,
+    "Year": 2015,
+    "Exportacion": 4508341849,
+    "ComercioTotal": 4512246472,
+    "BalanzaComercial": 4504437226
+  },
+  {
+    "Aduana": "ALTAMIRA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 95990139697,
+    "Year": 2005,
+    "Exportacion": 31511710997,
+    "ComercioTotal": 127501850694,
+    "BalanzaComercial": -64478428700
+  },
+  {
+    "Aduana": "ALTAMIRA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 108000000000,
+    "Year": 2006,
+    "Exportacion": 41254272595,
+    "ComercioTotal": 149254272595,
+    "BalanzaComercial": -66745727405
+  },
+  {
+    "Aduana": "ALTAMIRA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 116000000000,
+    "Year": 2007,
+    "Exportacion": 62547451670,
+    "ComercioTotal": 178547451670,
+    "BalanzaComercial": -53452548330
+  },
+  {
+    "Aduana": "ALTAMIRA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 133000000000,
+    "Year": 2008,
+    "Exportacion": 70594566798,
+    "ComercioTotal": 203594566798,
+    "BalanzaComercial": -62405433202
+  },
+  {
+    "Aduana": "ALTAMIRA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 108000000000,
+    "Year": 2009,
+    "Exportacion": 74457997190,
+    "ComercioTotal": 182457997190,
+    "BalanzaComercial": -33542002810
+  },
+  {
+    "Aduana": "ALTAMIRA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 146000000000,
+    "Year": 2010,
+    "Exportacion": 94623331426,
+    "ComercioTotal": 240623331426,
+    "BalanzaComercial": -51376668574
+  },
+  {
+    "Aduana": "ALTAMIRA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 183000000000,
+    "Year": 2011,
+    "Exportacion": 121000000000,
+    "ComercioTotal": 304000000000,
+    "BalanzaComercial": -62000000000
+  },
+  {
+    "Aduana": "ALTAMIRA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 208000000000,
+    "Year": 2012,
+    "Exportacion": 118000000000,
+    "ComercioTotal": 326000000000,
+    "BalanzaComercial": -90000000000
+  },
+  {
+    "Aduana": "ALTAMIRA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 204000000000,
+    "Year": 2013,
+    "Exportacion": 118000000000,
+    "ComercioTotal": 322000000000,
+    "BalanzaComercial": -86000000000
+  },
+  {
+    "Aduana": "ALTAMIRA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 224000000000,
+    "Year": 2014,
+    "Exportacion": 146000000000,
+    "ComercioTotal": 370000000000,
+    "BalanzaComercial": -78000000000
+  },
+  {
+    "Aduana": "ALTAMIRA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 126000000000,
+    "Year": 2015,
+    "Exportacion": 75720518687,
+    "ComercioTotal": 201720518687,
+    "BalanzaComercial": -50279481313
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 5858801364,
+    "Year": 2005,
+    "Exportacion": 1796064676,
+    "ComercioTotal": 7654866040,
+    "BalanzaComercial": -4062736688
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 6102809858,
+    "Year": 2006,
+    "Exportacion": 2085544465,
+    "ComercioTotal": 8188354323,
+    "BalanzaComercial": -4017265393
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 6902021304,
+    "Year": 2007,
+    "Exportacion": 2422972275,
+    "ComercioTotal": 9324993579,
+    "BalanzaComercial": -4479049029
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 6740375612,
+    "Year": 2008,
+    "Exportacion": 2736749092,
+    "ComercioTotal": 9477124704,
+    "BalanzaComercial": -4003626520
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 5085943939,
+    "Year": 2009,
+    "Exportacion": 2446008927,
+    "ComercioTotal": 7531952866,
+    "BalanzaComercial": -2639935012
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 5505349787,
+    "Year": 2010,
+    "Exportacion": 3447174632,
+    "ComercioTotal": 8952524419,
+    "BalanzaComercial": -2058175155
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 6585223537,
+    "Year": 2011,
+    "Exportacion": 4421953324,
+    "ComercioTotal": 11007176861,
+    "BalanzaComercial": -2163270213
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 7110760899,
+    "Year": 2012,
+    "Exportacion": 5553221694,
+    "ComercioTotal": 12663982593,
+    "BalanzaComercial": -1557539205
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 7459347977,
+    "Year": 2013,
+    "Exportacion": 4425980485,
+    "ComercioTotal": 11885328462,
+    "BalanzaComercial": -3033367492
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 8999507355,
+    "Year": 2014,
+    "Exportacion": 5005708277,
+    "ComercioTotal": 14005215632,
+    "BalanzaComercial": -3993799078
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 5435714871,
+    "Year": 2015,
+    "Exportacion": 3203541338,
+    "ComercioTotal": 8639256209,
+    "BalanzaComercial": -2232173533
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 4781490071,
+    "Year": 2005,
+    "Exportacion": 192000000000,
+    "ComercioTotal": 196781490071,
+    "BalanzaComercial": 187218509929
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 22357931576,
+    "Year": 2006,
+    "Exportacion": 267000000000,
+    "ComercioTotal": 289357931576,
+    "BalanzaComercial": 244642068424
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 21168944799,
+    "Year": 2007,
+    "Exportacion": 308000000000,
+    "ComercioTotal": 329168944799,
+    "BalanzaComercial": 286831055201
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 4680070060,
+    "Year": 2008,
+    "Exportacion": 404000000000,
+    "ComercioTotal": 408680070060,
+    "BalanzaComercial": 399319929940
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 17915165138,
+    "Year": 2009,
+    "Exportacion": 267000000000,
+    "ComercioTotal": 284915165138,
+    "BalanzaComercial": 249084834862
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 6654467420,
+    "Year": 2010,
+    "Exportacion": 310000000000,
+    "ComercioTotal": 316654467420,
+    "BalanzaComercial": 303345532580
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 38587538875,
+    "Year": 2011,
+    "Exportacion": 411000000000,
+    "ComercioTotal": 449587538875,
+    "BalanzaComercial": 372412461125
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 16179674767,
+    "Year": 2012,
+    "Exportacion": 444000000000,
+    "ComercioTotal": 460179674767,
+    "BalanzaComercial": 427820325233
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 43790133004,
+    "Year": 2013,
+    "Exportacion": 427000000000,
+    "ComercioTotal": 470790133004,
+    "BalanzaComercial": 383209866996
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 36112151032,
+    "Year": 2014,
+    "Exportacion": 389000000000,
+    "ComercioTotal": 425112151032,
+    "BalanzaComercial": 352887848968
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 29566755860,
+    "Year": 2015,
+    "Exportacion": 105000000000,
+    "ComercioTotal": 134566755860,
+    "BalanzaComercial": 75433244140
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 41456104299,
+    "Year": 2005,
+    "Exportacion": 83137519327,
+    "ComercioTotal": 124593623626,
+    "BalanzaComercial": 41681415028
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 51632003394,
+    "Year": 2006,
+    "Exportacion": 99153264706,
+    "ComercioTotal": 150785268100,
+    "BalanzaComercial": 47521261312
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 56013965033,
+    "Year": 2007,
+    "Exportacion": 93983451337,
+    "ComercioTotal": 149997416370,
+    "BalanzaComercial": 37969486304
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 69219439057,
+    "Year": 2008,
+    "Exportacion": 116000000000,
+    "ComercioTotal": 185219439057,
+    "BalanzaComercial": 46780560943
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 52906724329,
+    "Year": 2009,
+    "Exportacion": 90279042981,
+    "ComercioTotal": 143185767310,
+    "BalanzaComercial": 37372318652
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 98500286048,
+    "Year": 2010,
+    "Exportacion": 137000000000,
+    "ComercioTotal": 235500286048,
+    "BalanzaComercial": 38499713952
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 151000000000,
+    "Year": 2011,
+    "Exportacion": 179000000000,
+    "ComercioTotal": 330000000000,
+    "BalanzaComercial": 28000000000
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 133000000000,
+    "Year": 2012,
+    "Exportacion": 174000000000,
+    "ComercioTotal": 307000000000,
+    "BalanzaComercial": 41000000000
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 126000000000,
+    "Year": 2013,
+    "Exportacion": 112000000000,
+    "ComercioTotal": 238000000000,
+    "BalanzaComercial": -14000000000
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 132000000000,
+    "Year": 2014,
+    "Exportacion": 106000000000,
+    "ComercioTotal": 238000000000,
+    "BalanzaComercial": -26000000000
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 49729680980,
+    "Year": 2015,
+    "Exportacion": 52583139458,
+    "ComercioTotal": 102312820438,
+    "BalanzaComercial": 2853458478
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 2632705621,
+    "Year": 2005,
+    "Exportacion": 66828109047,
+    "ComercioTotal": 69460814668,
+    "BalanzaComercial": 64195403426
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 3382930930,
+    "Year": 2006,
+    "Exportacion": 74336026193,
+    "ComercioTotal": 77718957123,
+    "BalanzaComercial": 70953095263
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 10141060088,
+    "Year": 2007,
+    "Exportacion": 54133671992,
+    "ComercioTotal": 64274732080,
+    "BalanzaComercial": 43992611904
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 15337744366,
+    "Year": 2008,
+    "Exportacion": 51596108780,
+    "ComercioTotal": 66933853146,
+    "BalanzaComercial": 36258364414
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 14552877356,
+    "Year": 2009,
+    "Exportacion": 34258436145,
+    "ComercioTotal": 48811313501,
+    "BalanzaComercial": 19705558789
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 12547812936,
+    "Year": 2010,
+    "Exportacion": 68779266614,
+    "ComercioTotal": 81327079550,
+    "BalanzaComercial": 56231453678
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 14320119177,
+    "Year": 2011,
+    "Exportacion": 81966907771,
+    "ComercioTotal": 96287026948,
+    "BalanzaComercial": 67646788594
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 22228317762,
+    "Year": 2012,
+    "Exportacion": 66045966032,
+    "ComercioTotal": 88274283794,
+    "BalanzaComercial": 43817648270
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 31252474171,
+    "Year": 2013,
+    "Exportacion": 80230646332,
+    "ComercioTotal": 111483120503,
+    "BalanzaComercial": 48978172161
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 17387045319,
+    "Year": 2014,
+    "Exportacion": 57954826950,
+    "ComercioTotal": 75341872269,
+    "BalanzaComercial": 40567781631
+  },
+  {
+    "Aduana": "DOS BOCAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 17285495181,
+    "Year": 2015,
+    "Exportacion": 43251462223,
+    "ComercioTotal": 60536957404,
+    "BalanzaComercial": 25965967042
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 15514757170,
+    "Year": 2005,
+    "Exportacion": 10295735497,
+    "ComercioTotal": 25810492667,
+    "BalanzaComercial": -5219021673
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 31499027982,
+    "Year": 2006,
+    "Exportacion": 12392443868,
+    "ComercioTotal": 43891471850,
+    "BalanzaComercial": -19106584114
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 38782279800,
+    "Year": 2007,
+    "Exportacion": 14532256017,
+    "ComercioTotal": 53314535817,
+    "BalanzaComercial": -24250023783
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 48795855538,
+    "Year": 2008,
+    "Exportacion": 15783112708,
+    "ComercioTotal": 64578968246,
+    "BalanzaComercial": -33012742830
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 27896893155,
+    "Year": 2009,
+    "Exportacion": 14812686280,
+    "ComercioTotal": 42709579435,
+    "BalanzaComercial": -13084206875
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 38850580530,
+    "Year": 2010,
+    "Exportacion": 15963310617,
+    "ComercioTotal": 54813891147,
+    "BalanzaComercial": -22887269913
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 44459818597,
+    "Year": 2011,
+    "Exportacion": 21728555072,
+    "ComercioTotal": 66188373669,
+    "BalanzaComercial": -22731263525
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 57281357001,
+    "Year": 2012,
+    "Exportacion": 21990979421,
+    "ComercioTotal": 79272336422,
+    "BalanzaComercial": -35290377580
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 53087936906,
+    "Year": 2013,
+    "Exportacion": 22164233789,
+    "ComercioTotal": 75252170695,
+    "BalanzaComercial": -30923703117
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 52567325310,
+    "Year": 2014,
+    "Exportacion": 26912518700,
+    "ComercioTotal": 79479844010,
+    "BalanzaComercial": -25654806610
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 49810641758,
+    "Year": 2015,
+    "Exportacion": 14688683446,
+    "ComercioTotal": 64499325204,
+    "BalanzaComercial": -35121958312
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 992778309,
+    "Year": 2005,
+    "Exportacion": 929579890,
+    "ComercioTotal": 1922358199,
+    "BalanzaComercial": -63198419
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 2286246388,
+    "Year": 2006,
+    "Exportacion": 1778945269,
+    "ComercioTotal": 4065191657,
+    "BalanzaComercial": -507301119
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 3116840146,
+    "Year": 2007,
+    "Exportacion": 1974265668,
+    "ComercioTotal": 5091105814,
+    "BalanzaComercial": -1142574478
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 5644046918,
+    "Year": 2008,
+    "Exportacion": 5712529081,
+    "ComercioTotal": 11356575999,
+    "BalanzaComercial": 68482163
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 4693663518,
+    "Year": 2009,
+    "Exportacion": 3514349241,
+    "ComercioTotal": 8208012759,
+    "BalanzaComercial": -1179314277
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 4655830401,
+    "Year": 2010,
+    "Exportacion": 3987546049,
+    "ComercioTotal": 8643376450,
+    "BalanzaComercial": -668284352
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 8590123337,
+    "Year": 2011,
+    "Exportacion": 5633906035,
+    "ComercioTotal": 14224029372,
+    "BalanzaComercial": -2956217302
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 10939734571,
+    "Year": 2012,
+    "Exportacion": 8873649417,
+    "ComercioTotal": 19813383988,
+    "BalanzaComercial": -2066085154
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 8149406664,
+    "Year": 2013,
+    "Exportacion": 11007192892,
+    "ComercioTotal": 19156599556,
+    "BalanzaComercial": 2857786228
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 10909531724,
+    "Year": 2014,
+    "Exportacion": 13597207841,
+    "ComercioTotal": 24506739565,
+    "BalanzaComercial": 2687676117
+  },
+  {
+    "Aduana": "GUAYMAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 8242240156,
+    "Year": 2015,
+    "Exportacion": 5266450641,
+    "ComercioTotal": 13508690797,
+    "BalanzaComercial": -2975789515
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 780960634,
+    "Year": 2005,
+    "Exportacion": 710205493,
+    "ComercioTotal": 1491166127,
+    "BalanzaComercial": -70755141
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 1702291826,
+    "Year": 2006,
+    "Exportacion": 1616204598,
+    "ComercioTotal": 3318496424,
+    "BalanzaComercial": -86087228
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 1126977802,
+    "Year": 2007,
+    "Exportacion": 995564589,
+    "ComercioTotal": 2122542391,
+    "BalanzaComercial": -131413213
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 1670946254,
+    "Year": 2008,
+    "Exportacion": 1040183160,
+    "ComercioTotal": 2711129414,
+    "BalanzaComercial": -630763094
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 613970849,
+    "Year": 2009,
+    "Exportacion": 1454959793,
+    "ComercioTotal": 2068930642,
+    "BalanzaComercial": 840988944
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 685654343,
+    "Year": 2010,
+    "Exportacion": 365087246,
+    "ComercioTotal": 1050741589,
+    "BalanzaComercial": -320567097
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 2701416107,
+    "Year": 2011,
+    "Exportacion": 2445450880,
+    "ComercioTotal": 5146866987,
+    "BalanzaComercial": -255965227
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 4708417453,
+    "Year": 2012,
+    "Exportacion": 645939142,
+    "ComercioTotal": 5354356595,
+    "BalanzaComercial": -4062478311
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 3224608681,
+    "Year": 2013,
+    "Exportacion": 910574731,
+    "ComercioTotal": 4135183412,
+    "BalanzaComercial": -2314033950
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 2939822157,
+    "Year": 2014,
+    "Exportacion": 839426236,
+    "ComercioTotal": 3779248393,
+    "BalanzaComercial": -2100395921
+  },
+  {
+    "Aduana": "LA PAZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 698058817,
+    "Year": 2015,
+    "Exportacion": 343960405,
+    "ComercioTotal": 1042019222,
+    "BalanzaComercial": -354098412
+  },
+  {
+    "Aduana": "LAZARO CARDENAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 29406051980,
+    "Year": 2005,
+    "Exportacion": 17914101745,
+    "ComercioTotal": 47320153725,
+    "BalanzaComercial": -11491950235
+  },
+  {
+    "Aduana": "LAZARO CARDENAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 45369133797,
+    "Year": 2006,
+    "Exportacion": 23080998698,
+    "ComercioTotal": 68450132495,
+    "BalanzaComercial": -22288135099
+  },
+  {
+    "Aduana": "LAZARO CARDENAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 61975175395,
+    "Year": 2007,
+    "Exportacion": 25638167678,
+    "ComercioTotal": 87613343073,
+    "BalanzaComercial": -36337007717
+  },
+  {
+    "Aduana": "LAZARO CARDENAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 94287127130,
+    "Year": 2008,
+    "Exportacion": 39795287792,
+    "ComercioTotal": 134082414922,
+    "BalanzaComercial": -54491839338
+  },
+  {
+    "Aduana": "LAZARO CARDENAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 87511129646,
+    "Year": 2009,
+    "Exportacion": 29114301877,
+    "ComercioTotal": 116625431523,
+    "BalanzaComercial": -58396827769
+  },
+  {
+    "Aduana": "LAZARO CARDENAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 104000000000,
+    "Year": 2010,
+    "Exportacion": 48713176116,
+    "ComercioTotal": 152713176116,
+    "BalanzaComercial": -55286823884
+  },
+  {
+    "Aduana": "LAZARO CARDENAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 158000000000,
+    "Year": 2011,
+    "Exportacion": 62966169099,
+    "ComercioTotal": 220966169099,
+    "BalanzaComercial": -95033830901
+  },
+  {
+    "Aduana": "LAZARO CARDENAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 206000000000,
+    "Year": 2012,
+    "Exportacion": 58003163877,
+    "ComercioTotal": 264003163877,
+    "BalanzaComercial": -147996836123
+  },
+  {
+    "Aduana": "LAZARO CARDENAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 178000000000,
+    "Year": 2013,
+    "Exportacion": 60514776339,
+    "ComercioTotal": 238514776339,
+    "BalanzaComercial": -117485223661
+  },
+  {
+    "Aduana": "LAZARO CARDENAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 194000000000,
+    "Year": 2014,
+    "Exportacion": 76897088845,
+    "ComercioTotal": 270897088845,
+    "BalanzaComercial": -117102911155
+  },
+  {
+    "Aduana": "LAZARO CARDENAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 126000000000,
+    "Year": 2015,
+    "Exportacion": 34712628335,
+    "ComercioTotal": 160712628335,
+    "BalanzaComercial": -91287371665
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 165000000000,
+    "Year": 2005,
+    "Exportacion": 32430179891,
+    "ComercioTotal": 197430179891,
+    "BalanzaComercial": -132569820109
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 157000000000,
+    "Year": 2006,
+    "Exportacion": 48654324088,
+    "ComercioTotal": 205654324088,
+    "BalanzaComercial": -108345675912
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 185000000000,
+    "Year": 2007,
+    "Exportacion": 55409470189,
+    "ComercioTotal": 240409470189,
+    "BalanzaComercial": -129590529811
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 206000000000,
+    "Year": 2008,
+    "Exportacion": 66071927421,
+    "ComercioTotal": 272071927421,
+    "BalanzaComercial": -139928072579
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 195000000000,
+    "Year": 2009,
+    "Exportacion": 66916932595,
+    "ComercioTotal": 261916932595,
+    "BalanzaComercial": -128083067405
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 267000000000,
+    "Year": 2010,
+    "Exportacion": 106000000000,
+    "ComercioTotal": 373000000000,
+    "BalanzaComercial": -161000000000
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 305000000000,
+    "Year": 2011,
+    "Exportacion": 128000000000,
+    "ComercioTotal": 433000000000,
+    "BalanzaComercial": -177000000000
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 368000000000,
+    "Year": 2012,
+    "Exportacion": 147000000000,
+    "ComercioTotal": 515000000000,
+    "BalanzaComercial": -221000000000
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 341000000000,
+    "Year": 2013,
+    "Exportacion": 130000000000,
+    "ComercioTotal": 471000000000,
+    "BalanzaComercial": -211000000000
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 420000000000,
+    "Year": 2014,
+    "Exportacion": 162000000000,
+    "ComercioTotal": 582000000000,
+    "BalanzaComercial": -258000000000
+  },
+  {
+    "Aduana": "MANZANILLO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 259000000000,
+    "Year": 2015,
+    "Exportacion": 82190670436,
+    "ComercioTotal": 341190670436,
+    "BalanzaComercial": -176809329564
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 13138849390,
+    "Year": 2005,
+    "Exportacion": 2813222651,
+    "ComercioTotal": 15952072041,
+    "BalanzaComercial": -10325626739
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 17173013112,
+    "Year": 2006,
+    "Exportacion": 2126821417,
+    "ComercioTotal": 19299834529,
+    "BalanzaComercial": -15046191695
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 19330032394,
+    "Year": 2007,
+    "Exportacion": 3942210009,
+    "ComercioTotal": 23272242403,
+    "BalanzaComercial": -15387822385
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 27572252102,
+    "Year": 2008,
+    "Exportacion": 5486347542,
+    "ComercioTotal": 33058599644,
+    "BalanzaComercial": -22085904560
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 18914846765,
+    "Year": 2009,
+    "Exportacion": 4674138351,
+    "ComercioTotal": 23588985116,
+    "BalanzaComercial": -14240708414
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 18969421987,
+    "Year": 2010,
+    "Exportacion": 5039400946,
+    "ComercioTotal": 24008822933,
+    "BalanzaComercial": -13930021041
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 17800828544,
+    "Year": 2011,
+    "Exportacion": 6022957514,
+    "ComercioTotal": 23823786058,
+    "BalanzaComercial": -11777871030
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 19192478776,
+    "Year": 2012,
+    "Exportacion": 12193439388,
+    "ComercioTotal": 31385918164,
+    "BalanzaComercial": -6999039388
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 17128388284,
+    "Year": 2013,
+    "Exportacion": 8559870302,
+    "ComercioTotal": 25688258586,
+    "BalanzaComercial": -8568517982
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 19634197331,
+    "Year": 2014,
+    "Exportacion": 7088379147,
+    "ComercioTotal": 26722576478,
+    "BalanzaComercial": -12545818184
+  },
+  {
+    "Aduana": "MAZATLAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 12536587477,
+    "Year": 2015,
+    "Exportacion": 4954209199,
+    "ComercioTotal": 17490796676,
+    "BalanzaComercial": -7582378278
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 18834517815,
+    "Year": 2005,
+    "Exportacion": 15451119910,
+    "ComercioTotal": 34285637725,
+    "BalanzaComercial": -3383397905
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 18185054845,
+    "Year": 2006,
+    "Exportacion": 16753741649,
+    "ComercioTotal": 34938796494,
+    "BalanzaComercial": -1431313196
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 20717461093,
+    "Year": 2007,
+    "Exportacion": 22236771171,
+    "ComercioTotal": 42954232264,
+    "BalanzaComercial": 1519310078
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 21466529528,
+    "Year": 2008,
+    "Exportacion": 18624095856,
+    "ComercioTotal": 40090625384,
+    "BalanzaComercial": -2842433672
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 20911349478,
+    "Year": 2009,
+    "Exportacion": 20089556245,
+    "ComercioTotal": 41000905723,
+    "BalanzaComercial": -821793233
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 22505100195,
+    "Year": 2010,
+    "Exportacion": 19426961448,
+    "ComercioTotal": 41932061643,
+    "BalanzaComercial": -3078138747
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 27574902099,
+    "Year": 2011,
+    "Exportacion": 21500142571,
+    "ComercioTotal": 49075044670,
+    "BalanzaComercial": -6074759528
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 28863587803,
+    "Year": 2012,
+    "Exportacion": 23988740189,
+    "ComercioTotal": 52852327992,
+    "BalanzaComercial": -4874847614
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 27676999895,
+    "Year": 2013,
+    "Exportacion": 20489084959,
+    "ComercioTotal": 48166084854,
+    "BalanzaComercial": -7187914936
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 30466010841,
+    "Year": 2014,
+    "Exportacion": 23927799361,
+    "ComercioTotal": 54393810202,
+    "BalanzaComercial": -6538211480
+  },
+  {
+    "Aduana": "PROGRESO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 18552463532,
+    "Year": 2015,
+    "Exportacion": 14473024947,
+    "ComercioTotal": 33025488479,
+    "BalanzaComercial": -4079438585
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 2166868699,
+    "Year": 2005,
+    "Exportacion": 12991463845,
+    "ComercioTotal": 15158332544,
+    "BalanzaComercial": 10824595146
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 3701900941,
+    "Year": 2006,
+    "Exportacion": 14453429896,
+    "ComercioTotal": 18155330837,
+    "BalanzaComercial": 10751528955
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 3701668799,
+    "Year": 2007,
+    "Exportacion": 7780410575,
+    "ComercioTotal": 11482079374,
+    "BalanzaComercial": 4078741776
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 5026148371,
+    "Year": 2008,
+    "Exportacion": 12675425207,
+    "ComercioTotal": 17701573578,
+    "BalanzaComercial": 7649276836
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 3609250352,
+    "Year": 2009,
+    "Exportacion": 14713814164,
+    "ComercioTotal": 18323064516,
+    "BalanzaComercial": 11104563812
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 5941560579,
+    "Year": 2010,
+    "Exportacion": 13388442188,
+    "ComercioTotal": 19330002767,
+    "BalanzaComercial": 7446881609
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 6237102707,
+    "Year": 2011,
+    "Exportacion": 14488910191,
+    "ComercioTotal": 20726012898,
+    "BalanzaComercial": 8251807484
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 5406559308,
+    "Year": 2012,
+    "Exportacion": 18327207463,
+    "ComercioTotal": 23733766771,
+    "BalanzaComercial": 12920648155
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 3873517672,
+    "Year": 2013,
+    "Exportacion": 29052230855,
+    "ComercioTotal": 32925748527,
+    "BalanzaComercial": 25178713183
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 2378300045,
+    "Year": 2014,
+    "Exportacion": 34655506468,
+    "ComercioTotal": 37033806513,
+    "BalanzaComercial": 32277206423
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 946300677,
+    "Year": 2015,
+    "Exportacion": 18293657980,
+    "ComercioTotal": 19239958657,
+    "BalanzaComercial": 17347357303
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 26980623339,
+    "Year": 2005,
+    "Exportacion": 8979802266,
+    "ComercioTotal": 35960425605,
+    "BalanzaComercial": -18000821073
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 30595388625,
+    "Year": 2006,
+    "Exportacion": 12895784679,
+    "ComercioTotal": 43491173304,
+    "BalanzaComercial": -17699603946
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 31711017103,
+    "Year": 2007,
+    "Exportacion": 14754543070,
+    "ComercioTotal": 46465560173,
+    "BalanzaComercial": -16956474033
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 29932117303,
+    "Year": 2008,
+    "Exportacion": 15919895937,
+    "ComercioTotal": 45852013240,
+    "BalanzaComercial": -14012221366
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 17875211376,
+    "Year": 2009,
+    "Exportacion": 14605724831,
+    "ComercioTotal": 32480936207,
+    "BalanzaComercial": -3269486545
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 27836027289,
+    "Year": 2010,
+    "Exportacion": 18368404101,
+    "ComercioTotal": 46204431390,
+    "BalanzaComercial": -9467623188
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 24195359751,
+    "Year": 2011,
+    "Exportacion": 18940856171,
+    "ComercioTotal": 43136215922,
+    "BalanzaComercial": -5254503580
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 15961000196,
+    "Year": 2012,
+    "Exportacion": 25158324712,
+    "ComercioTotal": 41119324908,
+    "BalanzaComercial": 9197324516
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 23120341486,
+    "Year": 2013,
+    "Exportacion": 20807926292,
+    "ComercioTotal": 43928267778,
+    "BalanzaComercial": -2312415194
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 18057192667,
+    "Year": 2014,
+    "Exportacion": 22704387980,
+    "ComercioTotal": 40761580647,
+    "BalanzaComercial": 4647195313
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 7789509717,
+    "Year": 2015,
+    "Exportacion": 10786851054,
+    "ComercioTotal": 18576360771,
+    "BalanzaComercial": 2997341337
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 36632085181,
+    "Year": 2005,
+    "Exportacion": 2876325896,
+    "ComercioTotal": 39508411077,
+    "BalanzaComercial": -33755759285
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 42896862754,
+    "Year": 2006,
+    "Exportacion": 4191979056,
+    "ComercioTotal": 47088841810,
+    "BalanzaComercial": -38704883698
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 61320677954,
+    "Year": 2007,
+    "Exportacion": 1478986142,
+    "ComercioTotal": 62799664096,
+    "BalanzaComercial": -59841691812
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 82179410038,
+    "Year": 2008,
+    "Exportacion": 976458757,
+    "ComercioTotal": 83155868795,
+    "BalanzaComercial": -81202951281
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 64506700757,
+    "Year": 2009,
+    "Exportacion": 752530687,
+    "ComercioTotal": 65259231444,
+    "BalanzaComercial": -63754170070
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 77879891063,
+    "Year": 2010,
+    "Exportacion": 2429082809,
+    "ComercioTotal": 80308973872,
+    "BalanzaComercial": -75450808254
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 124000000000,
+    "Year": 2011,
+    "Exportacion": 1750851015,
+    "ComercioTotal": 125750851015,
+    "BalanzaComercial": -122249148985
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 161000000000,
+    "Year": 2012,
+    "Exportacion": 7815805143,
+    "ComercioTotal": 168815805143,
+    "BalanzaComercial": -153184194857
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 140000000000,
+    "Year": 2013,
+    "Exportacion": 1576976966,
+    "ComercioTotal": 141576976966,
+    "BalanzaComercial": -138423023034
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 130000000000,
+    "Year": 2014,
+    "Exportacion": 2017890518,
+    "ComercioTotal": 132017890518,
+    "BalanzaComercial": -127982109482
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 59737101188,
+    "Year": 2015,
+    "Exportacion": 316138585,
+    "ComercioTotal": 60053239773,
+    "BalanzaComercial": -59420962603
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 208000000000,
+    "Year": 2005,
+    "Exportacion": 78389563986,
+    "ComercioTotal": 286389563986,
+    "BalanzaComercial": -129610436014
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 229000000000,
+    "Year": 2006,
+    "Exportacion": 97670890521,
+    "ComercioTotal": 326670890521,
+    "BalanzaComercial": -131329109479
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 250000000000,
+    "Year": 2007,
+    "Exportacion": 131000000000,
+    "ComercioTotal": 381000000000,
+    "BalanzaComercial": -119000000000
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 289000000000,
+    "Year": 2008,
+    "Exportacion": 205000000000,
+    "ComercioTotal": 494000000000,
+    "BalanzaComercial": -84000000000
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 253000000000,
+    "Year": 2009,
+    "Exportacion": 277000000000,
+    "ComercioTotal": 530000000000,
+    "BalanzaComercial": 24000000000
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 286000000000,
+    "Year": 2010,
+    "Exportacion": 177000000000,
+    "ComercioTotal": 463000000000,
+    "BalanzaComercial": -109000000000
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 339000000000,
+    "Year": 2011,
+    "Exportacion": 251000000000,
+    "ComercioTotal": 590000000000,
+    "BalanzaComercial": -88000000000
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 394000000000,
+    "Year": 2012,
+    "Exportacion": 268000000000,
+    "ComercioTotal": 662000000000,
+    "BalanzaComercial": -126000000000
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 368000000000,
+    "Year": 2013,
+    "Exportacion": 227000000000,
+    "ComercioTotal": 595000000000,
+    "BalanzaComercial": -141000000000
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 571000000000,
+    "Year": 2014,
+    "Exportacion": 232000000000,
+    "ComercioTotal": 803000000000,
+    "BalanzaComercial": -339000000000
+  },
+  {
+    "Aduana": "VERACRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 233000000000,
+    "Year": 2015,
+    "Exportacion": 138000000000,
+    "ComercioTotal": 371000000000,
+    "BalanzaComercial": -95000000000
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1263960,
+    "Year": 2005,
+    "Exportacion": 446546,
+    "ComercioTotal": 1710506,
+    "BalanzaComercial": -817414
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1352963,
+    "Year": 2006,
+    "Exportacion": 430916,
+    "ComercioTotal": 1783879,
+    "BalanzaComercial": -922047
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1494430,
+    "Year": 2007,
+    "Exportacion": 429686,
+    "ComercioTotal": 1924116,
+    "BalanzaComercial": -1064744
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1484133,
+    "Year": 2008,
+    "Exportacion": 406908,
+    "ComercioTotal": 1891041,
+    "BalanzaComercial": -1077225
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1093204,
+    "Year": 2009,
+    "Exportacion": 381452,
+    "ComercioTotal": 1474656,
+    "BalanzaComercial": -711752
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1290134,
+    "Year": 2010,
+    "Exportacion": 448297,
+    "ComercioTotal": 1738431,
+    "BalanzaComercial": -841837
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1352594,
+    "Year": 2011,
+    "Exportacion": 485871,
+    "ComercioTotal": 1838465,
+    "BalanzaComercial": -866723
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1388978,
+    "Year": 2012,
+    "Exportacion": 506285,
+    "ComercioTotal": 1895263,
+    "BalanzaComercial": -882693
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1404790,
+    "Year": 2013,
+    "Exportacion": 496672,
+    "ComercioTotal": 1901462,
+    "BalanzaComercial": -908118
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1411944,
+    "Year": 2014,
+    "Exportacion": 539932,
+    "ComercioTotal": 1951876,
+    "BalanzaComercial": -872012
+  },
+  {
+    "Aduana": "NUEVO LAREDO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 677838,
+    "Year": 2015,
+    "Exportacion": 282033,
+    "ComercioTotal": 959871,
+    "BalanzaComercial": -395805
+  }
+]

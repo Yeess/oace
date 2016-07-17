@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 140000000000,
+    "Year": 2005,
+    "Exportacion": 118000000000,
+    "ComercioTotal": 258000000000,
+    "BalanzaComercial": -22000000000
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 160000000000,
+    "Year": 2006,
+    "Exportacion": 164000000000,
+    "ComercioTotal": 324000000000,
+    "BalanzaComercial": 4000000000
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 165000000000,
+    "Year": 2007,
+    "Exportacion": 182000000000,
+    "ComercioTotal": 347000000000,
+    "BalanzaComercial": 17000000000
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 172000000000,
+    "Year": 2008,
+    "Exportacion": 177000000000,
+    "ComercioTotal": 349000000000,
+    "BalanzaComercial": 5000000000
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 150000000000,
+    "Year": 2009,
+    "Exportacion": 178000000000,
+    "ComercioTotal": 328000000000,
+    "BalanzaComercial": 28000000000
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 166000000000,
+    "Year": 2010,
+    "Exportacion": 206000000000,
+    "ComercioTotal": 372000000000,
+    "BalanzaComercial": 40000000000
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 178000000000,
+    "Year": 2011,
+    "Exportacion": 259000000000,
+    "ComercioTotal": 437000000000,
+    "BalanzaComercial": 81000000000
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 209000000000,
+    "Year": 2012,
+    "Exportacion": 298000000000,
+    "ComercioTotal": 507000000000,
+    "BalanzaComercial": 89000000000
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 191000000000,
+    "Year": 2013,
+    "Exportacion": 282000000000,
+    "ComercioTotal": 473000000000,
+    "BalanzaComercial": 91000000000
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 200000000000,
+    "Year": 2014,
+    "Exportacion": 337000000000,
+    "ComercioTotal": 537000000000,
+    "BalanzaComercial": 137000000000
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 98684779521,
+    "Year": 2015,
+    "Exportacion": 183000000000,
+    "ComercioTotal": 281684779521,
+    "BalanzaComercial": 84315220479
+  }
+]

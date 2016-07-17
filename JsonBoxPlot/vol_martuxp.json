@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 1682,
+    "Year": 2005,
+    "Exportacion": 124,
+    "ComercioTotal": 1806,
+    "BalanzaComercial": -1558
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 1374,
+    "Year": 2006,
+    "Exportacion": 322,
+    "ComercioTotal": 1696,
+    "BalanzaComercial": -1052
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 1341,
+    "Year": 2007,
+    "Exportacion": 72,
+    "ComercioTotal": 1413,
+    "BalanzaComercial": -1269
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 1392,
+    "Year": 2008,
+    "Exportacion": 113,
+    "ComercioTotal": 1505,
+    "BalanzaComercial": -1279
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 1234,
+    "Year": 2009,
+    "Exportacion": 70,
+    "ComercioTotal": 1304,
+    "BalanzaComercial": -1164
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 817,
+    "Year": 2010,
+    "Exportacion": 113,
+    "ComercioTotal": 930,
+    "BalanzaComercial": -704
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 856,
+    "Year": 2011,
+    "Exportacion": 84,
+    "ComercioTotal": 940,
+    "BalanzaComercial": -772
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 1313,
+    "Year": 2012,
+    "Exportacion": 62,
+    "ComercioTotal": 1375,
+    "BalanzaComercial": -1251
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 937,
+    "Year": 2013,
+    "Exportacion": 62,
+    "ComercioTotal": 999,
+    "BalanzaComercial": -875
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 858,
+    "Year": 2014,
+    "Exportacion": 90,
+    "ComercioTotal": 948,
+    "BalanzaComercial": -768
+  },
+  {
+    "Aduana": "TUXPAN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 477,
+    "Year": 2015,
+    "Exportacion": 57,
+    "ComercioTotal": 534,
+    "BalanzaComercial": -420
+  }
+]

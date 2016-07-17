@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "GUADALAJARA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 107000000000,
+    "Year": 2005,
+    "Exportacion": 100000000000,
+    "ComercioTotal": 207000000000,
+    "BalanzaComercial": -7000000000
+  },
+  {
+    "Aduana": "GUADALAJARA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 127000000000,
+    "Year": 2006,
+    "Exportacion": 110000000000,
+    "ComercioTotal": 237000000000,
+    "BalanzaComercial": -17000000000
+  },
+  {
+    "Aduana": "GUADALAJARA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 140000000000,
+    "Year": 2007,
+    "Exportacion": 119000000000,
+    "ComercioTotal": 259000000000,
+    "BalanzaComercial": -21000000000
+  },
+  {
+    "Aduana": "GUADALAJARA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 169000000000,
+    "Year": 2008,
+    "Exportacion": 168000000000,
+    "ComercioTotal": 337000000000,
+    "BalanzaComercial": -1000000000
+  },
+  {
+    "Aduana": "GUADALAJARA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 164000000000,
+    "Year": 2009,
+    "Exportacion": 186000000000,
+    "ComercioTotal": 350000000000,
+    "BalanzaComercial": 22000000000
+  },
+  {
+    "Aduana": "GUADALAJARA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 208000000000,
+    "Year": 2010,
+    "Exportacion": 249000000000,
+    "ComercioTotal": 457000000000,
+    "BalanzaComercial": 41000000000
+  },
+  {
+    "Aduana": "GUADALAJARA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 223000000000,
+    "Year": 2011,
+    "Exportacion": 241000000000,
+    "ComercioTotal": 464000000000,
+    "BalanzaComercial": 18000000000
+  },
+  {
+    "Aduana": "GUADALAJARA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 283000000000,
+    "Year": 2012,
+    "Exportacion": 257000000000,
+    "ComercioTotal": 540000000000,
+    "BalanzaComercial": -26000000000
+  },
+  {
+    "Aduana": "GUADALAJARA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 276000000000,
+    "Year": 2013,
+    "Exportacion": 232000000000,
+    "ComercioTotal": 508000000000,
+    "BalanzaComercial": -44000000000
+  },
+  {
+    "Aduana": "GUADALAJARA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 301000000000,
+    "Year": 2014,
+    "Exportacion": 261000000000,
+    "ComercioTotal": 562000000000,
+    "BalanzaComercial": -40000000000
+  },
+  {
+    "Aduana": "GUADALAJARA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 168000000000,
+    "Year": 2015,
+    "Exportacion": 146000000000,
+    "ComercioTotal": 314000000000,
+    "BalanzaComercial": -22000000000
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 351000000000,
+    "Year": 2005,
+    "Exportacion": 379000000000,
+    "ComercioTotal": 730000000000,
+    "BalanzaComercial": 28000000000
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 373000000000,
+    "Year": 2006,
+    "Exportacion": 373000000000,
+    "ComercioTotal": 746000000000,
+    "BalanzaComercial": 0
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 423000000000,
+    "Year": 2007,
+    "Exportacion": 453000000000,
+    "ComercioTotal": 876000000000,
+    "BalanzaComercial": 30000000000
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 423000000000,
+    "Year": 2008,
+    "Exportacion": 413000000000,
+    "ComercioTotal": 836000000000,
+    "BalanzaComercial": -10000000000
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 479000000000,
+    "Year": 2009,
+    "Exportacion": 463000000000,
+    "ComercioTotal": 942000000000,
+    "BalanzaComercial": -16000000000
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 595000000000,
+    "Year": 2010,
+    "Exportacion": 598000000000,
+    "ComercioTotal": 1.193e+12,
+    "BalanzaComercial": 3000000000
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 689000000000,
+    "Year": 2011,
+    "Exportacion": 637000000000,
+    "ComercioTotal": 1.326e+12,
+    "BalanzaComercial": -52000000000
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 805000000000,
+    "Year": 2012,
+    "Exportacion": 742000000000,
+    "ComercioTotal": 1.547e+12,
+    "BalanzaComercial": -63000000000
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 757000000000,
+    "Year": 2013,
+    "Exportacion": 729000000000,
+    "ComercioTotal": 1.486e+12,
+    "BalanzaComercial": -28000000000
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 817000000000,
+    "Year": 2014,
+    "Exportacion": 855000000000,
+    "ComercioTotal": 1.672e+12,
+    "BalanzaComercial": 38000000000
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 423000000000,
+    "Year": 2015,
+    "Exportacion": 471000000000,
+    "ComercioTotal": 894000000000,
+    "BalanzaComercial": 48000000000
+  }
+]

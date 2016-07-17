@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 9287,
+    "Year": 2005,
+    "Exportacion": 1844,
+    "ComercioTotal": 11131,
+    "BalanzaComercial": -7443
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 11447,
+    "Year": 2006,
+    "Exportacion": 1899,
+    "ComercioTotal": 13346,
+    "BalanzaComercial": -9548
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 5539,
+    "Year": 2007,
+    "Exportacion": 1798,
+    "ComercioTotal": 7337,
+    "BalanzaComercial": -3741
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 4137,
+    "Year": 2008,
+    "Exportacion": 1848,
+    "ComercioTotal": 5985,
+    "BalanzaComercial": -2289
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 2498,
+    "Year": 2009,
+    "Exportacion": 1590,
+    "ComercioTotal": 4088,
+    "BalanzaComercial": -908
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 1245,
+    "Year": 2010,
+    "Exportacion": 1555,
+    "ComercioTotal": 2800,
+    "BalanzaComercial": 310
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 1021,
+    "Year": 2011,
+    "Exportacion": 1548,
+    "ComercioTotal": 2569,
+    "BalanzaComercial": 527
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 730,
+    "Year": 2012,
+    "Exportacion": 789,
+    "ComercioTotal": 1519,
+    "BalanzaComercial": 59
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 754,
+    "Year": 2013,
+    "Exportacion": 666,
+    "ComercioTotal": 1420,
+    "BalanzaComercial": -88
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 814,
+    "Year": 2014,
+    "Exportacion": 429,
+    "ComercioTotal": 1243,
+    "BalanzaComercial": -385
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 680,
+    "Year": 2015,
+    "Exportacion": 220,
+    "ComercioTotal": 900,
+    "BalanzaComercial": -460
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 329357960,
+    "Year": 2005,
+    "Exportacion": 185075221,
+    "ComercioTotal": 514433181,
+    "BalanzaComercial": -144282739
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 306384207,
+    "Year": 2006,
+    "Exportacion": 50422442,
+    "ComercioTotal": 356806649,
+    "BalanzaComercial": -255961765
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 543666602,
+    "Year": 2007,
+    "Exportacion": 111811780,
+    "ComercioTotal": 655478382,
+    "BalanzaComercial": -431854822
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 621743445,
+    "Year": 2008,
+    "Exportacion": 213614954,
+    "ComercioTotal": 835358399,
+    "BalanzaComercial": -408128491
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 2492571019,
+    "Year": 2009,
+    "Exportacion": 195005068,
+    "ComercioTotal": 2687576087,
+    "BalanzaComercial": -2297565951
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 1150172295,
+    "Year": 2010,
+    "Exportacion": 17030172,
+    "ComercioTotal": 1167202467,
+    "BalanzaComercial": -1133142123
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 2304619451,
+    "Year": 2011,
+    "Exportacion": 3075048,
+    "ComercioTotal": 2307694499,
+    "BalanzaComercial": -2301544403
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 1559119683,
+    "Year": 2012,
+    "Exportacion": 3871537,
+    "ComercioTotal": 1562991220,
+    "BalanzaComercial": -1555248146
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 1223982058,
+    "Year": 2013,
+    "Exportacion": 3979304,
+    "ComercioTotal": 1227961362,
+    "BalanzaComercial": -1220002754
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 411528677,
+    "Year": 2014,
+    "Exportacion": 4031995,
+    "ComercioTotal": 415560672,
+    "BalanzaComercial": -407496682
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 9875383,
+    "Year": 2015,
+    "Exportacion": 1921851,
+    "ComercioTotal": 11797234,
+    "BalanzaComercial": -7953532
+  }
+]

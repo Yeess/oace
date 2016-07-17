@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 5189,
+    "Year": 2005,
+    "Exportacion": 109,
+    "ComercioTotal": 5298,
+    "BalanzaComercial": -5080
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 7265,
+    "Year": 2006,
+    "Exportacion": 59,
+    "ComercioTotal": 7324,
+    "BalanzaComercial": -7206
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 18085,
+    "Year": 2007,
+    "Exportacion": 90,
+    "ComercioTotal": 18175,
+    "BalanzaComercial": -17995
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 14264,
+    "Year": 2008,
+    "Exportacion": 89,
+    "ComercioTotal": 14353,
+    "BalanzaComercial": -14175
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 3232,
+    "Year": 2009,
+    "Exportacion": 173,
+    "ComercioTotal": 3405,
+    "BalanzaComercial": -3059
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 2286,
+    "Year": 2010,
+    "Exportacion": 56,
+    "ComercioTotal": 2342,
+    "BalanzaComercial": -2230
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1609,
+    "Year": 2011,
+    "Exportacion": 30,
+    "ComercioTotal": 1639,
+    "BalanzaComercial": -1579
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1161,
+    "Year": 2012,
+    "Exportacion": 18,
+    "ComercioTotal": 1179,
+    "BalanzaComercial": -1143
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 993,
+    "Year": 2013,
+    "Exportacion": 39,
+    "ComercioTotal": 1032,
+    "BalanzaComercial": -954
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 354,
+    "Year": 2014,
+    "Exportacion": 50,
+    "ComercioTotal": 404,
+    "BalanzaComercial": -304
+  },
+  {
+    "Aduana": "SONOYTA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 117,
+    "Year": 2015,
+    "Exportacion": 25,
+    "ComercioTotal": 142,
+    "BalanzaComercial": -92
+  }
+]

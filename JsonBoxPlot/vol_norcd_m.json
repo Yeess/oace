@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 14328,
+    "Year": 2005,
+    "Exportacion": 1418,
+    "ComercioTotal": 15746,
+    "BalanzaComercial": -12910
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 22954,
+    "Year": 2006,
+    "Exportacion": 1188,
+    "ComercioTotal": 24142,
+    "BalanzaComercial": -21766
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 21908,
+    "Year": 2007,
+    "Exportacion": 1101,
+    "ComercioTotal": 23009,
+    "BalanzaComercial": -20807
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 16374,
+    "Year": 2008,
+    "Exportacion": 1004,
+    "ComercioTotal": 17378,
+    "BalanzaComercial": -15370
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 8800,
+    "Year": 2009,
+    "Exportacion": 936,
+    "ComercioTotal": 9736,
+    "BalanzaComercial": -7864
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 6020,
+    "Year": 2010,
+    "Exportacion": 799,
+    "ComercioTotal": 6819,
+    "BalanzaComercial": -5221
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 4970,
+    "Year": 2011,
+    "Exportacion": 707,
+    "ComercioTotal": 5677,
+    "BalanzaComercial": -4263
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 4439,
+    "Year": 2012,
+    "Exportacion": 793,
+    "ComercioTotal": 5232,
+    "BalanzaComercial": -3646
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 4337,
+    "Year": 2013,
+    "Exportacion": 748,
+    "ComercioTotal": 5085,
+    "BalanzaComercial": -3589
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 5468,
+    "Year": 2014,
+    "Exportacion": 842,
+    "ComercioTotal": 6310,
+    "BalanzaComercial": -4626
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 2173,
+    "Year": 2015,
+    "Exportacion": 378,
+    "ComercioTotal": 2551,
+    "BalanzaComercial": -1795
+  }
+]

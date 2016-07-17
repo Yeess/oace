@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 26980623339,
+    "Year": 2005,
+    "Exportacion": 8979802266,
+    "ComercioTotal": 35960425605,
+    "BalanzaComercial": -18000821073
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 30595388625,
+    "Year": 2006,
+    "Exportacion": 12895784679,
+    "ComercioTotal": 43491173304,
+    "BalanzaComercial": -17699603946
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 31711017103,
+    "Year": 2007,
+    "Exportacion": 14754543070,
+    "ComercioTotal": 46465560173,
+    "BalanzaComercial": -16956474033
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 29932117303,
+    "Year": 2008,
+    "Exportacion": 15919895937,
+    "ComercioTotal": 45852013240,
+    "BalanzaComercial": -14012221366
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 17875211376,
+    "Year": 2009,
+    "Exportacion": 14605724831,
+    "ComercioTotal": 32480936207,
+    "BalanzaComercial": -3269486545
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 27836027289,
+    "Year": 2010,
+    "Exportacion": 18368404101,
+    "ComercioTotal": 46204431390,
+    "BalanzaComercial": -9467623188
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 24195359751,
+    "Year": 2011,
+    "Exportacion": 18940856171,
+    "ComercioTotal": 43136215922,
+    "BalanzaComercial": -5254503580
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 15961000196,
+    "Year": 2012,
+    "Exportacion": 25158324712,
+    "ComercioTotal": 41119324908,
+    "BalanzaComercial": 9197324516
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 23120341486,
+    "Year": 2013,
+    "Exportacion": 20807926292,
+    "ComercioTotal": 43928267778,
+    "BalanzaComercial": -2312415194
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 18057192667,
+    "Year": 2014,
+    "Exportacion": 22704387980,
+    "ComercioTotal": 40761580647,
+    "BalanzaComercial": 4647195313
+  },
+  {
+    "Aduana": "TAMPICO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 7789509717,
+    "Year": 2015,
+    "Exportacion": 10786851054,
+    "ComercioTotal": 18576360771,
+    "BalanzaComercial": 2997341337
+  }
+]

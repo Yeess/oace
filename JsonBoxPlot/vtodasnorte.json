@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "NORTE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 3694852,
+    "Year": 2005,
+    "Exportacion": 1173811,
+    "ComercioTotal": 4868663,
+    "BalanzaComercial": -2521041
+  },
+  {
+    "Aduana": "NORTE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 4355277,
+    "Year": 2006,
+    "Exportacion": 1159392,
+    "ComercioTotal": 5514669,
+    "BalanzaComercial": -3195885
+  },
+  {
+    "Aduana": "NORTE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 4399291,
+    "Year": 2007,
+    "Exportacion": 1168066,
+    "ComercioTotal": 5567357,
+    "BalanzaComercial": -3231225
+  },
+  {
+    "Aduana": "NORTE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 4057690,
+    "Year": 2008,
+    "Exportacion": 1125205,
+    "ComercioTotal": 5182895,
+    "BalanzaComercial": -2932485
+  },
+  {
+    "Aduana": "NORTE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 2869088,
+    "Year": 2009,
+    "Exportacion": 1026756,
+    "ComercioTotal": 3895844,
+    "BalanzaComercial": -1842332
+  },
+  {
+    "Aduana": "NORTE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 3354585,
+    "Year": 2010,
+    "Exportacion": 1129564,
+    "ComercioTotal": 4484149,
+    "BalanzaComercial": -2225021
+  },
+  {
+    "Aduana": "NORTE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 3484510,
+    "Year": 2011,
+    "Exportacion": 1189442,
+    "ComercioTotal": 4673952,
+    "BalanzaComercial": -2295068
+  },
+  {
+    "Aduana": "NORTE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 3508308,
+    "Year": 2012,
+    "Exportacion": 1224948,
+    "ComercioTotal": 4733256,
+    "BalanzaComercial": -2283360
+  },
+  {
+    "Aduana": "NORTE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 3673187,
+    "Year": 2013,
+    "Exportacion": 1206423,
+    "ComercioTotal": 4879610,
+    "BalanzaComercial": -2466764
+  },
+  {
+    "Aduana": "NORTE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 3594636,
+    "Year": 2014,
+    "Exportacion": 1269050,
+    "ComercioTotal": 4863686,
+    "BalanzaComercial": -2325586
+  },
+  {
+    "Aduana": "NORTE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 1637944,
+    "Year": 2015,
+    "Exportacion": 652515,
+    "ComercioTotal": 2290459,
+    "BalanzaComercial": -985429
+  }
+]

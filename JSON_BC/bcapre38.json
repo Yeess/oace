@@ -1,0 +1,362 @@
+[
+  {
+    "Year": 2000,
+    "Acuerdo": "R No 38",
+    "Operacion": "Importacion",
+    "Valor": 1207701
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "R No 38",
+    "Operacion": "Exportacion",
+    "Valor": 10413048
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "R No 38",
+    "Operacion": "BalanzaComercial",
+    "Valor": 9205347
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "R No 38",
+    "Operacion": "ComercioTotal",
+    "Valor": 11620749
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "R No 38",
+    "Operacion": "Importacion",
+    "Valor": 2017792
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "R No 38",
+    "Operacion": "Exportacion",
+    "Valor": 12220873
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "R No 38",
+    "Operacion": "BalanzaComercial",
+    "Valor": 10203081
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "R No 38",
+    "Operacion": "ComercioTotal",
+    "Valor": 14238665
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "R No 38",
+    "Operacion": "Importacion",
+    "Valor": 1738038
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "R No 38",
+    "Operacion": "Exportacion",
+    "Valor": 9188420
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "R No 38",
+    "Operacion": "BalanzaComercial",
+    "Valor": 7450382
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "R No 38",
+    "Operacion": "ComercioTotal",
+    "Valor": 10926458
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "R No 38",
+    "Operacion": "Importacion",
+    "Valor": 3670035
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "R No 38",
+    "Operacion": "Exportacion",
+    "Valor": 8457369
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "R No 38",
+    "Operacion": "BalanzaComercial",
+    "Valor": 4787334
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "R No 38",
+    "Operacion": "ComercioTotal",
+    "Valor": 12127404
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "R No 38",
+    "Operacion": "Importacion",
+    "Valor": 36805691
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "R No 38",
+    "Operacion": "Exportacion",
+    "Valor": 11033934
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "R No 38",
+    "Operacion": "BalanzaComercial",
+    "Valor": -25771757
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "R No 38",
+    "Operacion": "ComercioTotal",
+    "Valor": 47839625
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "R No 38",
+    "Operacion": "Importacion",
+    "Valor": 9288752
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "R No 38",
+    "Operacion": "Exportacion",
+    "Valor": 14305225
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "R No 38",
+    "Operacion": "BalanzaComercial",
+    "Valor": 5016473
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "R No 38",
+    "Operacion": "ComercioTotal",
+    "Valor": 23593977
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "R No 38",
+    "Operacion": "Importacion",
+    "Valor": 9364429
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "R No 38",
+    "Operacion": "Exportacion",
+    "Valor": 27086311
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "R No 38",
+    "Operacion": "BalanzaComercial",
+    "Valor": 17721882
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "R No 38",
+    "Operacion": "ComercioTotal",
+    "Valor": 36450740
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "R No 38",
+    "Operacion": "Importacion",
+    "Valor": 9259732
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "R No 38",
+    "Operacion": "Exportacion",
+    "Valor": 46742726
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "R No 38",
+    "Operacion": "BalanzaComercial",
+    "Valor": 37482994
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "R No 38",
+    "Operacion": "ComercioTotal",
+    "Valor": 56002458
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "R No 38",
+    "Operacion": "Importacion",
+    "Valor": 11773435
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "R No 38",
+    "Operacion": "Exportacion",
+    "Valor": 112071218
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "R No 38",
+    "Operacion": "BalanzaComercial",
+    "Valor": 100297783
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "R No 38",
+    "Operacion": "ComercioTotal",
+    "Valor": 123844653
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "R No 38",
+    "Operacion": "Importacion",
+    "Valor": 10577442
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "R No 38",
+    "Operacion": "Exportacion",
+    "Valor": 92298191
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "R No 38",
+    "Operacion": "BalanzaComercial",
+    "Valor": 81720749
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "R No 38",
+    "Operacion": "ComercioTotal",
+    "Valor": 102875633
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "R No 38",
+    "Operacion": "Importacion",
+    "Valor": 75904627
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "R No 38",
+    "Operacion": "Exportacion",
+    "Valor": 90453089
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "R No 38",
+    "Operacion": "BalanzaComercial",
+    "Valor": 14548462
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "R No 38",
+    "Operacion": "ComercioTotal",
+    "Valor": 166357716
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "R No 38",
+    "Operacion": "Importacion",
+    "Valor": 112680087
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "R No 38",
+    "Operacion": "Exportacion",
+    "Valor": 122226781
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "R No 38",
+    "Operacion": "BalanzaComercial",
+    "Valor": 9546694
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "R No 38",
+    "Operacion": "ComercioTotal",
+    "Valor": 234906868
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "R No 38",
+    "Operacion": "Importacion",
+    "Valor": 115792702
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "R No 38",
+    "Operacion": "Exportacion",
+    "Valor": 103465980
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "R No 38",
+    "Operacion": "BalanzaComercial",
+    "Valor": -12326722
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "R No 38",
+    "Operacion": "ComercioTotal",
+    "Valor": 219258682
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "R No 38",
+    "Operacion": "Importacion",
+    "Valor": 319982943
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "R No 38",
+    "Operacion": "Exportacion",
+    "Valor": 130014967
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "R No 38",
+    "Operacion": "BalanzaComercial",
+    "Valor": -189967976
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "R No 38",
+    "Operacion": "ComercioTotal",
+    "Valor": 449997910
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "R No 38",
+    "Operacion": "Importacion",
+    "Valor": 167968699
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "R No 38",
+    "Operacion": "Exportacion",
+    "Valor": 161962476
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "R No 38",
+    "Operacion": "BalanzaComercial",
+    "Valor": -6006223
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "R No 38",
+    "Operacion": "ComercioTotal",
+    "Valor": 329931175
+  }
+]

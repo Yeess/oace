@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "SUR",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 12447,
+    "Year": 2005,
+    "Exportacion": 71189,
+    "ComercioTotal": 83636,
+    "BalanzaComercial": 58742
+  },
+  {
+    "Aduana": "SUR",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 16149,
+    "Year": 2006,
+    "Exportacion": 82540,
+    "ComercioTotal": 98689,
+    "BalanzaComercial": 66391
+  },
+  {
+    "Aduana": "SUR",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 17108,
+    "Year": 2007,
+    "Exportacion": 93088,
+    "ComercioTotal": 110196,
+    "BalanzaComercial": 75980
+  },
+  {
+    "Aduana": "SUR",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 16007,
+    "Year": 2008,
+    "Exportacion": 95164,
+    "ComercioTotal": 111171,
+    "BalanzaComercial": 79157
+  },
+  {
+    "Aduana": "SUR",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 17764,
+    "Year": 2009,
+    "Exportacion": 91885,
+    "ComercioTotal": 109649,
+    "BalanzaComercial": 74121
+  },
+  {
+    "Aduana": "SUR",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 21021,
+    "Year": 2010,
+    "Exportacion": 104293,
+    "ComercioTotal": 125314,
+    "BalanzaComercial": 83272
+  },
+  {
+    "Aduana": "SUR",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 21303,
+    "Year": 2011,
+    "Exportacion": 101707,
+    "ComercioTotal": 123010,
+    "BalanzaComercial": 80404
+  },
+  {
+    "Aduana": "SUR",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 22928,
+    "Year": 2012,
+    "Exportacion": 108865,
+    "ComercioTotal": 131793,
+    "BalanzaComercial": 85937
+  },
+  {
+    "Aduana": "SUR",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 23562,
+    "Year": 2013,
+    "Exportacion": 109194,
+    "ComercioTotal": 132756,
+    "BalanzaComercial": 85632
+  },
+  {
+    "Aduana": "SUR",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 22751,
+    "Year": 2014,
+    "Exportacion": 107094,
+    "ComercioTotal": 129845,
+    "BalanzaComercial": 84343
+  },
+  {
+    "Aduana": "SUR",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 11090,
+    "Year": 2015,
+    "Exportacion": 53539,
+    "ComercioTotal": 64629,
+    "BalanzaComercial": 42449
+  }
+]

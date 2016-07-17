@@ -1,0 +1,302 @@
+[
+  {
+    "Year": 2000,
+    "Operacion": "Importacion",
+    "Valor": 309174446847
+  },
+  {
+    "Year": 2000,
+    "Operacion": "Exportacion",
+    "Valor": 322305838441
+  },
+  {
+    "Year": 2000,
+    "Operacion": "BalanzaComercial",
+    "Valor": 13131391594
+  },
+  {
+    "Year": 2000,
+    "Operacion": "ComercioTotal",
+    "Valor": 631480285288
+  },
+  {
+    "Year": 2001,
+    "Operacion": "Importacion",
+    "Valor": 290741258987
+  },
+  {
+    "Year": 2001,
+    "Operacion": "Exportacion",
+    "Valor": 301406200417
+  },
+  {
+    "Year": 2001,
+    "Operacion": "BalanzaComercial",
+    "Valor": 10664941430
+  },
+  {
+    "Year": 2001,
+    "Operacion": "ComercioTotal",
+    "Valor": 592147459404
+  },
+  {
+    "Year": 2002,
+    "Operacion": "Importacion",
+    "Valor": 282686816312
+  },
+  {
+    "Year": 2002,
+    "Operacion": "Exportacion",
+    "Valor": 302585070194
+  },
+  {
+    "Year": 2002,
+    "Operacion": "BalanzaComercial",
+    "Valor": 19898253882
+  },
+  {
+    "Year": 2002,
+    "Operacion": "ComercioTotal",
+    "Valor": 585271886506
+  },
+  {
+    "Year": 2003,
+    "Operacion": "Importacion",
+    "Valor": 281888827132
+  },
+  {
+    "Year": 2003,
+    "Operacion": "Exportacion",
+    "Valor": 316550009942
+  },
+  {
+    "Year": 2003,
+    "Operacion": "BalanzaComercial",
+    "Valor": 34661182810
+  },
+  {
+    "Year": 2003,
+    "Operacion": "ComercioTotal",
+    "Valor": 598438837074
+  },
+  {
+    "Year": 2004,
+    "Operacion": "Importacion",
+    "Valor": 314886952614
+  },
+  {
+    "Year": 2004,
+    "Operacion": "Exportacion",
+    "Valor": 362202389466
+  },
+  {
+    "Year": 2004,
+    "Operacion": "BalanzaComercial",
+    "Valor": 47315436852
+  },
+  {
+    "Year": 2004,
+    "Operacion": "ComercioTotal",
+    "Valor": 677089342080
+  },
+  {
+    "Year": 2005,
+    "Operacion": "Importacion",
+    "Valor": 347989895663
+  },
+  {
+    "Year": 2005,
+    "Operacion": "Exportacion",
+    "Valor": 411867058000
+  },
+  {
+    "Year": 2005,
+    "Operacion": "BalanzaComercial",
+    "Valor": 63877162337
+  },
+  {
+    "Year": 2005,
+    "Operacion": "ComercioTotal",
+    "Valor": 759856953663
+  },
+  {
+    "Year": 2006,
+    "Operacion": "Importacion",
+    "Valor": 389490561712
+  },
+  {
+    "Year": 2006,
+    "Operacion": "Exportacion",
+    "Valor": 479702821998
+  },
+  {
+    "Year": 2006,
+    "Operacion": "BalanzaComercial",
+    "Valor": 90212260286
+  },
+  {
+    "Year": 2006,
+    "Operacion": "ComercioTotal",
+    "Valor": 869193383710
+  },
+  {
+    "Year": 2007,
+    "Operacion": "Importacion",
+    "Valor": 417070165326
+  },
+  {
+    "Year": 2007,
+    "Operacion": "Exportacion",
+    "Valor": 519306152664
+  },
+  {
+    "Year": 2007,
+    "Operacion": "BalanzaComercial",
+    "Valor": 102235987338
+  },
+  {
+    "Year": 2007,
+    "Operacion": "ComercioTotal",
+    "Valor": 936376317990
+  },
+  {
+    "Year": 2008,
+    "Operacion": "Importacion",
+    "Valor": 448051633823
+  },
+  {
+    "Year": 2008,
+    "Operacion": "Exportacion",
+    "Valor": 556445244169
+  },
+  {
+    "Year": 2008,
+    "Operacion": "BalanzaComercial",
+    "Valor": 108393610346
+  },
+  {
+    "Year": 2008,
+    "Operacion": "ComercioTotal",
+    "Valor": 1.00449687799e+12
+  },
+  {
+    "Year": 2009,
+    "Operacion": "Importacion",
+    "Valor": 329243952884
+  },
+  {
+    "Year": 2009,
+    "Operacion": "Exportacion",
+    "Valor": 440757193282
+  },
+  {
+    "Year": 2009,
+    "Operacion": "BalanzaComercial",
+    "Valor": 111513240398
+  },
+  {
+    "Year": 2009,
+    "Operacion": "ComercioTotal",
+    "Valor": 770001146166
+  },
+  {
+    "Year": 2010,
+    "Operacion": "Importacion",
+    "Valor": 417525145641
+  },
+  {
+    "Year": 2010,
+    "Operacion": "Exportacion",
+    "Valor": 574818463872
+  },
+  {
+    "Year": 2010,
+    "Operacion": "BalanzaComercial",
+    "Valor": 157293318231
+  },
+  {
+    "Year": 2010,
+    "Operacion": "ComercioTotal",
+    "Valor": 992343609513
+  },
+  {
+    "Year": 2011,
+    "Operacion": "Importacion",
+    "Valor": 490396003344
+  },
+  {
+    "Year": 2011,
+    "Operacion": "Exportacion",
+    "Valor": 666537456379
+  },
+  {
+    "Year": 2011,
+    "Operacion": "BalanzaComercial",
+    "Valor": 176141453035
+  },
+  {
+    "Year": 2011,
+    "Operacion": "ComercioTotal",
+    "Valor": 1.15693345972e+12
+  },
+  {
+    "Year": 2012,
+    "Operacion": "Importacion",
+    "Valor": 514092299294
+  },
+  {
+    "Year": 2012,
+    "Operacion": "Exportacion",
+    "Valor": 703328552322
+  },
+  {
+    "Year": 2012,
+    "Operacion": "BalanzaComercial",
+    "Valor": 189236253028
+  },
+  {
+    "Year": 2012,
+    "Operacion": "ComercioTotal",
+    "Valor": 1.21742085162e+12
+  },
+  {
+    "Year": 2013,
+    "Operacion": "Importacion",
+    "Valor": 521151807578
+  },
+  {
+    "Year": 2013,
+    "Operacion": "Exportacion",
+    "Valor": 719367500018
+  },
+  {
+    "Year": 2013,
+    "Operacion": "BalanzaComercial",
+    "Valor": 198215692440
+  },
+  {
+    "Year": 2013,
+    "Operacion": "ComercioTotal",
+    "Valor": 1.2405193076e+12
+  },
+  {
+    "Year": 2014,
+    "Operacion": "Importacion",
+    "Valor": 542879563538
+  },
+  {
+    "Year": 2014,
+    "Operacion": "Exportacion",
+    "Valor": 754685598987
+  },
+  {
+    "Year": 2014,
+    "Operacion": "BalanzaComercial",
+    "Valor": 211806035449
+  },
+  {
+    "Year": 2014,
+    "Operacion": "ComercioTotal",
+    "Valor": 1.29756516253e+12
+  }
+]

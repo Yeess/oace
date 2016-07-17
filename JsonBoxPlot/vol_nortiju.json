@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 470242,
+    "Year": 2005,
+    "Exportacion": 149119,
+    "ComercioTotal": 619361,
+    "BalanzaComercial": -321123
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 474009,
+    "Year": 2006,
+    "Exportacion": 141570,
+    "ComercioTotal": 615579,
+    "BalanzaComercial": -332439
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 482579,
+    "Year": 2007,
+    "Exportacion": 137986,
+    "ComercioTotal": 620565,
+    "BalanzaComercial": -344593
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 438252,
+    "Year": 2008,
+    "Exportacion": 138097,
+    "ComercioTotal": 576349,
+    "BalanzaComercial": -300155
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 341311,
+    "Year": 2009,
+    "Exportacion": 129761,
+    "ComercioTotal": 471072,
+    "BalanzaComercial": -211550
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 387092,
+    "Year": 2010,
+    "Exportacion": 132464,
+    "ComercioTotal": 519556,
+    "BalanzaComercial": -254628
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 426247,
+    "Year": 2011,
+    "Exportacion": 134164,
+    "ComercioTotal": 560411,
+    "BalanzaComercial": -292083
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 416291,
+    "Year": 2012,
+    "Exportacion": 138118,
+    "ComercioTotal": 554409,
+    "BalanzaComercial": -278173
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 443085,
+    "Year": 2013,
+    "Exportacion": 139749,
+    "ComercioTotal": 582834,
+    "BalanzaComercial": -303336
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 419111,
+    "Year": 2014,
+    "Exportacion": 148444,
+    "ComercioTotal": 567555,
+    "BalanzaComercial": -270667
+  },
+  {
+    "Aduana": "TIJUANA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 191321,
+    "Year": 2015,
+    "Exportacion": 72884,
+    "ComercioTotal": 264205,
+    "BalanzaComercial": -118437
+  }
+]

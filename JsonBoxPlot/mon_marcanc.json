@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 5858801364,
+    "Year": 2005,
+    "Exportacion": 1796064676,
+    "ComercioTotal": 7654866040,
+    "BalanzaComercial": -4062736688
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 6102809858,
+    "Year": 2006,
+    "Exportacion": 2085544465,
+    "ComercioTotal": 8188354323,
+    "BalanzaComercial": -4017265393
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 6902021304,
+    "Year": 2007,
+    "Exportacion": 2422972275,
+    "ComercioTotal": 9324993579,
+    "BalanzaComercial": -4479049029
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 6740375612,
+    "Year": 2008,
+    "Exportacion": 2736749092,
+    "ComercioTotal": 9477124704,
+    "BalanzaComercial": -4003626520
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 5085943939,
+    "Year": 2009,
+    "Exportacion": 2446008927,
+    "ComercioTotal": 7531952866,
+    "BalanzaComercial": -2639935012
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 5505349787,
+    "Year": 2010,
+    "Exportacion": 3447174632,
+    "ComercioTotal": 8952524419,
+    "BalanzaComercial": -2058175155
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 6585223537,
+    "Year": 2011,
+    "Exportacion": 4421953324,
+    "ComercioTotal": 11007176861,
+    "BalanzaComercial": -2163270213
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 7110760899,
+    "Year": 2012,
+    "Exportacion": 5553221694,
+    "ComercioTotal": 12663982593,
+    "BalanzaComercial": -1557539205
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 7459347977,
+    "Year": 2013,
+    "Exportacion": 4425980485,
+    "ComercioTotal": 11885328462,
+    "BalanzaComercial": -3033367492
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 8999507355,
+    "Year": 2014,
+    "Exportacion": 5005708277,
+    "ComercioTotal": 14005215632,
+    "BalanzaComercial": -3993799078
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 5435714871,
+    "Year": 2015,
+    "Exportacion": 3203541338,
+    "ComercioTotal": 8639256209,
+    "BalanzaComercial": -2232173533
+  }
+]

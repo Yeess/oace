@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "GUADALAJARA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 261192,
+    "Year": 2005,
+    "Exportacion": 100242,
+    "ComercioTotal": 361434,
+    "BalanzaComercial": -160950
+  },
+  {
+    "Aduana": "GUADALAJARA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 278936,
+    "Year": 2006,
+    "Exportacion": 91348,
+    "ComercioTotal": 370284,
+    "BalanzaComercial": -187588
+  },
+  {
+    "Aduana": "GUADALAJARA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 269099,
+    "Year": 2007,
+    "Exportacion": 88270,
+    "ComercioTotal": 357369,
+    "BalanzaComercial": -180829
+  },
+  {
+    "Aduana": "GUADALAJARA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 258336,
+    "Year": 2008,
+    "Exportacion": 80141,
+    "ComercioTotal": 338477,
+    "BalanzaComercial": -178195
+  },
+  {
+    "Aduana": "GUADALAJARA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 230054,
+    "Year": 2009,
+    "Exportacion": 79756,
+    "ComercioTotal": 309810,
+    "BalanzaComercial": -150298
+  },
+  {
+    "Aduana": "GUADALAJARA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 264009,
+    "Year": 2010,
+    "Exportacion": 92115,
+    "ComercioTotal": 356124,
+    "BalanzaComercial": -171894
+  },
+  {
+    "Aduana": "GUADALAJARA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 266463,
+    "Year": 2011,
+    "Exportacion": 93519,
+    "ComercioTotal": 359982,
+    "BalanzaComercial": -172944
+  },
+  {
+    "Aduana": "GUADALAJARA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 269942,
+    "Year": 2012,
+    "Exportacion": 91126,
+    "ComercioTotal": 361068,
+    "BalanzaComercial": -178816
+  },
+  {
+    "Aduana": "GUADALAJARA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 288978,
+    "Year": 2013,
+    "Exportacion": 89779,
+    "ComercioTotal": 378757,
+    "BalanzaComercial": -199199
+  },
+  {
+    "Aduana": "GUADALAJARA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 305003,
+    "Year": 2014,
+    "Exportacion": 97924,
+    "ComercioTotal": 402927,
+    "BalanzaComercial": -207079
+  },
+  {
+    "Aduana": "GUADALAJARA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 151243,
+    "Year": 2015,
+    "Exportacion": 50276,
+    "ComercioTotal": 201519,
+    "BalanzaComercial": -100967
+  }
+]

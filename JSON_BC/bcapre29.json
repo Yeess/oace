@@ -1,0 +1,362 @@
+[
+  {
+    "Year": 2000,
+    "Acuerdo": "R No 29",
+    "Operacion": "Importacion",
+    "Valor": 75136543
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "R No 29",
+    "Operacion": "Exportacion",
+    "Valor": 117251762
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "R No 29",
+    "Operacion": "BalanzaComercial",
+    "Valor": 42115219
+  },
+  {
+    "Year": 2000,
+    "Acuerdo": "R No 29",
+    "Operacion": "ComercioTotal",
+    "Valor": 192388305
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "R No 29",
+    "Operacion": "Importacion",
+    "Valor": 110325498
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "R No 29",
+    "Operacion": "Exportacion",
+    "Valor": 147287945
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "R No 29",
+    "Operacion": "BalanzaComercial",
+    "Valor": 36962447
+  },
+  {
+    "Year": 2001,
+    "Acuerdo": "R No 29",
+    "Operacion": "ComercioTotal",
+    "Valor": 257613443
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "R No 29",
+    "Operacion": "Importacion",
+    "Valor": 33094596
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "R No 29",
+    "Operacion": "Exportacion",
+    "Valor": 178109881
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "R No 29",
+    "Operacion": "BalanzaComercial",
+    "Valor": 145015285
+  },
+  {
+    "Year": 2002,
+    "Acuerdo": "R No 29",
+    "Operacion": "ComercioTotal",
+    "Valor": 211204477
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "R No 29",
+    "Operacion": "Importacion",
+    "Valor": 54101015
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "R No 29",
+    "Operacion": "Exportacion",
+    "Valor": 174387057
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "R No 29",
+    "Operacion": "BalanzaComercial",
+    "Valor": 120286042
+  },
+  {
+    "Year": 2003,
+    "Acuerdo": "R No 29",
+    "Operacion": "ComercioTotal",
+    "Valor": 228488072
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "R No 29",
+    "Operacion": "Importacion",
+    "Valor": 53876122
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "R No 29",
+    "Operacion": "Exportacion",
+    "Valor": 152620352
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "R No 29",
+    "Operacion": "BalanzaComercial",
+    "Valor": 98744230
+  },
+  {
+    "Year": 2004,
+    "Acuerdo": "R No 29",
+    "Operacion": "ComercioTotal",
+    "Valor": 206496474
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "R No 29",
+    "Operacion": "Importacion",
+    "Valor": 105977076
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "R No 29",
+    "Operacion": "Exportacion",
+    "Valor": 309211126
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "R No 29",
+    "Operacion": "BalanzaComercial",
+    "Valor": 203234050
+  },
+  {
+    "Year": 2005,
+    "Acuerdo": "R No 29",
+    "Operacion": "ComercioTotal",
+    "Valor": 415188202
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "R No 29",
+    "Operacion": "Importacion",
+    "Valor": 70370783
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "R No 29",
+    "Operacion": "Exportacion",
+    "Valor": 386345080
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "R No 29",
+    "Operacion": "BalanzaComercial",
+    "Valor": 315974297
+  },
+  {
+    "Year": 2006,
+    "Acuerdo": "R No 29",
+    "Operacion": "ComercioTotal",
+    "Valor": 456715863
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "R No 29",
+    "Operacion": "Importacion",
+    "Valor": 123164199
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "R No 29",
+    "Operacion": "Exportacion",
+    "Valor": 448387133
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "R No 29",
+    "Operacion": "BalanzaComercial",
+    "Valor": 325222934
+  },
+  {
+    "Year": 2007,
+    "Acuerdo": "R No 29",
+    "Operacion": "ComercioTotal",
+    "Valor": 571551332
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "R No 29",
+    "Operacion": "Importacion",
+    "Valor": 188239550
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "R No 29",
+    "Operacion": "Exportacion",
+    "Valor": 646389295
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "R No 29",
+    "Operacion": "BalanzaComercial",
+    "Valor": 458149745
+  },
+  {
+    "Year": 2008,
+    "Acuerdo": "R No 29",
+    "Operacion": "ComercioTotal",
+    "Valor": 834628845
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "R No 29",
+    "Operacion": "Importacion",
+    "Valor": 103207210
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "R No 29",
+    "Operacion": "Exportacion",
+    "Valor": 519733727
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "R No 29",
+    "Operacion": "BalanzaComercial",
+    "Valor": 416526517
+  },
+  {
+    "Year": 2009,
+    "Acuerdo": "R No 29",
+    "Operacion": "ComercioTotal",
+    "Valor": 622940937
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "R No 29",
+    "Operacion": "Importacion",
+    "Valor": 104986133
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "R No 29",
+    "Operacion": "Exportacion",
+    "Valor": 698261224
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "R No 29",
+    "Operacion": "BalanzaComercial",
+    "Valor": 593275091
+  },
+  {
+    "Year": 2010,
+    "Acuerdo": "R No 29",
+    "Operacion": "ComercioTotal",
+    "Valor": 803247357
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "R No 29",
+    "Operacion": "Importacion",
+    "Valor": 129288411
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "R No 29",
+    "Operacion": "Exportacion",
+    "Valor": 831304235
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "R No 29",
+    "Operacion": "BalanzaComercial",
+    "Valor": 702015824
+  },
+  {
+    "Year": 2011,
+    "Acuerdo": "R No 29",
+    "Operacion": "ComercioTotal",
+    "Valor": 960592646
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "R No 29",
+    "Operacion": "Importacion",
+    "Valor": 109089053
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "R No 29",
+    "Operacion": "Exportacion",
+    "Valor": 876730511
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "R No 29",
+    "Operacion": "BalanzaComercial",
+    "Valor": 767641458
+  },
+  {
+    "Year": 2012,
+    "Acuerdo": "R No 29",
+    "Operacion": "ComercioTotal",
+    "Valor": 985819564
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "R No 29",
+    "Operacion": "Importacion",
+    "Valor": 115343134
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "R No 29",
+    "Operacion": "Exportacion",
+    "Valor": 917048222
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "R No 29",
+    "Operacion": "BalanzaComercial",
+    "Valor": 801705088
+  },
+  {
+    "Year": 2013,
+    "Acuerdo": "R No 29",
+    "Operacion": "ComercioTotal",
+    "Valor": 1032391356
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "R No 29",
+    "Operacion": "Importacion",
+    "Valor": 164794977
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "R No 29",
+    "Operacion": "Exportacion",
+    "Valor": 904830395
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "R No 29",
+    "Operacion": "BalanzaComercial",
+    "Valor": 740035418
+  },
+  {
+    "Year": 2014,
+    "Acuerdo": "R No 29",
+    "Operacion": "ComercioTotal",
+    "Valor": 1069625372
+  }
+]

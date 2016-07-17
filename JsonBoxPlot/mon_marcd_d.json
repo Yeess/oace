@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 4781490071,
+    "Year": 2005,
+    "Exportacion": 192000000000,
+    "ComercioTotal": 196781490071,
+    "BalanzaComercial": 187218509929
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 22357931576,
+    "Year": 2006,
+    "Exportacion": 267000000000,
+    "ComercioTotal": 289357931576,
+    "BalanzaComercial": 244642068424
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 21168944799,
+    "Year": 2007,
+    "Exportacion": 308000000000,
+    "ComercioTotal": 329168944799,
+    "BalanzaComercial": 286831055201
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 4680070060,
+    "Year": 2008,
+    "Exportacion": 404000000000,
+    "ComercioTotal": 408680070060,
+    "BalanzaComercial": 399319929940
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 17915165138,
+    "Year": 2009,
+    "Exportacion": 267000000000,
+    "ComercioTotal": 284915165138,
+    "BalanzaComercial": 249084834862
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 6654467420,
+    "Year": 2010,
+    "Exportacion": 310000000000,
+    "ComercioTotal": 316654467420,
+    "BalanzaComercial": 303345532580
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 38587538875,
+    "Year": 2011,
+    "Exportacion": 411000000000,
+    "ComercioTotal": 449587538875,
+    "BalanzaComercial": 372412461125
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 16179674767,
+    "Year": 2012,
+    "Exportacion": 444000000000,
+    "ComercioTotal": 460179674767,
+    "BalanzaComercial": 427820325233
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 43790133004,
+    "Year": 2013,
+    "Exportacion": 427000000000,
+    "ComercioTotal": 470790133004,
+    "BalanzaComercial": 383209866996
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 36112151032,
+    "Year": 2014,
+    "Exportacion": 389000000000,
+    "ComercioTotal": 425112151032,
+    "BalanzaComercial": 352887848968
+  },
+  {
+    "Aduana": "CD. DEL CARMEN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 29566755860,
+    "Year": 2015,
+    "Exportacion": 105000000000,
+    "ComercioTotal": 134566755860,
+    "BalanzaComercial": 75433244140
+  }
+]

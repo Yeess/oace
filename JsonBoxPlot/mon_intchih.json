@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "CHIHUAHUA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 17735169750,
+    "Year": 2005,
+    "Exportacion": 24271166590,
+    "ComercioTotal": 42006336340,
+    "BalanzaComercial": 6535996840
+  },
+  {
+    "Aduana": "CHIHUAHUA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 18268340463,
+    "Year": 2006,
+    "Exportacion": 23662894287,
+    "ComercioTotal": 41931234750,
+    "BalanzaComercial": 5394553824
+  },
+  {
+    "Aduana": "CHIHUAHUA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 14917030333,
+    "Year": 2007,
+    "Exportacion": 23447428616,
+    "ComercioTotal": 38364458949,
+    "BalanzaComercial": 8530398283
+  },
+  {
+    "Aduana": "CHIHUAHUA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 13575561042,
+    "Year": 2008,
+    "Exportacion": 18214018764,
+    "ComercioTotal": 31789579806,
+    "BalanzaComercial": 4638457722
+  },
+  {
+    "Aduana": "CHIHUAHUA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 8828384604,
+    "Year": 2009,
+    "Exportacion": 16786619508,
+    "ComercioTotal": 25615004112,
+    "BalanzaComercial": 7958234904
+  },
+  {
+    "Aduana": "CHIHUAHUA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 9334149922,
+    "Year": 2010,
+    "Exportacion": 20707745930,
+    "ComercioTotal": 30041895852,
+    "BalanzaComercial": 11373596008
+  },
+  {
+    "Aduana": "CHIHUAHUA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 15700053822,
+    "Year": 2011,
+    "Exportacion": 27628788790,
+    "ComercioTotal": 43328842612,
+    "BalanzaComercial": 11928734968
+  },
+  {
+    "Aduana": "CHIHUAHUA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 26908581806,
+    "Year": 2012,
+    "Exportacion": 37829896021,
+    "ComercioTotal": 64738477827,
+    "BalanzaComercial": 10921314215
+  },
+  {
+    "Aduana": "CHIHUAHUA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 19599635601,
+    "Year": 2013,
+    "Exportacion": 24606135809,
+    "ComercioTotal": 44205771410,
+    "BalanzaComercial": 5006500208
+  },
+  {
+    "Aduana": "CHIHUAHUA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 22164728017,
+    "Year": 2014,
+    "Exportacion": 24365039894,
+    "ComercioTotal": 46529767911,
+    "BalanzaComercial": 2200311877
+  },
+  {
+    "Aduana": "CHIHUAHUA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 12763998501,
+    "Year": 2015,
+    "Exportacion": 12618005913,
+    "ComercioTotal": 25382004414,
+    "BalanzaComercial": -145992588
+  }
+]

@@ -1,0 +1,183 @@
+<!doctype html>
+<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>OACE: Evolución comercio mundial</title>
+<script src="http://www.d3plus.org/js/d3.js"></script>
+<script src="http://www.d3plus.org/js/d3plus.js"></script>
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+
+<style>
+.body{ overflow: scroll; overflow-x: hidden; overflow-y: hidden;
+background-image: url("Css/Img/CiMe3_tC.jpg");}
+/*background: #000; color: #fff;*/
+/*
+a {
+    background-color: #bbb;
+    color: #000033; 
+	display: block;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+  }*/
+ .viz {   width: 100%; height: 100%;  top:0%;   left:0%;  
+		opacity: 0.74; 	filter: alpha(opacity=.74);	
+		/*border: 2px; border-style: solid; border-color: #0000ff;*/
+		/*background: #000; opacity: 0.9; 	filter: alpha(opacity=90);*/
+		} 
+.f1{font-size: 11.5px;
+	position:absolute; height:2.5%; width: 5%; top:96.0%; left:3.5%; border-style: solid; margin: 0px; display: inline-block; font-family: Helvetica; font-size: 12px; 
+	color: rgb(68, 68, 68); border: 1px solid rgb(195, 195, 195); 
+    font-weight: 200; letter-spacing: 0px; cursor: auto; background-color: rgb(255, 255, 255);
+	}
+	
+	
+		
+</style>
+<body class = "body">
+<div id="viz" class = "viz"></div>
+<select name="par1" id="par1" class="f1"> 
+	<Option value="" disabled selected>Filtrar China</Option>
+	<Option value="Si">Sin China</Option>	  
+	<Option value="No">Con China</Option>	  
+</select>	 
+
+</body>
+
+<script>
+  
+  function initialize() {
+	var par1 = 'No';	
+	var data; // a global
+	d3.json("JsonScatterplot/comerciomundialr.json", function(error, json) {
+		if (error) return console.warn(error);
+			data = json;
+			if (par1 == 'No' ){
+				make_viz(data);}
+			else{
+				Sinmake_viz(data);}
+	});
+	
+	google.maps.event.addDomListener(document.getElementById('par1'),'change', function() {
+              par1 = this.value;
+		 	document.getElementById("viz").innerHTML = "";	
+			
+			d3.json("JsonScatterplot/comerciomundialr.json", function(error, json) {
+			if (error) return console.warn(error);
+				data = json;
+				if (par1 == 'No' ){
+					make_viz(data);}
+				else{
+					Sinmake_viz(data);}
+		});
+
+     });
+	       
+    } // Aqui termina la funcion initialize.
+
+  
+  
+  
+  var htmlButton = "<a id='id1' href='PagMexico_v010.html#obj2' target='_blank'> Ver países con los que México comercia.</a><br/><br/><br/><a id='id2' href='PagMexico_v004.html#obj4' target='_blank'> Ver productos que comercia México.</a><br/><br/><br/><a id='id2' href='PagMexico_v004.html#obj7' target='_blank'> Ver acuerdos económicos firmados por México.</a>"
+
+  function make_viz(data){
+  var visualization = d3plus.viz()
+    .format("es_ES")
+	.container("#viz")
+    .data(data)
+    .type("scatter")
+    .id("Reporter")
+    .x("Importacion")
+    .y("Exportacion")
+	.size("ComercioTotal")
+	.time({"value": "Year","solo": 1988})
+	.timing({"transitions":400})
+	.format({
+					"text": function(text, params) {
+						if (text === "ComercioTotal") {
+						return "Comercio total";
+					}
+						else if(text === "Importacion"){
+						return "Importación";
+					}	else if(text === "Exportacion"){
+						return "Exportación";
+					}	else{
+						return d3plus.string.title(text, params);
+					}  
+					},
+					"number": function(number, params) {
+						var formatted = d3plus.number.format(number, params);
+						if (params.key === "ComercioTotal") {
+						return "$" + formatted ;
+						}else if (params.key === "Importacion") {
+						return "$" + formatted ;
+						}else if (params.key === "Exportacion") {
+						return "$" + formatted ;
+						}else {	return formatted;}
+					}
+					})  
+	.x({"grid": {"color": "#fff", "width": 20} })
+	.y({"grid": false})
+	.x({"grid": false})
+	.axes({"background": {"color": "#0d0d0d", "stroke": {"width": 0}}}, {"ticks": false}, {"mirror": true})
+	.background("#0d0d0d" )
+	.font({family: 'Trebuchet MS, Helvetica, Arial', color: '#fff' })
+	.tooltip({"html": htmlButton, "background": "#bbb", "small": 200, "large": 250, "anchor": "bottom center" } )
+    .legend({"size": 30})
+	.draw()
+	}
+	
+	function Sinmake_viz(data){
+  var visualization = d3plus.viz()
+    .format("es_ES")
+	.container("#viz")
+    .data(data)
+    .type("scatter")
+    .id("Reporter")
+	.id({ "mute" : "China" })
+    .x("Importacion")
+    .y("Exportacion")
+	.size("ComercioTotal")
+	.time({"value": "Year","solo": 1988})
+	.timing({"transitions":400})
+	.format({
+					"text": function(text, params) {
+						if (text === "ComercioTotal") {
+						return "Comercio total";
+					}
+						else if(text === "Importacion"){
+						return "Importación";
+					}	else if(text === "Exportacion"){
+						return "Exportación";
+					}	else{
+						return d3plus.string.title(text, params);
+					}  
+					},
+					"number": function(number, params) {
+						var formatted = d3plus.number.format(number, params);
+						if (params.key === "ComercioTotal") {
+						return "$" + formatted ;
+						}else if (params.key === "Importacion") {
+						return "$" + formatted ;
+						}else if (params.key === "Exportacion") {
+						return "$" + formatted ;
+						}else {	return formatted;}
+					}
+					})  
+	.x({"grid": {"color": "#fff", "width": 20} })
+	.y({"grid": false})
+	.x({"grid": false})
+	.axes({"background": {"color": "#0d0d0d", "stroke": {"width": 0}}}, {"ticks": false}, {"mirror": true})
+	.background("#0d0d0d" )
+	.font({family: 'Trebuchet MS, Helvetica, Arial', color: '#fff' })
+	.tooltip({"html": htmlButton, "background": "#bbb", "small": 200, "large": 250, "anchor": "bottom center" } )
+    .legend({"size": 30})
+	.draw()
+	}
+
+	google.maps.event.addDomListener(window, 'load', initialize);	
+	</script>

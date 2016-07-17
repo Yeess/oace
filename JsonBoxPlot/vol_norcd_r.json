@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 276239,
+    "Year": 2005,
+    "Exportacion": 85149,
+    "ComercioTotal": 361388,
+    "BalanzaComercial": -191090
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 346093,
+    "Year": 2006,
+    "Exportacion": 84602,
+    "ComercioTotal": 430695,
+    "BalanzaComercial": -261491
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 356622,
+    "Year": 2007,
+    "Exportacion": 93971,
+    "ComercioTotal": 450593,
+    "BalanzaComercial": -262651
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 317364,
+    "Year": 2008,
+    "Exportacion": 97832,
+    "ComercioTotal": 415196,
+    "BalanzaComercial": -219532
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 209056,
+    "Year": 2009,
+    "Exportacion": 92329,
+    "ComercioTotal": 301385,
+    "BalanzaComercial": -116727
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 214560,
+    "Year": 2010,
+    "Exportacion": 94934,
+    "ComercioTotal": 309494,
+    "BalanzaComercial": -119626
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 220721,
+    "Year": 2011,
+    "Exportacion": 92957,
+    "ComercioTotal": 313678,
+    "BalanzaComercial": -127764
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 228748,
+    "Year": 2012,
+    "Exportacion": 96093,
+    "ComercioTotal": 324841,
+    "BalanzaComercial": -132655
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 227344,
+    "Year": 2013,
+    "Exportacion": 98987,
+    "ComercioTotal": 326331,
+    "BalanzaComercial": -128357
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 220436,
+    "Year": 2014,
+    "Exportacion": 103680,
+    "ComercioTotal": 324116,
+    "BalanzaComercial": -116756
+  },
+  {
+    "Aduana": "CD. REYNOSA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 103167,
+    "Year": 2015,
+    "Exportacion": 53866,
+    "ComercioTotal": 157033,
+    "BalanzaComercial": -49301
+  }
+]

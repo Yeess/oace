@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 7447058100,
+    "Year": 2005,
+    "Exportacion": 7682875076,
+    "ComercioTotal": 15129933176,
+    "BalanzaComercial": 235816976
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 8304481700,
+    "Year": 2006,
+    "Exportacion": 8308016845,
+    "ComercioTotal": 16612498545,
+    "BalanzaComercial": 3535145
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 8320600413,
+    "Year": 2007,
+    "Exportacion": 7536514852,
+    "ComercioTotal": 15857115265,
+    "BalanzaComercial": -784085561
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 7700402833,
+    "Year": 2008,
+    "Exportacion": 7232393799,
+    "ComercioTotal": 14932796632,
+    "BalanzaComercial": -468009034
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 7189734241,
+    "Year": 2009,
+    "Exportacion": 7816890819,
+    "ComercioTotal": 15006625060,
+    "BalanzaComercial": 627156578
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 6876653406,
+    "Year": 2010,
+    "Exportacion": 7348494240,
+    "ComercioTotal": 14225147646,
+    "BalanzaComercial": 471840834
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 5213485730,
+    "Year": 2011,
+    "Exportacion": 6756109959,
+    "ComercioTotal": 11969595689,
+    "BalanzaComercial": 1542624229
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 5093689707,
+    "Year": 2012,
+    "Exportacion": 5641069786,
+    "ComercioTotal": 10734759493,
+    "BalanzaComercial": 547380079
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 5358823819,
+    "Year": 2013,
+    "Exportacion": 6023448452,
+    "ComercioTotal": 11382272271,
+    "BalanzaComercial": 664624633
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 5428346130,
+    "Year": 2014,
+    "Exportacion": 6498914813,
+    "ComercioTotal": 11927260943,
+    "BalanzaComercial": 1070568683
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 2644699324,
+    "Year": 2015,
+    "Exportacion": 3612773164,
+    "ComercioTotal": 6257472488,
+    "BalanzaComercial": 968073840
+  }
+]

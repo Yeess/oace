@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 4154972801,
+    "Year": 2005,
+    "Exportacion": 150428757,
+    "ComercioTotal": 4305401558,
+    "BalanzaComercial": -4004544044
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 2634032962,
+    "Year": 2006,
+    "Exportacion": 179149520,
+    "ComercioTotal": 2813182482,
+    "BalanzaComercial": -2454883442
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 2736285928,
+    "Year": 2007,
+    "Exportacion": 164232129,
+    "ComercioTotal": 2900518057,
+    "BalanzaComercial": -2572053799
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 3618328434,
+    "Year": 2008,
+    "Exportacion": 123385492,
+    "ComercioTotal": 3741713926,
+    "BalanzaComercial": -3494942942
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 2080828266,
+    "Year": 2009,
+    "Exportacion": 157466164,
+    "ComercioTotal": 2238294430,
+    "BalanzaComercial": -1923362102
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 2756121943,
+    "Year": 2010,
+    "Exportacion": 65101224,
+    "ComercioTotal": 2821223167,
+    "BalanzaComercial": -2691020719
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 4031463062,
+    "Year": 2011,
+    "Exportacion": 58436868,
+    "ComercioTotal": 4089899930,
+    "BalanzaComercial": -3973026194
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 5584106413,
+    "Year": 2012,
+    "Exportacion": 85197466,
+    "ComercioTotal": 5669303879,
+    "BalanzaComercial": -5498908947
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 7567401584,
+    "Year": 2013,
+    "Exportacion": 63763814,
+    "ComercioTotal": 7631165398,
+    "BalanzaComercial": -7503637770
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 10089383757,
+    "Year": 2014,
+    "Exportacion": 68820336,
+    "ComercioTotal": 10158204093,
+    "BalanzaComercial": -10020563421
+  },
+  {
+    "Aduana": "CD. MIGUEL ALEMAN",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 4095509001,
+    "Year": 2015,
+    "Exportacion": 43092106,
+    "ComercioTotal": 4138601107,
+    "BalanzaComercial": -4052416895
+  }
+]

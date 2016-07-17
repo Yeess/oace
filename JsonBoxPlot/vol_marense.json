@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 10346,
+    "Year": 2005,
+    "Exportacion": 3296,
+    "ComercioTotal": 13642,
+    "BalanzaComercial": -7050
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 19159,
+    "Year": 2006,
+    "Exportacion": 3887,
+    "ComercioTotal": 23046,
+    "BalanzaComercial": -15272
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 6939,
+    "Year": 2007,
+    "Exportacion": 4736,
+    "ComercioTotal": 11675,
+    "BalanzaComercial": -2203
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 6445,
+    "Year": 2008,
+    "Exportacion": 5225,
+    "ComercioTotal": 11670,
+    "BalanzaComercial": -1220
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 6599,
+    "Year": 2009,
+    "Exportacion": 4293,
+    "ComercioTotal": 10892,
+    "BalanzaComercial": -2306
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 6663,
+    "Year": 2010,
+    "Exportacion": 5435,
+    "ComercioTotal": 12098,
+    "BalanzaComercial": -1228
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 10722,
+    "Year": 2011,
+    "Exportacion": 6434,
+    "ComercioTotal": 17156,
+    "BalanzaComercial": -4288
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 8560,
+    "Year": 2012,
+    "Exportacion": 6781,
+    "ComercioTotal": 15341,
+    "BalanzaComercial": -1779
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 10120,
+    "Year": 2013,
+    "Exportacion": 6406,
+    "ComercioTotal": 16526,
+    "BalanzaComercial": -3714
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 11462,
+    "Year": 2014,
+    "Exportacion": 6550,
+    "ComercioTotal": 18012,
+    "BalanzaComercial": -4912
+  },
+  {
+    "Aduana": "ENSENADA",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 8587,
+    "Year": 2015,
+    "Exportacion": 3275,
+    "ComercioTotal": 11862,
+    "BalanzaComercial": -5312
+  }
+]

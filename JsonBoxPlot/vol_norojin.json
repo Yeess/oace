@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 9096,
+    "Year": 2005,
+    "Exportacion": 3516,
+    "ComercioTotal": 12612,
+    "BalanzaComercial": -5580
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 14051,
+    "Year": 2006,
+    "Exportacion": 3425,
+    "ComercioTotal": 17476,
+    "BalanzaComercial": -10626
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 16181,
+    "Year": 2007,
+    "Exportacion": 3339,
+    "ComercioTotal": 19520,
+    "BalanzaComercial": -12842
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 11819,
+    "Year": 2008,
+    "Exportacion": 2701,
+    "ComercioTotal": 14520,
+    "BalanzaComercial": -9118
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 5571,
+    "Year": 2009,
+    "Exportacion": 2367,
+    "ComercioTotal": 7938,
+    "BalanzaComercial": -3204
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 6233,
+    "Year": 2010,
+    "Exportacion": 3026,
+    "ComercioTotal": 9259,
+    "BalanzaComercial": -3207
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 6774,
+    "Year": 2011,
+    "Exportacion": 3422,
+    "ComercioTotal": 10196,
+    "BalanzaComercial": -3352
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 6605,
+    "Year": 2012,
+    "Exportacion": 4145,
+    "ComercioTotal": 10750,
+    "BalanzaComercial": -2460
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 15935,
+    "Year": 2013,
+    "Exportacion": 2237,
+    "ComercioTotal": 18172,
+    "BalanzaComercial": -13698
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 17381,
+    "Year": 2014,
+    "Exportacion": 2318,
+    "ComercioTotal": 19699,
+    "BalanzaComercial": -15063
+  },
+  {
+    "Aduana": "OJINAGA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 2373,
+    "Year": 2015,
+    "Exportacion": 1011,
+    "ComercioTotal": 3384,
+    "BalanzaComercial": -1362
+  }
+]

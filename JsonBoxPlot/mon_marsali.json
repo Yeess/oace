@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 2166868699,
+    "Year": 2005,
+    "Exportacion": 12991463845,
+    "ComercioTotal": 15158332544,
+    "BalanzaComercial": 10824595146
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 3701900941,
+    "Year": 2006,
+    "Exportacion": 14453429896,
+    "ComercioTotal": 18155330837,
+    "BalanzaComercial": 10751528955
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 3701668799,
+    "Year": 2007,
+    "Exportacion": 7780410575,
+    "ComercioTotal": 11482079374,
+    "BalanzaComercial": 4078741776
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 5026148371,
+    "Year": 2008,
+    "Exportacion": 12675425207,
+    "ComercioTotal": 17701573578,
+    "BalanzaComercial": 7649276836
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 3609250352,
+    "Year": 2009,
+    "Exportacion": 14713814164,
+    "ComercioTotal": 18323064516,
+    "BalanzaComercial": 11104563812
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 5941560579,
+    "Year": 2010,
+    "Exportacion": 13388442188,
+    "ComercioTotal": 19330002767,
+    "BalanzaComercial": 7446881609
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 6237102707,
+    "Year": 2011,
+    "Exportacion": 14488910191,
+    "ComercioTotal": 20726012898,
+    "BalanzaComercial": 8251807484
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 5406559308,
+    "Year": 2012,
+    "Exportacion": 18327207463,
+    "ComercioTotal": 23733766771,
+    "BalanzaComercial": 12920648155
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 3873517672,
+    "Year": 2013,
+    "Exportacion": 29052230855,
+    "ComercioTotal": 32925748527,
+    "BalanzaComercial": 25178713183
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 2378300045,
+    "Year": 2014,
+    "Exportacion": 34655506468,
+    "ComercioTotal": 37033806513,
+    "BalanzaComercial": 32277206423
+  },
+  {
+    "Aduana": "SALINA CRUZ",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 946300677,
+    "Year": 2015,
+    "Exportacion": 18293657980,
+    "ComercioTotal": 19239958657,
+    "BalanzaComercial": 17347357303
+  }
+]

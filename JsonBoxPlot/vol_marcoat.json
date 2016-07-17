@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 2030,
+    "Year": 2005,
+    "Exportacion": 2096,
+    "ComercioTotal": 4126,
+    "BalanzaComercial": 66
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 3201,
+    "Year": 2006,
+    "Exportacion": 2788,
+    "ComercioTotal": 5989,
+    "BalanzaComercial": -413
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 3291,
+    "Year": 2007,
+    "Exportacion": 2617,
+    "ComercioTotal": 5908,
+    "BalanzaComercial": -674
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 5994,
+    "Year": 2008,
+    "Exportacion": 2801,
+    "ComercioTotal": 8795,
+    "BalanzaComercial": -3193
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 5315,
+    "Year": 2009,
+    "Exportacion": 2074,
+    "ComercioTotal": 7389,
+    "BalanzaComercial": -3241
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 6263,
+    "Year": 2010,
+    "Exportacion": 2169,
+    "ComercioTotal": 8432,
+    "BalanzaComercial": -4094
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 6565,
+    "Year": 2011,
+    "Exportacion": 2560,
+    "ComercioTotal": 9125,
+    "BalanzaComercial": -4005
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 5406,
+    "Year": 2012,
+    "Exportacion": 2458,
+    "ComercioTotal": 7864,
+    "BalanzaComercial": -2948
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 6751,
+    "Year": 2013,
+    "Exportacion": 2288,
+    "ComercioTotal": 9039,
+    "BalanzaComercial": -4463
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 7194,
+    "Year": 2014,
+    "Exportacion": 2758,
+    "ComercioTotal": 9952,
+    "BalanzaComercial": -4436
+  },
+  {
+    "Aduana": "COATZACOALCOS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 2908,
+    "Year": 2015,
+    "Exportacion": 2309,
+    "ComercioTotal": 5217,
+    "BalanzaComercial": -599
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 24288,
+    "Year": 2005,
+    "Exportacion": 3871,
+    "ComercioTotal": 28159,
+    "BalanzaComercial": -20417
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 30249,
+    "Year": 2006,
+    "Exportacion": 3667,
+    "ComercioTotal": 33916,
+    "BalanzaComercial": -26582
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 31203,
+    "Year": 2007,
+    "Exportacion": 3784,
+    "ComercioTotal": 34987,
+    "BalanzaComercial": -27419
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 30561,
+    "Year": 2008,
+    "Exportacion": 4247,
+    "ComercioTotal": 34808,
+    "BalanzaComercial": -26314
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 24756,
+    "Year": 2009,
+    "Exportacion": 3577,
+    "ComercioTotal": 28333,
+    "BalanzaComercial": -21179
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 24249,
+    "Year": 2010,
+    "Exportacion": 4496,
+    "ComercioTotal": 28745,
+    "BalanzaComercial": -19753
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 30555,
+    "Year": 2011,
+    "Exportacion": 5661,
+    "ComercioTotal": 36216,
+    "BalanzaComercial": -24894
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 28651,
+    "Year": 2012,
+    "Exportacion": 5977,
+    "ComercioTotal": 34628,
+    "BalanzaComercial": -22674
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 29664,
+    "Year": 2013,
+    "Exportacion": 6331,
+    "ComercioTotal": 35995,
+    "BalanzaComercial": -23333
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 27432,
+    "Year": 2014,
+    "Exportacion": 6116,
+    "ComercioTotal": 33548,
+    "BalanzaComercial": -21316
+  },
+  {
+    "Aduana": "CANCUN",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 12753,
+    "Year": 2015,
+    "Exportacion": 3279,
+    "ComercioTotal": 16032,
+    "BalanzaComercial": -9474
+  }
+]

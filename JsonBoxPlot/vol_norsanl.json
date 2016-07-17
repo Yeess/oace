@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "SAN LUIS RIO COLORADO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 30449,
+    "Year": 2005,
+    "Exportacion": 13879,
+    "ComercioTotal": 44328,
+    "BalanzaComercial": -16570
+  },
+  {
+    "Aduana": "SAN LUIS RIO COLORADO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 51881,
+    "Year": 2006,
+    "Exportacion": 13501,
+    "ComercioTotal": 65382,
+    "BalanzaComercial": -38380
+  },
+  {
+    "Aduana": "SAN LUIS RIO COLORADO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 41649,
+    "Year": 2007,
+    "Exportacion": 12930,
+    "ComercioTotal": 54579,
+    "BalanzaComercial": -28719
+  },
+  {
+    "Aduana": "SAN LUIS RIO COLORADO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 43075,
+    "Year": 2008,
+    "Exportacion": 11407,
+    "ComercioTotal": 54482,
+    "BalanzaComercial": -31668
+  },
+  {
+    "Aduana": "SAN LUIS RIO COLORADO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 44566,
+    "Year": 2009,
+    "Exportacion": 9245,
+    "ComercioTotal": 53811,
+    "BalanzaComercial": -35321
+  },
+  {
+    "Aduana": "SAN LUIS RIO COLORADO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 63228,
+    "Year": 2010,
+    "Exportacion": 8164,
+    "ComercioTotal": 71392,
+    "BalanzaComercial": -55064
+  },
+  {
+    "Aduana": "SAN LUIS RIO COLORADO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 40555,
+    "Year": 2011,
+    "Exportacion": 7951,
+    "ComercioTotal": 48506,
+    "BalanzaComercial": -32604
+  },
+  {
+    "Aduana": "SAN LUIS RIO COLORADO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 46188,
+    "Year": 2012,
+    "Exportacion": 7281,
+    "ComercioTotal": 53469,
+    "BalanzaComercial": -38907
+  },
+  {
+    "Aduana": "SAN LUIS RIO COLORADO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 47844,
+    "Year": 2013,
+    "Exportacion": 7350,
+    "ComercioTotal": 55194,
+    "BalanzaComercial": -40494
+  },
+  {
+    "Aduana": "SAN LUIS RIO COLORADO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 39738,
+    "Year": 2014,
+    "Exportacion": 6902,
+    "ComercioTotal": 46640,
+    "BalanzaComercial": -32836
+  },
+  {
+    "Aduana": "SAN LUIS RIO COLORADO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 8885,
+    "Year": 2015,
+    "Exportacion": 3572,
+    "ComercioTotal": 12457,
+    "BalanzaComercial": -5313
+  }
+]

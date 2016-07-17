@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 31835,
+    "Year": 2005,
+    "Exportacion": 15442,
+    "ComercioTotal": 47277,
+    "BalanzaComercial": -16393
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 31900,
+    "Year": 2006,
+    "Exportacion": 15673,
+    "ComercioTotal": 47573,
+    "BalanzaComercial": -16227
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 31317,
+    "Year": 2007,
+    "Exportacion": 15084,
+    "ComercioTotal": 46401,
+    "BalanzaComercial": -16233
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 26323,
+    "Year": 2008,
+    "Exportacion": 14016,
+    "ComercioTotal": 40339,
+    "BalanzaComercial": -12307
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 20663,
+    "Year": 2009,
+    "Exportacion": 12764,
+    "ComercioTotal": 33427,
+    "BalanzaComercial": -7899
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 20181,
+    "Year": 2010,
+    "Exportacion": 11786,
+    "ComercioTotal": 31967,
+    "BalanzaComercial": -8395
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 22574,
+    "Year": 2011,
+    "Exportacion": 11897,
+    "ComercioTotal": 34471,
+    "BalanzaComercial": -10677
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 22907,
+    "Year": 2012,
+    "Exportacion": 11771,
+    "ComercioTotal": 34678,
+    "BalanzaComercial": -11136
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 32560,
+    "Year": 2013,
+    "Exportacion": 11533,
+    "ComercioTotal": 44093,
+    "BalanzaComercial": -21027
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 21614,
+    "Year": 2014,
+    "Exportacion": 11298,
+    "ComercioTotal": 32912,
+    "BalanzaComercial": -10316
+  },
+  {
+    "Aduana": "TECATE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 7958,
+    "Year": 2015,
+    "Exportacion": 4887,
+    "ComercioTotal": 12845,
+    "BalanzaComercial": -3071
+  }
+]

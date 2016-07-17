@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "SUBTENIENTE LOPEZ",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Monto",
+    "Importacion": 183820614,
+    "Year": 2005,
+    "Exportacion": 871433373,
+    "ComercioTotal": 1055253987,
+    "BalanzaComercial": 687612759
+  },
+  {
+    "Aduana": "SUBTENIENTE LOPEZ",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Monto",
+    "Importacion": 178743373,
+    "Year": 2006,
+    "Exportacion": 992946599,
+    "ComercioTotal": 1171689972,
+    "BalanzaComercial": 814203226
+  },
+  {
+    "Aduana": "SUBTENIENTE LOPEZ",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Monto",
+    "Importacion": 190761338,
+    "Year": 2007,
+    "Exportacion": 1944777930,
+    "ComercioTotal": 2135539268,
+    "BalanzaComercial": 1754016592
+  },
+  {
+    "Aduana": "SUBTENIENTE LOPEZ",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Monto",
+    "Importacion": 161661452,
+    "Year": 2008,
+    "Exportacion": 1403196511,
+    "ComercioTotal": 1564857963,
+    "BalanzaComercial": 1241535059
+  },
+  {
+    "Aduana": "SUBTENIENTE LOPEZ",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Monto",
+    "Importacion": 180205936,
+    "Year": 2009,
+    "Exportacion": 1242986700,
+    "ComercioTotal": 1423192636,
+    "BalanzaComercial": 1062780764
+  },
+  {
+    "Aduana": "SUBTENIENTE LOPEZ",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Monto",
+    "Importacion": 131984321,
+    "Year": 2010,
+    "Exportacion": 1153042745,
+    "ComercioTotal": 1285027066,
+    "BalanzaComercial": 1021058424
+  },
+  {
+    "Aduana": "SUBTENIENTE LOPEZ",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Monto",
+    "Importacion": 139034131,
+    "Year": 2011,
+    "Exportacion": 1222603807,
+    "ComercioTotal": 1361637938,
+    "BalanzaComercial": 1083569676
+  },
+  {
+    "Aduana": "SUBTENIENTE LOPEZ",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Monto",
+    "Importacion": 137190538,
+    "Year": 2012,
+    "Exportacion": 1822906100,
+    "ComercioTotal": 1960096638,
+    "BalanzaComercial": 1685715562
+  },
+  {
+    "Aduana": "SUBTENIENTE LOPEZ",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Monto",
+    "Importacion": 185540642,
+    "Year": 2013,
+    "Exportacion": 1978642693,
+    "ComercioTotal": 2164183335,
+    "BalanzaComercial": 1793102051
+  },
+  {
+    "Aduana": "SUBTENIENTE LOPEZ",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Monto",
+    "Importacion": 340531387,
+    "Year": 2014,
+    "Exportacion": 1616685956,
+    "ComercioTotal": 1957217343,
+    "BalanzaComercial": 1276154569
+  },
+  {
+    "Aduana": "SUBTENIENTE LOPEZ",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Monto",
+    "Importacion": 160470692,
+    "Year": 2015,
+    "Exportacion": 1009238219,
+    "ComercioTotal": 1169708911,
+    "BalanzaComercial": 848767527
+  }
+]

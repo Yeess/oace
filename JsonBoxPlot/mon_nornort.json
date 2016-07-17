@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "NORTE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 1.9309e+12,
+    "Year": 2005,
+    "Exportacion": 1.89356e+12,
+    "ComercioTotal": 3.82446e+12,
+    "BalanzaComercial": -37340000000
+  },
+  {
+    "Aduana": "NORTE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 2.88614e+12,
+    "Year": 2006,
+    "Exportacion": 2.12614e+12,
+    "ComercioTotal": 5.01228e+12,
+    "BalanzaComercial": -760000000000
+  },
+  {
+    "Aduana": "NORTE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 2.3652e+12,
+    "Year": 2007,
+    "Exportacion": 2.37595e+12,
+    "ComercioTotal": 4.74115e+12,
+    "BalanzaComercial": 10750000000
+  },
+  {
+    "Aduana": "NORTE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 2.64671e+12,
+    "Year": 2008,
+    "Exportacion": 2.41888e+12,
+    "ComercioTotal": 5.06559e+12,
+    "BalanzaComercial": -227830000000
+  },
+  {
+    "Aduana": "NORTE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 2.59446e+12,
+    "Year": 2009,
+    "Exportacion": 2.50563e+12,
+    "ComercioTotal": 5.10009e+12,
+    "BalanzaComercial": -88830000000
+  },
+  {
+    "Aduana": "NORTE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 3.04321e+12,
+    "Year": 2010,
+    "Exportacion": 2.95376e+12,
+    "ComercioTotal": 5.99697e+12,
+    "BalanzaComercial": -89450000000
+  },
+  {
+    "Aduana": "NORTE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 3.37873e+12,
+    "Year": 2011,
+    "Exportacion": 3.30129e+12,
+    "ComercioTotal": 6.68002e+12,
+    "BalanzaComercial": -77440000000
+  },
+  {
+    "Aduana": "NORTE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 4.0813e+12,
+    "Year": 2012,
+    "Exportacion": 3.79414e+12,
+    "ComercioTotal": 7.87544e+12,
+    "BalanzaComercial": -287160000000
+  },
+  {
+    "Aduana": "NORTE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 3.80017e+12,
+    "Year": 2013,
+    "Exportacion": 3.85789e+12,
+    "ComercioTotal": 7.65806e+12,
+    "BalanzaComercial": 57720000000
+  },
+  {
+    "Aduana": "NORTE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 4.41584e+12,
+    "Year": 2014,
+    "Exportacion": 4.37812e+12,
+    "ComercioTotal": 8.79396e+12,
+    "BalanzaComercial": -37720000000
+  },
+  {
+    "Aduana": "NORTE",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Monto",
+    "Importacion": 2.21655e+12,
+    "Year": 2015,
+    "Exportacion": 2.45477e+12,
+    "ComercioTotal": 4.67132e+12,
+    "BalanzaComercial": 238220000000
+  }
+]

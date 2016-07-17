@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 352085,
+    "Year": 2005,
+    "Exportacion": 102045,
+    "ComercioTotal": 454130,
+    "BalanzaComercial": -250040
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 459830,
+    "Year": 2006,
+    "Exportacion": 101982,
+    "ComercioTotal": 561812,
+    "BalanzaComercial": -357848
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 417286,
+    "Year": 2007,
+    "Exportacion": 102355,
+    "ComercioTotal": 519641,
+    "BalanzaComercial": -314931
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 383230,
+    "Year": 2008,
+    "Exportacion": 105569,
+    "ComercioTotal": 488799,
+    "BalanzaComercial": -277661
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 261828,
+    "Year": 2009,
+    "Exportacion": 100526,
+    "ComercioTotal": 362354,
+    "BalanzaComercial": -161302
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 340410,
+    "Year": 2010,
+    "Exportacion": 111794,
+    "ComercioTotal": 452204,
+    "BalanzaComercial": -228616
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 352512,
+    "Year": 2011,
+    "Exportacion": 115195,
+    "ComercioTotal": 467707,
+    "BalanzaComercial": -237317
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 345126,
+    "Year": 2012,
+    "Exportacion": 114959,
+    "ComercioTotal": 460085,
+    "BalanzaComercial": -230167
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 440909,
+    "Year": 2013,
+    "Exportacion": 114821,
+    "ComercioTotal": 555730,
+    "BalanzaComercial": -326088
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 402294,
+    "Year": 2014,
+    "Exportacion": 118973,
+    "ComercioTotal": 521267,
+    "BalanzaComercial": -283321
+  },
+  {
+    "Aduana": "CD. JUAREZ",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 172979,
+    "Year": 2015,
+    "Exportacion": 60141,
+    "ComercioTotal": 233120,
+    "BalanzaComercial": -112838
+  }
+]

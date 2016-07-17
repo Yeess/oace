@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "AGUASCALIENTES",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 39633,
+    "Year": 2005,
+    "Exportacion": 11727,
+    "ComercioTotal": 51360,
+    "BalanzaComercial": -27906
+  },
+  {
+    "Aduana": "AGUASCALIENTES",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 59373,
+    "Year": 2006,
+    "Exportacion": 12170,
+    "ComercioTotal": 71543,
+    "BalanzaComercial": -47203
+  },
+  {
+    "Aduana": "AGUASCALIENTES",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 16567,
+    "Year": 2007,
+    "Exportacion": 10688,
+    "ComercioTotal": 27255,
+    "BalanzaComercial": -5879
+  },
+  {
+    "Aduana": "AGUASCALIENTES",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 17637,
+    "Year": 2008,
+    "Exportacion": 10295,
+    "ComercioTotal": 27932,
+    "BalanzaComercial": -7342
+  },
+  {
+    "Aduana": "AGUASCALIENTES",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 16106,
+    "Year": 2009,
+    "Exportacion": 9938,
+    "ComercioTotal": 26044,
+    "BalanzaComercial": -6168
+  },
+  {
+    "Aduana": "AGUASCALIENTES",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 18090,
+    "Year": 2010,
+    "Exportacion": 10176,
+    "ComercioTotal": 28266,
+    "BalanzaComercial": -7914
+  },
+  {
+    "Aduana": "AGUASCALIENTES",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 26181,
+    "Year": 2011,
+    "Exportacion": 13194,
+    "ComercioTotal": 39375,
+    "BalanzaComercial": -12987
+  },
+  {
+    "Aduana": "AGUASCALIENTES",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 26844,
+    "Year": 2012,
+    "Exportacion": 12190,
+    "ComercioTotal": 39034,
+    "BalanzaComercial": -14654
+  },
+  {
+    "Aduana": "AGUASCALIENTES",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 34932,
+    "Year": 2013,
+    "Exportacion": 14358,
+    "ComercioTotal": 49290,
+    "BalanzaComercial": -20574
+  },
+  {
+    "Aduana": "AGUASCALIENTES",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 32898,
+    "Year": 2014,
+    "Exportacion": 17398,
+    "ComercioTotal": 50296,
+    "BalanzaComercial": -15500
+  },
+  {
+    "Aduana": "AGUASCALIENTES",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 15979,
+    "Year": 2015,
+    "Exportacion": 8305,
+    "ComercioTotal": 24284,
+    "BalanzaComercial": -7674
+  }
+]

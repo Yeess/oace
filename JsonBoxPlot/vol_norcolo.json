@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 366442,
+    "Year": 2005,
+    "Exportacion": 111016,
+    "ComercioTotal": 477458,
+    "BalanzaComercial": -255426
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 486553,
+    "Year": 2006,
+    "Exportacion": 123638,
+    "ComercioTotal": 610191,
+    "BalanzaComercial": -362915
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 381165,
+    "Year": 2007,
+    "Exportacion": 133323,
+    "ComercioTotal": 514488,
+    "BalanzaComercial": -247842
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 335718,
+    "Year": 2008,
+    "Exportacion": 116123,
+    "ComercioTotal": 451841,
+    "BalanzaComercial": -219595
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 276167,
+    "Year": 2009,
+    "Exportacion": 87500,
+    "ComercioTotal": 363667,
+    "BalanzaComercial": -188667
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 311406,
+    "Year": 2010,
+    "Exportacion": 101118,
+    "ComercioTotal": 412524,
+    "BalanzaComercial": -210288
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 314753,
+    "Year": 2011,
+    "Exportacion": 112081,
+    "ComercioTotal": 426834,
+    "BalanzaComercial": -202672
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 309824,
+    "Year": 2012,
+    "Exportacion": 116000,
+    "ComercioTotal": 425824,
+    "BalanzaComercial": -193824
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 315816,
+    "Year": 2013,
+    "Exportacion": 104794,
+    "ComercioTotal": 420610,
+    "BalanzaComercial": -211022
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 326496,
+    "Year": 2014,
+    "Exportacion": 102828,
+    "ComercioTotal": 429324,
+    "BalanzaComercial": -223668
+  },
+  {
+    "Aduana": "COLOMBIA",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 144914,
+    "Year": 2015,
+    "Exportacion": 49758,
+    "ComercioTotal": 194672,
+    "BalanzaComercial": -95156
+  }
+]

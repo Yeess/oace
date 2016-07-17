@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "MEXICO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 181995,
+    "Year": 2005,
+    "Exportacion": 6032,
+    "ComercioTotal": 188027,
+    "BalanzaComercial": -175963
+  },
+  {
+    "Aduana": "MEXICO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 186595,
+    "Year": 2006,
+    "Exportacion": 8254,
+    "ComercioTotal": 194849,
+    "BalanzaComercial": -178341
+  },
+  {
+    "Aduana": "MEXICO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 167065,
+    "Year": 2007,
+    "Exportacion": 8620,
+    "ComercioTotal": 175685,
+    "BalanzaComercial": -158445
+  },
+  {
+    "Aduana": "MEXICO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 184380,
+    "Year": 2008,
+    "Exportacion": 8456,
+    "ComercioTotal": 192836,
+    "BalanzaComercial": -175924
+  },
+  {
+    "Aduana": "MEXICO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 183014,
+    "Year": 2009,
+    "Exportacion": 4670,
+    "ComercioTotal": 187684,
+    "BalanzaComercial": -178344
+  },
+  {
+    "Aduana": "MEXICO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 189285,
+    "Year": 2010,
+    "Exportacion": 3000,
+    "ComercioTotal": 192285,
+    "BalanzaComercial": -186285
+  },
+  {
+    "Aduana": "MEXICO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 219334,
+    "Year": 2011,
+    "Exportacion": 1844,
+    "ComercioTotal": 221178,
+    "BalanzaComercial": -217490
+  },
+  {
+    "Aduana": "MEXICO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 215669,
+    "Year": 2012,
+    "Exportacion": 2168,
+    "ComercioTotal": 217837,
+    "BalanzaComercial": -213501
+  },
+  {
+    "Aduana": "MEXICO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 205213,
+    "Year": 2013,
+    "Exportacion": 1479,
+    "ComercioTotal": 206692,
+    "BalanzaComercial": -203734
+  },
+  {
+    "Aduana": "MEXICO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 190876,
+    "Year": 2014,
+    "Exportacion": 1192,
+    "ComercioTotal": 192068,
+    "BalanzaComercial": -189684
+  },
+  {
+    "Aduana": "MEXICO",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 92178,
+    "Year": 2015,
+    "Exportacion": 136,
+    "ComercioTotal": 92314,
+    "BalanzaComercial": -92042
+  }
+]

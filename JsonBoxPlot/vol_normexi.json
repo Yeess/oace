@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 221498,
+    "Year": 2005,
+    "Exportacion": 41071,
+    "ComercioTotal": 262569,
+    "BalanzaComercial": -180427
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 254416,
+    "Year": 2006,
+    "Exportacion": 43278,
+    "ComercioTotal": 297694,
+    "BalanzaComercial": -211138
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 242290,
+    "Year": 2007,
+    "Exportacion": 44374,
+    "ComercioTotal": 286664,
+    "BalanzaComercial": -197916
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 215076,
+    "Year": 2008,
+    "Exportacion": 41791,
+    "ComercioTotal": 256867,
+    "BalanzaComercial": -173285
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 135543,
+    "Year": 2009,
+    "Exportacion": 35936,
+    "ComercioTotal": 171479,
+    "BalanzaComercial": -99607
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 191138,
+    "Year": 2010,
+    "Exportacion": 36802,
+    "ComercioTotal": 227940,
+    "BalanzaComercial": -154336
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 211568,
+    "Year": 2011,
+    "Exportacion": 38129,
+    "ComercioTotal": 249697,
+    "BalanzaComercial": -173439
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 206228,
+    "Year": 2012,
+    "Exportacion": 40741,
+    "ComercioTotal": 246969,
+    "BalanzaComercial": -165487
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 194542,
+    "Year": 2013,
+    "Exportacion": 41209,
+    "ComercioTotal": 235751,
+    "BalanzaComercial": -153333
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 185534,
+    "Year": 2014,
+    "Exportacion": 42615,
+    "ComercioTotal": 228149,
+    "BalanzaComercial": -142919
+  },
+  {
+    "Aduana": "MEXICALI",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 80235,
+    "Year": 2015,
+    "Exportacion": 23939,
+    "ComercioTotal": 104174,
+    "BalanzaComercial": -56296
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 266142876,
+    "Year": 2005,
+    "Exportacion": 3735269192,
+    "ComercioTotal": 4001412068,
+    "BalanzaComercial": 3469126316
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 99709002,
+    "Year": 2006,
+    "Exportacion": 4971590831,
+    "ComercioTotal": 5071299833,
+    "BalanzaComercial": 4871881829
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 49102390,
+    "Year": 2007,
+    "Exportacion": 6116260421,
+    "ComercioTotal": 6165362811,
+    "BalanzaComercial": 6067158031
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 70242416,
+    "Year": 2008,
+    "Exportacion": 8937558870,
+    "ComercioTotal": 9007801286,
+    "BalanzaComercial": 8867316454
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 103450893,
+    "Year": 2009,
+    "Exportacion": 3794892150,
+    "ComercioTotal": 3898343043,
+    "BalanzaComercial": 3691441257
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 42767004,
+    "Year": 2010,
+    "Exportacion": 10753068379,
+    "ComercioTotal": 10795835383,
+    "BalanzaComercial": 10710301375
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 74880145,
+    "Year": 2011,
+    "Exportacion": 16200976630,
+    "ComercioTotal": 16275856775,
+    "BalanzaComercial": 16126096485
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 13037732,
+    "Year": 2012,
+    "Exportacion": 18606042259,
+    "ComercioTotal": 18619079991,
+    "BalanzaComercial": 18593004527
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 5794916,
+    "Year": 2013,
+    "Exportacion": 13231879689,
+    "ComercioTotal": 13237674605,
+    "BalanzaComercial": 13226084773
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 5006051,
+    "Year": 2014,
+    "Exportacion": 12625998604,
+    "ComercioTotal": 12631004655,
+    "BalanzaComercial": 12620992553
+  },
+  {
+    "Aduana": "ACAPULCO",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Monto",
+    "Importacion": 3904623,
+    "Year": 2015,
+    "Exportacion": 4508341849,
+    "ComercioTotal": 4512246472,
+    "BalanzaComercial": 4504437226
+  }
+]

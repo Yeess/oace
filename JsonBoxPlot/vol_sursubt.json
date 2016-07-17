@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "SUBTENIENTE LOPEZ",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 994,
+    "Year": 2005,
+    "Exportacion": 3372,
+    "ComercioTotal": 4366,
+    "BalanzaComercial": 2378
+  },
+  {
+    "Aduana": "SUBTENIENTE LOPEZ",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 1100,
+    "Year": 2006,
+    "Exportacion": 3934,
+    "ComercioTotal": 5034,
+    "BalanzaComercial": 2834
+  },
+  {
+    "Aduana": "SUBTENIENTE LOPEZ",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 865,
+    "Year": 2007,
+    "Exportacion": 4011,
+    "ComercioTotal": 4876,
+    "BalanzaComercial": 3146
+  },
+  {
+    "Aduana": "SUBTENIENTE LOPEZ",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 835,
+    "Year": 2008,
+    "Exportacion": 4432,
+    "ComercioTotal": 5267,
+    "BalanzaComercial": 3597
+  },
+  {
+    "Aduana": "SUBTENIENTE LOPEZ",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 631,
+    "Year": 2009,
+    "Exportacion": 4532,
+    "ComercioTotal": 5163,
+    "BalanzaComercial": 3901
+  },
+  {
+    "Aduana": "SUBTENIENTE LOPEZ",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 743,
+    "Year": 2010,
+    "Exportacion": 4648,
+    "ComercioTotal": 5391,
+    "BalanzaComercial": 3905
+  },
+  {
+    "Aduana": "SUBTENIENTE LOPEZ",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 797,
+    "Year": 2011,
+    "Exportacion": 4648,
+    "ComercioTotal": 5445,
+    "BalanzaComercial": 3851
+  },
+  {
+    "Aduana": "SUBTENIENTE LOPEZ",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 630,
+    "Year": 2012,
+    "Exportacion": 4904,
+    "ComercioTotal": 5534,
+    "BalanzaComercial": 4274
+  },
+  {
+    "Aduana": "SUBTENIENTE LOPEZ",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 827,
+    "Year": 2013,
+    "Exportacion": 5102,
+    "ComercioTotal": 5929,
+    "BalanzaComercial": 4275
+  },
+  {
+    "Aduana": "SUBTENIENTE LOPEZ",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 557,
+    "Year": 2014,
+    "Exportacion": 5195,
+    "ComercioTotal": 5752,
+    "BalanzaComercial": 4638
+  },
+  {
+    "Aduana": "SUBTENIENTE LOPEZ",
+    "Tipo_aduana": "SUR",
+    "Metrica": "Volumen",
+    "Importacion": 340,
+    "Year": 2015,
+    "Exportacion": 2724,
+    "ComercioTotal": 3064,
+    "BalanzaComercial": 2384
+  }
+]

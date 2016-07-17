@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "AICM",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 131000000000,
+    "Year": 2005,
+    "Exportacion": 40974148425,
+    "ComercioTotal": 171974148425,
+    "BalanzaComercial": -90025851575
+  },
+  {
+    "Aduana": "AICM",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 156000000000,
+    "Year": 2006,
+    "Exportacion": 46112998840,
+    "ComercioTotal": 202112998840,
+    "BalanzaComercial": -109887001160
+  },
+  {
+    "Aduana": "AICM",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 168000000000,
+    "Year": 2007,
+    "Exportacion": 67125069228,
+    "ComercioTotal": 235125069228,
+    "BalanzaComercial": -100874930772
+  },
+  {
+    "Aduana": "AICM",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 197000000000,
+    "Year": 2008,
+    "Exportacion": 91067703060,
+    "ComercioTotal": 288067703060,
+    "BalanzaComercial": -105932296940
+  },
+  {
+    "Aduana": "AICM",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 204000000000,
+    "Year": 2009,
+    "Exportacion": 113000000000,
+    "ComercioTotal": 317000000000,
+    "BalanzaComercial": -91000000000
+  },
+  {
+    "Aduana": "AICM",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 242000000000,
+    "Year": 2010,
+    "Exportacion": 187000000000,
+    "ComercioTotal": 429000000000,
+    "BalanzaComercial": -55000000000
+  },
+  {
+    "Aduana": "AICM",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 290000000000,
+    "Year": 2011,
+    "Exportacion": 198000000000,
+    "ComercioTotal": 488000000000,
+    "BalanzaComercial": -92000000000
+  },
+  {
+    "Aduana": "AICM",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 360000000000,
+    "Year": 2012,
+    "Exportacion": 239000000000,
+    "ComercioTotal": 599000000000,
+    "BalanzaComercial": -121000000000
+  },
+  {
+    "Aduana": "AICM",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 346000000000,
+    "Year": 2013,
+    "Exportacion": 163000000000,
+    "ComercioTotal": 509000000000,
+    "BalanzaComercial": -183000000000
+  },
+  {
+    "Aduana": "AICM",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 371000000000,
+    "Year": 2014,
+    "Exportacion": 174000000000,
+    "ComercioTotal": 545000000000,
+    "BalanzaComercial": -197000000000
+  },
+  {
+    "Aduana": "AICM",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 198000000000,
+    "Year": 2015,
+    "Exportacion": 98448366287,
+    "ComercioTotal": 296448366287,
+    "BalanzaComercial": -99551633713
+  }
+]

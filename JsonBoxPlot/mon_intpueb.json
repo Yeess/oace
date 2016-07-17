@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "PUEBLA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 32167082032,
+    "Year": 2005,
+    "Exportacion": 323173999,
+    "ComercioTotal": 32490256031,
+    "BalanzaComercial": -31843908033
+  },
+  {
+    "Aduana": "PUEBLA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 28536964758,
+    "Year": 2006,
+    "Exportacion": 362276550,
+    "ComercioTotal": 28899241308,
+    "BalanzaComercial": -28174688208
+  },
+  {
+    "Aduana": "PUEBLA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 20745055348,
+    "Year": 2007,
+    "Exportacion": 1223767497,
+    "ComercioTotal": 21968822845,
+    "BalanzaComercial": -19521287851
+  },
+  {
+    "Aduana": "PUEBLA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 30606575700,
+    "Year": 2008,
+    "Exportacion": 1918012112,
+    "ComercioTotal": 32524587812,
+    "BalanzaComercial": -28688563588
+  },
+  {
+    "Aduana": "PUEBLA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 37019435729,
+    "Year": 2009,
+    "Exportacion": 3253276153,
+    "ComercioTotal": 40272711882,
+    "BalanzaComercial": -33766159576
+  },
+  {
+    "Aduana": "PUEBLA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 59395353331,
+    "Year": 2010,
+    "Exportacion": 6010230504,
+    "ComercioTotal": 65405583835,
+    "BalanzaComercial": -53385122827
+  },
+  {
+    "Aduana": "PUEBLA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 62175258480,
+    "Year": 2011,
+    "Exportacion": 5298606910,
+    "ComercioTotal": 67473865390,
+    "BalanzaComercial": -56876651570
+  },
+  {
+    "Aduana": "PUEBLA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 82439035793,
+    "Year": 2012,
+    "Exportacion": 10894084035,
+    "ComercioTotal": 93333119828,
+    "BalanzaComercial": -71544951758
+  },
+  {
+    "Aduana": "PUEBLA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 79061434874,
+    "Year": 2013,
+    "Exportacion": 12890956116,
+    "ComercioTotal": 91952390990,
+    "BalanzaComercial": -66170478758
+  },
+  {
+    "Aduana": "PUEBLA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 103000000000,
+    "Year": 2014,
+    "Exportacion": 14750479354,
+    "ComercioTotal": 117750479354,
+    "BalanzaComercial": -88249520646
+  },
+  {
+    "Aduana": "PUEBLA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 69709772215,
+    "Year": 2015,
+    "Exportacion": 11889320162,
+    "ComercioTotal": 81599092377,
+    "BalanzaComercial": -57820452053
+  }
+]

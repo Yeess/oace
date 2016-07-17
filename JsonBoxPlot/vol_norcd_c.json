@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "CD. CAMARGO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 8388,
+    "Year": 2005,
+    "Exportacion": 4923,
+    "ComercioTotal": 13311,
+    "BalanzaComercial": -3465
+  },
+  {
+    "Aduana": "CD. CAMARGO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 9959,
+    "Year": 2006,
+    "Exportacion": 4645,
+    "ComercioTotal": 14604,
+    "BalanzaComercial": -5314
+  },
+  {
+    "Aduana": "CD. CAMARGO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 10904,
+    "Year": 2007,
+    "Exportacion": 4151,
+    "ComercioTotal": 15055,
+    "BalanzaComercial": -6753
+  },
+  {
+    "Aduana": "CD. CAMARGO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 10949,
+    "Year": 2008,
+    "Exportacion": 3999,
+    "ComercioTotal": 14948,
+    "BalanzaComercial": -6950
+  },
+  {
+    "Aduana": "CD. CAMARGO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 11573,
+    "Year": 2009,
+    "Exportacion": 3765,
+    "ComercioTotal": 15338,
+    "BalanzaComercial": -7808
+  },
+  {
+    "Aduana": "CD. CAMARGO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 13871,
+    "Year": 2010,
+    "Exportacion": 4399,
+    "ComercioTotal": 18270,
+    "BalanzaComercial": -9472
+  },
+  {
+    "Aduana": "CD. CAMARGO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 11523,
+    "Year": 2011,
+    "Exportacion": 5056,
+    "ComercioTotal": 16579,
+    "BalanzaComercial": -6467
+  },
+  {
+    "Aduana": "CD. CAMARGO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 11368,
+    "Year": 2012,
+    "Exportacion": 6001,
+    "ComercioTotal": 17369,
+    "BalanzaComercial": -5367
+  },
+  {
+    "Aduana": "CD. CAMARGO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 10667,
+    "Year": 2013,
+    "Exportacion": 5397,
+    "ComercioTotal": 16064,
+    "BalanzaComercial": -5270
+  },
+  {
+    "Aduana": "CD. CAMARGO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 10282,
+    "Year": 2014,
+    "Exportacion": 5667,
+    "ComercioTotal": 15949,
+    "BalanzaComercial": -4615
+  },
+  {
+    "Aduana": "CD. CAMARGO",
+    "Tipo_aduana": "NORTE",
+    "Metrica": "Volumen",
+    "Importacion": 5513,
+    "Year": 2015,
+    "Exportacion": 2707,
+    "ComercioTotal": 8220,
+    "BalanzaComercial": -2806
+  }
+]

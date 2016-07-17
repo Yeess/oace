@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "CHIHUAHUA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 21023,
+    "Year": 2005,
+    "Exportacion": 12125,
+    "ComercioTotal": 33148,
+    "BalanzaComercial": -8898
+  },
+  {
+    "Aduana": "CHIHUAHUA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 43433,
+    "Year": 2006,
+    "Exportacion": 10596,
+    "ComercioTotal": 54029,
+    "BalanzaComercial": -32837
+  },
+  {
+    "Aduana": "CHIHUAHUA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 8164,
+    "Year": 2007,
+    "Exportacion": 11737,
+    "ComercioTotal": 19901,
+    "BalanzaComercial": 3573
+  },
+  {
+    "Aduana": "CHIHUAHUA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 9746,
+    "Year": 2008,
+    "Exportacion": 11985,
+    "ComercioTotal": 21731,
+    "BalanzaComercial": 2239
+  },
+  {
+    "Aduana": "CHIHUAHUA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 8893,
+    "Year": 2009,
+    "Exportacion": 10462,
+    "ComercioTotal": 19355,
+    "BalanzaComercial": 1569
+  },
+  {
+    "Aduana": "CHIHUAHUA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 8155,
+    "Year": 2010,
+    "Exportacion": 11490,
+    "ComercioTotal": 19645,
+    "BalanzaComercial": 3335
+  },
+  {
+    "Aduana": "CHIHUAHUA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 9496,
+    "Year": 2011,
+    "Exportacion": 13019,
+    "ComercioTotal": 22515,
+    "BalanzaComercial": 3523
+  },
+  {
+    "Aduana": "CHIHUAHUA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 9807,
+    "Year": 2012,
+    "Exportacion": 12601,
+    "ComercioTotal": 22408,
+    "BalanzaComercial": 2794
+  },
+  {
+    "Aduana": "CHIHUAHUA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 34667,
+    "Year": 2013,
+    "Exportacion": 12719,
+    "ComercioTotal": 47386,
+    "BalanzaComercial": -21948
+  },
+  {
+    "Aduana": "CHIHUAHUA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 16311,
+    "Year": 2014,
+    "Exportacion": 14031,
+    "ComercioTotal": 30342,
+    "BalanzaComercial": -2280
+  },
+  {
+    "Aduana": "CHIHUAHUA",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Volumen",
+    "Importacion": 5972,
+    "Year": 2015,
+    "Exportacion": 7181,
+    "ComercioTotal": 13153,
+    "BalanzaComercial": 1209
+  }
+]

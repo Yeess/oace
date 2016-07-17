@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "AGUASCALIENTES",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 27235279733,
+    "Year": 2005,
+    "Exportacion": 18292073204,
+    "ComercioTotal": 45527352937,
+    "BalanzaComercial": -8943206529
+  },
+  {
+    "Aduana": "AGUASCALIENTES",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 33772743395,
+    "Year": 2006,
+    "Exportacion": 24096903457,
+    "ComercioTotal": 57869646852,
+    "BalanzaComercial": -9675839938
+  },
+  {
+    "Aduana": "AGUASCALIENTES",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 31883546414,
+    "Year": 2007,
+    "Exportacion": 23305017393,
+    "ComercioTotal": 55188563807,
+    "BalanzaComercial": -8578529021
+  },
+  {
+    "Aduana": "AGUASCALIENTES",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 31955090549,
+    "Year": 2008,
+    "Exportacion": 27441716410,
+    "ComercioTotal": 59396806959,
+    "BalanzaComercial": -4513374139
+  },
+  {
+    "Aduana": "AGUASCALIENTES",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 31876438228,
+    "Year": 2009,
+    "Exportacion": 29117343651,
+    "ComercioTotal": 60993781879,
+    "BalanzaComercial": -2759094577
+  },
+  {
+    "Aduana": "AGUASCALIENTES",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 49876111671,
+    "Year": 2010,
+    "Exportacion": 40038592068,
+    "ComercioTotal": 89914703739,
+    "BalanzaComercial": -9837519603
+  },
+  {
+    "Aduana": "AGUASCALIENTES",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 53395246136,
+    "Year": 2011,
+    "Exportacion": 42637551151,
+    "ComercioTotal": 96032797287,
+    "BalanzaComercial": -10757694985
+  },
+  {
+    "Aduana": "AGUASCALIENTES",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 65626590066,
+    "Year": 2012,
+    "Exportacion": 45509989531,
+    "ComercioTotal": 111136579597,
+    "BalanzaComercial": -20116600535
+  },
+  {
+    "Aduana": "AGUASCALIENTES",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 59496508362,
+    "Year": 2013,
+    "Exportacion": 41129923845,
+    "ComercioTotal": 100626432207,
+    "BalanzaComercial": -18366584517
+  },
+  {
+    "Aduana": "AGUASCALIENTES",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 67452928414,
+    "Year": 2014,
+    "Exportacion": 54475854692,
+    "ComercioTotal": 121928783106,
+    "BalanzaComercial": -12977073722
+  },
+  {
+    "Aduana": "AGUASCALIENTES",
+    "Tipo_aduana": "INTERIOR",
+    "Metrica": "Monto",
+    "Importacion": 38937195040,
+    "Year": 2015,
+    "Exportacion": 27751503911,
+    "ComercioTotal": 66688698951,
+    "BalanzaComercial": -11185691129
+  }
+]

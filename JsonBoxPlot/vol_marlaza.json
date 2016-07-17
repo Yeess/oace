@@ -1,0 +1,112 @@
+[
+  {
+    "Aduana": "LAZARO CARDENAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 14345,
+    "Year": 2005,
+    "Exportacion": 6618,
+    "ComercioTotal": 20963,
+    "BalanzaComercial": -7727
+  },
+  {
+    "Aduana": "LAZARO CARDENAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 30156,
+    "Year": 2006,
+    "Exportacion": 6971,
+    "ComercioTotal": 37127,
+    "BalanzaComercial": -23185
+  },
+  {
+    "Aduana": "LAZARO CARDENAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 34349,
+    "Year": 2007,
+    "Exportacion": 10594,
+    "ComercioTotal": 44943,
+    "BalanzaComercial": -23755
+  },
+  {
+    "Aduana": "LAZARO CARDENAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 52259,
+    "Year": 2008,
+    "Exportacion": 13467,
+    "ComercioTotal": 65726,
+    "BalanzaComercial": -38792
+  },
+  {
+    "Aduana": "LAZARO CARDENAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 53345,
+    "Year": 2009,
+    "Exportacion": 15153,
+    "ComercioTotal": 68498,
+    "BalanzaComercial": -38192
+  },
+  {
+    "Aduana": "LAZARO CARDENAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 68381,
+    "Year": 2010,
+    "Exportacion": 19020,
+    "ComercioTotal": 87401,
+    "BalanzaComercial": -49361
+  },
+  {
+    "Aduana": "LAZARO CARDENAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 87500,
+    "Year": 2011,
+    "Exportacion": 21912,
+    "ComercioTotal": 109412,
+    "BalanzaComercial": -65588
+  },
+  {
+    "Aduana": "LAZARO CARDENAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 90782,
+    "Year": 2012,
+    "Exportacion": 19197,
+    "ComercioTotal": 109979,
+    "BalanzaComercial": -71585
+  },
+  {
+    "Aduana": "LAZARO CARDENAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 105472,
+    "Year": 2013,
+    "Exportacion": 18819,
+    "ComercioTotal": 124291,
+    "BalanzaComercial": -86653
+  },
+  {
+    "Aduana": "LAZARO CARDENAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 126833,
+    "Year": 2014,
+    "Exportacion": 19919,
+    "ComercioTotal": 146752,
+    "BalanzaComercial": -106914
+  },
+  {
+    "Aduana": "LAZARO CARDENAS",
+    "Tipo_aduana": "MARITIMA",
+    "Metrica": "Volumen",
+    "Importacion": 67745,
+    "Year": 2015,
+    "Exportacion": 10245,
+    "ComercioTotal": 77990,
+    "BalanzaComercial": -57500
+  }
+]
