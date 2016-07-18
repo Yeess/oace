@@ -9,6 +9,6 @@ En la arista global, se muestran algunas gráficas que presentan la evolución d
 
 En la arista local, se presentan algunos gráficos para conocer el comercio de México visto desde cada una de sus aduanas. Además de que se muestran pronósticos hechos para el monto y volumen de sus importaciones y exportaciones.
 
-[[http://mekingstuff.com/wp-content/uploads/2016/07/oace.png|alt=octocat]]
+[http://mekingstuff.com/wp-content/uploads/2016/07/oace.png|alt=octocat]
 
 http://oace.mekingstuff.com/
