@@ -12,6 +12,6 @@ En la arista local, se presentan algunos gráficos para conocer el comercio de M
 ![alt tag](http://mekingstuff.com/wp-content/uploads/2016/07/oace.png)
 
 La tecnología que se utilizó para desarrollar este proyecto fue principalmente: JavaScript. 
-La información fue descargada del sitio [Comtrade](http://comtrade.un.org/) con R-project y moldeada con SAS. 
-Varios de los recursos (bibliotecas de JavaScript y CSS) utilizados en este proyecto son OpenSource por ejemplo: [D3Plus](https://d3plus.org/) , Ionicons, Leaflet, Snapsvg, JQuery, entre otros.
+La información fue descargada del sitio [Comtrade](http://comtrade.un.org/) con [R-project](https://www.r-project.org/) y moldeada con [SAS](http://www.sas.com/es_mx/home.html). 
+Varios de los recursos (bibliotecas de JavaScript y CSS) utilizados en este proyecto son OpenSource por ejemplo: [D3Plus](https://d3plus.org/) , [Ionicons](http://ionicons.com/), [Leaflet](http://leafletjs.com/), [Snapsvg](http://snapsvg.io/), [JQuery](https://jquery.com/), entre otros.
 
