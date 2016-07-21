@@ -10,3 +10,8 @@ En la arista global, se muestran algunas gráficas que presentan la evolución d
 En la arista local, se presentan algunos gráficos para conocer el comercio de México visto desde cada una de sus aduanas. Además de que se muestran pronósticos hechos para el monto y volumen de sus importaciones y exportaciones.
 
 ![alt tag](http://mekingstuff.com/wp-content/uploads/2016/07/oace.png)
+
+La tecnología que se utilizó para desarrollar este proyecto fue principalmente: JavaScript. 
+La información fue descargada del sitio [Comtrade](http://comtrade.un.org/) con R-project y moldeada con SAS. 
+Varios de los recursos (bibliotecas de JavaScript y CSS) utilizados en este proyecto son OpenSource por ejemplo: [D3Plus](https://d3plus.org/) , Ionicons, Leaflet, Snapsvg, JQuery, entre otros.
+
