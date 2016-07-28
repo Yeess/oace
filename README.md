@@ -2,6 +2,12 @@
 
 [Observatorio Analítico de Comercio Exterior](http://oace.mekingstuff.com)
 
+Abstract:
+
+This project was developed in order to demonstrate the powerful of JavaScript visualizing mixed with the powerful of [Analytics](http://workshop.mekingstuff.com). To do this, we got data's  [Comtrade](http://comtrade.un.org/) and create many charts just for show features of evolution's trade and other complementary topics like timeline about economy crisis. Then we described all the characteristic of México's trade like amount of importation and exportation, wich countries México exports and import, wich kind of products México deals, agreements between other countries, etc. Finally we show another point of view describing characteristics of México trade view from customs like Nuevo Laredo and Veracruz.
+
+Technology that we use for visualizations are: JavaScript & CSS ([D3Plus](https://d3plus.org/), [Ionicons](http://ionicons.com/), [Leaflet](http://leafletjs.com/), [Snapsvg](http://snapsvg.io/), [JQuery](https://jquery.com/), etc.) and Statistical software like [R-project](https://www.r-project.org/) and [SAS](http://www.sas.com/es_mx/home.html).
+
 
 Este proyecto fue creado con la intención de conocer las características del comercio exterior. En una etapa inicial, se enfocó en el comercio exterior de México pero se pretender expandirlo a los demás países; además de mostrar un análisis de los productos comerciados. Actualmente cuenta con dos aristas: la global y la local.
 
