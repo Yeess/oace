@@ -8,6 +8,7 @@ This project was developed in order to demonstrate the powerful of JavaScript vi
 
 Technology that we use for visualizations are: JavaScript & CSS ([D3Plus](https://d3plus.org/), [Ionicons](http://ionicons.com/), [Leaflet](http://leafletjs.com/), [Snapsvg](http://snapsvg.io/), [JQuery](https://jquery.com/), etc.) and Statistical software like [R-project](https://www.r-project.org/) and [SAS](http://www.sas.com/es_mx/home.html).
 
+Descripción del proyecto:
 
 Este proyecto fue creado con la intención de conocer las características del comercio exterior. En una etapa inicial, se enfocó en el comercio exterior de México pero se pretender expandirlo a los demás países; además de mostrar un análisis de los productos comerciados. Actualmente cuenta con dos aristas: la global y la local.
 
